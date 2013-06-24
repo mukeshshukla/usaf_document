@@ -1,0 +1,1908 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class ImageComponent | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-App.html">App</a></li>
+				<li><a href="class-Cache.html">Cache</a></li>
+				<li><a href="class-CacheEngine.html">CacheEngine</a></li>
+				<li><a href="class-CakeLog.html">CakeLog</a></li>
+				<li><a href="class-CakeSession.html">CakeSession</a></li>
+				<li><a href="class-CakeSocket.html">CakeSocket</a></li>
+				<li><a href="class-CalendarclassComponent.html">CalendarclassComponent</a></li>
+				<li><a href="class-CasAuthenticationComponent.html">CasAuthenticationComponent</a></li>
+				<li><a href="class-CheckoutComponent.html">CheckoutComponent</a></li>
+				<li><a href="class-ClassRegistry.html">ClassRegistry</a></li>
+				<li><a href="class-Configure.html">Configure</a></li>
+				<li><a href="class-ConnectionManager.html">ConnectionManager</a></li>
+				<li><a href="class-DateTimeComponent.html">DateTimeComponent</a></li>
+				<li><a href="class-Debugger.html">Debugger</a></li>
+				<li><a href="class-File.html">File</a></li>
+				<li><a href="class-FileUploadComponent.html">FileUploadComponent</a></li>
+				<li><a href="class-Flay.html">Flay</a></li>
+				<li><a href="class-Folder.html">Folder</a></li>
+				<li><a href="class-GeoIpComponent.html">GeoIpComponent</a></li>
+				<li><a href="class-GifPixComponent.html">GifPixComponent</a></li>
+				<li><a href="class-HttpSocket.html">HttpSocket</a></li>
+				<li><a href="class-I18n.html">I18n</a></li>
+				<li class="active"><a href="class-ImageComponent.html">ImageComponent</a></li>
+				<li><a href="class-Inflector.html">Inflector</a></li>
+				<li><a href="class-L10n.html">L10n</a></li>
+				<li><a href="class-MailChimpComponent.html">MailChimpComponent</a></li>
+				<li><a href="class-ManageLaMemberComponent.html">ManageLaMemberComponent</a></li>
+				<li><a href="class-NeatString.html">NeatString</a></li>
+				<li><a href="class-NominationNominationComponent.html">NominationNominationComponent</a></li>
+				<li><a href="class-Object.html">Object</a></li>
+				<li><a href="class-OutputComponent.html">OutputComponent</a></li>
+				<li><a href="class-PayFlowProComponent.html">PayFlowProComponent</a></li>
+				<li><a href="class-PlayersRegComponent.html">PlayersRegComponent</a></li>
+				<li><a href="class-RegistrationComponent.html">RegistrationComponent</a></li>
+				<li><a href="class-Router.html">Router</a></li>
+				<li><a href="class-Sanitize.html">Sanitize</a></li>
+				<li><a href="class-Security.html">Security</a></li>
+				<li><a href="class-ServerCopyComponent.html">ServerCopyComponent</a></li>
+				<li><a href="class-SessionHelper.html">SessionHelper</a></li>
+				<li><a href="class-Set.html">Set</a></li>
+				<li><a href="class-SimplepieComponent.html">SimplepieComponent</a></li>
+				<li><a href="class-String.html">String</a></li>
+				<li><a href="class-SwiftMailerComponent.html">SwiftMailerComponent</a></li>
+				<li><a href="class-Validation.html">Validation</a></li>
+				<li><a href="class-VerifyEmailComponent.html">VerifyEmailComponent</a></li>
+				<li><a href="class-XML.html">XML</a></li>
+				<li><a href="class-XMLNode.html">XMLNode</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-__enclose.html">__enclose</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.html" title="Summary of cake\cake\libs"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class ImageComponent</h1>
+
+
+	<div class="description">
+	
+<p>Object class, allowing __construct and __destruct in PHP4.</p>
+
+<p>Also includes methods for logging and the special method RequestAction, to
+call other Controllers' Actions from anywhere.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Object.html"><span>Object</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>ImageComponent</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a><br />
+
+		<b>Located at</b> <a href="source-class-ImageComponent.html#3-968" title="Go to source code">app/controllers/components/image.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="thumbnail" id="_thumbnail">
+
+		<td class="attributes"><code>
+			 public 
+			Thumbnail
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_thumbnail">#</a>
+		<code><a href="source-class-ImageComponent.html#123-243" title="Go to source code">thumbnail</a>( <span>string <var>$fileName</var></span>, <span>mixed <var>$fileData</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Class constructor</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Class constructor</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fileName</var></dt>
+					<dd><code>string</code><br>$fileName</dd>
+					<dt><var>$fileData</var></dt>
+					<dd></dd>
+					<dt><var>$params</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Thumbnail</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCurrentDimensions" id="_setCurrentDimensions">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCurrentDimensions">#</a>
+		<code><a href="source-class-ImageComponent.html#245-252" title="Go to source code">setCurrentDimensions</a>( <span>mixed <var>$height</var></span>, <span>mixed <var>$width</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="destruct" id="_destruct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_destruct">#</a>
+		<code><a href="source-class-ImageComponent.html#254-274" title="Go to source code">destruct</a>( )</code>
+
+		<div class="description short">
+			
+<p>Must be called to free up allocated memory after all manipulations are
+done</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Must be called to free up allocated memory after all manipulations are
+done</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentWidth" id="_getCurrentWidth">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentWidth">#</a>
+		<code><a href="source-class-ImageComponent.html#276-284" title="Go to source code">getCurrentWidth</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the current width of the image</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the current width of the image</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentHeight" id="_getCurrentHeight">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentHeight">#</a>
+		<code><a href="source-class-ImageComponent.html#286-294" title="Go to source code">getCurrentHeight</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the current height of the image</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the current height of the image</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="calcWidth" id="_calcWidth">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_calcWidth">#</a>
+		<code><a href="source-class-ImageComponent.html#296-315" title="Go to source code">calcWidth</a>( <span>integer <var>$width</var></span>, <span>integer <var>$height</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculates new image width</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculates new image width</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$width</var></dt>
+					<dd><code>integer</code><br>$width</dd>
+					<dt><var>$height</var></dt>
+					<dd><code>integer</code><br>$height</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="calcHeight" id="_calcHeight">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_calcHeight">#</a>
+		<code><a href="source-class-ImageComponent.html#317-336" title="Go to source code">calcHeight</a>( <span>integer <var>$width</var></span>, <span>integer <var>$height</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculates new image height</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculates new image height</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$width</var></dt>
+					<dd><code>integer</code><br>$width</dd>
+					<dt><var>$height</var></dt>
+					<dd><code>integer</code><br>$height</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="calcPercent" id="_calcPercent">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_calcPercent">#</a>
+		<code><a href="source-class-ImageComponent.html#338-357" title="Go to source code">calcPercent</a>( <span>integer <var>$width</var></span>, <span>integer <var>$height</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculates new image size based on percentage</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculates new image size based on percentage</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$width</var></dt>
+					<dd><code>integer</code><br>$width</dd>
+					<dt><var>$height</var></dt>
+					<dd><code>integer</code><br>$height</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="calcImageSize" id="_calcImageSize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_calcImageSize">#</a>
+		<code><a href="source-class-ImageComponent.html#359-394" title="Go to source code">calcImageSize</a>( <span>integer <var>$width</var></span>, <span>integer <var>$height</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculates new image size based on width and height, while constraining to
+maxWidth and maxHeight</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculates new image size based on width and height, while constraining to
+maxWidth and maxHeight</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$width</var></dt>
+					<dd><code>integer</code><br>$width</dd>
+					<dt><var>$height</var></dt>
+					<dd><code>integer</code><br>$height</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="calcImageSizePercent" id="_calcImageSizePercent">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_calcImageSizePercent">#</a>
+		<code><a href="source-class-ImageComponent.html#396-408" title="Go to source code">calcImageSizePercent</a>( <span>integer <var>$width</var></span>, <span>integer <var>$height</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculates new image size based percentage</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculates new image size based percentage</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$width</var></dt>
+					<dd><code>integer</code><br>$width</dd>
+					<dt><var>$height</var></dt>
+					<dd><code>integer</code><br>$height</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="showErrorImage" id="_showErrorImage">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_showErrorImage">#</a>
+		<code><a href="source-class-ImageComponent.html#410-425" title="Go to source code">showErrorImage</a>( )</code>
+
+		<div class="description short">
+			
+<p>Displays error image</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Displays error image</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resize" id="_resize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resize">#</a>
+		<code><a href="source-class-ImageComponent.html#427-472" title="Go to source code">resize</a>( <span>integer <var>$maxWidth</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$maxHeight</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Resizes image to maxWidth x maxHeight</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resizes image to maxWidth x maxHeight</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$maxWidth</var></dt>
+					<dd><code>integer</code><br>$maxWidth</dd>
+					<dt><var>$maxHeight</var></dt>
+					<dd><code>integer</code><br>$maxHeight</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resizePercent" id="_resizePercent">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resizePercent">#</a>
+		<code><a href="source-class-ImageComponent.html#474-517" title="Go to source code">resizePercent</a>( <span>integer <var>$percent</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Resizes the image by $percent percent</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resizes the image by $percent percent</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$percent</var></dt>
+					<dd><code>integer</code><br>$percent</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="cropFromCenter" id="_cropFromCenter">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_cropFromCenter">#</a>
+		<code><a href="source-class-ImageComponent.html#519-565" title="Go to source code">cropFromCenter</a>( <span>integer <var>$cropSize</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Crops the image from calculated center in a square of $cropSize pixels</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Crops the image from calculated center in a square of $cropSize pixels</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$cropSize</var></dt>
+					<dd><code>integer</code><br>$cropSize</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="crop" id="_crop">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_crop">#</a>
+		<code><a href="source-class-ImageComponent.html#567-635" title="Go to source code">crop</a>( <span>integer <var>$startX</var></span>, <span>integer <var>$startY</var></span>, <span>integer <var>$width</var></span>, <span>integer <var>$height</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Advanced cropping function that crops an image using $startX and $startY as
+the upper-left hand corner.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Advanced cropping function that crops an image using $startX and $startY as
+the upper-left hand corner.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$startX</var></dt>
+					<dd><code>integer</code><br>$startX</dd>
+					<dt><var>$startY</var></dt>
+					<dd><code>integer</code><br>$startY</dd>
+					<dt><var>$width</var></dt>
+					<dd><code>integer</code><br>$width</dd>
+					<dt><var>$height</var></dt>
+					<dd><code>integer</code><br>$height</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="show" id="_show">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_show">#</a>
+		<code><a href="source-class-ImageComponent.html#637-702" title="Go to source code">show</a>( <span>integer <var>$quality</var> = <span class="php-num">100</span></span>, <span>string <var>$name</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Outputs the image to the screen, or saves to $name if supplied. Quality of
+JPEG images can be controlled with the $quality variable</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Outputs the image to the screen, or saves to $name if supplied. Quality of
+JPEG images can be controlled with the $quality variable</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$quality</var></dt>
+					<dd><code>integer</code><br>$quality</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="save" id="_save">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_save">#</a>
+		<code><a href="source-class-ImageComponent.html#704-713" title="Go to source code">save</a>( <span>string <var>$name</var></span>, <span>integer <var>$quality</var> = <span class="php-num">100</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Saves image as $name (can include file path), with quality of # percent if
+file is a jpeg</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Saves image as $name (can include file path), with quality of # percent if
+file is a jpeg</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$quality</var></dt>
+					<dd><code>integer</code><br>$quality</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createReflection" id="_createReflection">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createReflection">#</a>
+		<code><a href="source-class-ImageComponent.html#715-823" title="Go to source code">createReflection</a>( <span>integer <var>$percent</var></span>, <span>integer <var>$reflection</var></span>, <span>integer <var>$white</var></span>, <span>boolean <var>$border</var> = <span class="php-keyword1">true</span></span>, <span>string <var>$borderColor</var> = <span class="php-quote">'#a4a4a4'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates Apple-style reflection under image, optionally adding a border to
+main image</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates Apple-style reflection under image, optionally adding a border to
+main image</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$percent</var></dt>
+					<dd><code>integer</code><br>$percent</dd>
+					<dt><var>$reflection</var></dt>
+					<dd><code>integer</code><br>$reflection</dd>
+					<dt><var>$white</var></dt>
+					<dd><code>integer</code><br>$white</dd>
+					<dt><var>$border</var></dt>
+					<dd><code>boolean</code><br>$border</dd>
+					<dt><var>$borderColor</var></dt>
+					<dd><code>string</code><br>$borderColor</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="imageFlipVertical" id="_imageFlipVertical">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_imageFlipVertical">#</a>
+		<code><a href="source-class-ImageComponent.html#825-851" title="Go to source code">imageFlipVertical</a>( )</code>
+
+		<div class="description short">
+			
+<p>Inverts working image, used by reflection function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Inverts working image, used by reflection function</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hex2rgb" id="_hex2rgb">
+
+		<td class="attributes"><code>
+			 public 
+			array|string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hex2rgb">#</a>
+		<code><a href="source-class-ImageComponent.html#853-882" title="Go to source code">hex2rgb</a>( <span>string <var>$hex</var></span>, <span>boolean <var>$asString</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Converts hexidecimal color value to rgb values and returns as
+array/string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Converts hexidecimal color value to rgb values and returns as
+array/string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$hex</var></dt>
+					<dd><code>string</code><br>$hex</dd>
+					<dt><var>$asString</var></dt>
+					<dd><code>boolean</code><br>$asString</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array|string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="gatherImageMeta" id="_gatherImageMeta">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_gatherImageMeta">#</a>
+		<code><a href="source-class-ImageComponent.html#884-943" title="Go to source code">gatherImageMeta</a>( )</code>
+
+		<div class="description short">
+			
+<p>Reads selected exif meta data from jpg images and populates
+$this-&gt;imageMeta with appropriate values if found</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Reads selected exif meta data from jpg images and populates
+$this-&gt;imageMeta with appropriate values if found</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rotateImage" id="_rotateImage">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rotateImage">#</a>
+		<code><a href="source-class-ImageComponent.html#945-967" title="Go to source code">rotateImage</a>( <span>string <var>$direction</var> = <span class="php-quote">'CW'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Rotates image either 90 degrees clockwise or counter-clockwise</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Rotates image either 90 degrees clockwise or counter-clockwise</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$direction</var></dt>
+					<dd><code>string</code><br>$direction</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Object.html#methods">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#_Object">Object()</a>, 
+			<a href="class-Object.html#___construct">__construct()</a>, 
+			<a href="class-Object.html#___openPersistent">__openPersistent()</a>, 
+			<a href="class-Object.html#__persist">_persist()</a>, 
+			<a href="class-Object.html#__savePersistent">_savePersistent()</a>, 
+			<a href="class-Object.html#__set">_set()</a>, 
+			<a href="class-Object.html#_cakeError">cakeError()</a>, 
+			<a href="class-Object.html#_log">log()</a>, 
+			<a href="class-Object.html#_requestAction">requestAction()</a>, 
+			<a href="class-Object.html#_toString">toString()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="errmsg" id="$errmsg">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#5-10" title="Go to source code"><var>$errmsg</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$errmsg" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Error message to display, if any</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Error message to display, if any</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							string<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="$error">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#11-16" title="Go to source code"><var>$error</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$error" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Whether or not there is an error</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Whether or not there is an error</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							boolean<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="format" id="$format">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#17-22" title="Go to source code"><var>$format</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$format" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Format of the image file</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Format of the image file</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							string<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="fileName" id="$fileName">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#23-28" title="Go to source code"><var>$fileName</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$fileName" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>File name and path of the image file</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>File name and path of the image file</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							string<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="saveName" id="$saveName">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#29-34" title="Go to source code"><var>$saveName</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$saveName" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>File name and path to save the image to</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>File name and path to save the image to</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							string<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="fileData" id="$fileData">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#35-40" title="Go to source code"><var>$fileData</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$fileData" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>File data</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>File data</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							string<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="file" id="$file">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#41-46" title="Go to source code"><var>$file</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$file" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Temporary File data</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Temporary File data</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							string<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="imageMeta" id="$imageMeta">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#47-52" title="Go to source code"><var>$imageMeta</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$imageMeta" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Image meta data if any is available (jpeg/tiff) via the exif library</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Image meta data if any is available (jpeg/tiff) via the exif library</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							array<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="currentDimensions" id="$currentDimensions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#53-58" title="Go to source code"><var>$currentDimensions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$currentDimensions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Current dimensions of working image</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Current dimensions of working image</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							array<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="newDimensions" id="$newDimensions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#59-64" title="Go to source code"><var>$newDimensions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$newDimensions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>New dimensions of working image</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>New dimensions of working image</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							array<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="newImage" id="$newImage">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#65-71" title="Go to source code"><var>$newImage</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$newImage" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Image resource for newly manipulated image</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Image resource for newly manipulated image</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							resource<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="oldImage" id="$oldImage">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#72-78" title="Go to source code"><var>$oldImage</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$oldImage" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Image resource for image before previous manipulation</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Image resource for image before previous manipulation</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							resource<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="workingImage" id="$workingImage">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#79-85" title="Go to source code"><var>$workingImage</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$workingImage" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Image resource for image being currently manipulated</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Image resource for image being currently manipulated</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							resource<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="percent" id="$percent">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#86-92" title="Go to source code"><var>$percent</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">100</span></code></td>
+		<td class="description"><div>
+			<a href="#$percent" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Percentage to resize image by</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Percentage to resize image by</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							int<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="maxWidth" id="$maxWidth">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#93-99" title="Go to source code"><var>$maxWidth</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">100</span></code></td>
+		<td class="description"><div>
+			<a href="#$maxWidth" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Maximum width of image during resize</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Maximum width of image during resize</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							int<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="maxHeight" id="$maxHeight">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#100-106" title="Go to source code"><var>$maxHeight</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">100</span></code></td>
+		<td class="description"><div>
+			<a href="#$maxHeight" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Maximum height of image during resize</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Maximum height of image during resize</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							int<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="outputType" id="$outputType">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#107-113" title="Go to source code"><var>$outputType</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$outputType" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Output file type</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Output file type</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							string<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="outputHeader" id="$outputHeader">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-ImageComponent.html#114-120" title="Go to source code"><var>$outputHeader</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$outputHeader" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Output header</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Output header</p>
+
+
+					<h4>Public</h4>
+					<div class="list">
+							boolean<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Object.html#properties">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#$_log"><var>$_log</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

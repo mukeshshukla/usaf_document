@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class DboOdbc | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li class="active"><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-DboAdodb.html">DboAdodb</a></li>
+				<li><a href="class-DboDb2.html">DboDb2</a></li>
+				<li><a href="class-DboMssql.html">DboMssql</a></li>
+				<li><a href="class-DboMysql.html">DboMysql</a></li>
+				<li><a href="class-DboMysqli.html">DboMysqli</a></li>
+				<li class="active"><a href="class-DboOdbc.html">DboOdbc</a></li>
+				<li><a href="class-DboOracle.html">DboOracle</a></li>
+				<li><a href="class-DboPear.html">DboPear</a></li>
+				<li><a href="class-DboPostgres.html">DboPostgres</a></li>
+				<li><a href="class-DboSqlite.html">DboSqlite</a></li>
+				<li><a href="class-DboSybase.html">DboSybase</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.model.datasources.dbo.html" title="Summary of cake\cake\libs\model\datasources\dbo"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class DboOdbc</h1>
+
+
+	<div class="description">
+	
+<p>Short description for class.</p>
+
+<p>Long description for class</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Object.html"><span>Object</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-DataSource.html"><span>DataSource</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-DboSource.html"><span>DboSource</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:90px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>DboOdbc</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a>\<a href="package-cake.cake.libs.model.html">model</a>\<a href="package-cake.cake.libs.model.datasources.html">datasources</a>\<a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-DboOdbc.html#31-436" title="Go to source code">cake/libs/model/datasources/dbo/dbo_odbc.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="connect" id="_connect">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_connect">#</a>
+		<code><a href="source-class-DboOdbc.html#94-111" title="Go to source code">connect</a>( )</code>
+
+		<div class="description short">
+			
+<p>Connects to the database using options in the given configuration array.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Connects to the database using options in the given configuration array.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if the database could be connected, else false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="disconnect" id="_disconnect">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_disconnect">#</a>
+		<code><a href="source-class-DboOdbc.html#113-120" title="Go to source code">disconnect</a>( )</code>
+
+		<div class="description short">
+			
+<p>Disconnects from database.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Disconnects from database.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if the database could be disconnected, else false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_execute" id="__execute">
+
+		<td class="attributes"><code>
+			 public 
+			resource
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__execute">#</a>
+		<code><a href="source-class-DboOdbc.html#121-130" title="Go to source code">_execute</a>( <span>string <var>$sql</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Executes given SQL statement.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Executes given SQL statement.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sql</var></dt>
+					<dd><code>string</code><br>$sql SQL statement</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>resource</code><br>Result resource identifier<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="listSources" id="_listSources">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_listSources">#</a>
+		<code><a href="source-class-DboOdbc.html#131-159" title="Go to source code">listSources</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns an array of sources (tables) in the database.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns an array of sources (tables) in the database.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Array of tablenames in the database<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-DataSource.html#_listSources">DataSource::listSources()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="describe" id="_describe">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_describe">#</a>
+		<code><a href="source-class-DboOdbc.html#160-190" title="Go to source code">describe</a>( <span><code><a href="class-Model.html">Model</a></code> <var>&amp; $model</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns an array of the fields in given table name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns an array of the fields in given table name.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-Model.html">Model</a></code></code><br>$model Model object to describe</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Fields in table. Keys are name and type<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-DataSource.html#_describe">DataSource::describe()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="name" id="_name">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_name">#</a>
+		<code><a href="source-class-DboOdbc.html#192-205" title="Go to source code">name</a>( <span>string <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a quoted name of $data for use in an SQL statement. Strips fields out
+of SQL functions before quoting.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a quoted name of $data for use in an SQL statement. Strips fields out
+of SQL functions before quoting.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code><br>$data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>SQL field<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-DboSource.html#_name">DboSource::name()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="value" id="_value">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_value">#</a>
+		<code><a href="source-class-DboOdbc.html#207-235" title="Go to source code">value</a>( <span>string <var>$data</var></span>, <span>string <var>$column</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a quoted and escaped string of $data for use in an SQL statement.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a quoted and escaped string of $data for use in an SQL statement.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code><br>$data String to be prepared for use in an SQL statement</dd>
+					<dt><var>$column</var></dt>
+					<dd><code>string</code><br>$column The column into which this data will be inserted</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Quoted and escaped<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-DboSource.html#_value">DboSource::value()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="boolean" id="_boolean">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_boolean">#</a>
+		<code><a href="source-class-DboOdbc.html#237-258" title="Go to source code">boolean</a>( <span>mixed <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Not sure about this one, MySQL needs it but does ODBC? Safer just to leave it
+Translates between PHP boolean values and MySQL (faked) boolean values</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Not sure about this one, MySQL needs it but does ODBC? Safer just to leave it
+Translates between PHP boolean values and MySQL (faked) boolean values</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br>$data Value to be translated</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Converted boolean value<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-DboSource.html#_boolean">DboSource::boolean()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="begin" id="_begin">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_begin">#</a>
+		<code><a href="source-class-DboOdbc.html#260-276" title="Go to source code">begin</a>( <span>unknown_type <var>&amp; $model</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Begin a transaction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Begin a transaction</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>unknown_type</code><br>$model</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True on success, false on fail (i.e. if the database/model does not support
+transactions).<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-DataSource.html#_begin">DataSource::begin()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="commit" id="_commit">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_commit">#</a>
+		<code><a href="source-class-DboOdbc.html#278-295" title="Go to source code">commit</a>( <span>unknown_type <var>&amp; $model</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Commit a transaction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Commit a transaction</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>unknown_type</code><br>$model</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True on success, false on fail (i.e. if the database/model does not support
+transactions, or a transaction has not started).<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-DataSource.html#_commit">DataSource::commit()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rollback" id="_rollback">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rollback">#</a>
+		<code><a href="source-class-DboOdbc.html#297-312" title="Go to source code">rollback</a>( <span>unknown_type <var>&amp; $model</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Rollback a transaction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Rollback a transaction</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>unknown_type</code><br>$model</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True on success, false on fail (i.e. if the database/model does not support
+transactions, or a transaction has not started).<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-DataSource.html#_rollback">DataSource::rollback()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lastError" id="_lastError">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_lastError">#</a>
+		<code><a href="source-class-DboOdbc.html#314-325" title="Go to source code">lastError</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns a formatted error message from previous database operation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a formatted error message from previous database operation.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Error message with error number<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lastAffected" id="_lastAffected">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_lastAffected">#</a>
+		<code><a href="source-class-DboOdbc.html#327-339" title="Go to source code">lastAffected</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns number of affected rows in previous database operation. If no
+previous operation exists, this returns false.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns number of affected rows in previous database operation. If no
+previous operation exists, this returns false.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Number of affected rows<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-DataSource.html#_lastAffected">DataSource::lastAffected()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lastNumRows" id="_lastNumRows">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_lastNumRows">#</a>
+		<code><a href="source-class-DboOdbc.html#341-353" title="Go to source code">lastNumRows</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns number of rows in previous resultset. If no previous resultset
+exists, this returns false.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns number of rows in previous resultset. If no previous resultset
+exists, this returns false.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Number of rows in resultset<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-DataSource.html#_lastNumRows">DataSource::lastNumRows()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lastInsertId" id="_lastInsertId">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_lastInsertId">#</a>
+		<code><a href="source-class-DboOdbc.html#355-364" title="Go to source code">lastInsertId</a>( <span>unknown_type <var>$source</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns the ID generated from the previous INSERT operation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the ID generated from the previous INSERT operation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$source</var></dt>
+					<dd><code>unknown_type</code><br>$source</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-DataSource.html#_lastInsertId">DataSource::lastInsertId()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="column" id="_column">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_column">#</a>
+		<code><a href="source-class-DboOdbc.html#366-383" title="Go to source code">column</a>( <span>string <var>$real</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Enter description here...</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Enter description here...</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$real</var></dt>
+					<dd><code>string</code><br>$real Real database-layer column type (i.e. "varchar(255)")</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Abstract column type (i.e. "string")<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-DataSource.html#_column">DataSource::column()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resultSet" id="_resultSet">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resultSet">#</a>
+		<code><a href="source-class-DboOdbc.html#385-413" title="Go to source code">resultSet</a>( <span>unknown_type <var>&amp; $results</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Enter description here...</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Enter description here...</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$results</var></dt>
+					<dd><code>unknown_type</code><br>$results</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetchResult" id="_fetchResult">
+
+		<td class="attributes"><code>
+			 public 
+			unknown
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetchResult">#</a>
+		<code><a href="source-class-DboOdbc.html#415-435" title="Go to source code">fetchResult</a>( )</code>
+
+		<div class="description short">
+			
+<p>Fetches the next row from the current result set</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches the next row from the current result set</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>unknown</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-DboSource.html#methods">DboSource</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-DboSource.html#___construct">__construct()</a>, 
+			<a href="class-DboSource.html#___destruct">__destruct()</a>, 
+			<a href="class-DboSource.html#___filterResults">__filterResults()</a>, 
+			<a href="class-DboSource.html#___insertMulti">__insertMulti()</a>, 
+			<a href="class-DboSource.html#___mergeAssociation">__mergeAssociation()</a>, 
+			<a href="class-DboSource.html#___mergeConditions">__mergeConditions()</a>, 
+			<a href="class-DboSource.html#___mergeHasMany">__mergeHasMany()</a>, 
+			<a href="class-DboSource.html#___quoteFields">__quoteFields()</a>, 
+			<a href="class-DboSource.html#___scrubQueryData">__scrubQueryData()</a>, 
+			<a href="class-DboSource.html#__getJoins">_getJoins()</a>, 
+			<a href="class-DboSource.html#_alterSchema">alterSchema()</a>, 
+			<a href="class-DboSource.html#_buildColumn">buildColumn()</a>, 
+			<a href="class-DboSource.html#_buildIndex">buildIndex()</a>, 
+			<a href="class-DboSource.html#_buildJoinStatement">buildJoinStatement()</a>, 
+			<a href="class-DboSource.html#_buildStatement">buildStatement()</a>, 
+			<a href="class-DboSource.html#_close">close()</a>, 
+			<a href="class-DboSource.html#_conditionKeysToString">conditionKeysToString()</a>, 
+			<a href="class-DboSource.html#_conditions">conditions()</a>, 
+			<a href="class-DboSource.html#_create">create()</a>, 
+			<a href="class-DboSource.html#_createSchema">createSchema()</a>, 
+			<a href="class-DboSource.html#_defaultConditions">defaultConditions()</a>, 
+			<a href="class-DboSource.html#_delete">delete()</a>, 
+			<a href="class-DboSource.html#_dropSchema">dropSchema()</a>, 
+			<a href="class-DboSource.html#_execute">execute()</a>, 
+			<a href="class-DboSource.html#_fetchAll">fetchAll()</a>, 
+			<a href="class-DboSource.html#_fetchRow">fetchRow()</a>, 
+			<a href="class-DboSource.html#_field">field()</a>, 
+			<a href="class-DboSource.html#_fields">fields()</a>, 
+			<a href="class-DboSource.html#_fullTableName">fullTableName()</a>, 
+			<a href="class-DboSource.html#_generateAssociationQuery">generateAssociationQuery()</a>, 
+			<a href="class-DboSource.html#_generateSelfAssociationQuery">generateSelfAssociationQuery()</a>, 
+			<a href="class-DboSource.html#_getColumnType">getColumnType()</a>, 
+			<a href="class-DboSource.html#_getConstraint">getConstraint()</a>, 
+			<a href="class-DboSource.html#_hasAny">hasAny()</a>, 
+			<a href="class-DboSource.html#_index">index()</a>, 
+			<a href="class-DboSource.html#_insertMulti">insertMulti()</a>, 
+			<a href="class-DboSource.html#_isConnected">isConnected()</a>, 
+			<a href="class-DboSource.html#_length">length()</a>, 
+			<a href="class-DboSource.html#_limit">limit()</a>, 
+			<a href="class-DboSource.html#_logQuery">logQuery()</a>, 
+			<a href="class-DboSource.html#_order">order()</a>, 
+			<a href="class-DboSource.html#_query">query()</a>, 
+			<a href="class-DboSource.html#_queryAssociation">queryAssociation()</a>, 
+			<a href="class-DboSource.html#_rawQuery">rawQuery()</a>, 
+			<a href="class-DboSource.html#_read">read()</a>, 
+			<a href="class-DboSource.html#_reconnect">reconnect()</a>, 
+			<a href="class-DboSource.html#_renderJoinStatement">renderJoinStatement()</a>, 
+			<a href="class-DboSource.html#_renderStatement">renderStatement()</a>, 
+			<a href="class-DboSource.html#_resolveKey">resolveKey()</a>, 
+			<a href="class-DboSource.html#_showLog">showLog()</a>, 
+			<a href="class-DboSource.html#_showQuery">showQuery()</a>, 
+			<a href="class-DboSource.html#_truncate">truncate()</a>, 
+			<a href="class-DboSource.html#_update">update()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-DataSource.html#methods">DataSource</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-DataSource.html#___cacheDescription">__cacheDescription()</a>, 
+			<a href="class-DataSource.html#_insertQueryData">insertQueryData()</a>, 
+			<a href="class-DataSource.html#_isInterfaceSupported">isInterfaceSupported()</a>, 
+			<a href="class-DataSource.html#_setConfig">setConfig()</a>, 
+			<a href="class-DataSource.html#_sources">sources()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Object.html#methods">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#_Object">Object()</a>, 
+			<a href="class-Object.html#___openPersistent">__openPersistent()</a>, 
+			<a href="class-Object.html#__persist">_persist()</a>, 
+			<a href="class-Object.html#__savePersistent">_savePersistent()</a>, 
+			<a href="class-Object.html#__set">_set()</a>, 
+			<a href="class-Object.html#_cakeError">cakeError()</a>, 
+			<a href="class-Object.html#_log">log()</a>, 
+			<a href="class-Object.html#_requestAction">requestAction()</a>, 
+			<a href="class-Object.html#_toString">toString()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="description" id="$description">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DboOdbc.html#41-46" title="Go to source code"><var>$description</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">&quot;ODBC DBO Driver&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$description" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Driver description</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Driver description</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="startQuote" id="$startQuote">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DboOdbc.html#48-53" title="Go to source code"><var>$startQuote</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">&quot;`&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$startQuote" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Table/column starting quote</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Table/column starting quote</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="endQuote" id="$endQuote">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DboOdbc.html#55-60" title="Go to source code"><var>$endQuote</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">&quot;`&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$endQuote" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Table/column end quote</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Table/column end quote</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_baseConfig" id="$_baseConfig">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DboOdbc.html#62-72" title="Go to source code"><var>$_baseConfig</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'persistent'</span> =&gt; <span class="php-keyword1">true</span>,
+            <span class="php-quote">'login'</span> =&gt; <span class="php-quote">'root'</span>,
+            <span class="php-quote">'password'</span> =&gt; <span class="php-quote">''</span>,
+            <span class="php-quote">'database'</span> =&gt; <span class="php-quote">'cake'</span>,
+            <span class="php-quote">'connect'</span>  =&gt; <span class="php-quote">'odbc_pconnect'</span>
+)</code></td>
+		<td class="description"><div>
+			<a href="#$_baseConfig" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Driver base configuration</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Driver base configuration</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="columns" id="$columns">
+		<td class="attributes"><code>
+			public  
+			unknown_type
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DboOdbc.html#75-80" title="Go to source code"><var>$columns</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$columns" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Enter description here...</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Enter description here...</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-DboSource.html#properties">DboSource</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-DboSource.html#$__bypass"><var>$__bypass</var></a>, 
+			<a href="class-DboSource.html#$__sqlOps"><var>$__sqlOps</var></a>, 
+			<a href="class-DboSource.html#$alias"><var>$alias</var></a>, 
+			<a href="class-DboSource.html#$goofyLimit"><var>$goofyLimit</var></a>, 
+			<a href="class-DboSource.html#$index"><var>$index</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-DataSource.html#properties">DataSource</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-DataSource.html#$__descriptions"><var>$__descriptions</var></a>, 
+			<a href="class-DataSource.html#$_queriesCnt"><var>$_queriesCnt</var></a>, 
+			<a href="class-DataSource.html#$_queriesLog"><var>$_queriesLog</var></a>, 
+			<a href="class-DataSource.html#$_queriesLogMax"><var>$_queriesLogMax</var></a>, 
+			<a href="class-DataSource.html#$_queriesTime"><var>$_queriesTime</var></a>, 
+			<a href="class-DataSource.html#$_queryCache"><var>$_queryCache</var></a>, 
+			<a href="class-DataSource.html#$_result"><var>$_result</var></a>, 
+			<a href="class-DataSource.html#$_sources"><var>$_sources</var></a>, 
+			<a href="class-DataSource.html#$_transactionStarted"><var>$_transactionStarted</var></a>, 
+			<a href="class-DataSource.html#$affected"><var>$affected</var></a>, 
+			<a href="class-DataSource.html#$cacheSources"><var>$cacheSources</var></a>, 
+			<a href="class-DataSource.html#$config"><var>$config</var></a>, 
+			<a href="class-DataSource.html#$configKeyName"><var>$configKeyName</var></a>, 
+			<a href="class-DataSource.html#$connected"><var>$connected</var></a>, 
+			<a href="class-DataSource.html#$connection"><var>$connection</var></a>, 
+			<a href="class-DataSource.html#$error"><var>$error</var></a>, 
+			<a href="class-DataSource.html#$fullDebug"><var>$fullDebug</var></a>, 
+			<a href="class-DataSource.html#$numRows"><var>$numRows</var></a>, 
+			<a href="class-DataSource.html#$took"><var>$took</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Object.html#properties">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#$_log"><var>$_log</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

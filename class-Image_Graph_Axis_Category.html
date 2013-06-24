@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Image_Graph_Axis_Category | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li class="active"><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li class="active"><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li class="active"><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Image_Graph_Axis.html">Image_Graph_Axis</a></li>
+				<li class="active"><a href="class-Image_Graph_Axis_Category.html">Image_Graph_Axis_Category</a></li>
+				<li><a href="class-Image_Graph_Axis_Logarithmic.html">Image_Graph_Axis_Logarithmic</a></li>
+				<li><a href="class-Image_Graph_Axis_Radar.html">Image_Graph_Axis_Radar</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Image.Graph.Axis.html" title="Summary of Image\Graph\Axis"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Image_Graph_Axis_Category</h1>
+
+
+	<div class="description">
+	
+<p>A normal axis thats displays labels with a 'interval' of 1. This is basically
+a normal axis where the range is the number of labels defined, that is the range
+is explicitly defined when constructing the axis.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Image_Graph_Common.html"><span>Image_Graph_Common</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Graph_Element.html"><span>Image_Graph_Element</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Graph_Plotarea_Element.html"><span>Image_Graph_Plotarea_Element</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:90px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Graph_Axis.html"><span>Image_Graph_Axis</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:120px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Image_Graph_Axis_Category</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Image_Graph_Axis_Radar.html">Image_Graph_Axis_Radar</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Image.html">Image</a>\<a href="package-Image.Graph.html">Graph</a>\<a href="package-Image.Graph.Axis.html">Axis</a><br />
+
+				<b>Category:</b>
+				Images<br />
+				<b>Copyright:</b>
+				Copyright (C) 2003, 2004 Jesper Veggerby Hansen<br />
+				<b>License:</b>
+				<a href="http://www.gnu.org/copyleft/lesser.html">LGPL License 2.1</a><br />
+				<b>Author:</b>
+				Jesper Veggerby &lt;<a
+href="mailto:pear.nosey&#64;veggerby.dk">pear.nosey&#64;<!---->veggerby.dk</a>&gt;<br />
+				<b>Version:</b>
+				Release: @package_version@<br />
+				<b>Link:</b>
+				<a href="http://pear.php.net/package/Image_Graph">http://pear.php.net/package/Image_Graph</a><br />
+		<b>Located at</b> <a href="source-class-Image_Graph_Axis_Category.html#36-435" title="Go to source code">app/vendors/Image/Graph/Axis/Category.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="Image_Graph_Axis_Category" id="_Image_Graph_Axis_Category">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_Image_Graph_Axis_Category">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#61-71" title="Go to source code">Image_Graph_Axis_Category</a>( <span>integer <var>$type</var> = IMAGE_GRAPH_AXIS_X</span> )</code>
+
+		<div class="description short">
+			
+<p>Image_Graph_Axis_Category [Constructor].</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Image_Graph_Axis_Category [Constructor].</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>integer</code><br>$type The type (direction) of the Axis</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getMinimum" id="__getMinimum">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getMinimum">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#73-84" title="Go to source code">_getMinimum</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the minimum value the axis will show.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the minimum value the axis will show.</p>
+
+<p>This is always 0</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The minumum value<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#__getMinimum">Image_Graph_Axis::_getMinimum()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getMaximum" id="__getMaximum">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getMaximum">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#86-97" title="Go to source code">_getMaximum</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the maximum value the axis will show.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the maximum value the axis will show.</p>
+
+<p>This is always the number of labels passed to the constructor.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The maximum value<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#__getMaximum">Image_Graph_Axis::_getMaximum()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setMinimum" id="__setMinimum">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setMinimum">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#99-109" title="Go to source code">_setMinimum</a>( <span>float <var>$minimum</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the minimum value the axis will show.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the minimum value the axis will show.</p>
+
+<p>A minimum cannot be set on a SequentialAxis, it is always 0.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$minimum</var></dt>
+					<dd><code>float</code><br>Minimum The minumum value to use on the axis</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#__setMinimum">Image_Graph_Axis::_setMinimum()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setMaximum" id="__setMaximum">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setMaximum">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#111-122" title="Go to source code">_setMaximum</a>( <span>float <var>$maximum</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the maximum value the axis will show</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the maximum value the axis will show</p>
+
+<p>A maximum cannot be set on a SequentialAxis, it is always the number of
+labels passed to the constructor.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$maximum</var></dt>
+					<dd><code>float</code><br>Maximum The maximum value to use on the axis</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#__setMaximum">Image_Graph_Axis::_setMaximum()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="forceMinimum" id="_forceMinimum">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_forceMinimum">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#124-138" title="Go to source code">forceMinimum</a>( <span>float <var>$minimum</var></span>, <span>boolean <var>$userEnforce</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Forces the minimum value of the axis</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Forces the minimum value of the axis</p>
+
+<p><b>A minimum cannot be set on this type of axis</b></p>
+
+<p>To modify the labels which are displayed on the axis, instead use
+setLabelInterval($labels) where $labels is an array containing the values/labels
+the axis should display. <b>Note!</b> Only values in this array will then be
+displayed on the graph!</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$minimum</var></dt>
+					<dd><code>float</code><br>$minimum A minimum cannot be set on this type of axis</dd>
+					<dt><var>$userEnforce</var></dt>
+					<dd><code>boolean</code><br>$userEnforce This value should not be set, used internally</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#_forceMinimum">Image_Graph_Axis::forceMinimum()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="forceMaximum" id="_forceMaximum">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_forceMaximum">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#140-154" title="Go to source code">forceMaximum</a>( <span>float <var>$maximum</var></span>, <span>boolean <var>$userEnforce</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Forces the maximum value of the axis</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Forces the maximum value of the axis</p>
+
+<p><b>A maximum cannot be set on this type of axis</b></p>
+
+<p>To modify the labels which are displayed on the axis, instead use
+setLabelInterval($labels) where $labels is an array containing the values/labels
+the axis should display. <b>Note!</b> Only values in this array will then be
+displayed on the graph!</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$maximum</var></dt>
+					<dd><code>float</code><br>$maximum A maximum cannot be set on this type of axis</dd>
+					<dt><var>$userEnforce</var></dt>
+					<dd><code>boolean</code><br>$userEnforce This value should not be set, used internally</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#_forceMaximum">Image_Graph_Axis::forceMaximum()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLabelInterval" id="_setLabelInterval">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLabelInterval">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#156-172" title="Go to source code">setLabelInterval</a>( <span>float <var>$labelInterval</var> = <span class="php-quote">'auto'</span></span>, <span>integer <var>$level</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets an interval for where labels are shown on the axis.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets an interval for where labels are shown on the axis.</p>
+
+<p>The label interval is rounded to nearest integer value.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$labelInterval</var></dt>
+					<dd><code>float</code><br>$labelInterval The interval with which labels are shown</dd>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level The label level to set the interval on</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#_setLabelInterval">Image_Graph_Axis::setLabelInterval()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_value" id="__value">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__value">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#174-192" title="Go to source code">_value</a>( <span>float <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Preprocessor for values, ie for using logarithmic axis</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Preprocessor for values, ie for using logarithmic axis</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>float</code><br>$value The value to preprocess</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The preprocessed value<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#__value">Image_Graph_Axis::_value()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_minorLabelInterval" id="__minorLabelInterval">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__minorLabelInterval">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#195-206" title="Go to source code">_minorLabelInterval</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the minor label interval with which axis label ticks are drawn.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the minor label interval with which axis label ticks are drawn.</p>
+
+<p>For a sequential axis this is always disabled (i.e false)</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The minor label interval, always false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_size" id="__size">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__size">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#208-257" title="Go to source code">_size</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the size in pixels of the axis.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the size in pixels of the axis.</p>
+
+<p>For an x-axis this is the width of the axis including labels, and for an
+y-axis it is the corrresponding height</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The size of the axis<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#__size">Image_Graph_Axis::_size()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_applyDataset" id="__applyDataset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__applyDataset">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#259-353" title="Go to source code">_applyDataset</a>( <span><code><a href="class-Image_Graph_Dataset.html">Image_Graph_Dataset</a></code> <var>&amp; $dataset</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Apply the dataset to the axis.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Apply the dataset to the axis.</p>
+This calculates the order of the categories, which is very important for fx.
+line plots, so that the line does not "go backwards", consider these X-sets:
+<p>1: (1, 2, 3, 4, 5, 6)<br />
+2: (0, 1, 2, 3, 4, 5, 6, 7)</p>
+
+<p>If they are not ordered, but simply appended, the categories on the axis
+would be:</p>
+
+<p>X: (1, 2, 3, 4, 5, 6, 0, 7)</p>
+
+<p>Which would render the a line for the second plot to show incorrectly.
+Instead this algorithm, uses and 'value- is- before' method to see that the 0 is
+before a 1 in the second set, and that it should also be before a 1 in the X
+set. Hence:</p>
+
+<p>X: (0, 1, 2, 3, 4, 5, 6, 7)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$dataset</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Dataset.html">Image_Graph_Dataset</a></code></code><br>$dataset The dataset</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#__applyDataset">Image_Graph_Axis::_applyDataset()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_labelDistance" id="__labelDistance">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__labelDistance">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#355-367" title="Go to source code">_labelDistance</a>( <span>integer <var>$level</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Return the label distance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return the label distance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level The label level to return the distance of</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The distance between 2 adjacent labels<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#__labelDistance">Image_Graph_Axis::_labelDistance()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getNextLabel" id="__getNextLabel">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getNextLabel">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#369-393" title="Go to source code">_getNextLabel</a>( <span>doubt <var>$currentLabel</var> = <span class="php-keyword1">false</span></span>, <span>integer <var>$level</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get next label point</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get next label point</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$currentLabel</var></dt>
+					<dd><code>doubt</code><br>$point The current point, if omitted or false, the first is returned</dd>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level The label level to get the next label from</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The next label point<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#__getNextLabel">Image_Graph_Axis::_getNextLabel()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_isNumeric" id="__isNumeric">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__isNumeric">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#395-404" title="Go to source code">_isNumeric</a>( )</code>
+
+		<div class="description short">
+			
+<p>Is the axis numeric or not?</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Is the axis numeric or not?</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if numeric, false if not<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#__isNumeric">Image_Graph_Axis::_isNumeric()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_done" id="__done">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__done">#</a>
+		<code><a href="source-class-Image_Graph_Axis_Category.html#406-433" title="Go to source code">_done</a>( )</code>
+
+		<div class="description short">
+			
+<p>Output the axis</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Output the axis</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Was the output 'good' (true) or 'bad' (false).<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Axis.html#__done">Image_Graph_Axis::_done()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Axis.html#methods">Image_Graph_Axis</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Axis.html#_Image_Graph_Axis">Image_Graph_Axis()</a>, 
+			<a href="class-Image_Graph_Axis.html#__calcDelta">_calcDelta()</a>, 
+			<a href="class-Image_Graph_Axis.html#__calcLabelInterval">_calcLabelInterval()</a>, 
+			<a href="class-Image_Graph_Axis.html#__drawAxisLines">_drawAxisLines()</a>, 
+			<a href="class-Image_Graph_Axis.html#__drawTick">_drawTick()</a>, 
+			<a href="class-Image_Graph_Axis.html#__getAxisIntersection">_getAxisIntersection()</a>, 
+			<a href="class-Image_Graph_Axis.html#__getTitleFont">_getTitleFont()</a>, 
+			<a href="class-Image_Graph_Axis.html#__intersectPoint">_intersectPoint()</a>, 
+			<a href="class-Image_Graph_Axis.html#__labelInterval">_labelInterval()</a>, 
+			<a href="class-Image_Graph_Axis.html#__point">_point()</a>, 
+			<a href="class-Image_Graph_Axis.html#__pushValues">_pushValues()</a>, 
+			<a href="class-Image_Graph_Axis.html#__reset">_reset()</a>, 
+			<a href="class-Image_Graph_Axis.html#__setAxisPadding">_setAxisPadding()</a>, 
+			<a href="class-Image_Graph_Axis.html#__updateCoords">_updateCoords()</a>, 
+			<a href="class-Image_Graph_Axis.html#_addMark">addMark()</a>, 
+			<a href="class-Image_Graph_Axis.html#_hideArrow">hideArrow()</a>, 
+			<a href="class-Image_Graph_Axis.html#_setAxisIntersection">setAxisIntersection()</a>, 
+			<a href="class-Image_Graph_Axis.html#_setDataPreProcessor">setDataPreProcessor()</a>, 
+			<a href="class-Image_Graph_Axis.html#_setFixedSize">setFixedSize()</a>, 
+			<a href="class-Image_Graph_Axis.html#_setInverted">setInverted()</a>, 
+			<a href="class-Image_Graph_Axis.html#_setLabelOption">setLabelOption()</a>, 
+			<a href="class-Image_Graph_Axis.html#_setLabelOptions">setLabelOptions()</a>, 
+			<a href="class-Image_Graph_Axis.html#_setTickOptions">setTickOptions()</a>, 
+			<a href="class-Image_Graph_Axis.html#_setTitle">setTitle()</a>, 
+			<a href="class-Image_Graph_Axis.html#_showArrow">showArrow()</a>, 
+			<a href="class-Image_Graph_Axis.html#_showLabel">showLabel()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Plotarea_Element.html#methods">Image_Graph_Plotarea_Element</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Plotarea_Element.html#__pointX">_pointX()</a>, 
+			<a href="class-Image_Graph_Plotarea_Element.html#__pointXY">_pointXY()</a>, 
+			<a href="class-Image_Graph_Plotarea_Element.html#__pointY">_pointY()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Element.html#methods">Image_Graph_Element</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Element.html#__clip">_clip()</a>, 
+			<a href="class-Image_Graph_Element.html#__displayShadow">_displayShadow()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillBottom">_fillBottom()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillHeight">_fillHeight()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillLeft">_fillLeft()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillRight">_fillRight()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillTop">_fillTop()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillWidth">_fillWidth()</a>, 
+			<a href="class-Image_Graph_Element.html#__getBackground">_getBackground()</a>, 
+			<a href="class-Image_Graph_Element.html#__getBorderStyle">_getBorderStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#__getFillStyle">_getFillStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#__getFont">_getFont()</a>, 
+			<a href="class-Image_Graph_Element.html#__getLineStyle">_getLineStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#__move">_move()</a>, 
+			<a href="class-Image_Graph_Element.html#__setCoords">_setCoords()</a>, 
+			<a href="class-Image_Graph_Element.html#__setHeight">_setHeight()</a>, 
+			<a href="class-Image_Graph_Element.html#__setWidth">_setWidth()</a>, 
+			<a href="class-Image_Graph_Element.html#_height">height()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBackground">setBackground()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBackgroundColor">setBackgroundColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBorderColor">setBorderColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBorderStyle">setBorderStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFillColor">setFillColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFillStyle">setFillStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFont">setFont()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFontAngle">setFontAngle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFontColor">setFontColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFontSize">setFontSize()</a>, 
+			<a href="class-Image_Graph_Element.html#_setLineColor">setLineColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setLineStyle">setLineStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setPadding">setPadding()</a>, 
+			<a href="class-Image_Graph_Element.html#_showShadow">showShadow()</a>, 
+			<a href="class-Image_Graph_Element.html#_width">width()</a>, 
+			<a href="class-Image_Graph_Element.html#_write">write()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Common.html#methods">Image_Graph_Common</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Common.html#_Image_Graph_Common">Image_Graph_Common()</a>, 
+			<a href="class-Image_Graph_Common.html#__error">_error()</a>, 
+			<a href="class-Image_Graph_Common.html#__getCanvas">_getCanvas()</a>, 
+			<a href="class-Image_Graph_Common.html#__setParent">_setParent()</a>, 
+			<a href="class-Image_Graph_Common.html#_add">add()</a>, 
+			<a href="class-Image_Graph_Common.html#_addNew">addNew()</a>, 
+			<a href="class-Image_Graph_Common.html#_hide">hide()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_labels" id="$_labels">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis_Category.html#54-59" title="Go to source code"><var>$_labels</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_labels" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The labels shown on the axis</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The labels shown on the axis</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Graph_Axis.html#properties">Image_Graph_Axis</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Axis.html#$_axisPadding"><var>$_axisPadding</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_axisSpan"><var>$_axisSpan</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_axisValueSpan"><var>$_axisValueSpan</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_dataPreProcessor"><var>$_dataPreProcessor</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_delta"><var>$_delta</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_fixedSize"><var>$_fixedSize</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_intersect"><var>$_intersect</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_invert"><var>$_invert</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_labelOptions"><var>$_labelOptions</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_labelText"><var>$_labelText</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_marks"><var>$_marks</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_maximum"><var>$_maximum</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_maximumSet"><var>$_maximumSet</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_minimum"><var>$_minimum</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_minimumSet"><var>$_minimumSet</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_pushValues"><var>$_pushValues</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_showArrow"><var>$_showArrow</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_showLabelMaximum"><var>$_showLabelMaximum</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_showLabelMinimum"><var>$_showLabelMinimum</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_showLabelZero"><var>$_showLabelZero</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_title"><var>$_title</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_titleFont"><var>$_titleFont</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_transpose"><var>$_transpose</var></a>, 
+			<a href="class-Image_Graph_Axis.html#$_type"><var>$_type</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Graph_Element.html#properties">Image_Graph_Element</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Element.html#$_background"><var>$_background</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_borderStyle"><var>$_borderStyle</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_bottom"><var>$_bottom</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_defaultFontOptions"><var>$_defaultFontOptions</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_fillStyle"><var>$_fillStyle</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_font"><var>$_font</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_fontOptions"><var>$_fontOptions</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_left"><var>$_left</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_lineStyle"><var>$_lineStyle</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_padding"><var>$_padding</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_right"><var>$_right</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_shadow"><var>$_shadow</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_top"><var>$_top</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Graph_Common.html#properties">Image_Graph_Common</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Common.html#$_canvas"><var>$_canvas</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_elements"><var>$_elements</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_parent"><var>$_parent</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_visible"><var>$_visible</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

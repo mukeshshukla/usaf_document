@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class TreeBehavior | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AclBehavior.html">AclBehavior</a></li>
+				<li><a href="class-I18nModel.html">I18nModel</a></li>
+				<li><a href="class-TranslateBehavior.html">TranslateBehavior</a></li>
+				<li class="active"><a href="class-TreeBehavior.html">TreeBehavior</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.model.behaviors.html" title="Summary of cake\cake\libs\model\behaviors"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class TreeBehavior</h1>
+
+
+	<div class="description">
+	
+<p>Short description for file</p>
+
+<p>Long description for file</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Object.html"><span>Object</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-ModelBehavior.html"><span>ModelBehavior</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>TreeBehavior</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a>\<a href="package-cake.cake.libs.model.html">model</a>\<a href="package-cake.cake.libs.model.behaviors.html">behaviors</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2006-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-TreeBehavior.html#29-757" title="Go to source code">cake/libs/model/behaviors/tree.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="setup" id="_setup">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setup">#</a>
+		<code><a href="source-class-TreeBehavior.html#39-56" title="Go to source code">setup</a>( <span>object <var>&amp; $model</var></span>, <span>array <var>$config</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Setup this behavior with the specified configuration settings.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Setup this behavior with the specified configuration settings.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>object</code><br>$model Model using this behavior</dd>
+					<dt><var>$config</var></dt>
+					<dd><code>array</code><br>$config Configuration settings for $model</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-ModelBehavior.html#_setup">ModelBehavior::setup()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setScope" id="_setScope">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setScope">#</a>
+		<code><a href="source-class-TreeBehavior.html#57-65" title="Go to source code">setScope</a>( <span>object <var>&amp; $model</var></span>, <span>mixed <var>$scope</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Change the Tree behavior on the fly</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Change the Tree behavior on the fly</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>object</code><br>$model</dd>
+					<dt><var>$scope</var></dt>
+					<dd><code>mixed</code><br>$scope</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="afterSave" id="_afterSave">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_afterSave">#</a>
+		<code><a href="source-class-TreeBehavior.html#66-89" title="Go to source code">afterSave</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>boolean <var>$created</var></span> )</code>
+
+		<div class="description short">
+			
+<p>After save method. Called after all saves</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>After save method. Called after all saves</p>
+
+<p>Overriden to transparently manage setting the lft and rght fields if and only
+if the parent field is included in the parameters to be saved.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$created</var></dt>
+					<dd><code>boolean</code><br>$created indicates whether the node just saved was created or updated</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true on success, false on failure<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-ModelBehavior.html#_afterSave">ModelBehavior::afterSave()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="beforeDelete" id="_beforeDelete">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_beforeDelete">#</a>
+		<code><a href="source-class-TreeBehavior.html#90-118" title="Go to source code">beforeDelete</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Before delete method. Called before all deletes</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Before delete method. Called before all deletes</p>
+
+<p>Will delete the current node and all children using the deleteAll method and
+sync the table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true to continue, false to abort the delete<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-ModelBehavior.html#_beforeDelete">ModelBehavior::beforeDelete()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="beforeSave" id="_beforeSave">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_beforeSave">#</a>
+		<code><a href="source-class-TreeBehavior.html#119-191" title="Go to source code">beforeSave</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Before save method. Called before all saves</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Before save method. Called before all saves</p>
+
+<p>Overriden to transparently manage setting the lft and rght fields if and only
+if the parent field is included in the parameters to be saved. For newly created
+nodes with NO parent the left and right field values are set directly by this
+method bypassing the setParent logic.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true to continue, false to abort the save<br />
+				</div>
+
+
+				<h4>Since</h4>
+				<div class="list">
+						1.2<br />
+				</div>
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-ModelBehavior.html#_beforeSave">ModelBehavior::beforeSave()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="childcount" id="_childcount">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_childcount">#</a>
+		<code><a href="source-class-TreeBehavior.html#192-224" title="Go to source code">childcount</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>mixed <var>$id</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$direct</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the number of child nodes</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the number of child nodes</p>
+
+<p>If the direct parameter is set to true, only the direct children are counted
+(based upon the parent_id field) If false is passed for the id parameter, all
+top level nodes are counted, or all nodes are counted.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$id</var></dt>
+					<dd><code>mixed</code><br>$id The ID of the record to read or false to read all top level nodes</dd>
+					<dt><var>$direct</var></dt>
+					<dd><code>boolean</code><br>$direct whether to count direct, or all, children</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>number of child nodes<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="children" id="_children">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_children">#</a>
+		<code><a href="source-class-TreeBehavior.html#225-266" title="Go to source code">children</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>mixed <var>$id</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$direct</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$fields</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$order</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$limit</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$page</var> = <span class="php-num">1</span></span>, <span>integer <var>$recursive</var> = -<span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the child nodes of the current model</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the child nodes of the current model</p>
+
+<p>If the direct parameter is set to true, only the direct children are returned
+(based upon the parent_id field) If false is passed for the id parameter, top
+level, or all (depending on direct parameter appropriate) are counted.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$id</var></dt>
+					<dd><code>mixed</code><br>$id The ID of the record to read</dd>
+					<dt><var>$direct</var></dt>
+					<dd><code>boolean</code><br>$direct whether to return only the direct, or all, children</dd>
+					<dt><var>$fields</var></dt>
+					<dd><code>mixed</code><br>$fields Either a single string of a field name, or an array of field names</dd>
+					<dt><var>$order</var></dt>
+					<dd><code>string</code><br>$order SQL ORDER BY conditions (e.g. "price DESC" or "name ASC") defaults to the
+tree order</dd>
+					<dt><var>$limit</var></dt>
+					<dd><code>integer</code><br>$limit SQL LIMIT clause, for calculating items per page.</dd>
+					<dt><var>$page</var></dt>
+					<dd><code>integer</code><br>$page Page number, for accessing paged data</dd>
+					<dt><var>$recursive</var></dt>
+					<dd><code>integer</code><br>$recursive The number of levels deep to fetch associated records</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Array of child nodes<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="generatetreelist" id="_generatetreelist">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_generatetreelist">#</a>
+		<code><a href="source-class-TreeBehavior.html#267-317" title="Go to source code">generatetreelist</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>mixed <var>$conditions</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$keyPath</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$valuePath</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$spacer</var> = <span class="php-quote">'_'</span></span>, <span>integer <var>$recursive</var> = -<span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>A convenience method for returning a hierarchical array used for HTML select
+boxes</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>A convenience method for returning a hierarchical array used for HTML select
+boxes</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$conditions</var></dt>
+					<dd><code>mixed</code><br>$conditions SQL conditions as a string or as an array('field' =&gt;'value',...)</dd>
+					<dt><var>$keyPath</var></dt>
+					<dd><code>string</code><br>$keyPath A string path to the key, i.e. "{n}.Post.id"</dd>
+					<dt><var>$valuePath</var></dt>
+					<dd><code>string</code><br>$valuePath A string path to the value, i.e. "{n}.Post.title"</dd>
+					<dt><var>$spacer</var></dt>
+					<dd><code>string</code><br>$spacer The character or characters which will be repeated</dd>
+					<dt><var>$recursive</var></dt>
+					<dd><code>integer</code><br>$recursive The number of levels deep to fetch associated records</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>An associative array of records, where the id is the key, and the display field
+is the value<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getparentnode" id="_getparentnode">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getparentnode">#</a>
+		<code><a href="source-class-TreeBehavior.html#318-344" title="Go to source code">getparentnode</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>mixed <var>$id</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$fields</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$recursive</var> = -<span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the parent node</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the parent node</p>
+
+<p>reads the parent id and returns this node</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$id</var></dt>
+					<dd><code>mixed</code><br>$id The ID of the record to read</dd>
+					<dt><var>$fields</var></dt>
+					<dd><code>integer</code><br>$recursive The number of levels deep to fetch associated records</dd>
+					<dt><var>$recursive</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Array of data for the parent node<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getpath" id="_getpath">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getpath">#</a>
+		<code><a href="source-class-TreeBehavior.html#345-371" title="Go to source code">getpath</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>mixed <var>$id</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$fields</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$recursive</var> = -<span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the path to the given node</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the path to the given node</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$id</var></dt>
+					<dd><code>mixed</code><br>$id The ID of the record to read</dd>
+					<dt><var>$fields</var></dt>
+					<dd><code>mixed</code><br>$fields Either a single string of a field name, or an array of field names</dd>
+					<dt><var>$recursive</var></dt>
+					<dd><code>integer</code><br>$recursive The number of levels deep to fetch associated records</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Array of nodes from top most parent to current node<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="movedown" id="_movedown">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_movedown">#</a>
+		<code><a href="source-class-TreeBehavior.html#372-419" title="Go to source code">movedown</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>mixed <var>$id</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$number</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Reorder the node without changing the parent.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Reorder the node without changing the parent.</p>
+
+<p>If the node is the last child, or is a top level node with no subsequent node
+this method will return false</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$id</var></dt>
+					<dd><code>mixed</code><br>$id The ID of the record to move</dd>
+					<dt><var>$number</var></dt>
+					<dd><code>mixed</code><br>$number how many places to move the node or true to move to last position</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true on success, false on failure<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="moveup" id="_moveup">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_moveup">#</a>
+		<code><a href="source-class-TreeBehavior.html#420-467" title="Go to source code">moveup</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>mixed <var>$id</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$number</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Reorder the node without changing the parent.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Reorder the node without changing the parent.</p>
+
+<p>If the node is the first child, or is a top level node with no previous node
+this method will return false</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$id</var></dt>
+					<dd><code>mixed</code><br>$id The ID of the record to move</dd>
+					<dt><var>$number</var></dt>
+					<dd><code>mixed</code><br>$number how many places to move the node, or true to move to first position</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true on success, false on failure<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="recover" id="_recover">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_recover">#</a>
+		<code><a href="source-class-TreeBehavior.html#468-508" title="Go to source code">recover</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>string <var>$mode</var> = <span class="php-quote">'parent'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Recover a corrupted tree</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Recover a corrupted tree</p>
+
+<p>The mode parameter is used to specify the source of info that is
+valid/correct. The opposite source of data will be populated based upon that
+source of info. E.g. if the MPTT fields are corrupt or empty, with the $mode
+'parent' the values of the parent_id field will be used to populate the left and
+right fields.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$mode</var></dt>
+					<dd><code>string</code><br>$mode parent or tree</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true on success, false on failure<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removefromtree" id="_removefromtree">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removefromtree">#</a>
+		<code><a href="source-class-TreeBehavior.html#509-561" title="Go to source code">removefromtree</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>mixed <var>$id</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$delete</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Remove the current node from the tree, and reparent all children up one
+level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove the current node from the tree, and reparent all children up one
+level.</p>
+
+<p>If the parameter delete is false, the node will become a new top level node.
+Otherwise the node will be deleted after the children are reparented.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$id</var></dt>
+					<dd><code>mixed</code><br>$id The ID of the record to remove</dd>
+					<dt><var>$delete</var></dt>
+					<dd><code>boolean</code><br>$delete whether to delete the node after reparenting children (if any)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true on success, false on failure<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setparent" id="_setparent">
+
+		<td class="attributes"><code>
+			 public 
+			true
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setparent">#</a>
+		<code><a href="source-class-TreeBehavior.html#562-578" title="Go to source code">setparent</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>mixed <var>$parentId</var> = <span class="php-keyword1">null</span> </span>, <span>mixed <var>$created</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Backward compatible method</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Backward compatible method</p>
+
+<p>Returns true if the change is successful.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$parentId</var></dt>
+					<dd><code>mixed</code><br>$parentId The ID to set as the parent of the current node.</dd>
+					<dt><var>$created</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>true</code><br>on success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="verify" id="_verify">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_verify">#</a>
+		<code><a href="source-class-TreeBehavior.html#579-642" title="Go to source code">verify</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check if the current tree is valid.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if the current tree is valid.</p>
+
+<p>Returns true if the tree is valid otherwise an array of (type, incorrect
+left/right index, message)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>true if the tree is valid or empty, otherwise an array of (error type [index,
+node], [incorrect left/right index,node id], message)<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setParent" id="__setParent">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setParent">#</a>
+		<code><a href="source-class-TreeBehavior.html#643-700" title="Go to source code">_setParent</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>mixed <var>$parentId</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the parent of the given node</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the parent of the given node</p>
+
+<p>The force parameter is used to override the "don't change the parent to the
+current parent" logic in the event of recovering a corrupted table, or creating
+new nodes. Otherwise it should always be false. In reality this method could be
+private, since calling save with parent_id set also calls setParent</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$parentId</var></dt>
+					<dd><code>mixed</code><br>$parentId</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true on success, false on failure<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__getMax" id="___getMax">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___getMax">#</a>
+		<code><a href="source-class-TreeBehavior.html#701-713" title="Go to source code">__getMax</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>$model</var></span>, <span>string <var>$scope</var></span>, <span>string <var>$right</var></span> )</code>
+
+		<div class="description short">
+			
+<p>get the maximum index value in the table.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>get the maximum index value in the table.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$scope</var></dt>
+					<dd><code>string</code><br>$scope</dd>
+					<dt><var>$right</var></dt>
+					<dd><code>string</code><br>$right</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__getMin" id="___getMin">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___getMin">#</a>
+		<code><a href="source-class-TreeBehavior.html#714-726" title="Go to source code">__getMin</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>$model</var></span>, <span>string <var>$scope</var></span>, <span>string <var>$left</var></span> )</code>
+
+		<div class="description short">
+			
+<p>get the minimum index value in the table.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>get the minimum index value in the table.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$scope</var></dt>
+					<dd><code>string</code><br>$scope</dd>
+					<dt><var>$left</var></dt>
+					<dd><code>string</code><br>$right</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__sync" id="___sync">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___sync">#</a>
+		<code><a href="source-class-TreeBehavior.html#727-756" title="Go to source code">__sync</a>( <span><code><a href="class-AppModel.html" class="invalid">AppModel</a></code> <var>&amp; $model</var></span>, <span>integer <var>$shift</var></span>, <span>string <var>$dir</var> = <span class="php-quote">'+'</span></span>, <span>array <var>$conditions</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$field</var> = <span class="php-quote">'both'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Table sync method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Table sync method.</p>
+
+<p>Handles table sync operations, Taking account of the behavior scope.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-AppModel.html" class="invalid">AppModel</a></code></code><br>$model</dd>
+					<dt><var>$shift</var></dt>
+					<dd><code>integer</code><br>$shift</dd>
+					<dt><var>$dir</var></dt>
+					<dd><code>string</code><br>$direction</dd>
+					<dt><var>$conditions</var></dt>
+					<dd><code>array</code><br>$conditions</dd>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code><br>$field</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-ModelBehavior.html#methods">ModelBehavior</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-ModelBehavior.html#__addToWhitelist">_addToWhitelist()</a>, 
+			<a href="class-ModelBehavior.html#_afterDelete">afterDelete()</a>, 
+			<a href="class-ModelBehavior.html#_afterFind">afterFind()</a>, 
+			<a href="class-ModelBehavior.html#_beforeFind">beforeFind()</a>, 
+			<a href="class-ModelBehavior.html#_beforeValidate">beforeValidate()</a>, 
+			<a href="class-ModelBehavior.html#_onError">onError()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Object.html#methods">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#_Object">Object()</a>, 
+			<a href="class-Object.html#___construct">__construct()</a>, 
+			<a href="class-Object.html#___openPersistent">__openPersistent()</a>, 
+			<a href="class-Object.html#__persist">_persist()</a>, 
+			<a href="class-Object.html#__savePersistent">_savePersistent()</a>, 
+			<a href="class-Object.html#__set">_set()</a>, 
+			<a href="class-Object.html#_cakeError">cakeError()</a>, 
+			<a href="class-Object.html#_log">log()</a>, 
+			<a href="class-Object.html#_requestAction">requestAction()</a>, 
+			<a href="class-Object.html#_toString">toString()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-ModelBehavior.html#properties">ModelBehavior</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-ModelBehavior.html#$mapMethods"><var>$mapMethods</var></a>, 
+			<a href="class-ModelBehavior.html#$settings"><var>$settings</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Object.html#properties">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#$_log"><var>$_log</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

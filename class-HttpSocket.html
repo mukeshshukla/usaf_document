@@ -1,0 +1,1863 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class HttpSocket | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-App.html">App</a></li>
+				<li><a href="class-Cache.html">Cache</a></li>
+				<li><a href="class-CacheEngine.html">CacheEngine</a></li>
+				<li><a href="class-CakeLog.html">CakeLog</a></li>
+				<li><a href="class-CakeSession.html">CakeSession</a></li>
+				<li><a href="class-CakeSocket.html">CakeSocket</a></li>
+				<li><a href="class-CalendarclassComponent.html">CalendarclassComponent</a></li>
+				<li><a href="class-CasAuthenticationComponent.html">CasAuthenticationComponent</a></li>
+				<li><a href="class-CheckoutComponent.html">CheckoutComponent</a></li>
+				<li><a href="class-ClassRegistry.html">ClassRegistry</a></li>
+				<li><a href="class-Configure.html">Configure</a></li>
+				<li><a href="class-ConnectionManager.html">ConnectionManager</a></li>
+				<li><a href="class-DateTimeComponent.html">DateTimeComponent</a></li>
+				<li><a href="class-Debugger.html">Debugger</a></li>
+				<li><a href="class-File.html">File</a></li>
+				<li><a href="class-FileUploadComponent.html">FileUploadComponent</a></li>
+				<li><a href="class-Flay.html">Flay</a></li>
+				<li><a href="class-Folder.html">Folder</a></li>
+				<li><a href="class-GeoIpComponent.html">GeoIpComponent</a></li>
+				<li><a href="class-GifPixComponent.html">GifPixComponent</a></li>
+				<li class="active"><a href="class-HttpSocket.html">HttpSocket</a></li>
+				<li><a href="class-I18n.html">I18n</a></li>
+				<li><a href="class-ImageComponent.html">ImageComponent</a></li>
+				<li><a href="class-Inflector.html">Inflector</a></li>
+				<li><a href="class-L10n.html">L10n</a></li>
+				<li><a href="class-MailChimpComponent.html">MailChimpComponent</a></li>
+				<li><a href="class-ManageLaMemberComponent.html">ManageLaMemberComponent</a></li>
+				<li><a href="class-NeatString.html">NeatString</a></li>
+				<li><a href="class-NominationNominationComponent.html">NominationNominationComponent</a></li>
+				<li><a href="class-Object.html">Object</a></li>
+				<li><a href="class-OutputComponent.html">OutputComponent</a></li>
+				<li><a href="class-PayFlowProComponent.html">PayFlowProComponent</a></li>
+				<li><a href="class-PlayersRegComponent.html">PlayersRegComponent</a></li>
+				<li><a href="class-RegistrationComponent.html">RegistrationComponent</a></li>
+				<li><a href="class-Router.html">Router</a></li>
+				<li><a href="class-Sanitize.html">Sanitize</a></li>
+				<li><a href="class-Security.html">Security</a></li>
+				<li><a href="class-ServerCopyComponent.html">ServerCopyComponent</a></li>
+				<li><a href="class-SessionHelper.html">SessionHelper</a></li>
+				<li><a href="class-Set.html">Set</a></li>
+				<li><a href="class-SimplepieComponent.html">SimplepieComponent</a></li>
+				<li><a href="class-String.html">String</a></li>
+				<li><a href="class-SwiftMailerComponent.html">SwiftMailerComponent</a></li>
+				<li><a href="class-Validation.html">Validation</a></li>
+				<li><a href="class-VerifyEmailComponent.html">VerifyEmailComponent</a></li>
+				<li><a href="class-XML.html">XML</a></li>
+				<li><a href="class-XMLNode.html">XMLNode</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-__enclose.html">__enclose</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.html" title="Summary of cake\cake\libs"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class HttpSocket</h1>
+
+
+	<div class="description">
+	
+<p>Cake network socket connection class.</p>
+
+<p>Core base class for HTTP network communication.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Object.html"><span>Object</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-CakeSocket.html"><span>CakeSocket</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>HttpSocket</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-HttpSocket.html#29-962" title="Go to source code">cake/libs/http_socket.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-HttpSocket.html#146-158" title="Go to source code">__construct</a>( <span>array <var>$config</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Build an HTTP Socket using the specified configuration.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Build an HTTP Socket using the specified configuration.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$config</var></dt>
+					<dd><code>array</code><br>$config Configuration</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-CakeSocket.html#___construct">CakeSocket::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="request" id="_request">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_request">#</a>
+		<code><a href="source-class-HttpSocket.html#160-255" title="Go to source code">request</a>( <span>mixed <var>$request</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Issue the specified request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Issue the specified request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>mixed</code><br>$request Either an URI string, or an array defining host/uri</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>false on error, request body on success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-HttpSocket.html#257-279" title="Go to source code">get</a>( <span>mixed <var>$uri</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$query</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$request</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Issues a GET request to the specified URI, query, and request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Issues a GET request to the specified URI, query, and request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$uri</var></dt>
+					<dd><code>mixed</code><br>$uri URI to request (see <code><a href="class-HttpSocket.html#_parseUri">HttpSocket::parseUri()</a></code>)</dd>
+					<dt><var>$query</var></dt>
+					<dd><code>array</code><br>$query Query to append to URI</dd>
+					<dt><var>$request</var></dt>
+					<dd><code>array</code><br>$request An indexed array with indexes such as 'method' or uri</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Result of request<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="post" id="_post">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_post">#</a>
+		<code><a href="source-class-HttpSocket.html#281-293" title="Go to source code">post</a>( <span>mixed <var>$uri</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$request</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Issues a POST request to the specified URI, query, and request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Issues a POST request to the specified URI, query, and request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$uri</var></dt>
+					<dd><code>mixed</code><br>$uri URI to request (see <code><a href="class-HttpSocket.html#_parseUri">HttpSocket::parseUri()</a></code>)</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$query Query to append to URI</dd>
+					<dt><var>$request</var></dt>
+					<dd><code>array</code><br>$request An indexed array with indexes such as 'method' or uri</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Result of request<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="put" id="_put">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_put">#</a>
+		<code><a href="source-class-HttpSocket.html#295-307" title="Go to source code">put</a>( <span>mixed <var>$uri</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$request</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Issues a PUT request to the specified URI, query, and request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Issues a PUT request to the specified URI, query, and request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$uri</var></dt>
+					<dd><code>mixed</code><br>$uri URI to request (see <code><a href="class-HttpSocket.html#_parseUri">HttpSocket::parseUri()</a></code>)</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$query Query to append to URI</dd>
+					<dt><var>$request</var></dt>
+					<dd><code>array</code><br>$request An indexed array with indexes such as 'method' or uri</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Result of request<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-HttpSocket.html#309-321" title="Go to source code">delete</a>( <span>mixed <var>$uri</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$request</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Issues a DELETE request to the specified URI, query, and request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Issues a DELETE request to the specified URI, query, and request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$uri</var></dt>
+					<dd><code>mixed</code><br>$uri URI to request (see <code><a href="class-HttpSocket.html#_parseUri">HttpSocket::parseUri()</a></code>)</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$query Query to append to URI</dd>
+					<dt><var>$request</var></dt>
+					<dd><code>array</code><br>$request An indexed array with indexes such as 'method' or uri</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Result of request<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="url" id="_url">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_url">#</a>
+		<code><a href="source-class-HttpSocket.html#322-355" title="Go to source code">url</a>( <span>unknown <var>$url</var> = <span class="php-keyword1">null</span></span>, <span>unknown <var>$uriTemplate</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>undocumented function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>undocumented function</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>unknown</code><br>$url</dd>
+					<dt><var>$uriTemplate</var></dt>
+					<dd><code>unknown</code><br>$uriTemplate</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseResponse" id="_parseResponse">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseResponse">#</a>
+		<code><a href="source-class-HttpSocket.html#357-410" title="Go to source code">parseResponse</a>( <span>string <var>$message</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parses the given message and breaks it down in parts.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parses the given message and breaks it down in parts.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to parse</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Parsed message (with indexed elements such as raw, status, header, body)<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="decodeBody" id="_decodeBody">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_decodeBody">#</a>
+		<code><a href="source-class-HttpSocket.html#411-436" title="Go to source code">decodeBody</a>( <span>string <var>$body</var></span>, <span>mixed <var>$encoding</var> = <span class="php-quote">'chunked'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Generic function to decode a $body with a given $encoding. Returns either an
+array with the keys 'body' and 'header' or false on failure.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generic function to decode a $body with a given $encoding. Returns either an
+array with the keys 'body' and 'header' or false on failure.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$body</var></dt>
+					<dd><code>string</code><br>$body A string continaing the body to decode</dd>
+					<dt><var>$encoding</var></dt>
+					<dd><code>mixed</code><br>$encoding Can be false in case no encoding is being used, or a string
+representing the encoding</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Array or false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="decodeChunkedBody" id="_decodeChunkedBody">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_decodeChunkedBody">#</a>
+		<code><a href="source-class-HttpSocket.html#437-482" title="Go to source code">decodeChunkedBody</a>( <span>string <var>$body</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Decodes a chunked message $body and returns either an array with the keys
+'body' and 'header' or false as a result.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Decodes a chunked message $body and returns either an array with the keys
+'body' and 'header' or false as a result.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$body</var></dt>
+					<dd><code>string</code><br>$body A string continaing the chunked body to decode</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Array or false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="configUri" id="_configUri">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_configUri">#</a>
+		<code><a href="source-class-HttpSocket.html#483-514" title="Go to source code">configUri</a>( <span>mixed <var>$uri</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Parses and sets the specified URI into current request configuration.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parses and sets the specified URI into current request configuration.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$uri</var></dt>
+					<dd><code>mixed</code><br>$uri URI (see <code><a href="class-HttpSocket.html#_parseUri">HttpSocket::parseUri()</a></code>)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Current configuration settings<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="buildUri" id="_buildUri">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_buildUri">#</a>
+		<code><a href="source-class-HttpSocket.html#515-560" title="Go to source code">buildUri</a>( <span>array <var>$uri</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$uriTemplate</var> = <span class="php-quote">'%scheme://%user:%pass@%host:%port/%path?%query#%fragment'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Takes a $uri array and turns it into a fully qualified URL string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Takes a $uri array and turns it into a fully qualified URL string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$uri</var></dt>
+					<dd><code>array</code><br>$uri A $uri array, or uses $this-&gt;config if left empty</dd>
+					<dt><var>$uriTemplate</var></dt>
+					<dd><code>string</code><br>$uriTemplate The Uri template/format to use</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>A fully qualified URL formated according to $uriTemplate<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseUri" id="_parseUri">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseUri">#</a>
+		<code><a href="source-class-HttpSocket.html#561-619" title="Go to source code">parseUri</a>( <span>string <var>$uri</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$base</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Parses the given URI and breaks it down into pieces as an indexed array with
+elements such as 'scheme', 'port', 'query'.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parses the given URI and breaks it down into pieces as an indexed array with
+elements such as 'scheme', 'port', 'query'.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri URI to parse</dd>
+					<dt><var>$base</var></dt>
+					<dd><code>mixed</code><br>$base If true use default URI config, otherwise indexed array to set 'scheme',
+'host', 'port', etc.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Parsed URI<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseQuery" id="_parseQuery">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseQuery">#</a>
+		<code><a href="source-class-HttpSocket.html#620-687" title="Go to source code">parseQuery</a>( <span>mixed <var>$query</var></span> )</code>
+
+		<div class="description short">
+			
+<p>This function can be thought of as a reverse to PHP5's http_build_query(). It
+takes a given query string and turns it into an array and supports nesting by
+using the php bracket syntax. So this menas you can parse queries like:</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>This function can be thought of as a reverse to PHP5's http_build_query(). It
+takes a given query string and turns it into an array and supports nesting by
+using the php bracket syntax. So this menas you can parse queries like:</p>
+
+<ul>
+	<li>?key[subKey]=value</li>
+
+	<li>?key[]=value1&amp;key[]=value2</li>
+</ul>
+
+<p>A leading '?' mark in $query is optional and does not effect the outcome of
+this function. For the complete capabilities of this implementation take a look
+at HttpSocketTest::testParseQuery()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd><code>mixed</code><br>$query A query string to parse into an array or an array to return directly "as
+is"</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>The $query parsed into a possibly multi-level array. If an empty $query is
+given, an empty array is returned.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="buildRequestLine" id="_buildRequestLine">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_buildRequestLine">#</a>
+		<code><a href="source-class-HttpSocket.html#688-721" title="Go to source code">buildRequestLine</a>( <span>array <var>$request</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$versionToken</var> = <span class="php-quote">'HTTP/1.1'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Builds a request line according to HTTP/1.1 specs. Activate quirks mode to
+work outside specs.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Builds a request line according to HTTP/1.1 specs. Activate quirks mode to
+work outside specs.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>array</code><br>$request Needs to contain a 'uri' key. Should also contain a 'method' key,
+otherwise defaults to GET.</dd>
+					<dt><var>$versionToken</var></dt>
+					<dd><code>string</code><br>$versionToken The version token to use, defaults to HTTP/1.1</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Request line<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="httpSerialize" id="_httpSerialize">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_httpSerialize">#</a>
+		<code><a href="source-class-HttpSocket.html#723-738" title="Go to source code">httpSerialize</a>( <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Serializes an array for transport.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Serializes an array for transport.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data Data to serialize</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Serialized variable<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="buildHeader" id="_buildHeader">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_buildHeader">#</a>
+		<code><a href="source-class-HttpSocket.html#739-766" title="Go to source code">buildHeader</a>( <span>array <var>$header</var></span>, <span>mixed <var>$mode</var> = <span class="php-quote">'standard'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Builds the header.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Builds the header.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$header</var></dt>
+					<dd><code>array</code><br>$header Header to build</dd>
+					<dt><var>$mode</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Header built from array<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseHeader" id="_parseHeader">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseHeader">#</a>
+		<code><a href="source-class-HttpSocket.html#768-816" title="Go to source code">parseHeader</a>( <span>array <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parses an array based header.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parses an array based header.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$header</var></dt>
+					<dd><code>array</code><br>$header Header as an indexed array (field =&gt; value)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Parsed header<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseCookies" id="_parseCookies">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseCookies">#</a>
+		<code><a href="source-class-HttpSocket.html#817-847" title="Go to source code">parseCookies</a>( <span>unknown <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+<p>undocumented function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>undocumented function</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$header</var></dt>
+					<dd><code>unknown</code><br>$header</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="buildCookies" id="_buildCookies">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_buildCookies">#</a>
+		<code><a href="source-class-HttpSocket.html#848-863" title="Go to source code">buildCookies</a>( <span>unknown <var>$cookies</var></span> )</code>
+
+		<div class="description short">
+			
+<p>undocumented function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>undocumented function</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$cookies</var></dt>
+					<dd><code>unknown</code><br>$cookies</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="saveCookies" id="_saveCookies">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_saveCookies">#</a>
+		<code><a href="source-class-HttpSocket.html#864-872" title="Go to source code">saveCookies</a>( )</code>
+
+		<div class="description short">
+			
+<p>undocumented function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>undocumented function</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="loadCookies" id="_loadCookies">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_loadCookies">#</a>
+		<code><a href="source-class-HttpSocket.html#873-881" title="Go to source code">loadCookies</a>( )</code>
+
+		<div class="description short">
+			
+<p>undocumented function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>undocumented function</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="unescapeToken" id="_unescapeToken">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_unescapeToken">#</a>
+		<code><a href="source-class-HttpSocket.html#882-894" title="Go to source code">unescapeToken</a>( <span>string <var>$token</var></span>, <span>mixed <var>$chars</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Unescapes a given $token according to RFC 2616 (HTTP 1.1 specs)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Unescapes a given $token according to RFC 2616 (HTTP 1.1 specs)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$token</var></dt>
+					<dd><code>string</code><br>$token Token to unescape</dd>
+					<dt><var>$chars</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Unescaped token<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="escapeToken" id="_escapeToken">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_escapeToken">#</a>
+		<code><a href="source-class-HttpSocket.html#895-907" title="Go to source code">escapeToken</a>( <span>string <var>$token</var></span>, <span>mixed <var>$chars</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Escapes a given $token according to RFC 2616 (HTTP 1.1 specs)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Escapes a given $token according to RFC 2616 (HTTP 1.1 specs)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$token</var></dt>
+					<dd><code>string</code><br>$token Token to escape</dd>
+					<dt><var>$chars</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Escaped token<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__tokenEscapeChars" id="___tokenEscapeChars">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___tokenEscapeChars">#</a>
+		<code><a href="source-class-HttpSocket.html#909-936" title="Go to source code">__tokenEscapeChars</a>( <span>boolean <var>$hex</var> = <span class="php-keyword1">true</span></span>, <span>mixed <var>$chars</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets escape chars according to RFC 2616 (HTTP 1.1 specs).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets escape chars according to RFC 2616 (HTTP 1.1 specs).</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$hex</var></dt>
+					<dd><code>boolean</code><br>$hex true to get them as HEX values, false otherwise</dd>
+					<dt><var>$chars</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Escape chars<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="reset" id="_reset">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_reset">#</a>
+		<code><a href="source-class-HttpSocket.html#937-961" title="Go to source code">reset</a>( <span>boolean <var>$full</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Resets the state of this HttpSocket instance to it's initial state (before
+Object::__construct got executed) or does the same thing partially for the
+request and the response property only.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resets the state of this HttpSocket instance to it's initial state (before
+Object::__construct got executed) or does the same thing partially for the
+request and the response property only.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$full</var></dt>
+					<dd><code>boolean</code><br>$full If set to false only HttpSocket::response and HttpSocket::request are
+reseted</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True on success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-CakeSocket.html#methods">CakeSocket</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CakeSocket.html#___destruct">__destruct()</a>, 
+			<a href="class-CakeSocket.html#_abort">abort()</a>, 
+			<a href="class-CakeSocket.html#_address">address()</a>, 
+			<a href="class-CakeSocket.html#_addresses">addresses()</a>, 
+			<a href="class-CakeSocket.html#_connect">connect()</a>, 
+			<a href="class-CakeSocket.html#_disconnect">disconnect()</a>, 
+			<a href="class-CakeSocket.html#_host">host()</a>, 
+			<a href="class-CakeSocket.html#_lastError">lastError()</a>, 
+			<a href="class-CakeSocket.html#_read">read()</a>, 
+			<a href="class-CakeSocket.html#_setLastError">setLastError()</a>, 
+			<a href="class-CakeSocket.html#_write">write()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Object.html#methods">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#_Object">Object()</a>, 
+			<a href="class-Object.html#___openPersistent">__openPersistent()</a>, 
+			<a href="class-Object.html#__persist">_persist()</a>, 
+			<a href="class-Object.html#__savePersistent">_savePersistent()</a>, 
+			<a href="class-Object.html#__set">_set()</a>, 
+			<a href="class-Object.html#_cakeError">cakeError()</a>, 
+			<a href="class-Object.html#_log">log()</a>, 
+			<a href="class-Object.html#_requestAction">requestAction()</a>, 
+			<a href="class-Object.html#_toString">toString()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="description" id="$description">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-HttpSocket.html#38-44" title="Go to source code"><var>$description</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'HTTP-based DataSource Interface'</span></code></td>
+		<td class="description"><div>
+			<a href="#$description" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Object description</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Object description</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="quirksMode" id="$quirksMode">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-HttpSocket.html#46-53" title="Go to source code"><var>$quirksMode</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$quirksMode" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>When one activates the $quirksMode by setting it to true, all checks meant to
+enforce RFC 2616 (HTTP/1.1 specs) will be disabled and additional measures to
+deal with non-standard responses will be enabled.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>When one activates the $quirksMode by setting it to true, all checks meant to
+enforce RFC 2616 (HTTP/1.1 specs) will be disabled and additional measures to
+deal with non-standard responses will be enabled.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="request" id="$request">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-HttpSocket.html#55-87" title="Go to source code"><var>$request</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'method'</span> =&gt; <span class="php-quote">'GET'</span>,
+    <span class="php-quote">'uri'</span> =&gt; <span class="php-keyword1">array</span>(
+        <span class="php-quote">'scheme'</span> =&gt; <span class="php-quote">'http'</span>,
+        <span class="php-quote">'host'</span> =&gt; <span class="php-keyword1">null</span>,
+        <span class="php-quote">'port'</span> =&gt; <span class="php-num">80</span>,
+        <span class="php-quote">'user'</span> =&gt; <span class="php-keyword1">null</span>,
+        <span class="php-quote">'pass'</span> =&gt; <span class="php-keyword1">null</span>,
+        <span class="php-quote">'path'</span> =&gt; <span class="php-keyword1">null</span>,
+        <span class="php-quote">'query'</span> =&gt; <span class="php-keyword1">null</span>,
+        <span class="php-quote">'fragment'</span> =&gt; <span class="php-keyword1">null</span>
+    ),
+    <span class="php-quote">'auth'</span> =&gt; <span class="php-keyword1">array</span>(
+        <span class="php-quote">'method'</span> =&gt; <span class="php-quote">'basic'</span>,
+        <span class="php-quote">'user'</span> =&gt; <span class="php-keyword1">null</span>,
+        <span class="php-quote">'pass'</span> =&gt; <span class="php-keyword1">null</span>
+    ),
+    <span class="php-quote">'version'</span> =&gt; <span class="php-quote">'1.1'</span>,
+    <span class="php-quote">'body'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'line'</span> =&gt; <span class="php-keyword1">null</span>,
+    <span class="php-quote">'header'</span> =&gt; <span class="php-keyword1">array</span>(
+        <span class="php-quote">'Connection'</span> =&gt; <span class="php-quote">'close'</span>,
+        <span class="php-quote">'User-Agent'</span> =&gt; <span class="php-quote">'CakePHP'</span>
+    ),
+    <span class="php-quote">'raw'</span> =&gt; <span class="php-keyword1">null</span>,
+    <span class="php-quote">'cookies'</span> =&gt; <span class="php-keyword1">array</span>()
+)</code></td>
+		<td class="description"><div>
+			<a href="#$request" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The default values to use for a request</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The default values to use for a request</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="response" id="$response">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-HttpSocket.html#88-109" title="Go to source code"><var>$response</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'raw'</span> =&gt; <span class="php-keyword1">array</span>(
+        <span class="php-quote">'status-line'</span> =&gt; <span class="php-keyword1">null</span>,
+        <span class="php-quote">'header'</span> =&gt; <span class="php-keyword1">null</span>,
+         <span class="php-quote">'body'</span> =&gt; <span class="php-keyword1">null</span>,
+         <span class="php-quote">'response'</span> =&gt; <span class="php-keyword1">null</span>
+    ),
+    <span class="php-quote">'status'</span> =&gt; <span class="php-keyword1">array</span>(
+        <span class="php-quote">'http-version'</span> =&gt; <span class="php-keyword1">null</span>,
+        <span class="php-quote">'code'</span> =&gt; <span class="php-keyword1">null</span>,
+        <span class="php-quote">'reason-phrase'</span> =&gt; <span class="php-keyword1">null</span>
+    ),
+    <span class="php-quote">'header'</span> =&gt; <span class="php-keyword1">array</span>(),
+    <span class="php-quote">'body'</span> =&gt; <span class="php-quote">''</span>,
+    <span class="php-quote">'cookies'</span> =&gt; <span class="php-keyword1">array</span>(),
+)</code></td>
+		<td class="description"><div>
+			<a href="#$response" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The default structure for storing the response</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The default structure for storing the response</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="config" id="$config">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-HttpSocket.html#111-136" title="Go to source code"><var>$config</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'persistent'</span> =&gt; <span class="php-keyword1">false</span>,
+    <span class="php-quote">'host'</span>       =&gt; <span class="php-quote">'localhost'</span>,
+    <span class="php-quote">'protocol'</span>   =&gt; <span class="php-quote">'tcp'</span>,
+    <span class="php-quote">'port'</span>       =&gt; <span class="php-num">80</span>,
+    <span class="php-quote">'timeout'</span>    =&gt; <span class="php-num">30</span>,
+    <span class="php-quote">'request'</span> =&gt; <span class="php-keyword1">array</span>(
+        <span class="php-quote">'uri'</span> =&gt; <span class="php-keyword1">array</span>(
+            <span class="php-quote">'scheme'</span> =&gt; <span class="php-quote">'http'</span>,
+            <span class="php-quote">'host'</span> =&gt; <span class="php-quote">'localhost'</span>,
+            <span class="php-quote">'port'</span> =&gt; <span class="php-num">80</span>
+        ),
+        <span class="php-quote">'auth'</span> =&gt; <span class="php-keyword1">array</span>(
+            <span class="php-quote">'method'</span> =&gt; <span class="php-quote">'basic'</span>,
+            <span class="php-quote">'user'</span> =&gt; <span class="php-keyword1">null</span>,
+            <span class="php-quote">'pass'</span> =&gt; <span class="php-keyword1">null</span>
+        ),
+        <span class="php-quote">'cookies'</span> =&gt; <span class="php-keyword1">array</span>(),
+    )
+)</code></td>
+		<td class="description"><div>
+			<a href="#$config" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Default configuration settings for the HttpSocket</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Default configuration settings for the HttpSocket</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="lineBreak" id="$lineBreak">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-HttpSocket.html#138-144" title="Go to source code"><var>$lineBreak</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">&quot;\r\n&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$lineBreak" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>String that represents a line break.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>String that represents a line break.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-CakeSocket.html#properties">CakeSocket</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CakeSocket.html#$_baseConfig"><var>$_baseConfig</var></a>, 
+			<a href="class-CakeSocket.html#$connected"><var>$connected</var></a>, 
+			<a href="class-CakeSocket.html#$connection"><var>$connection</var></a>, 
+			<a href="class-CakeSocket.html#$error"><var>$error</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Object.html#properties">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#$_log"><var>$_log</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

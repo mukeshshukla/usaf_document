@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+	<meta name="robots" content="noindex" />
+
+	<title>File cake/tests/cases/libs/class_registry.test.php | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AcoActionTest.html">AcoActionTest</a></li>
+				<li><a href="class-Article2.html">Article2</a></li>
+				<li><a href="class-ArticleFeatured2.html">ArticleFeatured2</a></li>
+				<li><a href="class-CacheTestModel.html">CacheTestModel</a></li>
+				<li><a href="class-CakeHtmlReporter.html">CakeHtmlReporter</a></li>
+				<li><a href="class-CakeTestCase.html">CakeTestCase</a></li>
+				<li><a href="class-CakeTestDispatcher.html">CakeTestDispatcher</a></li>
+				<li><a href="class-CakeTestFixture.html">CakeTestFixture</a></li>
+				<li><a href="class-CakeTestModel.html">CakeTestModel</a></li>
+				<li><a href="class-CakeWebTestCase.html">CakeWebTestCase</a></li>
+				<li><a href="class-Category2.html">Category2</a></li>
+				<li><a href="class-CategoryFeatured2.html">CategoryFeatured2</a></li>
+				<li><a href="class-ClassRegisterModel.html">ClassRegisterModel</a></li>
+				<li><a href="class-CliTestManager.html">CliTestManager</a></li>
+				<li><a href="class-Comment2.html">Comment2</a></li>
+				<li><a href="class-Contact.html">Contact</a></li>
+				<li><a href="class-ControllerComment.html">ControllerComment</a></li>
+				<li><a href="class-ControllerPost.html">ControllerPost</a></li>
+				<li><a href="class-Device.html">Device</a></li>
+				<li><a href="class-DeviceType.html">DeviceType</a></li>
+				<li><a href="class-DeviceTypeCategory.html">DeviceTypeCategory</a></li>
+				<li><a href="class-Document.html">Document</a></li>
+				<li><a href="class-DocumentDirectory.html">DocumentDirectory</a></li>
+				<li><a href="class-EmailTest.html">EmailTest</a></li>
+				<li><a href="class-ExteriorTypeCategory.html">ExteriorTypeCategory</a></li>
+				<li><a href="class-Featured2.html">Featured2</a></li>
+				<li><a href="class-FeatureSet.html">FeatureSet</a></li>
+				<li><a href="class-Group.html">Group</a></li>
+				<li><a href="class-HtmlTestManager.html">HtmlTestManager</a></li>
+				<li><a href="class-Image.html">Image</a></li>
+				<li><a href="class-Item.html">Item</a></li>
+				<li><a href="class-ItemsPortfolio.html">ItemsPortfolio</a></li>
+				<li><a href="class-JoinThing.html">JoinThing</a></li>
+				<li><a href="class-Level.html">Level</a></li>
+				<li><a href="class-ModelA.html">ModelA</a></li>
+				<li><a href="class-ModelB.html">ModelB</a></li>
+				<li><a href="class-ModelC.html">ModelC</a></li>
+				<li><a href="class-ModelD.html">ModelD</a></li>
+				<li><a href="class-NodeAfterFind.html">NodeAfterFind</a></li>
+				<li><a href="class-NodeAfterFindSample.html">NodeAfterFindSample</a></li>
+				<li><a href="class-NodeNoAfterFind.html">NodeNoAfterFind</a></li>
+				<li><a href="class-NumberTreeCase.html">NumberTreeCase</a></li>
+				<li><a href="class-OpenidUrl.html">OpenidUrl</a></li>
+				<li><a href="class-PermissionTest.html">PermissionTest</a></li>
+				<li><a href="class-Portfolio.html">Portfolio</a></li>
+				<li><a href="class-PostsTag.html">PostsTag</a></li>
+				<li><a href="class-PrimaryModel.html">PrimaryModel</a></li>
+				<li class="active"><a href="class-RegisterArticle.html">RegisterArticle</a></li>
+				<li><a href="class-RegisterArticleFeatured.html">RegisterArticleFeatured</a></li>
+				<li><a href="class-RegisterArticleTag.html">RegisterArticleTag</a></li>
+				<li><a href="class-RegisterControllerTest.html">RegisterControllerTest</a></li>
+				<li><a href="class-RegistrationRestControllerTest.html">RegistrationRestControllerTest</a></li>
+				<li><a href="class-ScaffoldMock.html">ScaffoldMock</a></li>
+				<li><a href="class-ScheduleFixture.html">ScheduleFixture</a></li>
+				<li><a href="class-ScheduleTestCase.html">ScheduleTestCase</a></li>
+				<li><a href="class-SecondaryModel.html">SecondaryModel</a></li>
+				<li><a href="class-Something.html">Something</a></li>
+				<li><a href="class-SomethingElse.html">SomethingElse</a></li>
+				<li><a href="class-Syfile.html">Syfile</a></li>
+				<li><a href="class-TestManager.html">TestManager</a></li>
+				<li><a href="class-TextTestManager.html">TextTestManager</a></li>
+				<li><a href="class-User2.html">User2</a></li>
+				<li><a href="class-UserForm.html">UserForm</a></li>
+				<li><a href="class-UserRestControllerTest.html">UserRestControllerTest</a></li>
+				<li><a href="class-ValidateItem.html">ValidateItem</a></li>
+				<li><a href="class-ValidateProfile.html">ValidateProfile</a></li>
+				<li><a href="class-ValidateUser.html">ValidateUser</a></li>
+				<li><a href="class-ZazzleStorefrontControllerTest.html">ZazzleStorefrontControllerTest</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.tests.lib.html" title="Summary of cake\cake\tests\lib"><span>Package</span></a>
+			</li>
+			<li>
+				<a href="class-RegisterArticle.html" title="Summary of RegisterArticle"><span>Class</span></a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<pre><code><span id="1" class="l"><a class="l" href="#1">  1: </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a class="l" href="#2">  2: </a><span class="php-comment">/* SVN FILE: $Id: class_registry.test.php 6311 2008-01-02 06:33:52Z phpnut $ */</span>
+</span><span id="3" class="l"><a class="l" href="#3">  3: </a><span class="php-comment">/**
+</span></span><span id="4" class="l"><a class="l" href="#4">  4: </a><span class="php-comment"> * Short description for file.
+</span></span><span id="5" class="l"><a class="l" href="#5">  5: </a><span class="php-comment"> *
+</span></span><span id="6" class="l"><a class="l" href="#6">  6: </a><span class="php-comment"> * Long description for file
+</span></span><span id="7" class="l"><a class="l" href="#7">  7: </a><span class="php-comment"> *
+</span></span><span id="8" class="l"><a class="l" href="#8">  8: </a><span class="php-comment"> * PHP versions 4 and 5
+</span></span><span id="9" class="l"><a class="l" href="#9">  9: </a><span class="php-comment"> *
+</span></span><span id="10" class="l"><a class="l" href="#10"> 10: </a><span class="php-comment"> * CakePHP(tm) Tests &lt;https://trac.cakephp.org/wiki/Developement/TestSuite&gt;
+</span></span><span id="11" class="l"><a class="l" href="#11"> 11: </a><span class="php-comment"> * Copyright 2005-2008, Cake Software Foundation, Inc.
+</span></span><span id="12" class="l"><a class="l" href="#12"> 12: </a><span class="php-comment"> *                              1785 E. Sahara Avenue, Suite 490-204
+</span></span><span id="13" class="l"><a class="l" href="#13"> 13: </a><span class="php-comment"> *                              Las Vegas, Nevada 89104
+</span></span><span id="14" class="l"><a class="l" href="#14"> 14: </a><span class="php-comment"> *
+</span></span><span id="15" class="l"><a class="l" href="#15"> 15: </a><span class="php-comment"> *  Licensed under The Open Group Test Suite License
+</span></span><span id="16" class="l"><a class="l" href="#16"> 16: </a><span class="php-comment"> *  Redistributions of files must retain the above copyright notice.
+</span></span><span id="17" class="l"><a class="l" href="#17"> 17: </a><span class="php-comment"> *
+</span></span><span id="18" class="l"><a class="l" href="#18"> 18: </a><span class="php-comment"> * @filesource
+</span></span><span id="19" class="l"><a class="l" href="#19"> 19: </a><span class="php-comment"> * @copyright       Copyright 2005-2008, Cake Software Foundation, Inc.
+</span></span><span id="20" class="l"><a class="l" href="#20"> 20: </a><span class="php-comment"> * @link                https://trac.cakephp.org/wiki/Developement/TestSuite CakePHP(tm) Tests
+</span></span><span id="21" class="l"><a class="l" href="#21"> 21: </a><span class="php-comment"> * @package         cake.tests
+</span></span><span id="22" class="l"><a class="l" href="#22"> 22: </a><span class="php-comment"> * @subpackage      cake.tests.cases.libs
+</span></span><span id="23" class="l"><a class="l" href="#23"> 23: </a><span class="php-comment"> * @since           CakePHP(tm) v 1.2.0.5432
+</span></span><span id="24" class="l"><a class="l" href="#24"> 24: </a><span class="php-comment"> * @version         $Revision: 6311 $
+</span></span><span id="25" class="l"><a class="l" href="#25"> 25: </a><span class="php-comment"> * @modifiedby      $LastChangedBy: phpnut $
+</span></span><span id="26" class="l"><a class="l" href="#26"> 26: </a><span class="php-comment"> * @lastmodified    $Date: 2008-01-02 00:33:52 -0600 (Wed, 02 Jan 2008) $
+</span></span><span id="27" class="l"><a class="l" href="#27"> 27: </a><span class="php-comment"> * @license         http://www.opensource.org/licenses/opengroup.php The Open Group Test Suite License
+</span></span><span id="28" class="l"><a class="l" href="#28"> 28: </a><span class="php-comment"> */</span>
+</span><span id="29" class="l"><a class="l" href="#29"> 29: </a>uses(<span class="php-quote">'class_registry'</span>);
+</span><span id="30" class="l"><a class="l" href="#30"> 30: </a><span class="php-keyword1">class</span> <a id="ClassRegisterModel" href="#ClassRegisterModel">ClassRegisterModel</a> <span class="php-keyword1">extends</span> CakeTestModel {
+</span><span id="31" class="l"><a class="l" href="#31"> 31: </a>    <span class="php-keyword1">var</span> <span class="php-var"><a id="$useTable" href="#$useTable">$useTable</a></span> = <span class="php-keyword1">false</span>;
+</span><span id="32" class="l"><a class="l" href="#32"> 32: </a>}
+</span><span id="33" class="l"><a class="l" href="#33"> 33: </a>
+</span><span id="34" class="l"><a class="l" href="#34"> 34: </a><span class="php-keyword1">class</span> <a id="RegisterArticle" href="#RegisterArticle">RegisterArticle</a> <span class="php-keyword1">extends</span> ClassRegisterModel {
+</span><span id="35" class="l"><a class="l" href="#35"> 35: </a>    <span class="php-keyword1">var</span> <span class="php-var"><a id="$name" href="#$name">$name</a></span> = <span class="php-quote">'RegisterArticle'</span>;
+</span><span id="36" class="l"><a class="l" href="#36"> 36: </a>}
+</span><span id="37" class="l"><a class="l" href="#37"> 37: </a><span class="php-keyword1">class</span> <a id="RegisterArticleFeatured" href="#RegisterArticleFeatured">RegisterArticleFeatured</a> <span class="php-keyword1">extends</span> ClassRegisterModel {
+</span><span id="38" class="l"><a class="l" href="#38"> 38: </a>    <span class="php-keyword1">var</span> <span class="php-var"><a id="$name" href="#$name">$name</a></span> = <span class="php-quote">'RegisterArticlFeatured'</span>;
+</span><span id="39" class="l"><a class="l" href="#39"> 39: </a>}
+</span><span id="40" class="l"><a class="l" href="#40"> 40: </a>
+</span><span id="41" class="l"><a class="l" href="#41"> 41: </a><span class="php-keyword1">class</span> <a id="RegisterArticleTag" href="#RegisterArticleTag">RegisterArticleTag</a> <span class="php-keyword1">extends</span> ClassRegisterModel {
+</span><span id="42" class="l"><a class="l" href="#42"> 42: </a>    <span class="php-keyword1">var</span> <span class="php-var"><a id="$name" href="#$name">$name</a></span> = <span class="php-quote">'RegisterArticlTag'</span>;
+</span><span id="43" class="l"><a class="l" href="#43"> 43: </a>}
+</span><span id="44" class="l"><a class="l" href="#44"> 44: </a>
+</span><span id="45" class="l"><a class="l" href="#45"> 45: </a><span class="php-keyword1">class</span> <a id="ClassRegistryTest" href="#ClassRegistryTest">ClassRegistryTest</a> <span class="php-keyword1">extends</span> UnitTestCase {
+</span><span id="46" class="l"><a class="l" href="#46"> 46: </a>    <span class="php-keyword1">function</span> <a id="_testAddModel" href="#_testAddModel">testAddModel</a>() {
+</span><span id="47" class="l"><a class="l" href="#47"> 47: </a>        <span class="php-keyword1">if</span> (PHP5) {
+</span><span id="48" class="l"><a class="l" href="#48"> 48: </a>            <span class="php-var">$Tag</span> = ClassRegistry::init(<span class="php-quote">'RegisterArticleTag'</span>);
+</span><span id="49" class="l"><a class="l" href="#49"> 49: </a>        } <span class="php-keyword1">else</span> {
+</span><span id="50" class="l"><a class="l" href="#50"> 50: </a>            <span class="php-var">$Tag</span> =&amp; ClassRegistry::init(<span class="php-quote">'RegisterArticleTag'</span>);
+</span><span id="51" class="l"><a class="l" href="#51"> 51: </a>        }
+</span><span id="52" class="l"><a class="l" href="#52"> 52: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-keyword2">is_a</span>(<span class="php-var">$Tag</span>, <span class="php-quote">'RegisterArticleTag'</span>));
+</span><span id="53" class="l"><a class="l" href="#53"> 53: </a>
+</span><span id="54" class="l"><a class="l" href="#54"> 54: </a>        <span class="php-var">$TagCopy</span> = ClassRegistry::isKeySet(<span class="php-quote">'RegisterArticleTag'</span>);
+</span><span id="55" class="l"><a class="l" href="#55"> 55: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-var">$TagCopy</span>);
+</span><span id="56" class="l"><a class="l" href="#56"> 56: </a>
+</span><span id="57" class="l"><a class="l" href="#57"> 57: </a>        <span class="php-var">$Tag</span>-&gt;name = <span class="php-quote">'SomeNewName'</span>;
+</span><span id="58" class="l"><a class="l" href="#58"> 58: </a>
+</span><span id="59" class="l"><a class="l" href="#59"> 59: </a>        <span class="php-keyword1">if</span> (PHP5) {
+</span><span id="60" class="l"><a class="l" href="#60"> 60: </a>            <span class="php-var">$TagCopy</span> = ClassRegistry::getObject(<span class="php-quote">'RegisterArticleTag'</span>);
+</span><span id="61" class="l"><a class="l" href="#61"> 61: </a>        } <span class="php-keyword1">else</span> {
+</span><span id="62" class="l"><a class="l" href="#62"> 62: </a>            <span class="php-var">$TagCopy</span> =&amp; ClassRegistry::getObject(<span class="php-quote">'RegisterArticleTag'</span>);
+</span><span id="63" class="l"><a class="l" href="#63"> 63: </a>        }
+</span><span id="64" class="l"><a class="l" href="#64"> 64: </a>
+</span><span id="65" class="l"><a class="l" href="#65"> 65: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-keyword2">is_a</span>(<span class="php-var">$TagCopy</span>, <span class="php-quote">'RegisterArticleTag'</span>));
+</span><span id="66" class="l"><a class="l" href="#66"> 66: </a>        <span class="php-var">$this</span>-&gt;assertIdentical(<span class="php-var">$Tag</span>, <span class="php-var">$TagCopy</span>);
+</span><span id="67" class="l"><a class="l" href="#67"> 67: </a>
+</span><span id="68" class="l"><a class="l" href="#68"> 68: </a>        <span class="php-var">$NewTag</span> = ClassRegistry::init(<span class="php-keyword1">array</span>(<span class="php-quote">'class'</span> =&gt; <span class="php-quote">'RegisterArticleTag'</span>, <span class="php-quote">'alias'</span> =&gt; <span class="php-quote">'NewTag'</span>));
+</span><span id="69" class="l"><a class="l" href="#69"> 69: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-keyword2">is_a</span>(<span class="php-var">$Tag</span>, <span class="php-quote">'RegisterArticleTag'</span>));
+</span><span id="70" class="l"><a class="l" href="#70"> 70: </a>
+</span><span id="71" class="l"><a class="l" href="#71"> 71: </a>        <span class="php-var">$this</span>-&gt;assertNotIdentical(<span class="php-var">$Tag</span>, <span class="php-var">$NewTag</span>);
+</span><span id="72" class="l"><a class="l" href="#72"> 72: </a>
+</span><span id="73" class="l"><a class="l" href="#73"> 73: </a>        <span class="php-var">$NewTag</span>-&gt;name = <span class="php-quote">'SomeOtherName'</span>;
+</span><span id="74" class="l"><a class="l" href="#74"> 74: </a>        <span class="php-var">$this</span>-&gt;assertNotIdentical(<span class="php-var">$Tag</span>, <span class="php-var">$NewTag</span>);
+</span><span id="75" class="l"><a class="l" href="#75"> 75: </a>
+</span><span id="76" class="l"><a class="l" href="#76"> 76: </a>        <span class="php-var">$Tag</span>-&gt;name = <span class="php-quote">'SomeOtherName'</span>;
+</span><span id="77" class="l"><a class="l" href="#77"> 77: </a>        <span class="php-var">$this</span>-&gt;assertNotIdentical(<span class="php-var">$Tag</span>, <span class="php-var">$NewTag</span>);
+</span><span id="78" class="l"><a class="l" href="#78"> 78: </a>
+</span><span id="79" class="l"><a class="l" href="#79"> 79: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-var">$TagCopy</span>-&gt;name === <span class="php-quote">'SomeOtherName'</span>);
+</span><span id="80" class="l"><a class="l" href="#80"> 80: </a>    }
+</span><span id="81" class="l"><a class="l" href="#81"> 81: </a>
+</span><span id="82" class="l"><a class="l" href="#82"> 82: </a>    <span class="php-keyword1">function</span> <a id="_testClassRegistryFlush" href="#_testClassRegistryFlush">testClassRegistryFlush</a> () {
+</span><span id="83" class="l"><a class="l" href="#83"> 83: </a>        <span class="php-var">$ArticleTag</span> = ClassRegistry::getObject(<span class="php-quote">'RegisterArticleTag'</span>);
+</span><span id="84" class="l"><a class="l" href="#84"> 84: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-keyword2">is_a</span>(<span class="php-var">$ArticleTag</span>, <span class="php-quote">'RegisterArticleTag'</span>));
+</span><span id="85" class="l"><a class="l" href="#85"> 85: </a>        ClassRegistry::<span class="php-keyword2">flush</span>();
+</span><span id="86" class="l"><a class="l" href="#86"> 86: </a>
+</span><span id="87" class="l"><a class="l" href="#87"> 87: </a>        <span class="php-var">$NoArticleTag</span> = ClassRegistry::isKeySet(<span class="php-quote">'RegisterArticleTag'</span>);
+</span><span id="88" class="l"><a class="l" href="#88"> 88: </a>        <span class="php-var">$this</span>-&gt;assertFalse(<span class="php-var">$NoArticleTag</span>);
+</span><span id="89" class="l"><a class="l" href="#89"> 89: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-keyword2">is_a</span>(<span class="php-var">$ArticleTag</span>, <span class="php-quote">'RegisterArticleTag'</span>));
+</span><span id="90" class="l"><a class="l" href="#90"> 90: </a>    }
+</span><span id="91" class="l"><a class="l" href="#91"> 91: </a>
+</span><span id="92" class="l"><a class="l" href="#92"> 92: </a>    <span class="php-keyword1">function</span> <a id="_testAddMultiplModels" href="#_testAddMultiplModels">testAddMultiplModels</a> () {
+</span><span id="93" class="l"><a class="l" href="#93"> 93: </a>        <span class="php-var">$Article</span> = ClassRegistry::isKeySet(<span class="php-quote">'Article'</span>);
+</span><span id="94" class="l"><a class="l" href="#94"> 94: </a>        <span class="php-var">$this</span>-&gt;assertFalse(<span class="php-var">$Article</span>);
+</span><span id="95" class="l"><a class="l" href="#95"> 95: </a>
+</span><span id="96" class="l"><a class="l" href="#96"> 96: </a>        <span class="php-var">$Featured</span> = ClassRegistry::isKeySet(<span class="php-quote">'Featured'</span>);
+</span><span id="97" class="l"><a class="l" href="#97"> 97: </a>        <span class="php-var">$this</span>-&gt;assertFalse(<span class="php-var">$Featured</span>);
+</span><span id="98" class="l"><a class="l" href="#98"> 98: </a>
+</span><span id="99" class="l"><a class="l" href="#99"> 99: </a>        <span class="php-var">$Tag</span> = ClassRegistry::isKeySet(<span class="php-quote">'Tag'</span>);
+</span><span id="100" class="l"><a class="l" href="#100">100: </a>        <span class="php-var">$this</span>-&gt;assertFalse(<span class="php-var">$Tag</span>);
+</span><span id="101" class="l"><a class="l" href="#101">101: </a>
+</span><span id="102" class="l"><a class="l" href="#102">102: </a>        <span class="php-var">$models</span> = <span class="php-keyword1">array</span>(<span class="php-keyword1">array</span>(<span class="php-quote">'class'</span> =&gt; <span class="php-quote">'RegisterArticle'</span>, <span class="php-quote">'alias'</span> =&gt; <span class="php-quote">'Article'</span>),
+</span><span id="103" class="l"><a class="l" href="#103">103: </a>                <span class="php-keyword1">array</span>(<span class="php-quote">'class'</span> =&gt; <span class="php-quote">'RegisterArticleFeatured'</span>, <span class="php-quote">'alias'</span> =&gt; <span class="php-quote">'Featured'</span>),
+</span><span id="104" class="l"><a class="l" href="#104">104: </a>                <span class="php-keyword1">array</span>(<span class="php-quote">'class'</span> =&gt; <span class="php-quote">'RegisterArticleTag'</span>, <span class="php-quote">'alias'</span> =&gt; <span class="php-quote">'Tag'</span>));
+</span><span id="105" class="l"><a class="l" href="#105">105: </a>
+</span><span id="106" class="l"><a class="l" href="#106">106: </a>        <span class="php-var">$added</span> = ClassRegistry::init(<span class="php-var">$models</span>);
+</span><span id="107" class="l"><a class="l" href="#107">107: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-var">$added</span>);
+</span><span id="108" class="l"><a class="l" href="#108">108: </a>
+</span><span id="109" class="l"><a class="l" href="#109">109: </a>        <span class="php-var">$Article</span> = ClassRegistry::isKeySet(<span class="php-quote">'Article'</span>);
+</span><span id="110" class="l"><a class="l" href="#110">110: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-var">$Article</span>);
+</span><span id="111" class="l"><a class="l" href="#111">111: </a>
+</span><span id="112" class="l"><a class="l" href="#112">112: </a>        <span class="php-var">$Featured</span> = ClassRegistry::isKeySet(<span class="php-quote">'Featured'</span>);
+</span><span id="113" class="l"><a class="l" href="#113">113: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-var">$Featured</span>);
+</span><span id="114" class="l"><a class="l" href="#114">114: </a>
+</span><span id="115" class="l"><a class="l" href="#115">115: </a>        <span class="php-var">$Tag</span> = ClassRegistry::isKeySet(<span class="php-quote">'Tag'</span>);
+</span><span id="116" class="l"><a class="l" href="#116">116: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-var">$Tag</span>);
+</span><span id="117" class="l"><a class="l" href="#117">117: </a>
+</span><span id="118" class="l"><a class="l" href="#118">118: </a>        <span class="php-var">$Article</span> = ClassRegistry::getObject(<span class="php-quote">'Article'</span>);
+</span><span id="119" class="l"><a class="l" href="#119">119: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-keyword2">is_a</span>(<span class="php-var">$Article</span>, <span class="php-quote">'RegisterArticle'</span>));
+</span><span id="120" class="l"><a class="l" href="#120">120: </a>
+</span><span id="121" class="l"><a class="l" href="#121">121: </a>        <span class="php-var">$Featured</span> = ClassRegistry::getObject(<span class="php-quote">'Featured'</span>);
+</span><span id="122" class="l"><a class="l" href="#122">122: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-keyword2">is_a</span>(<span class="php-var">$Featured</span>, <span class="php-quote">'RegisterArticleFeatured'</span>));
+</span><span id="123" class="l"><a class="l" href="#123">123: </a>
+</span><span id="124" class="l"><a class="l" href="#124">124: </a>        <span class="php-var">$Tag</span> = ClassRegistry::getObject(<span class="php-quote">'Tag'</span>);
+</span><span id="125" class="l"><a class="l" href="#125">125: </a>        <span class="php-var">$this</span>-&gt;assertTrue(<span class="php-keyword2">is_a</span>(<span class="php-var">$Tag</span>, <span class="php-quote">'RegisterArticleTag'</span>));
+</span><span id="126" class="l"><a class="l" href="#126">126: </a>    }
+</span><span id="127" class="l"><a class="l" href="#127">127: </a>}
+</span><span id="128" class="l"><a class="l" href="#128">128: </a></span><span class="xlang">?&gt;</span></code></pre>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

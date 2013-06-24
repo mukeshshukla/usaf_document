@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Swift_Mime_HeaderEncoder_QpHeaderEncoder | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li class="active"><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Swift_Attachment.html">Swift_Attachment</a></li>
+				<li><a href="class-Swift_EmbeddedFile.html">Swift_EmbeddedFile</a></li>
+				<li><a href="class-Swift_Image.html">Swift_Image</a></li>
+				<li><a href="class-Swift_Message.html">Swift_Message</a></li>
+				<li><a href="class-Swift_Mime_Attachment.html">Swift_Mime_Attachment</a></li>
+				<li><a href="class-Swift_Mime_ContentEncoder_Base64ContentEncoder.html">Swift_Mime_ContentEncoder_Base64ContentEncoder</a></li>
+				<li><a href="class-Swift_Mime_ContentEncoder_PlainContentEncoder.html">Swift_Mime_ContentEncoder_PlainContentEncoder</a></li>
+				<li><a href="class-Swift_Mime_ContentEncoder_QpContentEncoder.html">Swift_Mime_ContentEncoder_QpContentEncoder</a></li>
+				<li><a href="class-Swift_Mime_EmbeddedFile.html">Swift_Mime_EmbeddedFile</a></li>
+				<li><a href="class-Swift_Mime_HeaderEncoder_Base64HeaderEncoder.html">Swift_Mime_HeaderEncoder_Base64HeaderEncoder</a></li>
+				<li class="active"><a href="class-Swift_Mime_HeaderEncoder_QpHeaderEncoder.html">Swift_Mime_HeaderEncoder_QpHeaderEncoder</a></li>
+				<li><a href="class-Swift_Mime_Headers_AbstractHeader.html">Swift_Mime_Headers_AbstractHeader</a></li>
+				<li><a href="class-Swift_Mime_Headers_DateHeader.html">Swift_Mime_Headers_DateHeader</a></li>
+				<li><a href="class-Swift_Mime_Headers_IdentificationHeader.html">Swift_Mime_Headers_IdentificationHeader</a></li>
+				<li><a href="class-Swift_Mime_Headers_MailboxHeader.html">Swift_Mime_Headers_MailboxHeader</a></li>
+				<li><a href="class-Swift_Mime_Headers_ParameterizedHeader.html">Swift_Mime_Headers_ParameterizedHeader</a></li>
+				<li><a href="class-Swift_Mime_Headers_PathHeader.html">Swift_Mime_Headers_PathHeader</a></li>
+				<li><a href="class-Swift_Mime_Headers_UnstructuredHeader.html">Swift_Mime_Headers_UnstructuredHeader</a></li>
+				<li><a href="class-Swift_Mime_MimePart.html">Swift_Mime_MimePart</a></li>
+				<li><a href="class-Swift_Mime_SimpleHeaderFactory.html">Swift_Mime_SimpleHeaderFactory</a></li>
+				<li><a href="class-Swift_Mime_SimpleHeaderSet.html">Swift_Mime_SimpleHeaderSet</a></li>
+				<li><a href="class-Swift_Mime_SimpleMessage.html">Swift_Mime_SimpleMessage</a></li>
+				<li><a href="class-Swift_Mime_SimpleMimeEntity.html">Swift_Mime_SimpleMimeEntity</a></li>
+				<li><a href="class-Swift_MimePart.html">Swift_MimePart</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Swift_Mime_CharsetObserver.html">Swift_Mime_CharsetObserver</a></li>
+				<li><a href="class-Swift_Mime_ContentEncoder.html">Swift_Mime_ContentEncoder</a></li>
+				<li><a href="class-Swift_Mime_EncodingObserver.html">Swift_Mime_EncodingObserver</a></li>
+				<li><a href="class-Swift_Mime_Header.html">Swift_Mime_Header</a></li>
+				<li><a href="class-Swift_Mime_HeaderEncoder.html">Swift_Mime_HeaderEncoder</a></li>
+				<li><a href="class-Swift_Mime_HeaderFactory.html">Swift_Mime_HeaderFactory</a></li>
+				<li><a href="class-Swift_Mime_HeaderSet.html">Swift_Mime_HeaderSet</a></li>
+				<li><a href="class-Swift_Mime_Message.html">Swift_Mime_Message</a></li>
+				<li><a href="class-Swift_Mime_MimeEntity.html">Swift_Mime_MimeEntity</a></li>
+				<li><a href="class-Swift_Mime_ParameterizedHeader.html">Swift_Mime_ParameterizedHeader</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Swift.Mime.html" title="Summary of Swift\Mime"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Swift_Mime_HeaderEncoder_QpHeaderEncoder</h1>
+
+
+	<div class="description">
+	
+<p>Handles Quoted Printable (Q) Header Encoding in Swift Mailer.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Swift_Encoder_QpEncoder.html"><span>Swift_Encoder_QpEncoder</span></a>
+			
+			 implements 
+				<a href="class-Swift_Encoder.html"><span>Swift_Encoder</span></a>
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Swift_Mime_HeaderEncoder_QpHeaderEncoder</span></b>			
+			 implements 
+				<a href="class-Swift_Mime_HeaderEncoder.html"><span>Swift_Mime_HeaderEncoder</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Swift.html">Swift</a>\<a href="package-Swift.Mime.html">Mime</a><br />
+
+				<b>Author:</b>
+				Chris Corbyn<br />
+		<b>Located at</b> <a href="source-class-Swift_Mime_HeaderEncoder_QpHeaderEncoder.html#25-109" title="Go to source code">app/vendors/SwiftMailer/lib/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Swift_Mime_HeaderEncoder_QpHeaderEncoder.html#37-54" title="Go to source code">__construct</a>( <span><code><a href="class-Swift_CharacterStream.html">Swift_CharacterStream</a></code> <var>$charStream</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a new QpHeaderEncoder for the given CharacterStream.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a new QpHeaderEncoder for the given CharacterStream.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$charStream</var></dt>
+					<dd><code><code><a href="class-Swift_CharacterStream.html">Swift_CharacterStream</a></code></code><br>$charStream to use for reading characters</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Swift_Encoder_QpEncoder.html#___construct">Swift_Encoder_QpEncoder::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getName" id="_getName">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getName">#</a>
+		<code><a href="source-class-Swift_Mime_HeaderEncoder_QpHeaderEncoder.html#56-64" title="Go to source code">getName</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the name of this encoding scheme. Returns the string 'Q'.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the name of this encoding scheme. Returns the string 'Q'.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Swift_Mime_HeaderEncoder.html#_getName">Swift_Mime_HeaderEncoder::getName()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="encodeString" id="_encodeString">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_encodeString">#</a>
+		<code><a href="source-class-Swift_Mime_HeaderEncoder_QpHeaderEncoder.html#66-79" title="Go to source code">encodeString</a>( <span>string <var>$string</var></span>, <span>integer <var>$firstLineOffset</var> = <span class="php-num">0</span></span>, <span>integer <var>$maxLineLength</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Takes an unencoded string and produces a Q encoded string from it.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Takes an unencoded string and produces a Q encoded string from it.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string to encode</dd>
+					<dt><var>$firstLineOffset</var></dt>
+					<dd><code>integer</code><br>$firstLineOffset, optional</dd>
+					<dt><var>$maxLineLength</var></dt>
+					<dd><code>integer</code><br>$maxLineLength, optional, 0 indicates the default of 76 chars</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Swift_Encoder_QpEncoder.html#_encodeString">Swift_Encoder_QpEncoder::encodeString()</a></code></div>
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Swift_Encoder.html#_encodeString">Swift_Encoder::encodeString()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_encodeByteSequence" id="__encodeByteSequence">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__encodeByteSequence">#</a>
+		<code><a href="source-class-Swift_Mime_HeaderEncoder_QpHeaderEncoder.html#83-107" title="Go to source code">_encodeByteSequence</a>( <span>array <var>$bytes</var></span>, <span>mixed <var>&amp; $size</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Encode the given byte array into a verbatim QP form.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Encode the given byte array into a verbatim QP form.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bytes</var></dt>
+					<dd><code>int[]</code><br>$bytes</dd>
+					<dt><var>$size</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Swift_Encoder_QpEncoder.html#__encodeByteSequence">Swift_Encoder_QpEncoder::_encodeByteSequence()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Swift_Encoder_QpEncoder.html#methods">Swift_Encoder_QpEncoder</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Swift_Encoder_QpEncoder.html#__nextSequence">_nextSequence()</a>, 
+			<a href="class-Swift_Encoder_QpEncoder.html#__standardize">_standardize()</a>, 
+			<a href="class-Swift_Encoder_QpEncoder.html#_charsetChanged">charsetChanged()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Swift_Encoder_QpEncoder.html#properties">Swift_Encoder_QpEncoder</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Swift_Encoder_QpEncoder.html#$_charStream"><var>$_charStream</var></a>, 
+			<a href="class-Swift_Encoder_QpEncoder.html#$_filter"><var>$_filter</var></a>, 
+			<a href="class-Swift_Encoder_QpEncoder.html#$_qpMap"><var>$_qpMap</var></a>, 
+			<a href="class-Swift_Encoder_QpEncoder.html#$_safeMap"><var>$_safeMap</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

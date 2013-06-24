@@ -1,0 +1,1957 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class AjaxHelper | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-ActivityTableHelper.html">ActivityTableHelper</a></li>
+				<li class="active"><a href="class-AjaxHelper.html">AjaxHelper</a></li>
+				<li><a href="class-AjaxLinkHelper.html">AjaxLinkHelper</a></li>
+				<li><a href="class-CacheHelper.html">CacheHelper</a></li>
+				<li><a href="class-FformHelper.html">FformHelper</a></li>
+				<li><a href="class-FormatingHelper.html">FormatingHelper</a></li>
+				<li><a href="class-FormHelper.html">FormHelper</a></li>
+				<li><a href="class-HtmlHelper.html">HtmlHelper</a></li>
+				<li><a href="class-JavascriptHelper.html">JavascriptHelper</a></li>
+				<li><a href="class-JsHelper.html">JsHelper</a></li>
+				<li><a href="class-JsHelperObject.html">JsHelperObject</a></li>
+				<li><a href="class-LapHelper.html">LapHelper</a></li>
+				<li><a href="class-LctHtmlHelper.html">LctHtmlHelper</a></li>
+				<li><a href="class-Lib24watchCaptchaHelper.html">Lib24watchCaptchaHelper</a></li>
+				<li><a href="class-Lib24watchHtmlHelper.html">Lib24watchHtmlHelper</a></li>
+				<li><a href="class-Lib24watchPaginatorHelper.html">Lib24watchPaginatorHelper</a></li>
+				<li><a href="class-MembershipLinkHelper.html">MembershipLinkHelper</a></li>
+				<li><a href="class-MenuLinkHelper.html">MenuLinkHelper</a></li>
+				<li><a href="class-NumberHelper.html">NumberHelper</a></li>
+				<li><a href="class-PaginationHelper.html">PaginationHelper</a></li>
+				<li><a href="class-PaginatorHelper.html">PaginatorHelper</a></li>
+				<li><a href="class-RssHelper.html">RssHelper</a></li>
+				<li><a href="class-SchoolsPaginateHelper.html">SchoolsPaginateHelper</a></li>
+				<li><a href="class-TextHelper.html">TextHelper</a></li>
+				<li><a href="class-TicketActivityHelper.html">TicketActivityHelper</a></li>
+				<li><a href="class-TicketColorHelper.html">TicketColorHelper</a></li>
+				<li><a href="class-TimeHelper.html">TimeHelper</a></li>
+				<li><a href="class-XmlHelper.html">XmlHelper</a></li>
+				<li><a href="class-ZazzleHelper.html">ZazzleHelper</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.view.helpers.html" title="Summary of cake\cake\libs\view\helpers"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class AjaxHelper</h1>
+
+
+	<div class="description">
+	
+<p>AjaxHelper helper library.</p>
+
+<p>Helps doing AJAX using the Prototype library.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-AppHelper.html"><span class="invalid">AppHelper</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>AjaxHelper</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a>\<a href="package-cake.cake.libs.view.html">view</a>\<a href="package-cake.cake.libs.view.helpers.html">helpers</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-AjaxHelper.html#31-895" title="Go to source code">cake/libs/view/helpers/ajax.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="link" id="_link">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_link">#</a>
+		<code><a href="source-class-AjaxHelper.html#114-214" title="Go to source code">link</a>( <span>string <var>$title</var></span>, <span>string <var>$href</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$confirm</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$escapeTitle</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns link to remote action</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns link to remote action</p>
+
+<p>Returns a link to a remote action defined by <i>options[url]</i> (using the
+url() format) that's called in the background using XMLHttpRequest. The result
+of that request can then be inserted into a DOM object whose id can be specified
+with <i>options[update]</i>.</p>
+
+<p>Examples:</p>
+
+<pre>
+ <span class="php-keyword2">link</span>(<span
+class="php-quote">&quot;Delete this post&quot;</span>,
+<span
+class="php-keyword1">array</span>(<span
+class="php-quote">&quot;update&quot;</span> =&gt; <span
+class="php-quote">&quot;posts&quot;</span>, <span
+class="php-quote">&quot;url&quot;</span> =&gt; <span
+class="php-quote">&quot;delete/</span><span
+class="php-var">{$postid-&gt;id}</span><span
+class="php-quote">&quot;</span>));
+ <span
+class="php-keyword2">link</span>(imageTag(<span
+class="php-quote">&quot;refresh&quot;</span>),
+     <span
+class="php-keyword1">array</span>(<span
+class="php-quote">&quot;update&quot;</span> =&gt; <span
+class="php-quote">&quot;emails&quot;</span>, <span
+class="php-quote">&quot;url&quot;</span> =&gt; <span
+class="php-quote">&quot;list_emails&quot;</span> ));
+</pre>
+
+<p>By default, these remote requests are processed asynchronous during which
+various callbacks can be triggered (for progress indicators and the likes).</p>
+
+<p>Example:</p>
+
+<pre>
+<span class="php-keyword2">link</span> (word,
+    <span
+class="php-keyword1">array</span>(<span
+class="php-quote">&quot;url&quot;</span> =&gt; <span
+class="php-quote">&quot;undo&quot;</span>, <span
+class="php-quote">&quot;n&quot;</span> =&gt; word_counter),
+    <span
+class="php-keyword1">array</span>(<span
+class="php-quote">&quot;complete&quot;</span> =&gt; <span
+class="php-quote">&quot;undoRequestCompleted(request)&quot;</span>));
+</pre>
+
+<p>The callbacks that may be specified are:</p>
+
+<ul>
+	<li><i>loading</i>:: Called when the remote document is being loaded with data
+	by the browser.</li>
+
+	<li><i>loaded</i>:: Called when the browser has finished loading the remote
+	document.</li>
+
+	<li><i>interactive</i>:: Called when the user can interact with the remote
+	document, even though it has not finished loading.</li>
+
+	<li><i>complete</i>:: Called when the XMLHttpRequest is complete.</li>
+</ul>
+
+<p>If you for some reason or another need synchronous processing (that'll block
+the browser while the request is happening), you can specify <i>options[type] =
+synchronous</i>.</p>
+
+<p>You can customize further browser side call logic by passing in Javascript
+code snippets via some optional parameters. In their order of use these are:</p>
+
+<ul>
+	<li><i>confirm</i>:: Adds confirmation dialog.</li>
+
+	<li><i>condition</i>:: Perform remote request conditionally by this expression.
+	Use this to describe browser-side conditions when request should not be
+	initiated.</li>
+
+	<li><i>before</i>:: Called before request is initiated.</li>
+
+	<li><i>after</i>:: Called immediately after request was initiated and before
+	<i>loading</i>.</li>
+</ul>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$title</var></dt>
+					<dd><code>string</code><br>$title Title of link</dd>
+					<dt><var>$href</var></dt>
+					<dd><code>string</code><br>$href Href string "/products/view/12"</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Options for JavaScript function</dd>
+					<dt><var>$confirm</var></dt>
+					<dd><code>string</code><br>$confirm Confirmation message. Calls up a JavaScript confirm() message.</dd>
+					<dt><var>$escapeTitle</var></dt>
+					<dd><code>boolean</code><br>$escapeTitle Escaping the title string to HTML entities</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>HTML code for link to remote action<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="remoteFunction" id="_remoteFunction">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_remoteFunction">#</a>
+		<code><a href="source-class-AjaxHelper.html#215-263" title="Go to source code">remoteFunction</a>( <span>array <var>$options</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates JavaScript function for remote AJAX call</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates JavaScript function for remote AJAX call</p>
+
+<p>This function creates the javascript needed to make a remote call it is
+primarily used as a helper for AjaxHelper::link.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options options for javascript</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>html code for link to remote action<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						AjaxHelper::link() for docs on options parameter.<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="remoteTimer" id="_remoteTimer">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_remoteTimer">#</a>
+		<code><a href="source-class-AjaxHelper.html#264-278" title="Go to source code">remoteTimer</a>( <span>array <var>$options</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Periodically call remote url via AJAX.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Periodically call remote url via AJAX.</p>
+
+<p>Periodically calls the specified url (<i>options[url]</i>) every
+<i>options[frequency]</i> seconds (default is 10). Usually used to update a
+specified div (<i>options[update]</i>) with the results of the remote call. The
+options for specifying the target with url and defining callbacks is the same as
+linkToRemote.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Callback options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Javascript code<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="form" id="_form">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_form">#</a>
+		<code><a href="source-class-AjaxHelper.html#279-333" title="Go to source code">form</a>( <span>array <var>$params</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$type</var> = <span class="php-quote">'post'</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns form tag that will submit using Ajax.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns form tag that will submit using Ajax.</p>
+
+<p>Returns a form tag that will submit using XMLHttpRequest in the background
+instead of the regular reloading POST arrangement. Even though it's using
+Javascript to serialize the form elements, the form submission will work just
+like a regular submission as viewed by the receiving side (all elements
+available in params). The options for defining callbacks is the same as
+link().</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Form target</dd>
+					<dt><var>$type</var></dt>
+					<dd><code>array</code><br>$type How form data is posted: 'get' or 'post'</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Callback/HTML options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>JavaScript/HTML code<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="submit" id="_submit">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_submit">#</a>
+		<code><a href="source-class-AjaxHelper.html#334-358" title="Go to source code">submit</a>( <span>string <var>$title</var> = <span class="php-quote">'Submit'</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a button input tag that will submit using Ajax</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a button input tag that will submit using Ajax</p>
+
+<p>Returns a button input tag that will submit form using XMLHttpRequest in the
+background instead of regular reloading POST arrangement. <i>options</i>
+argument is the same as in <i>form_remote_tag</i></p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$title</var></dt>
+					<dd><code>string</code><br>$title Input button title</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Callback options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Ajaxed input button<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="observeField" id="_observeField">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_observeField">#</a>
+		<code><a href="source-class-AjaxHelper.html#359-396" title="Go to source code">observeField</a>( <span>string <var>$field</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Observe field and call ajax on change.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Observe field and call ajax on change.</p>
+
+<p>Observes the field with the DOM ID specified by <i>field</i> and makes an
+Ajax when its contents have changed.</p>
+
+<p>Required +options+ are:</p>
+
+<ul>
+	<li><i>frequency</i>:: The frequency (in seconds) at which changes to this field
+	will be detected.</li>
+
+	<li><i>url</i>:: @see url() -style options for the action to call when the field
+	has changed.</li>
+</ul>
+
+<p>Additional options are:</p>
+
+<ul>
+	<li><i>update</i>:: Specifies the DOM ID of the element whose innerHTML should
+	be updated with the XMLHttpRequest response text.</li>
+
+	<li><i>with</i>:: A Javascript expression specifying the parameters for the
+	XMLHttpRequest. This defaults to Form.Element.serialize('$field'), which can be
+	accessed from params['form']['field_id'].</li>
+</ul>
+
+<p>Additionally, you may specify any of the options documented in</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code><br>$field DOM ID of field to observe</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options ajax options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>ajax script<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						linkToRemote().<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="observeForm" id="_observeForm">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_observeForm">#</a>
+		<code><a href="source-class-AjaxHelper.html#397-418" title="Go to source code">observeForm</a>( <span>string <var>$form</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Observe entire form and call ajax on change.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Observe entire form and call ajax on change.</p>
+
+<p>Like @see observeField(), but operates on an entire form identified by the
+DOM ID <b>form</b>. <b>options</b> are the same as <b>observeField</b>, except
+the default value of the <i>with</i> option evaluates to the serialized (request
+string) value of the form.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$form</var></dt>
+					<dd><code>string</code><br>$form DOM ID of form to observe</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options ajax options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>ajax script<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="autoComplete" id="_autoComplete">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_autoComplete">#</a>
+		<code><a href="source-class-AjaxHelper.html#419-472" title="Go to source code">autoComplete</a>( <span>string <var>$field</var></span>, <span>string <var>$url</var> = <span class="php-quote">&quot;&quot;</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a text field with Autocomplete.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a text field with Autocomplete.</p>
+
+<p>Creates an autocomplete field with the given ID and options.</p>
+
+<p>options['with'] defaults to "Form.Element.serialize('$field')", but can be
+any valid javascript expression defining the</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code><br>$field DOM ID of field to observe</dd>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br>$url URL for the autocomplete action</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Ajax options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Ajax script<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="div" id="_div">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_div">#</a>
+		<code><a href="source-class-AjaxHelper.html#473-492" title="Go to source code">div</a>( <span>string <var>$id</var></span>, <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates an Ajax-updateable DIV element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates an Ajax-updateable DIV element</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id options for javascript</dd>
+					<dt><var>$options</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>HTML code<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="divEnd" id="_divEnd">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_divEnd">#</a>
+		<code><a href="source-class-AjaxHelper.html#493-510" title="Go to source code">divEnd</a>( <span>string <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Closes an Ajax-updateable DIV element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Closes an Ajax-updateable DIV element</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id The DOM ID of the element</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>HTML code<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isAjax" id="_isAjax">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isAjax">#</a>
+		<code><a href="source-class-AjaxHelper.html#511-518" title="Go to source code">isAjax</a>( )</code>
+
+		<div class="description short">
+			
+<p>Detects Ajax requests</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Detects Ajax requests</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if the current request is a Prototype Ajax update call<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="drag" id="_drag">
+
+		<td class="attributes"><code>
+			 public 
+			unknown
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_drag">#</a>
+		<code><a href="source-class-AjaxHelper.html#519-535" title="Go to source code">drag</a>( <span>unknown_type <var>$id</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a draggable element. For a reference on the options for this
+function, check out <a
+href="http://wiki.script.aculo.us/scriptaculous/show/Draggable">http://wiki.script.aculo.us/scriptaculous/show/Draggable</a></p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a draggable element. For a reference on the options for this
+function, check out <a
+href="http://wiki.script.aculo.us/scriptaculous/show/Draggable">http://wiki.script.aculo.us/scriptaculous/show/Draggable</a></p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>unknown_type</code><br>$id</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>unknown</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="drop" id="_drop">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_drop">#</a>
+		<code><a href="source-class-AjaxHelper.html#536-553" title="Go to source code">drop</a>( <span>unknown_type <var>$id</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>For a reference on the options for this function, check out <a
+href="http://wiki.script.aculo.us/scriptaculous/show/Droppables.add">http://wiki.script.aculo.us/scriptaculous/show/Droppables.add</a></p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>For a reference on the options for this function, check out <a
+href="http://wiki.script.aculo.us/scriptaculous/show/Droppables.add">http://wiki.script.aculo.us/scriptaculous/show/Droppables.add</a></p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>unknown_type</code><br>$id</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dropRemote" id="_dropRemote">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dropRemote">#</a>
+		<code><a href="source-class-AjaxHelper.html#554-576" title="Go to source code">dropRemote</a>( <span>string <var>$id</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$ajaxOptions</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Make an element with the given $id droppable, and trigger an Ajax call when a
+draggable is dropped on it.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Make an element with the given $id droppable, and trigger an Ajax call when a
+draggable is dropped on it.</p>
+
+<p>For a reference on the options for this function, check out <a
+href="http://wiki.script.aculo.us/scriptaculous/show/Droppables.add">http://wiki.script.aculo.us/scriptaculous/show/Droppables.add</a></p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+					<dt><var>$ajaxOptions</var></dt>
+					<dd><code>array</code><br>$ajaxOptions</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>JavaScript block to create a droppable element<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="slider" id="_slider">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_slider">#</a>
+		<code><a href="source-class-AjaxHelper.html#577-609" title="Go to source code">slider</a>( <span>string <var>$id</var></span>, <span>string <var>$trackId</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Makes a slider control.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Makes a slider control.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id DOM ID of slider handle</dd>
+					<dt><var>$trackId</var></dt>
+					<dd><code>string</code><br>$trackId DOM ID of slider track</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Array of options to control the slider</dd>
+				</dl></div>
+
+
+
+				<h4>Link</h4>
+				<div class="list">
+						<a href="http://wiki.script.aculo.us/scriptaculous/show/Slider">http://wiki.script.aculo.us/scriptaculous/show/Slider</a><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="editor" id="_editor">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_editor">#</a>
+		<code><a href="source-class-AjaxHelper.html#610-647" title="Go to source code">editor</a>( <span>string <var>$id</var></span>, <span>string <var>$url</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Makes an Ajax In Place editor control.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Makes an Ajax In Place editor control.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id DOM ID of input element</dd>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br>$url Postback URL of saved data</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Array of options to control the editor, including ajaxOptions (see
+link).</dd>
+				</dl></div>
+
+
+
+				<h4>Link</h4>
+				<div class="list">
+						<a href="http://wiki.script.aculo.us/scriptaculous/show/Ajax.InPlaceEditor">http://wiki.script.aculo.us/scriptaculous/show/Ajax.InPlaceEditor</a><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sortable" id="_sortable">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sortable">#</a>
+		<code><a href="source-class-AjaxHelper.html#648-667" title="Go to source code">sortable</a>( <span>string <var>$id</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Makes a list or group of floated objects sortable.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Makes a list or group of floated objects sortable.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id DOM ID of parent</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Array of options to control
+sort.http://wiki.script.aculo.us/scriptaculous/show/Sortable.create</dd>
+				</dl></div>
+
+
+
+				<h4>Link</h4>
+				<div class="list">
+						<a href="http://wiki.script.aculo.us/scriptaculous/show/Sortable.create">http://wiki.script.aculo.us/scriptaculous/show/Sortable.create</a><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__optionsForAjax" id="___optionsForAjax">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___optionsForAjax">#</a>
+		<code><a href="source-class-AjaxHelper.html#668-728" title="Go to source code">__optionsForAjax</a>( <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Private helper function for Javascript.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Private helper function for Javascript.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__getHtmlOptions" id="___getHtmlOptions">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___getHtmlOptions">#</a>
+		<code><a href="source-class-AjaxHelper.html#729-752" title="Go to source code">__getHtmlOptions</a>( <span>array <var>$options</var></span>, <span>array <var>$extra</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Private Method to return a string of html options option data as a JavaScript
+options hash.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Private Method to return a string of html options option data as a JavaScript
+options hash.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Options in the shape of keys and values</dd>
+					<dt><var>$extra</var></dt>
+					<dd><code>array</code><br>$extra Array of legal keys in this options context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Array of html options<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_buildOptions" id="__buildOptions">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__buildOptions">#</a>
+		<code><a href="source-class-AjaxHelper.html#753-781" title="Go to source code">_buildOptions</a>( <span>array <var>$options</var></span>, <span>array <var>$acceptable</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a string of JavaScript with the given option data as a JavaScript
+options hash.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a string of JavaScript with the given option data as a JavaScript
+options hash.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Options in the shape of keys and values</dd>
+					<dt><var>$acceptable</var></dt>
+					<dd><code>array</code><br>$acceptable Array of legal keys in this options context</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>String of Javascript array definition<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_buildObserver" id="__buildObserver">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__buildObserver">#</a>
+		<code><a href="source-class-AjaxHelper.html#782-800" title="Go to source code">_buildObserver</a>( <span>string <var>$klass</var></span>, <span>string <var>$name</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Return JavaScript text for an observer...</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return JavaScript text for an observer...</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$klass</var></dt>
+					<dd><code>string</code><br>$klass Name of JavaScript class</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Ajax options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Formatted JavaScript<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_buildCallbacks" id="__buildCallbacks">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__buildCallbacks">#</a>
+		<code><a href="source-class-AjaxHelper.html#801-837" title="Go to source code">_buildCallbacks</a>( <span>array <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Return Javascript text for callbacks.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return Javascript text for callbacks.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Option array where a callback is specified</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Options with their callbacks properly set<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_optionsToString" id="__optionsToString">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__optionsToString">#</a>
+		<code><a href="source-class-AjaxHelper.html#838-859" title="Go to source code">_optionsToString</a>( <span>array <var>$options</var></span>, <span>array <var>$stringOpts</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a string of JavaScript with a string representation of given options
+array.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a string of JavaScript with a string representation of given options
+array.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Ajax options array</dd>
+					<dt><var>$stringOpts</var></dt>
+					<dd><code>array</code><br>$stringOpts Options as strings in an array</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="afterRender" id="_afterRender">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_afterRender">#</a>
+		<code><a href="source-class-AjaxHelper.html#860-894" title="Go to source code">afterRender</a>( )</code>
+
+		<div class="description short">
+			
+<p>Executed after a view has rendered, used to include bufferred code
+blocks.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Executed after a view has rendered, used to include bufferred code
+blocks.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="helpers" id="$helpers">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-AjaxHelper.html#40-45" title="Go to source code"><var>$helpers</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'Html'</span>, <span class="php-quote">'Javascript'</span>, <span class="php-quote">'Form'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$helpers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Included helpers.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Included helpers.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="Html" id="$Html">
+		<td class="attributes"><code>
+			public  
+			object
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-AjaxHelper.html#46-52" title="Go to source code"><var>$Html</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$Html" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>HtmlHelper instance</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>HtmlHelper instance</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="Javascript" id="$Javascript">
+		<td class="attributes"><code>
+			public  
+			object
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-AjaxHelper.html#53-59" title="Go to source code"><var>$Javascript</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$Javascript" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>JavaScriptHelper instance</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>JavaScriptHelper instance</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="callbacks" id="$callbacks">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-AjaxHelper.html#60-65" title="Go to source code"><var>$callbacks</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'complete'</span>, <span class="php-quote">'create'</span>, <span class="php-quote">'exception'</span>, <span class="php-quote">'failure'</span>, <span class="php-quote">'interactive'</span>, <span class="php-quote">'loading'</span>, <span class="php-quote">'loaded'</span>, <span class="php-quote">'success'</span>, <span class="php-quote">'uninitialized'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$callbacks" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Names of Javascript callback functions.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Names of Javascript callback functions.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ajaxOptions" id="$ajaxOptions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-AjaxHelper.html#66-71" title="Go to source code"><var>$ajaxOptions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'after'</span>, <span class="php-quote">'asynchronous'</span>, <span class="php-quote">'before'</span>, <span class="php-quote">'confirm'</span>, <span class="php-quote">'condition'</span>, <span class="php-quote">'contentType'</span>, <span class="php-quote">'encoding'</span>, <span class="php-quote">'evalScripts'</span>, <span class="php-quote">'failure'</span>, <span class="php-quote">'fallback'</span>, <span class="php-quote">'form'</span>, <span class="php-quote">'indicator'</span>, <span class="php-quote">'insertion'</span>, <span class="php-quote">'interactive'</span>, <span class="php-quote">'loaded'</span>, <span class="php-quote">'loading'</span>, <span class="php-quote">'method'</span>, <span class="php-quote">'onCreate'</span>, <span class="php-quote">'onComplete'</span>, <span class="php-quote">'onException'</span>, <span class="php-quote">'onFailure'</span>, <span class="php-quote">'onInteractive'</span>, <span class="php-quote">'onLoaded'</span>, <span class="php-quote">'onLoading'</span>, <span class="php-quote">'onSuccess'</span>, <span class="php-quote">'onUninitialized'</span>, <span class="php-quote">'parameters'</span>, <span class="php-quote">'position'</span>, <span class="php-quote">'postBody'</span>, <span class="php-quote">'requestHeaders'</span>, <span class="php-quote">'success'</span>, <span class="php-quote">'type'</span>, <span class="php-quote">'update'</span>, <span class="php-quote">'url'</span>, <span class="php-quote">'with'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$ajaxOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Names of AJAX options.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Names of AJAX options.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="dragOptions" id="$dragOptions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-AjaxHelper.html#72-77" title="Go to source code"><var>$dragOptions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'handle'</span>, <span class="php-quote">'revert'</span>, <span class="php-quote">'snap'</span>, <span class="php-quote">'zindex'</span>, <span class="php-quote">'constraint'</span>, <span class="php-quote">'change'</span>, <span class="php-quote">'ghosting'</span>, <span class="php-quote">'starteffect'</span>, <span class="php-quote">'reverteffect'</span>, <span class="php-quote">'endeffect'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$dragOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Options for draggable.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Options for draggable.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="dropOptions" id="$dropOptions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-AjaxHelper.html#78-83" title="Go to source code"><var>$dropOptions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'accept'</span>, <span class="php-quote">'containment'</span>, <span class="php-quote">'greedy'</span>, <span class="php-quote">'hoverclass'</span>, <span class="php-quote">'onHover'</span>, <span class="php-quote">'onDrop'</span>, <span class="php-quote">'overlap'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$dropOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Options for droppable.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Options for droppable.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sortOptions" id="$sortOptions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-AjaxHelper.html#84-89" title="Go to source code"><var>$sortOptions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'constraint'</span>, <span class="php-quote">'containment'</span>, <span class="php-quote">'dropOnEmpty'</span>, <span class="php-quote">'ghosting'</span>, <span class="php-quote">'handle'</span>, <span class="php-quote">'hoverclass'</span>, <span class="php-quote">'onUpdate'</span>, <span class="php-quote">'onChange'</span>, <span class="php-quote">'only'</span>, <span class="php-quote">'overlap'</span>, <span class="php-quote">'scroll'</span>, <span class="php-quote">'scrollSensitivity'</span>, <span class="php-quote">'scrollSpeed'</span>, <span class="php-quote">'tag'</span>, <span class="php-quote">'tree'</span>, <span class="php-quote">'treeTag'</span>, <span class="php-quote">'update'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$sortOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Options for sortable.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Options for sortable.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sliderOptions" id="$sliderOptions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-AjaxHelper.html#90-95" title="Go to source code"><var>$sliderOptions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'alignX'</span>, <span class="php-quote">'alignY'</span>, <span class="php-quote">'axis'</span>, <span class="php-quote">'disabled'</span>, <span class="php-quote">'handleDisabled'</span>, <span class="php-quote">'handleImage'</span>, <span class="php-quote">'increment'</span>, <span class="php-quote">'maximum'</span>, <span class="php-quote">'minimum'</span>, <span class="php-quote">'onChange'</span>, <span class="php-quote">'onSlide'</span>, <span class="php-quote">'range'</span>, <span class="php-quote">'sliderValue'</span>, <span class="php-quote">'values'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$sliderOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Options for slider.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Options for slider.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="editorOptions" id="$editorOptions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-AjaxHelper.html#96-101" title="Go to source code"><var>$editorOptions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'okText'</span>, <span class="php-quote">'cancelText'</span>, <span class="php-quote">'savingText'</span>, <span class="php-quote">'formId'</span>, <span class="php-quote">'externalControl'</span>, <span class="php-quote">'rows'</span>, <span class="php-quote">'cols'</span>, <span class="php-quote">'size'</span>, <span class="php-quote">'highlightcolor'</span>, <span class="php-quote">'highlightendcolor'</span>, <span class="php-quote">'savingClassName'</span>, <span class="php-quote">'formClassName'</span>, <span class="php-quote">'loadTextURL'</span>, <span class="php-quote">'loadingText'</span>, <span class="php-quote">'callback'</span>, <span class="php-quote">'ajaxOptions'</span>, <span class="php-quote">'clickToEditText'</span>, <span class="php-quote">'collection'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$editorOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Options for in-place editor.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Options for in-place editor.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="autoCompleteOptions" id="$autoCompleteOptions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-AjaxHelper.html#102-107" title="Go to source code"><var>$autoCompleteOptions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'afterUpdateElement'</span>, <span class="php-quote">'callback'</span>, <span class="php-quote">'frequency'</span>, <span class="php-quote">'indicator'</span>, <span class="php-quote">'minChars'</span>, <span class="php-quote">'onShow'</span>, <span class="php-quote">'onHide'</span>, <span class="php-quote">'parameters'</span>, <span class="php-quote">'paramName'</span>, <span class="php-quote">'tokens'</span>, <span class="php-quote">'updateElement'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$autoCompleteOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Options for auto-complete editor.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Options for auto-complete editor.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__ajaxBuffer" id="$__ajaxBuffer">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-AjaxHelper.html#108-113" title="Go to source code"><var>$__ajaxBuffer</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$__ajaxBuffer" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Output buffer for Ajax update content</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Output buffer for Ajax update content</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

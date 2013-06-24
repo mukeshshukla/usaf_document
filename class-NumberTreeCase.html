@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class NumberTreeCase | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AcoActionTest.html">AcoActionTest</a></li>
+				<li><a href="class-Article2.html">Article2</a></li>
+				<li><a href="class-ArticleFeatured2.html">ArticleFeatured2</a></li>
+				<li><a href="class-CacheTestModel.html">CacheTestModel</a></li>
+				<li><a href="class-CakeHtmlReporter.html">CakeHtmlReporter</a></li>
+				<li><a href="class-CakeTestCase.html">CakeTestCase</a></li>
+				<li><a href="class-CakeTestDispatcher.html">CakeTestDispatcher</a></li>
+				<li><a href="class-CakeTestFixture.html">CakeTestFixture</a></li>
+				<li><a href="class-CakeTestModel.html">CakeTestModel</a></li>
+				<li><a href="class-CakeWebTestCase.html">CakeWebTestCase</a></li>
+				<li><a href="class-Category2.html">Category2</a></li>
+				<li><a href="class-CategoryFeatured2.html">CategoryFeatured2</a></li>
+				<li><a href="class-ClassRegisterModel.html">ClassRegisterModel</a></li>
+				<li><a href="class-CliTestManager.html">CliTestManager</a></li>
+				<li><a href="class-Comment2.html">Comment2</a></li>
+				<li><a href="class-Contact.html">Contact</a></li>
+				<li><a href="class-ControllerComment.html">ControllerComment</a></li>
+				<li><a href="class-ControllerPost.html">ControllerPost</a></li>
+				<li><a href="class-Device.html">Device</a></li>
+				<li><a href="class-DeviceType.html">DeviceType</a></li>
+				<li><a href="class-DeviceTypeCategory.html">DeviceTypeCategory</a></li>
+				<li><a href="class-Document.html">Document</a></li>
+				<li><a href="class-DocumentDirectory.html">DocumentDirectory</a></li>
+				<li><a href="class-EmailTest.html">EmailTest</a></li>
+				<li><a href="class-ExteriorTypeCategory.html">ExteriorTypeCategory</a></li>
+				<li><a href="class-Featured2.html">Featured2</a></li>
+				<li><a href="class-FeatureSet.html">FeatureSet</a></li>
+				<li><a href="class-Group.html">Group</a></li>
+				<li><a href="class-HtmlTestManager.html">HtmlTestManager</a></li>
+				<li><a href="class-Image.html">Image</a></li>
+				<li><a href="class-Item.html">Item</a></li>
+				<li><a href="class-ItemsPortfolio.html">ItemsPortfolio</a></li>
+				<li><a href="class-JoinThing.html">JoinThing</a></li>
+				<li><a href="class-Level.html">Level</a></li>
+				<li><a href="class-ModelA.html">ModelA</a></li>
+				<li><a href="class-ModelB.html">ModelB</a></li>
+				<li><a href="class-ModelC.html">ModelC</a></li>
+				<li><a href="class-ModelD.html">ModelD</a></li>
+				<li><a href="class-NodeAfterFind.html">NodeAfterFind</a></li>
+				<li><a href="class-NodeAfterFindSample.html">NodeAfterFindSample</a></li>
+				<li><a href="class-NodeNoAfterFind.html">NodeNoAfterFind</a></li>
+				<li class="active"><a href="class-NumberTreeCase.html">NumberTreeCase</a></li>
+				<li><a href="class-OpenidUrl.html">OpenidUrl</a></li>
+				<li><a href="class-PermissionTest.html">PermissionTest</a></li>
+				<li><a href="class-Portfolio.html">Portfolio</a></li>
+				<li><a href="class-PostsTag.html">PostsTag</a></li>
+				<li><a href="class-PrimaryModel.html">PrimaryModel</a></li>
+				<li><a href="class-RegisterArticle.html">RegisterArticle</a></li>
+				<li><a href="class-RegisterArticleFeatured.html">RegisterArticleFeatured</a></li>
+				<li><a href="class-RegisterArticleTag.html">RegisterArticleTag</a></li>
+				<li><a href="class-RegisterControllerTest.html">RegisterControllerTest</a></li>
+				<li><a href="class-RegistrationRestControllerTest.html">RegistrationRestControllerTest</a></li>
+				<li><a href="class-ScaffoldMock.html">ScaffoldMock</a></li>
+				<li><a href="class-ScheduleFixture.html">ScheduleFixture</a></li>
+				<li><a href="class-ScheduleTestCase.html">ScheduleTestCase</a></li>
+				<li><a href="class-SecondaryModel.html">SecondaryModel</a></li>
+				<li><a href="class-Something.html">Something</a></li>
+				<li><a href="class-SomethingElse.html">SomethingElse</a></li>
+				<li><a href="class-Syfile.html">Syfile</a></li>
+				<li><a href="class-TestManager.html">TestManager</a></li>
+				<li><a href="class-TextTestManager.html">TextTestManager</a></li>
+				<li><a href="class-User2.html">User2</a></li>
+				<li><a href="class-UserForm.html">UserForm</a></li>
+				<li><a href="class-UserRestControllerTest.html">UserRestControllerTest</a></li>
+				<li><a href="class-ValidateItem.html">ValidateItem</a></li>
+				<li><a href="class-ValidateProfile.html">ValidateProfile</a></li>
+				<li><a href="class-ValidateUser.html">ValidateUser</a></li>
+				<li><a href="class-ZazzleStorefrontControllerTest.html">ZazzleStorefrontControllerTest</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.tests.lib.html" title="Summary of cake\cake\tests\lib"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class NumberTreeCase</h1>
+
+
+	<div class="description">
+	
+<p>Short description for class.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-SimpleTestCase.html"><span>SimpleTestCase</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-UnitTestCase.html"><span>UnitTestCase</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-CakeTestCase.html"><span>CakeTestCase</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:90px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>NumberTreeCase</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.tests.html">tests</a>\<a href="package-cake.cake.tests.lib.html">lib</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/opengroup.php">The Open Group Test Suite License</a><br />
+		<b>Located at</b> <a href="source-class-NumberTreeCase.html#72-799" title="Go to source code">cake/tests/cases/libs/model/behaviors/tree.test.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="tearDown" id="_tearDown">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_tearDown">#</a>
+		<code><a href="source-class-NumberTreeCase.html#76-81" title="Go to source code">tearDown</a>( )</code>
+
+		<div class="description short">
+			
+<p>Clears the data set in the setUp() method call.<br />
+To be overridden by the user in actual user test cases.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clears the data set in the setUp() method call. To be overridden by the user
+in actual user test cases.</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-SimpleTestCase.html#_tearDown">SimpleTestCase::tearDown()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testInitialize" id="_testInitialize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testInitialize">#</a>
+		<code><a href="source-class-NumberTreeCase.html#83-92" title="Go to source code">testInitialize</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testDetectInvalidLeft" id="_testDetectInvalidLeft">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testDetectInvalidLeft">#</a>
+		<code><a href="source-class-NumberTreeCase.html#94-111" title="Go to source code">testDetectInvalidLeft</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testDetectInvalidRight" id="_testDetectInvalidRight">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testDetectInvalidRight">#</a>
+		<code><a href="source-class-NumberTreeCase.html#113-130" title="Go to source code">testDetectInvalidRight</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testDetectInvalidParent" id="_testDetectInvalidParent">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testDetectInvalidParent">#</a>
+		<code><a href="source-class-NumberTreeCase.html#132-148" title="Go to source code">testDetectInvalidParent</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testDetectNoneExistantParent" id="_testDetectNoneExistantParent">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testDetectNoneExistantParent">#</a>
+		<code><a href="source-class-NumberTreeCase.html#150-163" title="Go to source code">testDetectNoneExistantParent</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testDetectInvalidParents" id="_testDetectInvalidParents">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testDetectInvalidParents">#</a>
+		<code><a href="source-class-NumberTreeCase.html#165-178" title="Go to source code">testDetectInvalidParents</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testDetectInvalidLftsRghts" id="_testDetectInvalidLftsRghts">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testDetectInvalidLftsRghts">#</a>
+		<code><a href="source-class-NumberTreeCase.html#180-193" title="Go to source code">testDetectInvalidLftsRghts</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testAddOrphan" id="_testAddOrphan">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testAddOrphan">#</a>
+		<code><a href="source-class-NumberTreeCase.html#195-206" title="Go to source code">testAddOrphan</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testAddMiddle" id="_testAddMiddle">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testAddMiddle">#</a>
+		<code><a href="source-class-NumberTreeCase.html#208-233" title="Go to source code">testAddMiddle</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testAddInvalid" id="_testAddInvalid">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testAddInvalid">#</a>
+		<code><a href="source-class-NumberTreeCase.html#235-251" title="Go to source code">testAddInvalid</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMovePromote" id="_testMovePromote">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMovePromote">#</a>
+		<code><a href="source-class-NumberTreeCase.html#253-273" title="Go to source code">testMovePromote</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveWithWhitelist" id="_testMoveWithWhitelist">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveWithWhitelist">#</a>
+		<code><a href="source-class-NumberTreeCase.html#276-295" title="Go to source code">testMoveWithWhitelist</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testInsertWithWhitelist" id="_testInsertWithWhitelist">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testInsertWithWhitelist">#</a>
+		<code><a href="source-class-NumberTreeCase.html#297-306" title="Go to source code">testInsertWithWhitelist</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveBefore" id="_testMoveBefore">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveBefore">#</a>
+		<code><a href="source-class-NumberTreeCase.html#308-329" title="Go to source code">testMoveBefore</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveAfter" id="_testMoveAfter">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveAfter">#</a>
+		<code><a href="source-class-NumberTreeCase.html#331-352" title="Go to source code">testMoveAfter</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveDemoteInvalid" id="_testMoveDemoteInvalid">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveDemoteInvalid">#</a>
+		<code><a href="source-class-NumberTreeCase.html#354-380" title="Go to source code">testMoveDemoteInvalid</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveInvalid" id="_testMoveInvalid">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveInvalid">#</a>
+		<code><a href="source-class-NumberTreeCase.html#382-401" title="Go to source code">testMoveInvalid</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveSelfInvalid" id="_testMoveSelfInvalid">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveSelfInvalid">#</a>
+		<code><a href="source-class-NumberTreeCase.html#403-422" title="Go to source code">testMoveSelfInvalid</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveUpSuccess" id="_testMoveUpSuccess">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveUpSuccess">#</a>
+		<code><a href="source-class-NumberTreeCase.html#424-437" title="Go to source code">testMoveUpSuccess</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveUpFail" id="_testMoveUpFail">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveUpFail">#</a>
+		<code><a href="source-class-NumberTreeCase.html#439-453" title="Go to source code">testMoveUpFail</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveUp2" id="_testMoveUp2">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveUp2">#</a>
+		<code><a href="source-class-NumberTreeCase.html#455-477" title="Go to source code">testMoveUp2</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveUpFirst" id="_testMoveUpFirst">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveUpFirst">#</a>
+		<code><a href="source-class-NumberTreeCase.html#479-501" title="Go to source code">testMoveUpFirst</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveDownSuccess" id="_testMoveDownSuccess">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveDownSuccess">#</a>
+		<code><a href="source-class-NumberTreeCase.html#503-516" title="Go to source code">testMoveDownSuccess</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveDownFail" id="_testMoveDownFail">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveDownFail">#</a>
+		<code><a href="source-class-NumberTreeCase.html#518-531" title="Go to source code">testMoveDownFail</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveDownLast" id="_testMoveDownLast">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveDownLast">#</a>
+		<code><a href="source-class-NumberTreeCase.html#533-555" title="Go to source code">testMoveDownLast</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testMoveDown2" id="_testMoveDown2">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testMoveDown2">#</a>
+		<code><a href="source-class-NumberTreeCase.html#557-579" title="Go to source code">testMoveDown2</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testSaveNoMove" id="_testSaveNoMove">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testSaveNoMove">#</a>
+		<code><a href="source-class-NumberTreeCase.html#581-603" title="Go to source code">testSaveNoMove</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testDelete" id="_testDelete">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testDelete">#</a>
+		<code><a href="source-class-NumberTreeCase.html#605-632" title="Go to source code">testDelete</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testRemove" id="_testRemove">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testRemove">#</a>
+		<code><a href="source-class-NumberTreeCase.html#634-658" title="Go to source code">testRemove</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testRemoveLastTopParent" id="_testRemoveLastTopParent">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testRemoveLastTopParent">#</a>
+		<code><a href="source-class-NumberTreeCase.html#660-685" title="Go to source code">testRemoveLastTopParent</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testRemoveAndDelete" id="_testRemoveAndDelete">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testRemoveAndDelete">#</a>
+		<code><a href="source-class-NumberTreeCase.html#687-711" title="Go to source code">testRemoveAndDelete</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testChildren" id="_testChildren">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testChildren">#</a>
+		<code><a href="source-class-NumberTreeCase.html#713-733" title="Go to source code">testChildren</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testCountChildren" id="_testCountChildren">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testCountChildren">#</a>
+		<code><a href="source-class-NumberTreeCase.html#735-748" title="Go to source code">testCountChildren</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testGetParentNode" id="_testGetParentNode">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testGetParentNode">#</a>
+		<code><a href="source-class-NumberTreeCase.html#750-760" title="Go to source code">testGetParentNode</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testGetPath" id="_testGetPath">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testGetPath">#</a>
+		<code><a href="source-class-NumberTreeCase.html#762-774" title="Go to source code">testGetPath</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testNoAmbiguousColumn" id="_testNoAmbiguousColumn">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testNoAmbiguousColumn">#</a>
+		<code><a href="source-class-NumberTreeCase.html#776-798" title="Go to source code">testNoAmbiguousColumn</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-CakeTestCase.html#methods">CakeTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CakeTestCase.html#__initDb">_initDb()</a>, 
+			<a href="class-CakeTestCase.html#__loadFixtures">_loadFixtures()</a>, 
+			<a href="class-CakeTestCase.html#_after">after()</a>, 
+			<a href="class-CakeTestCase.html#_before">before()</a>, 
+			<a href="class-CakeTestCase.html#_end">end()</a>, 
+			<a href="class-CakeTestCase.html#_endCase">endCase()</a>, 
+			<a href="class-CakeTestCase.html#_endController">endController()</a>, 
+			<a href="class-CakeTestCase.html#_endTest">endTest()</a>, 
+			<a href="class-CakeTestCase.html#_getTests">getTests()</a>, 
+			<a href="class-CakeTestCase.html#_start">start()</a>, 
+			<a href="class-CakeTestCase.html#_startCase">startCase()</a>, 
+			<a href="class-CakeTestCase.html#_startController">startController()</a>, 
+			<a href="class-CakeTestCase.html#_startTest">startTest()</a>, 
+			<a href="class-CakeTestCase.html#_testAction">testAction()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-UnitTestCase.html#methods">UnitTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-UnitTestCase.html#_UnitTestCase">UnitTestCase()</a>, 
+			<a href="class-UnitTestCase.html#__coerceExpectation">_coerceExpectation()</a>, 
+			<a href="class-UnitTestCase.html#_assertClone">assertClone()</a>, 
+			<a href="class-UnitTestCase.html#_assertEqual">assertEqual()</a>, 
+			<a href="class-UnitTestCase.html#_assertFalse">assertFalse()</a>, 
+			<a href="class-UnitTestCase.html#_assertIdentical">assertIdentical()</a>, 
+			<a href="class-UnitTestCase.html#_assertIsA">assertIsA()</a>, 
+			<a href="class-UnitTestCase.html#_assertNoPattern">assertNoPattern()</a>, 
+			<a href="class-UnitTestCase.html#_assertNotA">assertNotA()</a>, 
+			<a href="class-UnitTestCase.html#_assertNotEqual">assertNotEqual()</a>, 
+			<a href="class-UnitTestCase.html#_assertNotIdentical">assertNotIdentical()</a>, 
+			<a href="class-UnitTestCase.html#_assertNotNull">assertNotNull()</a>, 
+			<a href="class-UnitTestCase.html#_assertNull">assertNull()</a>, 
+			<a href="class-UnitTestCase.html#_assertOutsideMargin">assertOutsideMargin()</a>, 
+			<a href="class-UnitTestCase.html#_assertPattern">assertPattern()</a>, 
+			<a href="class-UnitTestCase.html#_assertReference">assertReference()</a>, 
+			<a href="class-UnitTestCase.html#_assertTrue">assertTrue()</a>, 
+			<a href="class-UnitTestCase.html#_assertWithinMargin">assertWithinMargin()</a>, 
+			<a href="class-UnitTestCase.html#_expectError">expectError()</a>, 
+			<a href="class-UnitTestCase.html#_expectException">expectException()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-SimpleTestCase.html#methods">SimpleTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-SimpleTestCase.html#_SimpleTestCase">SimpleTestCase()</a>, 
+			<a href="class-SimpleTestCase.html#__isTest">_isTest()</a>, 
+			<a href="class-SimpleTestCase.html#_assert">assert()</a>, 
+			<a href="class-SimpleTestCase.html#_createInvoker">createInvoker()</a>, 
+			<a href="class-SimpleTestCase.html#_dump">dump()</a>, 
+			<a href="class-SimpleTestCase.html#_error">error()</a>, 
+			<a href="class-SimpleTestCase.html#_exception">exception()</a>, 
+			<a href="class-SimpleTestCase.html#_fail">fail()</a>, 
+			<a href="class-SimpleTestCase.html#_getAssertionLine">getAssertionLine()</a>, 
+			<a href="class-SimpleTestCase.html#_getLabel">getLabel()</a>, 
+			<a href="class-SimpleTestCase.html#_getSize">getSize()</a>, 
+			<a href="class-SimpleTestCase.html#_run">run()</a>, 
+			<a href="class-SimpleTestCase.html#_setUp">setUp()</a>, 
+			<a href="class-SimpleTestCase.html#_skip">skip()</a>, 
+			<a href="class-SimpleTestCase.html#_skipIf">skipIf()</a>, 
+			<a href="class-SimpleTestCase.html#_skipUnless">skipUnless()</a>, 
+			<a href="class-SimpleTestCase.html#_tell">tell()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="fixtures" id="$fixtures">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-NumberTreeCase.html#73" title="Go to source code"><var>$fixtures</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'core.number_tree'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$fixtures" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="debug" id="$debug">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-NumberTreeCase.html#74" title="Go to source code"><var>$debug</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$debug" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-CakeTestCase.html#properties">CakeTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CakeTestCase.html#$__truncated"><var>$__truncated</var></a>, 
+			<a href="class-CakeTestCase.html#$methods"><var>$methods</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-SimpleTestCase.html#properties">SimpleTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-SimpleTestCase.html#$_label"><var>$_label</var></a>, 
+			<a href="class-SimpleTestCase.html#$_observers"><var>$_observers</var></a>, 
+			<a href="class-SimpleTestCase.html#$_reporter"><var>$_reporter</var></a>, 
+			<a href="class-SimpleTestCase.html#$_should_skip"><var>$_should_skip</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

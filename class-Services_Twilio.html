@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Services_Twilio | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li class="active"><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li class="active"><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Services_Twilio.html">Services_Twilio</a></li>
+				<li><a href="class-Services_Twilio_Capability.html">Services_Twilio_Capability</a></li>
+				<li><a href="class-Services_Twilio_InstanceResource.html">Services_Twilio_InstanceResource</a></li>
+				<li><a href="class-Services_Twilio_ListResource.html">Services_Twilio_ListResource</a></li>
+				<li><a href="class-Services_Twilio_Page.html">Services_Twilio_Page</a></li>
+				<li><a href="class-Services_Twilio_PartialApplicationHelper.html">Services_Twilio_PartialApplicationHelper</a></li>
+				<li><a href="class-Services_Twilio_Resource.html">Services_Twilio_Resource</a></li>
+				<li><a href="class-Services_Twilio_Rest_Account.html">Services_Twilio_Rest_Account</a></li>
+				<li><a href="class-Services_Twilio_Rest_Accounts.html">Services_Twilio_Rest_Accounts</a></li>
+				<li><a href="class-Services_Twilio_Rest_Application.html">Services_Twilio_Rest_Application</a></li>
+				<li><a href="class-Services_Twilio_Rest_Applications.html">Services_Twilio_Rest_Applications</a></li>
+				<li><a href="class-Services_Twilio_Rest_AuthorizedConnectApp.html">Services_Twilio_Rest_AuthorizedConnectApp</a></li>
+				<li><a href="class-Services_Twilio_Rest_AuthorizedConnectApps.html">Services_Twilio_Rest_AuthorizedConnectApps</a></li>
+				<li><a href="class-Services_Twilio_Rest_AvailablePhoneNumber.html">Services_Twilio_Rest_AvailablePhoneNumber</a></li>
+				<li><a href="class-Services_Twilio_Rest_AvailablePhoneNumbers.html">Services_Twilio_Rest_AvailablePhoneNumbers</a></li>
+				<li><a href="class-Services_Twilio_Rest_Call.html">Services_Twilio_Rest_Call</a></li>
+				<li><a href="class-Services_Twilio_Rest_Calls.html">Services_Twilio_Rest_Calls</a></li>
+				<li><a href="class-Services_Twilio_Rest_Conference.html">Services_Twilio_Rest_Conference</a></li>
+				<li><a href="class-Services_Twilio_Rest_Conferences.html">Services_Twilio_Rest_Conferences</a></li>
+				<li><a href="class-Services_Twilio_Rest_ConnectApp.html">Services_Twilio_Rest_ConnectApp</a></li>
+				<li><a href="class-Services_Twilio_Rest_ConnectApps.html">Services_Twilio_Rest_ConnectApps</a></li>
+				<li><a href="class-Services_Twilio_Rest_IncomingPhoneNumber.html">Services_Twilio_Rest_IncomingPhoneNumber</a></li>
+				<li><a href="class-Services_Twilio_Rest_IncomingPhoneNumbers.html">Services_Twilio_Rest_IncomingPhoneNumbers</a></li>
+				<li><a href="class-Services_Twilio_Rest_Member.html">Services_Twilio_Rest_Member</a></li>
+				<li><a href="class-Services_Twilio_Rest_Members.html">Services_Twilio_Rest_Members</a></li>
+				<li><a href="class-Services_Twilio_Rest_Notification.html">Services_Twilio_Rest_Notification</a></li>
+				<li><a href="class-Services_Twilio_Rest_Notifications.html">Services_Twilio_Rest_Notifications</a></li>
+				<li><a href="class-Services_Twilio_Rest_OutgoingCallerId.html">Services_Twilio_Rest_OutgoingCallerId</a></li>
+				<li><a href="class-Services_Twilio_Rest_OutgoingCallerIds.html">Services_Twilio_Rest_OutgoingCallerIds</a></li>
+				<li><a href="class-Services_Twilio_Rest_Participant.html">Services_Twilio_Rest_Participant</a></li>
+				<li><a href="class-Services_Twilio_Rest_Participants.html">Services_Twilio_Rest_Participants</a></li>
+				<li><a href="class-Services_Twilio_Rest_Queue.html">Services_Twilio_Rest_Queue</a></li>
+				<li><a href="class-Services_Twilio_Rest_Queues.html">Services_Twilio_Rest_Queues</a></li>
+				<li><a href="class-Services_Twilio_Rest_Recording.html">Services_Twilio_Rest_Recording</a></li>
+				<li><a href="class-Services_Twilio_Rest_Recordings.html">Services_Twilio_Rest_Recordings</a></li>
+				<li><a href="class-Services_Twilio_Rest_Sandbox.html">Services_Twilio_Rest_Sandbox</a></li>
+				<li><a href="class-Services_Twilio_Rest_ShortCode.html">Services_Twilio_Rest_ShortCode</a></li>
+				<li><a href="class-Services_Twilio_Rest_Shortcodes.html">Services_Twilio_Rest_Shortcodes</a></li>
+				<li><a href="class-Services_Twilio_Rest_SmsMessage.html">Services_Twilio_Rest_SmsMessage</a></li>
+				<li><a href="class-Services_Twilio_Rest_SmsMessages.html">Services_Twilio_Rest_SmsMessages</a></li>
+				<li><a href="class-Services_Twilio_Rest_Transcription.html">Services_Twilio_Rest_Transcription</a></li>
+				<li><a href="class-Services_Twilio_Rest_Transcriptions.html">Services_Twilio_Rest_Transcriptions</a></li>
+				<li><a href="class-Services_Twilio_Rest_UsageRecord.html">Services_Twilio_Rest_UsageRecord</a></li>
+				<li><a href="class-Services_Twilio_Rest_UsageTrigger.html">Services_Twilio_Rest_UsageTrigger</a></li>
+				<li><a href="class-Services_Twilio_Rest_UsageTriggers.html">Services_Twilio_Rest_UsageTriggers</a></li>
+				<li><a href="class-Services_Twilio_Twiml.html">Services_Twilio_Twiml</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Services.Twilio.html" title="Summary of Services\Twilio"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Services_Twilio</h1>
+
+
+	<div class="description">
+	
+<p>Twilio API client interface.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Services_Twilio_Resource.html"><span>Services_Twilio_Resource</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Services_Twilio</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Services.html">Services</a>\<a href="package-Services.Twilio.html">Twilio</a><br />
+
+				<b>Category:</b>
+				Services<br />
+				<b>License:</b>
+				<a href="http://creativecommons.org/licenses/MIT/">MIT</a><br />
+				<b>Author:</b>
+				Neuman Vong &lt;<a
+href="mailto:neuman&#64;twilio.com">neuman&#64;<!---->twilio.com</a>&gt;<br />
+				<b>Link:</b>
+				<a href="http://pear.php.net/package/Services_Twilio">http://pear.php.net/package/Services_Twilio</a><br />
+		<b>Located at</b> <a href="source-class-Services_Twilio.html#14-222" title="Go to source code">app/vendors/twilio/twilio.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Services_Twilio.html#33-75" title="Go to source code">__construct</a>( <span>string <var>$sid</var></span>, <span>string <var>$token</var></span>, <span>string <var>$version</var> = <span class="php-keyword1">null</span></span>, <span><code><a href="class-Services_Twilio_TinyHttp.html">Services_Twilio_TinyHttp</a></code> <var>$_http</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$retryAttempts</var> = <span class="php-num">1</span> </span> )</code>
+
+		<div class="description short">
+			
+<p>Constructor.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sid</var></dt>
+					<dd><code>string</code><br>$sid Account SID</dd>
+					<dt><var>$token</var></dt>
+					<dd><code>string</code><br>$token Account auth token</dd>
+					<dt><var>$version</var></dt>
+					<dd><code>string</code><br>$version API version</dd>
+					<dt><var>$_http</var></dt>
+					<dd><code>Services_Twilio_Http</code><br>$_http A HTTP client</dd>
+					<dt><var>$retryAttempts</var></dt>
+					<dd><code>integer</code><br>$retryAttempts Number of times to retry failed requests</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Services_Twilio_Resource.html#___construct">Services_Twilio_Resource::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getVersion" id="_getVersion">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getVersion">#</a>
+		<code><a href="source-class-Services_Twilio.html#77-84" title="Go to source code">getVersion</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the api version used by the rest client</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the api version used by the rest client</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>the API version in use<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRetryAttempts" id="_getRetryAttempts">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRetryAttempts">#</a>
+		<code><a href="source-class-Services_Twilio.html#86-93" title="Go to source code">getRetryAttempts</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the retry attempt limit used by the rest client</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the retry attempt limit used by the rest client</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>the number of retry attempts<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRequestUri" id="_getRequestUri">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRequestUri">#</a>
+		<code><a href="source-class-Services_Twilio.html#95-117" title="Go to source code">getRequestUri</a>( <span>string <var>$path</var></span>, <span>array <var>$params</var></span>, <span>boolean <var>$full_uri</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Construct a URI based on initial path, query params, and paging
+information</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Construct a URI based on initial path, query params, and paging
+information</p>
+
+<p>We want to use the query params, unless we have a next_page_uri from the
+API.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path The request path (may contain query params if it's a next_page_uri)</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Query parameters to use with the request</dd>
+					<dt><var>$full_uri</var></dt>
+					<dd><code>boolean</code><br>$full_uri Whether the $path contains the full uri</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>the URI that should be requested by the library<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_makeIdempotentRequest" id="__makeIdempotentRequest">
+
+		<td class="attributes"><code>
+			 protected 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__makeIdempotentRequest">#</a>
+		<code><a href="source-class-Services_Twilio.html#119-136" title="Go to source code">_makeIdempotentRequest</a>( <span>array <var>$callable</var></span>, <span>string <var>$uri</var></span>, <span>integer <var>$retriesLeft</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Helper method for implementing request retry logic</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Helper method for implementing request retry logic</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callable</var></dt>
+					<dd><code>array</code><br>$callable The function that makes an HTTP request</dd>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri The URI to request</dd>
+					<dt><var>$retriesLeft</var></dt>
+					<dd><code>integer</code><br>$retriesLeft Number of times to retry</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>The object representation of the resource<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="retrieveData" id="_retrieveData">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_retrieveData">#</a>
+		<code><a href="source-class-Services_Twilio.html#138-154" title="Go to source code">retrieveData</a>( <span>string <var>$path</var></span>, <span>array <var>$params</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$full_uri</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+		<div class="description short">
+			
+<p>GET the resource at the specified path.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>GET the resource at the specified path.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Path to the resource</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Query string parameters</dd>
+					<dt><var>$full_uri</var></dt>
+					<dd><code>boolean</code><br>$full_uri Whether the full URI has been passed as an argument</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>The object representation of the resource<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteData" id="_deleteData">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteData">#</a>
+		<code><a href="source-class-Services_Twilio.html#156-169" title="Go to source code">deleteData</a>( <span>string <var>$path</var></span>, <span>array <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>DELETE the resource at the specified path.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>DELETE the resource at the specified path.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Path to the resource</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Query string parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>The object representation of the resource<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createData" id="_createData">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createData">#</a>
+		<code><a href="source-class-Services_Twilio.html#171-187" title="Go to source code">createData</a>( <span>string <var>$path</var></span>, <span>array <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>POST to the resource at the specified path.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>POST to the resource at the specified path.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Path to the resource</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Query string parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>The object representation of the resource<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Services_Twilio_Resource.html#methods">Services_Twilio_Resource</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Services_Twilio_Resource.html#___get">__get()</a>, 
+			<a href="class-Services_Twilio_Resource.html#_camelize">camelize()</a>, 
+			<a href="class-Services_Twilio_Resource.html#_decamelize">decamelize()</a>, 
+			<a href="class-Services_Twilio_Resource.html#_getResourceName">getResourceName()</a>, 
+			<a href="class-Services_Twilio_Resource.html#_getSubresources">getSubresources()</a>, 
+			<a href="class-Services_Twilio_Resource.html#_init">init()</a>, 
+			<a href="class-Services_Twilio_Resource.html#_setupSubresources">setupSubresources()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="USER_AGENT" id="USER_AGENT">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-Services_Twilio.html#25" title="Go to source code"><b>USER_AGENT</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'twilio-php/3.10.0'</span></code></td>
+		<td class="description"><div>
+			<a href="#USER_AGENT" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="http" id="$http">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Services_Twilio.html#27" title="Go to source code"><var>$http</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$http" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="retryAttempts" id="$retryAttempts">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Services_Twilio.html#28" title="Go to source code"><var>$retryAttempts</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$retryAttempts" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="last_response" id="$last_response">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Services_Twilio.html#29" title="Go to source code"><var>$last_response</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$last_response" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="version" id="$version">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Services_Twilio.html#30" title="Go to source code"><var>$version</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$version" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="versions" id="$versions">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Services_Twilio.html#31" title="Go to source code"><var>$versions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'2008-08-01'</span>, <span class="php-quote">'2010-04-01'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$versions" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Services_Twilio_Resource.html#properties">Services_Twilio_Resource</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Services_Twilio_Resource.html#$subresources"><var>$subresources</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1916 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Image_Canvas_GD | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li class="active"><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li class="active"><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Image_Canvas.html">Image_Canvas</a></li>
+				<li><a href="class-Image_Canvas_Color.html">Image_Canvas_Color</a></li>
+				<li class="active"><a href="class-Image_Canvas_GD.html">Image_Canvas_GD</a></li>
+				<li><a href="class-Image_Canvas_GD_JPG.html">Image_Canvas_GD_JPG</a></li>
+				<li><a href="class-Image_Canvas_GD_PNG.html">Image_Canvas_GD_PNG</a></li>
+				<li><a href="class-Image_Canvas_ImageMap.html">Image_Canvas_ImageMap</a></li>
+				<li><a href="class-Image_Canvas_PDF.html">Image_Canvas_PDF</a></li>
+				<li><a href="class-Image_Canvas_SVG.html">Image_Canvas_SVG</a></li>
+				<li><a href="class-Image_Canvas_Tool.html">Image_Canvas_Tool</a></li>
+				<li><a href="class-Image_Canvas_WithMap.html">Image_Canvas_WithMap</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Image.Canvas.html" title="Summary of Image\Canvas"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Image_Canvas_GD</h1>
+
+
+	<div class="description">
+	
+<p>Canvas class to output using PHP GD support.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Image_Canvas.html"><span>Image_Canvas</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Canvas_WithMap.html"><span>Image_Canvas_WithMap</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Image_Canvas_GD</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Image_Canvas_GD_JPG.html">Image_Canvas_GD_JPG</a>, 
+			<a href="class-Image_Canvas_GD_PNG.html">Image_Canvas_GD_PNG</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Image.html">Image</a>\<a href="package-Image.Canvas.html">Canvas</a><br />
+
+				<b>Category:</b>
+				Images<br />
+				<b>Copyright:</b>
+				Copyright (C) 2003, 2004 Jesper Veggerby Hansen<br />
+				<b>License:</b>
+				<a href="http://www.gnu.org/copyleft/lesser.html">LGPL License 2.1</a><br />
+				<b>Author:</b>
+				Jesper Veggerby &lt;<a
+href="mailto:pear.nosey&#64;veggerby.dk">pear.nosey&#64;<!---->veggerby.dk</a>&gt;<br />
+				<b>Version:</b>
+				Release: @package_version@<br />
+				<b>Link:</b>
+				<a href="http://pear.php.net/pepr/pepr-proposal-show.php?id=212">http://pear.php.net/pepr/pepr-proposal-show.php?id=212</a><br />
+		<b>Located at</b> <a href="source-class-Image_Canvas_GD.html#46-1791" title="Go to source code">app/vendors/Image/Canvas/GD.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="Image_Canvas_GD" id="_Image_Canvas_GD">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_Image_Canvas_GD">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#96-184" title="Go to source code">Image_Canvas_GD</a>( <span>array <var>$param</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create the GD canvas.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create the GD canvas.</p>
+
+<p>Parameters available:</p>
+
+<p>'width' The width of the graph on the canvas</p>
+
+<p>'height' The height of the graph on the canvas</p>
+
+<p>'left' The left offset of the graph on the canvas</p>
+
+<p>'top' The top offset of the graph on the canvas</p>
+
+<p>'antialias' = 'native' enables native GD antialiasing - this method has no
+severe impact on performance (approx +5%). Requires PHP 4.3.2 (with bundled
+GD2)</p>
+
+<p>'antialias' = {true|'driver'} Image_Graph implemented method. This method has
+a severe impact on performance, drawing an antialiased line this way is about XX
+times slower, with an overall performance impact of about +40%. The
+justification for this method is that if native support is not available this
+can be used, it is also a future feature that this method for antialiasing will
+support line styles.</p>
+
+<p>Use antialiased for best results with a line/area chart having just a few
+datapoints. Native antialiasing does not provide a good appearance with short
+lines, as for example with smoothed charts. Antialiasing does not (currently)
+work with linestyles, neither native nor driver method!</p>
+
+<p>'noalpha' = true If alpha blending is to be disabled</p>
+
+<p>'filename' An image to open, on which the graph is created on</p>
+
+<p>'gd' A GD resource to add the image to, use this option to continue working
+on an already existing GD resource. Make sure this is passed 'by- reference'
+(using &amp;)</p>
+
+<p>'usemap' Initialize an image map</p>
+
+<p>'gd' and 'filename' are mutually exclusive with 'gd' as preference</p>
+
+<p>'width' and 'height' are required unless 'filename' or 'gd' are specified, in
+which case the width and height are taken as the actual image width/height. If
+the latter is the case and 'left' and/or 'top' was also specified, the actual
+'width'/'height' are altered so that the graph fits inside the canvas (i.e
+'height' = actual height - top, etc.)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$param</var></dt>
+					<dd><code>array</code><br>$param Parameter array</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getGD" id="__getGD">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getGD">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#186-212" title="Go to source code">_getGD</a>( <span>string <var>$filename</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get an GD image resource from a file</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get an GD image resource from a file</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filename</var></dt>
+					<dd><code>string</code><br>$filename</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>The GD image resource<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_color" id="__color">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__color">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#214-228" title="Go to source code">_color</a>( <span>integer <var>$color</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the color index for the RGB color</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the color index for the RGB color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$color</var></dt>
+					<dd><code>integer</code><br>$color The color</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The GD image index of the color<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getLineStyle" id="__getLineStyle">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getLineStyle">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#230-263" title="Go to source code">_getLineStyle</a>( <span>mixed <var>$lineStyle</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the GD applicable linestyle</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the GD applicable linestyle</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$lineStyle</var></dt>
+					<dd><code>mixed</code><br>$lineStyle The line style to return, false if the one explicitly set</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>A GD compatible linestyle<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getFillStyle" id="__getFillStyle">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getFillStyle">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#265-547" title="Go to source code">_getFillStyle</a>( <span>mixed <var>$fillStyle</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$x0</var> = <span class="php-num">0</span></span>, <span>mixed <var>$y0</var> = <span class="php-num">0</span></span>, <span>mixed <var>$x1</var> = <span class="php-num">0</span></span>, <span>mixed <var>$y1</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the GD applicable fillstyle</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the GD applicable fillstyle</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fillStyle</var></dt>
+					<dd><code>mixed</code><br>$fillStyle The fillstyle to return, false if the one explicitly set</dd>
+					<dt><var>$x0</var></dt>
+					<dd></dd>
+					<dt><var>$y0</var></dt>
+					<dd></dd>
+					<dt><var>$x1</var></dt>
+					<dd></dd>
+					<dt><var>$y1</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>A GD compatible fillstyle<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFillImage" id="_setFillImage">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFillImage">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#549-557" title="Go to source code">setFillImage</a>( <span>string <var>$filename</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets an image that should be used for filling</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets an image that should be used for filling</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filename</var></dt>
+					<dd><code>string</code><br>$filename The filename of the image to fill with</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_setFillImage">Image_Canvas::setFillImage()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFont" id="_setFont">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFont">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#559-590" title="Go to source code">setFont</a>( <span>array <var>$fontOptions</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the font options.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the font options.</p>
+
+<p>The $font array may have the following entries:</p>
+
+<p>'ttf' = the .ttf file (either the basename, filename or full path) If 'ttf'
+is specified, then the following can be specified</p>
+
+<p>'size' = size in pixels</p>
+
+<p>'angle' = the angle with which to write the text</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fontOptions</var></dt>
+					<dd><code>array</code><br>$font The font options.</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_setFont">Image_Canvas::setFont()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_linePixels" id="__linePixels">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__linePixels">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#592-632" title="Go to source code">_linePixels</a>( <span>integer <var>$x0</var></span>, <span>integer <var>$y0</var></span>, <span>integer <var>$x1</var></span>, <span>integer <var>$y1</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculate pixels on a line</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculate pixels on a line</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x0</var></dt>
+					<dd><code>integer</code><br>$x0 X start point</dd>
+					<dt><var>$y0</var></dt>
+					<dd><code>integer</code><br>$y0 X start point</dd>
+					<dt><var>$x1</var></dt>
+					<dd><code>integer</code><br>$x1 X end point</dd>
+					<dt><var>$y1</var></dt>
+					<dd><code>integer</code><br>$y1 Y end point</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>An associated array of x,y points with all pixels on the line<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_antialiasedLine" id="__antialiasedLine">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__antialiasedLine">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#634-656" title="Go to source code">_antialiasedLine</a>( <span>integer <var>$x0</var></span>, <span>integer <var>$y0</var></span>, <span>integer <var>$x1</var></span>, <span>integer <var>$y1</var></span>, <span>mixed <var>$color</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Draws an antialiased line</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draws an antialiased line</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x0</var></dt>
+					<dd><code>integer</code><br>$x0 X start point</dd>
+					<dt><var>$y0</var></dt>
+					<dd><code>integer</code><br>$y0 X start point</dd>
+					<dt><var>$x1</var></dt>
+					<dd><code>integer</code><br>$x1 X end point</dd>
+					<dt><var>$y1</var></dt>
+					<dd><code>integer</code><br>$y1 Y end point</dd>
+					<dt><var>$color</var></dt>
+					<dd><code>mixed</code><br>$color The line color, can be omitted</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_antialiasedPixel" id="__antialiasedPixel">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__antialiasedPixel">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#659-691" title="Go to source code">_antialiasedPixel</a>( <span>integer <var>$x</var></span>, <span>integer <var>$y</var></span>, <span>mixed <var>$color</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Draws an antialiased pixel</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draws an antialiased pixel</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x</var></dt>
+					<dd><code>integer</code><br>$x X point</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>integer</code><br>$y Y point</dd>
+					<dt><var>$color</var></dt>
+					<dd><code>mixed</code><br>$color The pixel color</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_antialisedSubPixel" id="__antialisedSubPixel">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__antialisedSubPixel">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#693-722" title="Go to source code">_antialisedSubPixel</a>( <span>integer <var>$x</var></span>, <span>integer <var>$y</var></span>, <span>integer <var>$a</var></span>, <span>integer <var>$b</var></span>, <span>mixed <var>$color</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Antialias'es the pixel around x,y with weights a,b</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Antialias'es the pixel around x,y with weights a,b</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x</var></dt>
+					<dd><code>integer</code><br>$x X point</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>integer</code><br>$y Y point</dd>
+					<dt><var>$a</var></dt>
+					<dd><code>integer</code><br>$a The weight of the current color</dd>
+					<dt><var>$b</var></dt>
+					<dd><code>integer</code><br>$b The weight of the applied/wanted color</dd>
+					<dt><var>$color</var></dt>
+					<dd><code>mixed</code><br>$color The pixel color</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="drawEnd" id="_drawEnd">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_drawEnd">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#725-838" title="Go to source code">drawEnd</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Draw a line end</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw a line end</p>
+
+<p>Parameter array:</p>
+
+<p>'x': int X point</p>
+
+<p>'y': int Y point</p>
+
+<p>'end': string The end type of the end</p>
+
+<p>'size': int The size of the end</p>
+
+<p>'color': string The color of the end</p>
+
+<p>'angle': int [optional] The angle with which to draw the end</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_drawEnd">Image_Canvas::drawEnd()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="line" id="_line">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_line">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#840-875" title="Go to source code">line</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Draw a line</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw a line</p>
+
+<p>Parameter array:</p>
+
+<p>'x0': int X start point</p>
+
+<p>'y0': int Y start point</p>
+
+<p>'x1': int X end point</p>
+
+<p>'y1': int Y end point</p>
+
+<p>'color': mixed [optional] The line color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas_WithMap.html#_line">Image_Canvas_WithMap::line()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="polygon" id="_polygon">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_polygon">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#877-1063" title="Go to source code">polygon</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parameter array:</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parameter array:</p>
+
+<p>'connect': bool [optional] Specifies whether the start point should be
+connected to the endpoint (closed polygon) or not (connected line)</p>
+
+<p>'fill': mixed [optional] The fill color</p>
+
+<p>'line': mixed [optional] The line color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas_WithMap.html#_polygon">Image_Canvas_WithMap::polygon()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rectangle" id="_rectangle">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rectangle">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#1065-1102" title="Go to source code">rectangle</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Draw a rectangle</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw a rectangle</p>
+
+<p>Parameter array:</p>
+
+<p>'x0': int X start point</p>
+
+<p>'y0': int Y start point</p>
+
+<p>'x1': int X end point</p>
+
+<p>'y1': int Y end point</p>
+
+<p>'fill': mixed [optional] The fill color</p>
+
+<p>'line': mixed [optional] The line color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas_WithMap.html#_rectangle">Image_Canvas_WithMap::rectangle()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ellipse" id="_ellipse">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ellipse">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#1104-1140" title="Go to source code">ellipse</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Draw an ellipse</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw an ellipse</p>
+
+<p>Parameter array:</p>
+
+<p>'x': int X center point</p>
+
+<p>'y': int Y center point</p>
+
+<p>'rx': int X radius</p>
+
+<p>'ry': int Y radius</p>
+
+<p>'fill': mixed [optional] The fill color</p>
+
+<p>'line': mixed [optional] The line color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas_WithMap.html#_ellipse">Image_Canvas_WithMap::ellipse()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="pieslice" id="_pieslice">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_pieslice">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#1142-1221" title="Go to source code">pieslice</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Draw a pie slice</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw a pie slice</p>
+
+<p>Parameter array:</p>
+
+<p>'x': int X center point</p>
+
+<p>'y': int Y center point</p>
+
+<p>'rx': int X radius</p>
+
+<p>'ry': int Y radius</p>
+
+<p>'v1': int The starting angle (in degrees)</p>
+
+<p>'v2': int The end angle (in degrees)</p>
+
+<p>'srx': int [optional] Starting X-radius of the pie slice (i.e. for a
+doughnut)</p>
+
+<p>'sry': int [optional] Starting Y-radius of the pie slice (i.e. for a
+doughnut)</p>
+
+<p>'fill': mixed [optional] The fill color</p>
+
+<p>'line': mixed [optional] The line color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas_WithMap.html#_pieslice">Image_Canvas_WithMap::pieslice()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="textWidth" id="_textWidth">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_textWidth">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#1223-1264" title="Go to source code">textWidth</a>( <span>string <var>$text</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the width of a text,</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the width of a text,</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$text</var></dt>
+					<dd><code>string</code><br>$text The text to get the width of</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The width of the text<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_textWidth">Image_Canvas::textWidth()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="textHeight" id="_textHeight">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_textHeight">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#1266-1327" title="Go to source code">textHeight</a>( <span>string <var>$text</var></span>, <span>boolean <var>$force</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the height of a text.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the height of a text.</p>
+
+<p>Note! This method can give some peculiar results, since ImageTTFBBox()
+returns the total bounding box of a text, where ImageTTF() writes the text on
+the baseline of the text, that is 'g', 'p', 'q' and other letters that dig under
+the baseline will appear to have a larger height than they actually do. Have a
+look at the tests/text.php test case - the first two columns, 'left and
+'center', both look alright, whereas the last column, 'right', appear with a
+larger space between the first text and the second. This is because the total
+height is actually smaller by exactly the number of pixels that the 'g' digs
+under the baseline. Remove the 'g' from the text and they appear correct.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$text</var></dt>
+					<dd><code>string</code><br>$text The text to get the height of</dd>
+					<dt><var>$force</var></dt>
+					<dd><code>boolean</code><br>$force Force the method to calculate the size</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The height of the text<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_textHeight">Image_Canvas::textHeight()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getAbsolutePosition" id="__getAbsolutePosition">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getAbsolutePosition">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#1329-1426" title="Go to source code">_getAbsolutePosition</a>( <span>integer <var>$x</var></span>, <span>integer <var>$y</var></span>, <span>string <var>$text</var></span>, <span>array <var>$align</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculated the absolute bottom-left position of the text, by simulating the
+calculation of the baseline drop.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculated the absolute bottom-left position of the text, by simulating the
+calculation of the baseline drop.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x</var></dt>
+					<dd><code>integer</code><br>$x The relative x position to write the text</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>integer</code><br>$y The relative y position to write the text</dd>
+					<dt><var>$text</var></dt>
+					<dd><code>string</code><br>$text The text to write</dd>
+					<dt><var>$align</var></dt>
+					<dd><code>array</code><br>$align The alignment of the text relative to (x, y)</dd>
+				</dl></div>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+						array An array containing the absolute x and y positions<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addText" id="_addText">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addText">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#1428-1534" title="Go to source code">addText</a>( <span>mixed <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Writes text</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Writes text</p>
+
+<p>Parameter array:</p>
+
+<p>'x': int X-point of text</p>
+
+<p>'y': int Y-point of text</p>
+
+<p>'text': string The text to add</p>
+
+<p>'alignment': array [optional] Alignment</p>
+
+<p>'color': mixed [optional] The color of the text</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas_WithMap.html#_addText">Image_Canvas_WithMap::addText()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="image" id="_image">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_image">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#1536-1646" title="Go to source code">image</a>( <span>mixed <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Overlay image</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Overlay image</p>
+
+<p>Parameter array:</p>
+
+<p>'x': int X-point of overlayed image</p>
+
+<p>'y': int Y-point of overlayed image</p>
+
+<p>'filename': string The filename of the image to overlay</p>
+
+<p>'width': int [optional] The width of the overlayed image (resizing if
+possible)</p>
+
+<p>'height': int [optional] The height of the overlayed image (resizing if
+possible)</p>
+
+<p>'alignment': array [optional] Alignment</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas_WithMap.html#_image">Image_Canvas_WithMap::image()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setClipping" id="_setClipping">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setClipping">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#1648-1702" title="Go to source code">setClipping</a>( <span>mixed <var>$params</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set clipping to occur</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set clipping to occur</p>
+
+<p>Parameter array:</p>
+
+<p>'x0': int X point of Upper-left corner 'y0': int X point of Upper-left corner
+'x1': int X point of lower-right corner 'y1': int Y point of lower-right
+corner</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_setClipping">Image_Canvas::setClipping()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="toHtml" id="_toHtml">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_toHtml">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#1704-1733" title="Go to source code">toHtml</a>( <span>mixed <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a canvas specific HTML tag.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a canvas specific HTML tag.</p>
+
+<p>This method implicitly saves the canvas to the filename in the filesystem
+path specified and parses it as URL specified by URL path</p>
+
+<p>Parameter array:</p>
+
+<p>'filename' string</p>
+
+<p>'filepath': string Path to the file on the file system. Remember the final
+slash</p>
+
+<p>'urlpath': string Path to the file available through an URL. Remember the
+final slash</p>
+
+<p>'alt': string [optional] Alternative text on image</p>
+
+<p>'cssclass': string [optional] The CSS Stylesheet class</p>
+
+<p>'border': int [optional] The border width on the image</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_toHtml">Image_Canvas::toHtml()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_reset" id="__reset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__reset">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#1735-1752" title="Go to source code">_reset</a>( )</code>
+
+		<div class="description short">
+			
+<p>Resets the canvas.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resets the canvas.</p>
+
+<p>Include fillstyle, linestyle, thickness and polygon</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#__reset">Image_Canvas::_reset()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_version" id="__version">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__version">#</a>
+		<code><a href="source-class-Image_Canvas_GD.html#1754-1789" title="Go to source code">_version</a>( )</code>
+
+		<div class="description short">
+			
+<p>Check which version of GD is installed</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check which version of GD is installed</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>0 if GD isn't installed, 1 if GD 1.x is installed and 2 if GD 2.x is installed<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Canvas_WithMap.html#methods">Image_Canvas_WithMap</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Canvas_WithMap.html#_Image_Canvas_WithMap">Image_Canvas_WithMap()</a>, 
+			<a href="class-Image_Canvas_WithMap.html#_addSpline">addSpline()</a>, 
+			<a href="class-Image_Canvas_WithMap.html#_addVertex">addVertex()</a>, 
+			<a href="class-Image_Canvas_WithMap.html#_getImageMap">getImageMap()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Canvas.html#methods">Image_Canvas</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Canvas.html#_Image_Canvas">Image_Canvas()</a>, 
+			<a href="class-Image_Canvas.html#__getX">_getX()</a>, 
+			<a href="class-Image_Canvas.html#__getY">_getY()</a>, 
+			<a href="class-Image_Canvas.html#_endGroup">endGroup()</a>, 
+			<a href="class-Image_Canvas.html#_factory">factory()</a>, 
+			<a href="class-Image_Canvas.html#_getHeight">getHeight()</a>, 
+			<a href="class-Image_Canvas.html#_getWidth">getWidth()</a>, 
+			<a href="class-Image_Canvas.html#_reset">reset()</a>, 
+			<a href="class-Image_Canvas.html#_save">save()</a>, 
+			<a href="class-Image_Canvas.html#_setDefaultFont">setDefaultFont()</a>, 
+			<a href="class-Image_Canvas.html#_setFill">setFill()</a>, 
+			<a href="class-Image_Canvas.html#_setFillColor">setFillColor()</a>, 
+			<a href="class-Image_Canvas.html#_setGradientFill">setGradientFill()</a>, 
+			<a href="class-Image_Canvas.html#_setLineColor">setLineColor()</a>, 
+			<a href="class-Image_Canvas.html#_setLineThickness">setLineThickness()</a>, 
+			<a href="class-Image_Canvas.html#_show">show()</a>, 
+			<a href="class-Image_Canvas.html#_startGroup">startGroup()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_canvas" id="$_canvas">
+		<td class="attributes"><code>
+			public  
+			resource
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Canvas_GD.html#61-66" title="Go to source code"><var>$_canvas</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_canvas" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The canvas of the graph</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The canvas of the graph</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_tileImage" id="$_tileImage">
+		<td class="attributes"><code>
+			public  
+			resource
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Canvas_GD.html#68-73" title="Go to source code"><var>$_tileImage</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$_tileImage" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The canvas to use for tiled filling</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The canvas to use for tiled filling</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_gd2" id="$_gd2">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Canvas_GD.html#75-80" title="Go to source code"><var>$_gd2</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$_gd2" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Is version GD2 installed?</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Is version GD2 installed?</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_antialias" id="$_antialias">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Canvas_GD.html#82-90" title="Go to source code"><var>$_antialias</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'off'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_antialias" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Antialiasing?</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Antialiasing?</p>
+
+<p>Possible values 'off', 'driver' and 'native'</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_alpha" id="$_alpha">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Canvas_GD.html#92" title="Go to source code"><var>$_alpha</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_alpha" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_clipping" id="$_clipping">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Canvas_GD.html#94" title="Go to source code"><var>$_clipping</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_clipping" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Canvas_WithMap.html#properties">Image_Canvas_WithMap</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Canvas_WithMap.html#$_imageMap"><var>$_imageMap</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Canvas.html#properties">Image_Canvas</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Canvas.html#$_defaultFont"><var>$_defaultFont</var></a>, 
+			<a href="class-Image_Canvas.html#$_fillStyle"><var>$_fillStyle</var></a>, 
+			<a href="class-Image_Canvas.html#$_font"><var>$_font</var></a>, 
+			<a href="class-Image_Canvas.html#$_height"><var>$_height</var></a>, 
+			<a href="class-Image_Canvas.html#$_left"><var>$_left</var></a>, 
+			<a href="class-Image_Canvas.html#$_lineStyle"><var>$_lineStyle</var></a>, 
+			<a href="class-Image_Canvas.html#$_polygon"><var>$_polygon</var></a>, 
+			<a href="class-Image_Canvas.html#$_thickness"><var>$_thickness</var></a>, 
+			<a href="class-Image_Canvas.html#$_top"><var>$_top</var></a>, 
+			<a href="class-Image_Canvas.html#$_width"><var>$_width</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

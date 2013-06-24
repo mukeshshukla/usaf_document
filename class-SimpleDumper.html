@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class SimpleDumper | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AllTests.html">AllTests</a></li>
+				<li><a href="class-AppImportTest.html">AppImportTest</a></li>
+				<li><a href="class-BadTestCases.html">BadTestCases</a></li>
+				<li><a href="class-BadTestSuite.html">BadTestSuite</a></li>
+				<li><a href="class-ClassRegistryTest.html">ClassRegistryTest</a></li>
+				<li><a href="class-DefaultReporter.html">DefaultReporter</a></li>
+				<li><a href="class-DetachedTestCase.html">DetachedTestCase</a></li>
+				<li><a href="class-EqualExpectation.html">EqualExpectation</a></li>
+				<li><a href="class-ExceptionExpectation.html">ExceptionExpectation</a></li>
+				<li><a href="class-FailingUnitTestCaseOutput.html">FailingUnitTestCaseOutput</a></li>
+				<li><a href="class-HtmlHelperTest.html">HtmlHelperTest</a></li>
+				<li><a href="class-HtmlReporter.html">HtmlReporter</a></li>
+				<li><a href="class-IdenticalExpectation.html">IdenticalExpectation</a></li>
+				<li><a href="class-IsAExpectation.html">IsAExpectation</a></li>
+				<li><a href="class-LikeExpectation.html">LikeExpectation</a></li>
+				<li><a href="class-LiveHttpTestCase.html">LiveHttpTestCase</a></li>
+				<li><a href="class-LoadIfIncludedTestCase.html">LoadIfIncludedTestCase</a></li>
+				<li><a href="class-MethodExistsExpectation.html">MethodExistsExpectation</a></li>
+				<li><a href="class-MultipleReporter.html">MultipleReporter</a></li>
+				<li><a href="class-NestingCaseTag.html">NestingCaseTag</a></li>
+				<li><a href="class-NestingGroupTag.html">NestingGroupTag</a></li>
+				<li><a href="class-NestingMethodTag.html">NestingMethodTag</a></li>
+				<li><a href="class-NestingXmlTag.html">NestingXmlTag</a></li>
+				<li><a href="class-NoPatternExpectation.html">NoPatternExpectation</a></li>
+				<li><a href="class-NoSkipsReporter.html">NoSkipsReporter</a></li>
+				<li><a href="class-NotAExpectation.html">NotAExpectation</a></li>
+				<li><a href="class-NotEqualExpectation.html">NotEqualExpectation</a></li>
+				<li><a href="class-NoTextExpectation.html">NoTextExpectation</a></li>
+				<li><a href="class-NotIdenticalExpectation.html">NotIdenticalExpectation</a></li>
+				<li><a href="class-OutsideMarginExpectation.html">OutsideMarginExpectation</a></li>
+				<li><a href="class-PassesAsWellReporter.html">PassesAsWellReporter</a></li>
+				<li><a href="class-PassingUnitTestCaseOutput.html">PassingUnitTestCaseOutput</a></li>
+				<li><a href="class-PathEqualExpectation.html">PathEqualExpectation</a></li>
+				<li><a href="class-PatternExpectation.html">PatternExpectation</a></li>
+				<li><a href="class-ReferenceExpectation.html">ReferenceExpectation</a></li>
+				<li><a href="class-RemoteTestCase.html">RemoteTestCase</a></li>
+				<li><a href="class-SelectiveReporter.html">SelectiveReporter</a></li>
+				<li><a href="class-ShellTestCase.html">ShellTestCase</a></li>
+				<li><a href="class-ShouldNeverBeRun.html">ShouldNeverBeRun</a></li>
+				<li><a href="class-ShouldNeverBeRunEither.html">ShouldNeverBeRunEither</a></li>
+				<li><a href="class-SimpleCollector.html">SimpleCollector</a></li>
+				<li><a href="class-SimpleCommandLineParser.html">SimpleCommandLineParser</a></li>
+				<li class="active"><a href="class-SimpleDumper.html">SimpleDumper</a></li>
+				<li><a href="class-SimpleErrorQueue.html">SimpleErrorQueue</a></li>
+				<li><a href="class-SimpleErrorTrappingInvoker.html">SimpleErrorTrappingInvoker</a></li>
+				<li><a href="class-SimpleExceptionTrap.html">SimpleExceptionTrap</a></li>
+				<li><a href="class-SimpleExceptionTrappingInvoker.html">SimpleExceptionTrappingInvoker</a></li>
+				<li><a href="class-SimpleExpectation.html">SimpleExpectation</a></li>
+				<li><a href="class-SimpleFileLoader.html">SimpleFileLoader</a></li>
+				<li><a href="class-SimpleInvoker.html">SimpleInvoker</a></li>
+				<li><a href="class-SimpleInvokerDecorator.html">SimpleInvokerDecorator</a></li>
+				<li><a href="class-SimplePatternCollector.html">SimplePatternCollector</a></li>
+				<li><a href="class-SimpleReporter.html">SimpleReporter</a></li>
+				<li><a href="class-SimpleReporterDecorator.html">SimpleReporterDecorator</a></li>
+				<li><a href="class-SimpleScorer.html">SimpleScorer</a></li>
+				<li><a href="class-SimpleShell.html">SimpleShell</a></li>
+				<li><a href="class-SimpleStackTrace.html">SimpleStackTrace</a></li>
+				<li><a href="class-SimpleTest.html">SimpleTest</a></li>
+				<li><a href="class-SimpleTestCase.html">SimpleTestCase</a></li>
+				<li><a href="class-SimpleTestContext.html">SimpleTestContext</a></li>
+				<li><a href="class-SimpleTestXmlParser.html">SimpleTestXmlParser</a></li>
+				<li><a href="class-test1.html">test1</a></li>
+				<li><a href="class-TestCaseWithParseError.html">TestCaseWithParseError</a></li>
+				<li><a href="class-TestDoxReporter.html">TestDoxReporter</a></li>
+				<li><a href="class-TestOfAbsoluteUrls.html">TestOfAbsoluteUrls</a></li>
+				<li><a href="class-TestOfAbstractsWithAbstractMethods.html">TestOfAbstractsWithAbstractMethods</a></li>
+				<li><a href="class-TestOfAdditionalHeaders.html">TestOfAdditionalHeaders</a></li>
+				<li><a href="class-TestOfAnythingExpectation.html">TestOfAnythingExpectation</a></li>
+				<li><a href="class-TestOfAuthenticator.html">TestOfAuthenticator</a></li>
+				<li><a href="class-TestOfAuthorisation.html">TestOfAuthorisation</a></li>
+				<li><a href="class-TestOfBadHosts.html">TestOfBadHosts</a></li>
+				<li><a href="class-TestOfBrowserCookies.html">TestOfBrowserCookies</a></li>
+				<li><a href="class-TestOfBrowserFrames.html">TestOfBrowserFrames</a></li>
+				<li><a href="class-TestOfBrowserNavigation.html">TestOfBrowserNavigation</a></li>
+				<li><a href="class-TestOfCallingTearDownAfterExceptions.html">TestOfCallingTearDownAfterExceptions</a></li>
+				<li><a href="class-TestOfCallSchedule.html">TestOfCallSchedule</a></li>
+				<li><a href="class-TestOfCatchingExceptions.html">TestOfCatchingExceptions</a></li>
+				<li><a href="class-TestOfCheckbox.html">TestOfCheckbox</a></li>
+				<li><a href="class-TestOfCollector.html">TestOfCollector</a></li>
+				<li><a href="class-TestOfCommandLineParsing.html">TestOfCommandLineParsing</a></li>
+				<li><a href="class-TestOfCompatibility.html">TestOfCompatibility</a></li>
+				<li><a href="class-TestOfContext.html">TestOfContext</a></li>
+				<li><a href="class-TestOfCookie.html">TestOfCookie</a></li>
+				<li><a href="class-TestOfCookieJar.html">TestOfCookieJar</a></li>
+				<li><a href="class-TestOfDirectRoute.html">TestOfDirectRoute</a></li>
+				<li><a href="class-TestOfEclipse.html">TestOfEclipse</a></li>
+				<li><a href="class-TestOfEncodedParts.html">TestOfEncodedParts</a></li>
+				<li><a href="class-TestOfEncoding.html">TestOfEncoding</a></li>
+				<li><a href="class-TestOfEquality.html">TestOfEquality</a></li>
+				<li><a href="class-TestOfErrorQueue.html">TestOfErrorQueue</a></li>
+				<li><a href="class-TestOfErrors.html">TestOfErrors</a></li>
+				<li><a href="class-TestOfErrorsExcludingPHP52AndAbove.html">TestOfErrorsExcludingPHP52AndAbove</a></li>
+				<li><a href="class-TestOfErrorTrap.html">TestOfErrorTrap</a></li>
+				<li><a href="class-TestOfExceptionExpectation.html">TestOfExceptionExpectation</a></li>
+				<li><a href="class-TestOfExceptionThrownInSetUpDoesNotRunTestBody.html">TestOfExceptionThrownInSetUpDoesNotRunTestBody</a></li>
+				<li><a href="class-TestOfExceptionTrap.html">TestOfExceptionTrap</a></li>
+				<li><a href="class-TestOfExpectExceptionWithSetUp.html">TestOfExpectExceptionWithSetUp</a></li>
+				<li><a href="class-TestOfFetchingUrlParameters.html">TestOfFetchingUrlParameters</a></li>
+				<li><a href="class-TestOfFieldExpectation.html">TestOfFieldExpectation</a></li>
+				<li><a href="class-TestOfForm.html">TestOfForm</a></li>
+				<li><a href="class-TestOfFormHeaders.html">TestOfFormHeaders</a></li>
+				<li><a href="class-TestOfFormsCreatedFromEventStream.html">TestOfFormsCreatedFromEventStream</a></li>
+				<li><a href="class-TestOfFrameNavigation.html">TestOfFrameNavigation</a></li>
+				<li><a href="class-TestOfFrameset.html">TestOfFrameset</a></li>
+				<li><a href="class-TestOfFramesetPageInterface.html">TestOfFramesetPageInterface</a></li>
+				<li><a href="class-TestOfFrameUrl.html">TestOfFrameUrl</a></li>
+				<li><a href="class-TestOfHeaderExpectations.html">TestOfHeaderExpectations</a></li>
+				<li><a href="class-TestOfHistory.html">TestOfHistory</a></li>
+				<li><a href="class-TestOfHtmlPage.html">TestOfHtmlPage</a></li>
+				<li><a href="class-TestOfHtmlSaxParser.html">TestOfHtmlSaxParser</a></li>
+				<li><a href="class-TestOfHttpHeaders.html">TestOfHttpHeaders</a></li>
+				<li><a href="class-TestOfHttpPostRequest.html">TestOfHttpPostRequest</a></li>
+				<li><a href="class-TestOfHttpRedirects.html">TestOfHttpRedirects</a></li>
+				<li><a href="class-TestOfHttpRequest.html">TestOfHttpRequest</a></li>
+				<li><a href="class-TestOfHttpResponse.html">TestOfHttpResponse</a></li>
+				<li><a href="class-TestOfIdentity.html">TestOfIdentity</a></li>
+				<li><a href="class-TestOfImplementations.html">TestOfImplementations</a></li>
+				<li><a href="class-TestOfInequality.html">TestOfInequality</a></li>
+				<li><a href="class-TestOfInterfaceMocksWithConstruct.html">TestOfInterfaceMocksWithConstruct</a></li>
+				<li><a href="class-TestOfInterfaceMocksWithHintInSignature.html">TestOfInterfaceMocksWithHintInSignature</a></li>
+				<li><a href="class-TestOfIsA.html">TestOfIsA</a></li>
+				<li><a href="class-TestOfLabelTag.html">TestOfLabelTag</a></li>
+				<li><a href="class-TestOfLexer.html">TestOfLexer</a></li>
+				<li><a href="class-TestOfLexerHandlers.html">TestOfLexerHandlers</a></li>
+				<li><a href="class-TestOfLexerModes.html">TestOfLexerModes</a></li>
+				<li><a href="class-TestOfLiveBrowser.html">TestOfLiveBrowser</a></li>
+				<li><a href="class-TestOfMethodExistence.html">TestOfMethodExistence</a></li>
+				<li><a href="class-TestOfMockComparisons.html">TestOfMockComparisons</a></li>
+				<li><a href="class-TestOfMockExpectations.html">TestOfMockExpectations</a></li>
+				<li><a href="class-TestOfMockExpectationsThatPass.html">TestOfMockExpectationsThatPass</a></li>
+				<li><a href="class-TestOfMockGeneration.html">TestOfMockGeneration</a></li>
+				<li><a href="class-TestOfMockingClassesWithStaticMethods.html">TestOfMockingClassesWithStaticMethods</a></li>
+				<li><a href="class-TestOfMockInterfaces.html">TestOfMockInterfaces</a></li>
+				<li><a href="class-TestOfMockObjectsOutput.html">TestOfMockObjectsOutput</a></li>
+				<li><a href="class-TestOfMockReturns.html">TestOfMockReturns</a></li>
+				<li><a href="class-TestOfNestingTags.html">TestOfNestingTags</a></li>
+				<li><a href="class-TestOfNonIdentity.html">TestOfNonIdentity</a></li>
+				<li><a href="class-TestOfNotA.html">TestOfNotA</a></li>
+				<li><a href="class-TestOfPageBuilder.html">TestOfPageBuilder</a></li>
+				<li><a href="class-TestOfPageHeaders.html">TestOfPageHeaders</a></li>
+				<li><a href="class-TestOfPageInterface.html">TestOfPageInterface</a></li>
+				<li><a href="class-TestOfPageParsing.html">TestOfPageParsing</a></li>
+				<li><a href="class-TestOfPageScraping.html">TestOfPageScraping</a></li>
+				<li><a href="class-TestOfParallelRegex.html">TestOfParallelRegex</a></li>
+				<li><a href="class-TestOfParametersExpectation.html">TestOfParametersExpectation</a></li>
+				<li><a href="class-TestOfParsedPageAccess.html">TestOfParsedPageAccess</a></li>
+				<li><a href="class-TestOfPartialMocks.html">TestOfPartialMocks</a></li>
+				<li><a href="class-TestOfPastBugs.html">TestOfPastBugs</a></li>
+				<li><a href="class-TestOfPatternCollector.html">TestOfPatternCollector</a></li>
+				<li><a href="class-TestOfPatterns.html">TestOfPatterns</a></li>
+				<li><a href="class-TestOfPHP4StyleSuperClassConstruct.html">TestOfPHP4StyleSuperClassConstruct</a></li>
+				<li><a href="class-TestOfPHP52RecoverableErrors.html">TestOfPHP52RecoverableErrors</a></li>
+				<li><a href="class-TestOfPHP5AbstractMethodMocking.html">TestOfPHP5AbstractMethodMocking</a></li>
+				<li><a href="class-TestOfPHP5StaticMethodMocking.html">TestOfPHP5StaticMethodMocking</a></li>
+				<li><a href="class-TestOfProxyRoute.html">TestOfProxyRoute</a></li>
+				<li><a href="class-TestOfRadioGroup.html">TestOfRadioGroup</a></li>
+				<li><a href="class-TestOfRealm.html">TestOfRealm</a></li>
+				<li><a href="class-TestOfReference.html">TestOfReference</a></li>
+				<li><a href="class-TestOfReflectionWithTypeHints.html">TestOfReflectionWithTypeHints</a></li>
+				<li><a href="class-TestOfSampleInterfaceWithClone.html">TestOfSampleInterfaceWithClone</a></li>
+				<li><a href="class-TestOfSelection.html">TestOfSelection</a></li>
+				<li><a href="class-TestOfShell.html">TestOfShell</a></li>
+				<li><a href="class-TestOfShellTestCase.html">TestOfShellTestCase</a></li>
+				<li><a href="class-TestOfShellTesterAndShell.html">TestOfShellTesterAndShell</a></li>
+				<li><a href="class-TestOfSimpleHtmlLexer.html">TestOfSimpleHtmlLexer</a></li>
+				<li><a href="class-TestOfSimpleSignatureMap.html">TestOfSimpleSignatureMap</a></li>
+				<li><a href="class-TestOfSimpleStickyError.html">TestOfSimpleStickyError</a></li>
+				<li><a href="class-TestOfSkippingNoMatterWhat.html">TestOfSkippingNoMatterWhat</a></li>
+				<li><a href="class-TestOfSkippingOrElse.html">TestOfSkippingOrElse</a></li>
+				<li><a href="class-TestOfSkippingTwiceOver.html">TestOfSkippingTwiceOver</a></li>
+				<li><a href="class-TestOfSpecialMethods.html">TestOfSpecialMethods</a></li>
+				<li><a href="class-TestOfSpl.html">TestOfSpl</a></li>
+				<li><a href="class-TestOfStackTrace.html">TestOfStackTrace</a></li>
+				<li><a href="class-TestOfStateStack.html">TestOfStateStack</a></li>
+				<li><a href="class-TestOfTag.html">TestOfTag</a></li>
+				<li><a href="class-TestOfTagGroup.html">TestOfTagGroup</a></li>
+				<li><a href="class-TestOfTestDoxReporter.html">TestOfTestDoxReporter</a></li>
+				<li><a href="class-TestOfTextArea.html">TestOfTextArea</a></li>
+				<li><a href="class-TestOfTextExpectations.html">TestOfTextExpectations</a></li>
+				<li><a href="class-TestOfTextExtraction.html">TestOfTextExtraction</a></li>
+				<li><a href="class-TestOfTextFormatting.html">TestOfTextFormatting</a></li>
+				<li><a href="class-TestOfThrowingErrorsFromMocks.html">TestOfThrowingErrorsFromMocks</a></li>
+				<li><a href="class-TestOfThrowingExceptionsFromMocks.html">TestOfThrowingExceptionsFromMocks</a></li>
+				<li><a href="class-TestOfThrowingExceptionsInTearDown.html">TestOfThrowingExceptionsInTearDown</a></li>
+				<li><a href="class-TestOfUnitTester.html">TestOfUnitTester</a></li>
+				<li><a href="class-TestOfUploadWidget.html">TestOfUploadWidget</a></li>
+				<li><a href="class-TestOfUrl.html">TestOfUrl</a></li>
+				<li><a href="class-TestOfVisualShell.html">TestOfVisualShell</a></li>
+				<li><a href="class-TestOfWidget.html">TestOfWidget</a></li>
+				<li><a href="class-TestOfWithin.html">TestOfWithin</a></li>
+				<li><a href="class-TestOfXmlResultsParsing.html">TestOfXmlResultsParsing</a></li>
+				<li><a href="class-TestOfXmlStructureParsing.html">TestOfXmlStructureParsing</a></li>
+				<li><a href="class-TestRunnerForLeftOverAndNotEnoughErrors.html">TestRunnerForLeftOverAndNotEnoughErrors</a></li>
+				<li><a href="class-TestSuite.html">TestSuite</a></li>
+				<li><a href="class-TestThatShouldNotBeSkipped.html">TestThatShouldNotBeSkipped</a></li>
+				<li><a href="class-TextExpectation.html">TextExpectation</a></li>
+				<li><a href="class-TextReporter.html">TextReporter</a></li>
+				<li><a href="class-UnitTestCase.html">UnitTestCase</a></li>
+				<li><a href="class-UnitTests.html">UnitTests</a></li>
+				<li><a href="class-WithinMarginExpectation.html">WithinMarginExpectation</a></li>
+				<li><a href="class-XmlReporter.html">XmlReporter</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-SimpleTestErrorHandler.html">SimpleTestErrorHandler</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-SimpleTest.UnitTester.html" title="Summary of SimpleTest\UnitTester"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class SimpleDumper</h1>
+
+
+	<div class="description">
+	
+<p>Displays variables as text and does diffs.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-SimpleTest.html">SimpleTest</a>\<a href="package-SimpleTest.UnitTester.html">UnitTester</a><br />
+
+		<b>Located at</b> <a href="source-class-SimpleDumper.html#15-359" title="Go to source code">app/vendors/simpletest/dumper.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="describeValue" id="_describeValue">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_describeValue">#</a>
+		<code><a href="source-class-SimpleDumper.html#22-45" title="Go to source code">describeValue</a>( <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Renders a variable in a shorter form than print_r().</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Renders a variable in a shorter form than print_r().</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value Variable to render as a string.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Human readable string form.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getType" id="_getType">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getType">#</a>
+		<code><a href="source-class-SimpleDumper.html#47-72" title="Go to source code">getType</a>( <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets the string representation of a type.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the string representation of a type.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value Variable to check against.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Type.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="describeDifference" id="_describeDifference">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_describeDifference">#</a>
+		<code><a href="source-class-SimpleDumper.html#74-97" title="Go to source code">describeDifference</a>( <span>mixed <var>$first</var></span>, <span>mixed <var>$second</var></span>, <span>boolean <var>$identical</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a human readable description of the<br />
+difference between two variables. Uses a<br />
+dynamic call.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a human readable description of the difference between two variables.
+Uses a dynamic call.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>mixed</code><br>$first First variable.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second Value to compare with.</dd>
+					<dt><var>$identical</var></dt>
+					<dd><code>boolean</code><br>$identical If true then type anomolies count.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Description of difference.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_isTypeMatch" id="__isTypeMatch">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__isTypeMatch">#</a>
+		<code><a href="source-class-SimpleDumper.html#99-108" title="Go to source code">_isTypeMatch</a>( <span>mixed <var>$first</var></span>, <span>mixed <var>$second</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Tests to see if types match.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests to see if types match.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>mixed</code><br>$first First variable.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second Value to compare with.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if matches.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clipString" id="_clipString">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clipString">#</a>
+		<code><a href="source-class-SimpleDumper.html#110-130" title="Go to source code">clipString</a>( <span>string <var>$value</var></span>, <span>integer <var>$size</var></span>, <span>integer <var>$position</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clips a string to a maximum length.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clips a string to a maximum length.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value String to truncate.</dd>
+					<dt><var>$size</var></dt>
+					<dd><code>integer</code><br>$size Minimum string size to show.</dd>
+					<dt><var>$position</var></dt>
+					<dd><code>integer</code><br>$position Centre of string section.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Shortened version.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_describeGenericDifference" id="__describeGenericDifference">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__describeGenericDifference">#</a>
+		<code><a href="source-class-SimpleDumper.html#132-145" title="Go to source code">_describeGenericDifference</a>( <span>null <var>$first</var></span>, <span>mixed <var>$second</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a human readable description of the<br />
+difference between two variables. The minimal<br />
+version.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a human readable description of the difference between two variables.
+The minimal version.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>null</code><br>$first First value.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second Value to compare with.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Human readable description.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_describeNullDifference" id="__describeNullDifference">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__describeNullDifference">#</a>
+		<code><a href="source-class-SimpleDumper.html#147-158" title="Go to source code">_describeNullDifference</a>( <span>null <var>$first</var></span>, <span>mixed <var>$second</var></span>, <span>boolean <var>$identical</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a human readable description of the<br />
+difference between a null and another variable.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a human readable description of the difference between a null and
+another variable.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>null</code><br>$first First null.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second Null to compare with.</dd>
+					<dt><var>$identical</var></dt>
+					<dd><code>boolean</code><br>$identical If true then type anomolies count.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Human readable description.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_describeBooleanDifference" id="__describeBooleanDifference">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__describeBooleanDifference">#</a>
+		<code><a href="source-class-SimpleDumper.html#160-171" title="Go to source code">_describeBooleanDifference</a>( <span>boolean <var>$first</var></span>, <span>mixed <var>$second</var></span>, <span>boolean <var>$identical</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a human readable description of the<br />
+difference between a boolean and another variable.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a human readable description of the difference between a boolean and
+another variable.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>boolean</code><br>$first First boolean.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second Boolean to compare with.</dd>
+					<dt><var>$identical</var></dt>
+					<dd><code>boolean</code><br>$identical If true then type anomolies count.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Human readable description.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_describeStringDifference" id="__describeStringDifference">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__describeStringDifference">#</a>
+		<code><a href="source-class-SimpleDumper.html#173-192" title="Go to source code">_describeStringDifference</a>( <span>string <var>$first</var></span>, <span>mixed <var>$second</var></span>, <span>boolean <var>$identical</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a human readable description of the<br />
+difference between a string and another variable.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a human readable description of the difference between a string and
+another variable.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>string</code><br>$first First string.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second String to compare with.</dd>
+					<dt><var>$identical</var></dt>
+					<dd><code>boolean</code><br>$identical If true then type anomolies count.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Human readable description.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_describeIntegerDifference" id="__describeIntegerDifference">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__describeIntegerDifference">#</a>
+		<code><a href="source-class-SimpleDumper.html#194-211" title="Go to source code">_describeIntegerDifference</a>( <span>integer <var>$first</var></span>, <span>mixed <var>$second</var></span>, <span>boolean <var>$identical</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a human readable description of the<br />
+difference between an integer and another variable.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a human readable description of the difference between an integer and
+another variable.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>integer</code><br>$first First number.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second Number to compare with.</dd>
+					<dt><var>$identical</var></dt>
+					<dd><code>boolean</code><br>$identical If true then type anomolies count.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Human readable description.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_describeFloatDifference" id="__describeFloatDifference">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__describeFloatDifference">#</a>
+		<code><a href="source-class-SimpleDumper.html#213-230" title="Go to source code">_describeFloatDifference</a>( <span>float <var>$first</var></span>, <span>mixed <var>$second</var></span>, <span>boolean <var>$identical</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a human readable description of the<br />
+difference between two floating point numbers.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a human readable description of the difference between two floating
+point numbers.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>float</code><br>$first First float.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second Float to compare with.</dd>
+					<dt><var>$identical</var></dt>
+					<dd><code>boolean</code><br>$identical If true then type anomolies count.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Human readable description.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_describeArrayDifference" id="__describeArrayDifference">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__describeArrayDifference">#</a>
+		<code><a href="source-class-SimpleDumper.html#232-263" title="Go to source code">_describeArrayDifference</a>( <span>array <var>$first</var></span>, <span>mixed <var>$second</var></span>, <span>boolean <var>$identical</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a human readable description of the<br />
+difference between two arrays.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a human readable description of the difference between two
+arrays.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>array</code><br>$first First array.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second Array to compare with.</dd>
+					<dt><var>$identical</var></dt>
+					<dd><code>boolean</code><br>$identical If true then type anomolies count.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Human readable description.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_isMatchingKeys" id="__isMatchingKeys">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__isMatchingKeys">#</a>
+		<code><a href="source-class-SimpleDumper.html#265-284" title="Go to source code">_isMatchingKeys</a>( <span>array <var>$first</var></span>, <span>array <var>$second</var></span>, <span>boolean <var>$identical</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Compares two arrays to see if their key lists match.<br />
+For an identical match, the ordering and types of the keys<br />
+is significant.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Compares two arrays to see if their key lists match. For an identical match,
+the ordering and types of the keys is significant.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>array</code><br>$first First array.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>array</code><br>$second Array to compare with.</dd>
+					<dt><var>$identical</var></dt>
+					<dd><code>boolean</code><br>$identical If true then type anomolies count.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if matching.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_describeResourceDifference" id="__describeResourceDifference">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__describeResourceDifference">#</a>
+		<code><a href="source-class-SimpleDumper.html#286-297" title="Go to source code">_describeResourceDifference</a>( <span>resource <var>$first</var></span>, <span>mixed <var>$second</var></span>, <span>boolean <var>$identical</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a human readable description of the<br />
+difference between a resource and another variable.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a human readable description of the difference between a resource and
+another variable.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>resource</code><br>$first First resource.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second Resource to compare with.</dd>
+					<dt><var>$identical</var></dt>
+					<dd><code>boolean</code><br>$identical If true then type anomolies count.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Human readable description.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_describeObjectDifference" id="__describeObjectDifference">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__describeObjectDifference">#</a>
+		<code><a href="source-class-SimpleDumper.html#299-316" title="Go to source code">_describeObjectDifference</a>( <span>object <var>$first</var></span>, <span>mixed <var>$second</var></span>, <span>boolean <var>$identical</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a human readable description of the<br />
+difference between two objects.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a human readable description of the difference between two
+objects.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>object</code><br>$first First object.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second Object to compare with.</dd>
+					<dt><var>$identical</var></dt>
+					<dd><code>boolean</code><br>$identical If true then type anomolies count.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Human readable description.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_stringDiffersAt" id="__stringDiffersAt">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__stringDiffersAt">#</a>
+		<code><a href="source-class-SimpleDumper.html#318-343" title="Go to source code">_stringDiffersAt</a>( <span>string <var>$first</var></span>, <span>string <var>$second</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Find the first character position that differs<br />
+in two strings by binary chop.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Find the first character position that differs in two strings by binary
+chop.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>string</code><br>$first First string.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>string</code><br>$second String to compare with.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Position of first differing character.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dump" id="_dump">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dump">#</a>
+		<code><a href="source-class-SimpleDumper.html#345-358" title="Go to source code">dump</a>( <span>mixed <var>$variable</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sends a formatted dump of a variable to a string.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sends a formatted dump of a variable to a string.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$variable</var></dt>
+					<dd><code>mixed</code><br>$variable Variable to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Output from print_r().<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

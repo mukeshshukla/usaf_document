@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Image_Graph_Common | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li class="active"><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li class="active"><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Image_Graph.html">Image_Graph</a></li>
+				<li class="active"><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></li>
+				<li><a href="class-Image_Graph_Element.html">Image_Graph_Element</a></li>
+				<li><a href="class-Image_Graph_Plotarea_Element.html">Image_Graph_Plotarea_Element</a></li>
+				<li><a href="class-Image_Graph_Simple.html">Image_Graph_Simple</a></li>
+				<li><a href="class-Image_Graph_Tool.html">Image_Graph_Tool</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-is_a.html">is_a</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Image.Graph.html" title="Summary of Image\Graph"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Image_Graph_Common</h1>
+
+
+	<div class="description">
+	
+<p>The ultimate ancestor of all Image_Graph classes.</p>
+
+<p>This class contains common functionality needed by all Image_Graph
+classes.</p>
+
+	</div>
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Image_Graph_Element.html">Image_Graph_Element</a>, 
+			<a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a>, 
+			<a href="class-Image_Graph_Font.html">Image_Graph_Font</a>, 
+			<a href="class-Image_Graph_Line_Array.html">Image_Graph_Line_Array</a>, 
+			<a href="class-Image_Graph_Line_Solid.html">Image_Graph_Line_Solid</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-Image_Graph.html">Image_Graph</a>, 
+			<a href="class-Image_Graph_Axis.html">Image_Graph_Axis</a>, 
+			<a href="class-Image_Graph_Figure_Rectangle.html">Image_Graph_Figure_Rectangle</a>, 
+			<a href="class-Image_Graph_Fill_Array.html">Image_Graph_Fill_Array</a>, 
+			<a href="class-Image_Graph_Fill_Gradient.html">Image_Graph_Fill_Gradient</a>, 
+			<a href="class-Image_Graph_Fill_Image.html">Image_Graph_Fill_Image</a>, 
+			<a href="class-Image_Graph_Grid.html">Image_Graph_Grid</a>, 
+			<a href="class-Image_Graph_Grid_Bars.html">Image_Graph_Grid_Bars</a>, 
+			<a href="class-Image_Graph_Grid_Lines.html">Image_Graph_Grid_Lines</a>, 
+			<a href="class-Image_Graph_Grid_Polar.html">Image_Graph_Grid_Polar</a>, 
+			<a href="class-Image_Graph_Layout.html">Image_Graph_Layout</a>, 
+			<a href="class-Image_Graph_Layout_Horizontal.html">Image_Graph_Layout_Horizontal</a>, 
+			<a href="class-Image_Graph_Axis_Category.html">Image_Graph_Axis_Category</a>, 
+			<a href="class-Image_Graph_Layout_Matrix.html">Image_Graph_Layout_Matrix</a>, 
+			<a href="class-Image_Graph_Layout_Vertical.html">Image_Graph_Layout_Vertical</a>, 
+			<a href="class-Image_Graph_Legend.html">Image_Graph_Legend</a>, 
+			<a href="class-Image_Graph_Line_Dashed.html">Image_Graph_Line_Dashed</a>, 
+			<a href="class-Image_Graph_Line_Dotted.html">Image_Graph_Line_Dotted</a>, 
+			<a href="class-Image_Graph_Line_Formatted.html">Image_Graph_Line_Formatted</a>, 
+			<a href="class-Image_Graph_Logo.html">Image_Graph_Logo</a>, 
+			<a href="class-Image_Graph_Marker.html">Image_Graph_Marker</a>, 
+			<a href="class-Image_Graph_Marker_Array.html">Image_Graph_Marker_Array</a>, 
+			<a href="class-Image_Graph_Marker_Asterisk.html">Image_Graph_Marker_Asterisk</a>, 
+			<a href="class-Image_Graph_Axis_Logarithmic.html">Image_Graph_Axis_Logarithmic</a>, 
+			<a href="class-Image_Graph_Marker_Average.html">Image_Graph_Marker_Average</a>, 
+			<a href="class-Image_Graph_Marker_Box.html">Image_Graph_Marker_Box</a>, 
+			<a href="class-Image_Graph_Marker_Bubble.html">Image_Graph_Marker_Bubble</a>, 
+			<a href="class-Image_Graph_Marker_Circle.html">Image_Graph_Marker_Circle</a>, 
+			<a href="class-Image_Graph_Marker_Cross.html">Image_Graph_Marker_Cross</a>, 
+			<a href="class-Image_Graph_Marker_Diamond.html">Image_Graph_Marker_Diamond</a>, 
+			<a href="class-Image_Graph_Marker_Icon.html">Image_Graph_Marker_Icon</a>, 
+			<a href="class-Image_Graph_Marker_Pinpoint.html">Image_Graph_Marker_Pinpoint</a>, 
+			<a href="class-Image_Graph_Marker_Plus.html">Image_Graph_Marker_Plus</a>, 
+			<a href="class-Image_Graph_Marker_Pointing.html">Image_Graph_Marker_Pointing</a>, 
+			<a href="class-Image_Graph_Axis_Marker_Area.html">Image_Graph_Axis_Marker_Area</a>, 
+			<a href="class-Image_Graph_Marker_Pointing_Angular.html">Image_Graph_Marker_Pointing_Angular</a>, 
+			<a href="class-Image_Graph_Marker_Pointing_Radial.html">Image_Graph_Marker_Pointing_Radial</a>, 
+			<a href="class-Image_Graph_Marker_ReversePinpoint.html">Image_Graph_Marker_ReversePinpoint</a>, 
+			<a href="class-Image_Graph_Marker_Star.html">Image_Graph_Marker_Star</a>, 
+			<a href="class-Image_Graph_Marker_Triangle.html">Image_Graph_Marker_Triangle</a>, 
+			<a href="class-Image_Graph_Marker_Value.html">Image_Graph_Marker_Value</a>, 
+			<a href="class-Image_Graph_Plot.html">Image_Graph_Plot</a>, 
+			<a href="class-Image_Graph_Plot_Area.html">Image_Graph_Plot_Area</a>, 
+			<a href="class-Image_Graph_Plot_Band.html">Image_Graph_Plot_Band</a>, 
+			<a href="class-Image_Graph_Plot_Bar.html">Image_Graph_Plot_Bar</a>, 
+			<a href="class-Image_Graph_Axis_Marker_Line.html">Image_Graph_Axis_Marker_Line</a>, 
+			<a href="class-Image_Graph_Plot_BoxWhisker.html">Image_Graph_Plot_BoxWhisker</a>, 
+			<a href="class-Image_Graph_Plot_CandleStick.html">Image_Graph_Plot_CandleStick</a>, 
+			<a href="class-Image_Graph_Plot_Dot.html">Image_Graph_Plot_Dot</a>, 
+			<a href="class-Image_Graph_Plot_Fit_Line.html">Image_Graph_Plot_Fit_Line</a>, 
+			<a href="class-Image_Graph_Plot_Impulse.html">Image_Graph_Plot_Impulse</a>, 
+			<a href="class-Image_Graph_Plot_Line.html">Image_Graph_Plot_Line</a>, 
+			<a href="class-Image_Graph_Plot_Odo.html">Image_Graph_Plot_Odo</a>, 
+			<a href="class-Image_Graph_Plot_Pie.html">Image_Graph_Plot_Pie</a>, 
+			<a href="class-Image_Graph_Plot_Radar.html">Image_Graph_Plot_Radar</a>, 
+			<a href="class-Image_Graph_Plot_Smoothed_Area.html">Image_Graph_Plot_Smoothed_Area</a>, 
+			<a href="class-Image_Graph_Axis_Radar.html">Image_Graph_Axis_Radar</a>, 
+			<a href="class-Image_Graph_Plot_Smoothed_Bezier.html">Image_Graph_Plot_Smoothed_Bezier</a>, 
+			<a href="class-Image_Graph_Plot_Smoothed_Line.html">Image_Graph_Plot_Smoothed_Line</a>, 
+			<a href="class-Image_Graph_Plot_Smoothed_Radar.html">Image_Graph_Plot_Smoothed_Radar</a>, 
+			<a href="class-Image_Graph_Plot_Step.html">Image_Graph_Plot_Step</a>, 
+			<a href="class-Image_Graph_Plotarea.html">Image_Graph_Plotarea</a>, 
+			<a href="class-Image_Graph_Plotarea_Element.html">Image_Graph_Plotarea_Element</a>, 
+			<a href="class-Image_Graph_Plotarea_Map.html">Image_Graph_Plotarea_Map</a>, 
+			<a href="class-Image_Graph_Plotarea_Radar.html">Image_Graph_Plotarea_Radar</a>, 
+			<a href="class-Image_Graph_Simple.html">Image_Graph_Simple</a>, 
+			<a href="class-Image_Graph_Title.html">Image_Graph_Title</a>, 
+			<a href="class-Image_Graph_Figure_Circle.html">Image_Graph_Figure_Circle</a>, 
+			<a href="class-Image_Graph_Figure_Ellipse.html">Image_Graph_Figure_Ellipse</a>, 
+			<a href="class-Image_Graph_Figure_Polygon.html">Image_Graph_Figure_Polygon</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Image.html">Image</a>\<a href="package-Image.Graph.html">Graph</a><br />
+
+				<b>Category:</b>
+				Images<br />
+				<b>Copyright:</b>
+				Copyright (C) 2003, 2004 Jesper Veggerby Hansen<br />
+				<b>License:</b>
+				<a href="http://www.gnu.org/copyleft/lesser.html">LGPL License 2.1</a><br />
+				<b>Author:</b>
+				Jesper Veggerby &lt;<a
+href="mailto:pear.nosey&#64;veggerby.dk">pear.nosey&#64;<!---->veggerby.dk</a>&gt;<br />
+				<b>Version:</b>
+				Release: @package_version@<br />
+				<b>Link:</b>
+				<a href="http://pear.php.net/package/Image_Graph">http://pear.php.net/package/Image_Graph</a><br />
+		<b>Located at</b> <a href="source-class-Image_Graph_Common.html#58-311" title="Go to source code">app/vendors/Image/Graph/Common.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="Image_Graph_Common" id="_Image_Graph_Common">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_Image_Graph_Common">#</a>
+		<code><a href="source-class-Image_Graph_Common.html#109-114" title="Go to source code">Image_Graph_Common</a>( )</code>
+
+		<div class="description short">
+			
+<p>Constructor [Image_Graph_Common]</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor [Image_Graph_Common]</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_reset" id="__reset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__reset">#</a>
+		<code><a href="source-class-Image_Graph_Common.html#116-137" title="Go to source code">_reset</a>( )</code>
+
+		<div class="description short">
+			
+<p>Resets the elements</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resets the elements</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setParent" id="__setParent">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setParent">#</a>
+		<code><a href="source-class-Image_Graph_Common.html#139-160" title="Go to source code">_setParent</a>( <span><code><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></code> <var>&amp; $parent</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the parent. The parent chain should ultimately be a GraPHP object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the parent. The parent chain should ultimately be a GraPHP object</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$parent</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></code></code><br>$parent The parent</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hide" id="_hide">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hide">#</a>
+		<code><a href="source-class-Image_Graph_Common.html#162-168" title="Go to source code">hide</a>( )</code>
+
+		<div class="description short">
+			
+<p>Hide the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Hide the element</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getCanvas" id="__getCanvas">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Image_Canvas.html">Image_Canvas</a></code>
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getCanvas">#</a>
+		<code><a href="source-class-Image_Graph_Common.html#170-188" title="Go to source code">_getCanvas</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the canvas</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Image_Canvas.html">Image_Canvas</a></code></code><br>The canvas<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="add" id="_add">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></code>
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_add">#</a>
+		<code><a href="source-class-Image_Graph_Common.html#190-205" title="Go to source code">add</a>( <span><code><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></code> <var>&amp; $element</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Adds an element to the objects element list.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds an element to the objects element list.</p>
+
+<p>The new Image_Graph_elements parent is automatically set.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></code></code><br>$element The new Image_Graph_element</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></code></code><br>The new Image_Graph_element<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addNew" id="_addNew">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></code>
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addNew">#</a>
+		<code><a href="source-class-Image_Graph_Common.html#207-232" title="Go to source code">addNew</a>( <span>string <var>$class</var></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates an object from the class and adds it to the objects element list.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates an object from the class and adds it to the objects element list.</p>
+
+<p>Creates an object from the class specified and adds it to the objects element
+list. If only one parameter is required for the constructor of the class simply
+pass this parameter as the $params parameter, unless the parameter is an array
+or a reference to a value, in that case you must 'enclose' the parameter in an
+array. Similar if the constructor takes more than one parameter specify the
+parameters in an array.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$class</var></dt>
+					<dd><code>string</code><br>$class The class for the object</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>mixed</code><br>$params The paramaters to pass to the constructor</dd>
+					<dt><var>$additional</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></code></code><br>The new Image_Graph_element<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Image_Graph.html#_factory">Image_Graph::factory()</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_error" id="__error">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__error">#</a>
+		<code><a href="source-class-Image_Graph_Common.html#234-260" title="Go to source code">_error</a>( <span>string <var>$text</var></span>, <span>array <var>$params</var> = <span class="php-keyword1">false</span></span>, <span>integer <var>$error_code</var> = IMAGE_GRAPH_ERROR_GENERIC</span> )</code>
+
+		<div class="description short">
+			
+<p>Shows an error message box on the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Shows an error message box on the canvas</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$text</var></dt>
+					<dd><code>string</code><br>$text The error text</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params An array containing error specific details</dd>
+					<dt><var>$error_code</var></dt>
+					<dd><code>integer</code><br>$error_code Error code</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_updateCoords" id="__updateCoords">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__updateCoords">#</a>
+		<code><a href="source-class-Image_Graph_Common.html#262-282" title="Go to source code">_updateCoords</a>( )</code>
+
+		<div class="description short">
+			
+<p>Causes the object to update all sub elements coordinates</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Causes the object to update all sub elements coordinates</p>
+
+<p>(Image_Graph_Common, does not itself have coordinates, this is basically an
+abstract method)</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_done" id="__done">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__done">#</a>
+		<code><a href="source-class-Image_Graph_Common.html#284-309" title="Go to source code">_done</a>( )</code>
+
+		<div class="description short">
+			
+<p>Causes output to canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Causes output to canvas</p>
+
+<p>The last method to call. Calling Done causes output to the canvas. All sub
+elements done() method will be invoked</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Was the output 'good' (true) or 'bad' (false).<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_parent" id="$_parent">
+		<td class="attributes"><code>
+			public  
+			<code><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Common.html#75-81" title="Go to source code"><var>$_parent</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$_parent" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The parent container of the current Image_Graph object</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The parent container of the current Image_Graph object</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_elements" id="$_elements">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Common.html#83-89" title="Go to source code"><var>$_elements</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_elements" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The sub-elements of the current Image_Graph container object</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The sub-elements of the current Image_Graph container object</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_canvas" id="$_canvas">
+		<td class="attributes"><code>
+			public  
+			<code><a href="class-Image_Canvas.html">Image_Canvas</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Common.html#91-99" title="Go to source code"><var>$_canvas</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$_canvas" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The canvas for output.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The canvas for output.</p>
+
+<p>Enables support for multiple output formats.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_visible" id="$_visible">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Common.html#101-107" title="Go to source code"><var>$_visible</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$_visible" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Is the object visible?</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Is the object visible?</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

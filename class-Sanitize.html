@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Sanitize | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-App.html">App</a></li>
+				<li><a href="class-Cache.html">Cache</a></li>
+				<li><a href="class-CacheEngine.html">CacheEngine</a></li>
+				<li><a href="class-CakeLog.html">CakeLog</a></li>
+				<li><a href="class-CakeSession.html">CakeSession</a></li>
+				<li><a href="class-CakeSocket.html">CakeSocket</a></li>
+				<li><a href="class-CalendarclassComponent.html">CalendarclassComponent</a></li>
+				<li><a href="class-CasAuthenticationComponent.html">CasAuthenticationComponent</a></li>
+				<li><a href="class-CheckoutComponent.html">CheckoutComponent</a></li>
+				<li><a href="class-ClassRegistry.html">ClassRegistry</a></li>
+				<li><a href="class-Configure.html">Configure</a></li>
+				<li><a href="class-ConnectionManager.html">ConnectionManager</a></li>
+				<li><a href="class-DateTimeComponent.html">DateTimeComponent</a></li>
+				<li><a href="class-Debugger.html">Debugger</a></li>
+				<li><a href="class-File.html">File</a></li>
+				<li><a href="class-FileUploadComponent.html">FileUploadComponent</a></li>
+				<li><a href="class-Flay.html">Flay</a></li>
+				<li><a href="class-Folder.html">Folder</a></li>
+				<li><a href="class-GeoIpComponent.html">GeoIpComponent</a></li>
+				<li><a href="class-GifPixComponent.html">GifPixComponent</a></li>
+				<li><a href="class-HttpSocket.html">HttpSocket</a></li>
+				<li><a href="class-I18n.html">I18n</a></li>
+				<li><a href="class-ImageComponent.html">ImageComponent</a></li>
+				<li><a href="class-Inflector.html">Inflector</a></li>
+				<li><a href="class-L10n.html">L10n</a></li>
+				<li><a href="class-MailChimpComponent.html">MailChimpComponent</a></li>
+				<li><a href="class-ManageLaMemberComponent.html">ManageLaMemberComponent</a></li>
+				<li><a href="class-NeatString.html">NeatString</a></li>
+				<li><a href="class-NominationNominationComponent.html">NominationNominationComponent</a></li>
+				<li><a href="class-Object.html">Object</a></li>
+				<li><a href="class-OutputComponent.html">OutputComponent</a></li>
+				<li><a href="class-PayFlowProComponent.html">PayFlowProComponent</a></li>
+				<li><a href="class-PlayersRegComponent.html">PlayersRegComponent</a></li>
+				<li><a href="class-RegistrationComponent.html">RegistrationComponent</a></li>
+				<li><a href="class-Router.html">Router</a></li>
+				<li class="active"><a href="class-Sanitize.html">Sanitize</a></li>
+				<li><a href="class-Security.html">Security</a></li>
+				<li><a href="class-ServerCopyComponent.html">ServerCopyComponent</a></li>
+				<li><a href="class-SessionHelper.html">SessionHelper</a></li>
+				<li><a href="class-Set.html">Set</a></li>
+				<li><a href="class-SimplepieComponent.html">SimplepieComponent</a></li>
+				<li><a href="class-String.html">String</a></li>
+				<li><a href="class-SwiftMailerComponent.html">SwiftMailerComponent</a></li>
+				<li><a href="class-Validation.html">Validation</a></li>
+				<li><a href="class-VerifyEmailComponent.html">VerifyEmailComponent</a></li>
+				<li><a href="class-XML.html">XML</a></li>
+				<li><a href="class-XMLNode.html">XMLNode</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-__enclose.html">__enclose</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.html" title="Summary of cake\cake\libs"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Sanitize</h1>
+
+
+	<div class="description">
+	
+<p>Data Sanitization.</p>
+
+<p>Removal of alpahnumeric characters, SQL-safe slash-added strings,
+HTML-friendly strings, and all of the above on arrays.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-Sanitize.html#29-303" title="Go to source code">cake/libs/sanitize.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="paranoid" id="_paranoid">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_paranoid">#</a>
+		<code><a href="source-class-Sanitize.html#39-63" title="Go to source code">paranoid</a>( <span>string <var>$string</var></span>, <span>mixed <var>$allowed</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Removes any non-alphanumeric characters.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Removes any non-alphanumeric characters.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string String to sanitize</dd>
+					<dt><var>$allowed</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Sanitized string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="escape" id="_escape">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_escape">#</a>
+		<code><a href="source-class-Sanitize.html#64-81" title="Go to source code">escape</a>( <span>string <var>$string</var></span>, <span>string <var>$connection</var> = <span class="php-quote">'default'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Makes a string SQL-safe.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Makes a string SQL-safe.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string String to sanitize</dd>
+					<dt><var>$connection</var></dt>
+					<dd><code>string</code><br>$connection Database connection being used</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>SQL safe string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="html" id="_html">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_html">#</a>
+		<code><a href="source-class-Sanitize.html#82-100" title="Go to source code">html</a>( <span>string <var>$string</var></span>, <span>boolean <var>$remove</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns given string safe for display as HTML. Renders entities.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns given string safe for display as HTML. Renders entities.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string String from where to strip tags</dd>
+					<dt><var>$remove</var></dt>
+					<dd><code>boolean</code><br>$remove If true, the string is stripped of all HTML tags</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Sanitized string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="stripWhitespace" id="_stripWhitespace">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_stripWhitespace">#</a>
+		<code><a href="source-class-Sanitize.html#101-111" title="Go to source code">stripWhitespace</a>( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Strips extra whitespace from output</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Strips extra whitespace from output</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code><br>$str String to sanitize</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="stripImages" id="_stripImages">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_stripImages">#</a>
+		<code><a href="source-class-Sanitize.html#112-124" title="Go to source code">stripImages</a>( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Strips image tags from output</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Strips image tags from output</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code><br>$str String to sanitize</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="stripScripts" id="_stripScripts">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_stripScripts">#</a>
+		<code><a href="source-class-Sanitize.html#125-134" title="Go to source code">stripScripts</a>( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Strips scripts and stylesheets from output</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Strips scripts and stylesheets from output</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code><br>$str String to sanitize</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="stripAll" id="_stripAll">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_stripAll">#</a>
+		<code><a href="source-class-Sanitize.html#135-146" title="Go to source code">stripAll</a>( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Strips extra whitespace, images, scripts and stylesheets from output</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Strips extra whitespace, images, scripts and stylesheets from output</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code><br>$str String to sanitize</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="stripTags" id="_stripTags">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_stripTags">#</a>
+		<code><a href="source-class-Sanitize.html#147-165" title="Go to source code">stripTags</a>( )</code>
+
+		<div class="description short">
+			
+<p>Strips the specified tags from output. First parameter is string from where
+to remove tags. All subsequent parameters are tags.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Strips the specified tags from output. First parameter is string from where
+to remove tags. All subsequent parameters are tags.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clean" id="_clean">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clean">#</a>
+		<code><a href="source-class-Sanitize.html#166-232" title="Go to source code">clean</a>( <span>mixed <var>$data</var></span>, <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Sanitizes given array or value for safe input. Use the options to specify the
+connection to use, and what filters should be applied (with a boolean value).
+Valid filters: odd_spaces, encode, dollar, carriage, unicode, escape,
+backslash.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sanitizes given array or value for safe input. Use the options to specify the
+connection to use, and what filters should be applied (with a boolean value).
+Valid filters: odd_spaces, encode, dollar, carriage, unicode, escape,
+backslash.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br>$data Data to sanitize</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>mixed</code><br>$options If string, DB connection being used, otherwise set of options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Sanitized data<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="formatColumns" id="_formatColumns">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_formatColumns">#</a>
+		<code><a href="source-class-Sanitize.html#233-302" title="Go to source code">formatColumns</a>( <span><code><a href="class-Model.html">Model</a></code> <var>&amp; $model</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Formats column data from definition in DBO's $columns array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Formats column data from definition in DBO's $columns array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-Model.html">Model</a></code></code><br>$model The model containing the data to be formatted</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

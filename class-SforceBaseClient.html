@@ -1,0 +1,2979 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class SforceBaseClient | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li class="active"><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AssignmentRuleHeader.html">AssignmentRuleHeader</a></li>
+				<li><a href="class-CallOptions.html">CallOptions</a></li>
+				<li><a href="class-LoginScopeHeader.html">LoginScopeHeader</a></li>
+				<li><a href="class-MruHeader.html">MruHeader</a></li>
+				<li><a href="class-QueryOptions.html">QueryOptions</a></li>
+				<li class="active"><a href="class-SforceBaseClient.html">SforceBaseClient</a></li>
+				<li><a href="class-SforceEnterpriseClient.html">SforceEnterpriseClient</a></li>
+				<li><a href="class-SforcePartnerClient.html">SforcePartnerClient</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-SalesforceSoapClient.html" title="Summary of SalesforceSoapClient"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class SforceBaseClient</h1>
+
+
+	<div class="description">
+	
+<p>SalesforceSoapClient</p>
+
+	</div>
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-SforceEnterpriseClient.html">SforceEnterpriseClient</a>, 
+			<a href="class-SforcePartnerClient.html">SforcePartnerClient</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a><br />
+
+		<b>Located at</b> <a href="source-class-SforceBaseClient.html#36-907" title="Go to source code">app/vendors/salesforce_soap/SforceBaseClient.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="getSoapClient" id="_getSoapClient">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSoapClient">#</a>
+		<code><a href="source-class-SforceBaseClient.html#63-65" title="Go to source code">getSoapClient</a>( <span>mixed <var>$wsdl</var></span>, <span>mixed <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getNamespace" id="_getNamespace">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getNamespace">#</a>
+		<code><a href="source-class-SforceBaseClient.html#67-69" title="Go to source code">getNamespace</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="printDebugInfo" id="_printDebugInfo">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_printDebugInfo">#</a>
+		<code><a href="source-class-SforceBaseClient.html#78-95" title="Go to source code">printDebugInfo</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createConnection" id="_createConnection">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createConnection">#</a>
+		<code><a href="source-class-SforceBaseClient.html#97-136" title="Go to source code">createConnection</a>( <span>string <var>$wsdl</var></span>, <span>object <var>$proxy</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$soap_options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Connect method to <a
+href="http://www.salesforce.com">www.salesforce.com</a></p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Connect method to <a
+href="http://www.salesforce.com">www.salesforce.com</a></p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$wsdl</var></dt>
+					<dd><code>string</code><br>$wsdl Salesforce.com Partner WSDL</dd>
+					<dt><var>$proxy</var></dt>
+					<dd><code>object</code><br>$proxy (optional) proxy settings with properties host, port, login and password</dd>
+					<dt><var>$soap_options</var></dt>
+					<dd><code>array</code><br>$soap_options (optional) Additional options to send to the SoapClient
+constructor. @see <a
+href="http://php.net/manual/en/soapclient.soapclient.php">http://php.net/manual/en/soapclient.soapclient.php</a></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCallOptions" id="_setCallOptions">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCallOptions">#</a>
+		<code><a href="source-class-SforceBaseClient.html#138-147" title="Go to source code">setCallOptions</a>( <span>mixed <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="login" id="_login">
+
+		<td class="attributes"><code>
+			 public 
+			LoginResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_login">#</a>
+		<code><a href="source-class-SforceBaseClient.html#149-173" title="Go to source code">login</a>( <span>string <var>$username</var></span>, <span>string <var>$password</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Login to Salesforce.com and starts a client session.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Login to Salesforce.com and starts a client session.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$username</var></dt>
+					<dd><code>string</code><br>$username Username</dd>
+					<dt><var>$password</var></dt>
+					<dd><code>string</code><br>$password Password</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>LoginResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="logout" id="_logout">
+
+		<td class="attributes"><code>
+			 public 
+			LogoutResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_logout">#</a>
+		<code><a href="source-class-SforceBaseClient.html#175-184" title="Go to source code">logout</a>( )</code>
+
+		<div class="description short">
+			
+<p>log outs from the salseforce system`</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>log outs from the salseforce system`</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>LogoutResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="invalidateSessions" id="_invalidateSessions">
+
+		<td class="attributes"><code>
+			 public 
+			invalidateSessionsResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_invalidateSessions">#</a>
+		<code><a href="source-class-SforceBaseClient.html#186-196" title="Go to source code">invalidateSessions</a>( )</code>
+
+		<div class="description short">
+			
+<p>invalidate Sessions from the salseforce system`</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>invalidate Sessions from the salseforce system`</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>invalidateSessionsResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setLoginHeader" id="__setLoginHeader">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setLoginHeader">#</a>
+		<code><a href="source-class-SforceBaseClient.html#198-207" title="Go to source code">_setLoginHeader</a>( <span>mixed <var>$loginResult</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Specifies the session ID returned from the login server after a successful
+login.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Specifies the session ID returned from the login server after a successful
+login.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setEndpoint" id="_setEndpoint">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setEndpoint">#</a>
+		<code><a href="source-class-SforceBaseClient.html#209-217" title="Go to source code">setEndpoint</a>( <span>string <var>$location</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the endpoint.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the endpoint.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$location</var></dt>
+					<dd><code>string</code><br>$location Location</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setAssignmentRuleHeader" id="_setAssignmentRuleHeader">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setAssignmentRuleHeader">#</a>
+		<code><a href="source-class-SforceBaseClient.html#329-338" title="Go to source code">setAssignmentRuleHeader</a>( <span>mixed <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setEmailHeader" id="_setEmailHeader">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setEmailHeader">#</a>
+		<code><a href="source-class-SforceBaseClient.html#340-350" title="Go to source code">setEmailHeader</a>( <span>mixed <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLoginScopeHeader" id="_setLoginScopeHeader">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLoginScopeHeader">#</a>
+		<code><a href="source-class-SforceBaseClient.html#352-362" title="Go to source code">setLoginScopeHeader</a>( <span>mixed <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setMruHeader" id="_setMruHeader">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setMruHeader">#</a>
+		<code><a href="source-class-SforceBaseClient.html#364-372" title="Go to source code">setMruHeader</a>( <span>mixed <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setSessionHeader" id="_setSessionHeader">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setSessionHeader">#</a>
+		<code><a href="source-class-SforceBaseClient.html#374-384" title="Go to source code">setSessionHeader</a>( <span>mixed <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUserTerritoryDeleteHeader" id="_setUserTerritoryDeleteHeader">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUserTerritoryDeleteHeader">#</a>
+		<code><a href="source-class-SforceBaseClient.html#386-394" title="Go to source code">setUserTerritoryDeleteHeader</a>( <span>mixed <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setQueryOptions" id="_setQueryOptions">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setQueryOptions">#</a>
+		<code><a href="source-class-SforceBaseClient.html#396-404" title="Go to source code">setQueryOptions</a>( <span>mixed <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setAllowFieldTruncationHeader" id="_setAllowFieldTruncationHeader">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setAllowFieldTruncationHeader">#</a>
+		<code><a href="source-class-SforceBaseClient.html#406-415" title="Go to source code">setAllowFieldTruncationHeader</a>( <span>mixed <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLocaleOptions" id="_setLocaleOptions">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLocaleOptions">#</a>
+		<code><a href="source-class-SforceBaseClient.html#417-427" title="Go to source code">setLocaleOptions</a>( <span>mixed <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setPackageVersionHeader" id="_setPackageVersionHeader">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setPackageVersionHeader">#</a>
+		<code><a href="source-class-SforceBaseClient.html#429-451" title="Go to source code">setPackageVersionHeader</a>( <span>mixed <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$header</var></dt>
+					<dd><code>mixed</code><br>$header</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSessionId" id="_getSessionId">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSessionId">#</a>
+		<code><a href="source-class-SforceBaseClient.html#453-455" title="Go to source code">getSessionId</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLocation" id="_getLocation">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLocation">#</a>
+		<code><a href="source-class-SforceBaseClient.html#457-459" title="Go to source code">getLocation</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getConnection" id="_getConnection">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getConnection">#</a>
+		<code><a href="source-class-SforceBaseClient.html#461-463" title="Go to source code">getConnection</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFunctions" id="_getFunctions">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFunctions">#</a>
+		<code><a href="source-class-SforceBaseClient.html#465-467" title="Go to source code">getFunctions</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTypes" id="_getTypes">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTypes">#</a>
+		<code><a href="source-class-SforceBaseClient.html#469-471" title="Go to source code">getTypes</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLastRequest" id="_getLastRequest">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLastRequest">#</a>
+		<code><a href="source-class-SforceBaseClient.html#473-475" title="Go to source code">getLastRequest</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLastRequestHeaders" id="_getLastRequestHeaders">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLastRequestHeaders">#</a>
+		<code><a href="source-class-SforceBaseClient.html#477-479" title="Go to source code">getLastRequestHeaders</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLastResponse" id="_getLastResponse">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLastResponse">#</a>
+		<code><a href="source-class-SforceBaseClient.html#481-483" title="Go to source code">getLastResponse</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLastResponseHeaders" id="_getLastResponseHeaders">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLastResponseHeaders">#</a>
+		<code><a href="source-class-SforceBaseClient.html#485-487" title="Go to source code">getLastResponseHeaders</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_convertToAny" id="__convertToAny">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__convertToAny">#</a>
+		<code><a href="source-class-SforceBaseClient.html#489-495" title="Go to source code">_convertToAny</a>( <span>mixed <var>$fields</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_create" id="__create">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__create">#</a>
+		<code><a href="source-class-SforceBaseClient.html#497-500" title="Go to source code">_create</a>( <span>mixed <var>$arg</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_merge" id="__merge">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__merge">#</a>
+		<code><a href="source-class-SforceBaseClient.html#502-505" title="Go to source code">_merge</a>( <span>mixed <var>$arg</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_process" id="__process">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__process">#</a>
+		<code><a href="source-class-SforceBaseClient.html#507-510" title="Go to source code">_process</a>( <span>mixed <var>$arg</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_update" id="__update">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__update">#</a>
+		<code><a href="source-class-SforceBaseClient.html#512-515" title="Go to source code">_update</a>( <span>mixed <var>$arg</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_upsert" id="__upsert">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__upsert">#</a>
+		<code><a href="source-class-SforceBaseClient.html#517-520" title="Go to source code">_upsert</a>( <span>mixed <var>$arg</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendSingleEmail" id="_sendSingleEmail">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendSingleEmail">#</a>
+		<code><a href="source-class-SforceBaseClient.html#522-536" title="Go to source code">sendSingleEmail</a>( <span>mixed <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendMassEmail" id="_sendMassEmail">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendMassEmail">#</a>
+		<code><a href="source-class-SforceBaseClient.html#538-552" title="Go to source code">sendMassEmail</a>( <span>mixed <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_sendEmail" id="__sendEmail">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__sendEmail">#</a>
+		<code><a href="source-class-SforceBaseClient.html#554-557" title="Go to source code">_sendEmail</a>( <span>mixed <var>$arg</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="convertLead" id="_convertLead">
+
+		<td class="attributes"><code>
+			 public 
+			LeadConvertResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_convertLead">#</a>
+		<code><a href="source-class-SforceBaseClient.html#559-571" title="Go to source code">convertLead</a>( <span>array <var>$leadConverts</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Converts a Lead into an Account, Contact, or (optionally) an Opportunity.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Converts a Lead into an Account, Contact, or (optionally) an Opportunity.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$leadConverts</var></dt>
+					<dd><code>array</code><br>$leadConverts Array of LeadConvert</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>LeadConvertResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			DeleteResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-SforceBaseClient.html#573-584" title="Go to source code">delete</a>( <span>array <var>$ids</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Deletes one or more new individual objects to your organization's data.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Deletes one or more new individual objects to your organization's data.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ids</var></dt>
+					<dd><code>array</code><br>$ids Array of fields</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>DeleteResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="undelete" id="_undelete">
+
+		<td class="attributes"><code>
+			 public 
+			DeleteResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_undelete">#</a>
+		<code><a href="source-class-SforceBaseClient.html#586-597" title="Go to source code">undelete</a>( <span>array <var>$ids</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Deletes one or more new individual objects to your organization's data.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Deletes one or more new individual objects to your organization's data.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ids</var></dt>
+					<dd><code>array</code><br>$ids Array of fields</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>DeleteResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="emptyRecycleBin" id="_emptyRecycleBin">
+
+		<td class="attributes"><code>
+			 public 
+			DeleteResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_emptyRecycleBin">#</a>
+		<code><a href="source-class-SforceBaseClient.html#599-610" title="Go to source code">emptyRecycleBin</a>( <span>array <var>$ids</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Deletes one or more new individual objects to your organization's data.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Deletes one or more new individual objects to your organization's data.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ids</var></dt>
+					<dd><code>array</code><br>$ids Array of fields</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>DeleteResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="processSubmitRequest" id="_processSubmitRequest">
+
+		<td class="attributes"><code>
+			 public 
+			ProcessResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_processSubmitRequest">#</a>
+		<code><a href="source-class-SforceBaseClient.html#612-630" title="Go to source code">processSubmitRequest</a>( <span>array <var>$processRequestArray</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Process Submit Request for Approval</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Process Submit Request for Approval</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$processRequestArray</var></dt>
+					<dd><code>array</code><br>$processRequestArray</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>ProcessResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="processWorkitemRequest" id="_processWorkitemRequest">
+
+		<td class="attributes"><code>
+			 public 
+			ProcessResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_processWorkitemRequest">#</a>
+		<code><a href="source-class-SforceBaseClient.html#632-650" title="Go to source code">processWorkitemRequest</a>( <span>array <var>$processRequestArray</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Process Work Item Request for Approval</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Process Work Item Request for Approval</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$processRequestArray</var></dt>
+					<dd><code>array</code><br>$processRequestArray</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>ProcessResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="describeGlobal" id="_describeGlobal">
+
+		<td class="attributes"><code>
+			 public 
+			DescribeGlobalResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_describeGlobal">#</a>
+		<code><a href="source-class-SforceBaseClient.html#652-660" title="Go to source code">describeGlobal</a>( )</code>
+
+		<div class="description short">
+			
+<p>Retrieves a list of available objects for your organization's data.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retrieves a list of available objects for your organization's data.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>DescribeGlobalResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="describeLayout" id="_describeLayout">
+
+		<td class="attributes"><code>
+			 public 
+			DescribeLayoutResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_describeLayout">#</a>
+		<code><a href="source-class-SforceBaseClient.html#662-677" title="Go to source code">describeLayout</a>( <span>string <var>$type</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Use describeLayout to retrieve information about the layout (presentation of
+data to users) for a given object type. The describeLayout call returns metadata
+about a given page layout, including layouts for edit and display-only views and
+record type mappings. Note that field-level security and layout editability
+affects which fields appear in a layout.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Use describeLayout to retrieve information about the layout (presentation of
+data to users) for a given object type. The describeLayout call returns metadata
+about a given page layout, including layouts for edit and display-only views and
+record type mappings. Note that field-level security and layout editability
+affects which fields appear in a layout.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>Type Object Type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>DescribeLayoutResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="describeSObject" id="_describeSObject">
+
+		<td class="attributes"><code>
+			 public 
+			DescribsSObjectResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_describeSObject">#</a>
+		<code><a href="source-class-SforceBaseClient.html#679-691" title="Go to source code">describeSObject</a>( <span>string <var>$type</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Describes metadata (field list and object properties) for the specified
+object.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Describes metadata (field list and object properties) for the specified
+object.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type Object type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>DescribsSObjectResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="describeSObjects" id="_describeSObjects">
+
+		<td class="attributes"><code>
+			 public 
+			DescribsSObjectResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_describeSObjects">#</a>
+		<code><a href="source-class-SforceBaseClient.html#693-703" title="Go to source code">describeSObjects</a>( <span>array <var>$arrayOfTypes</var></span> )</code>
+
+		<div class="description short">
+			
+<p>An array-based version of describeSObject; describes metadata (field list and
+object properties) for the specified object or array of objects.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>An array-based version of describeSObject; describes metadata (field list and
+object properties) for the specified object or array of objects.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$arrayOfTypes</var></dt>
+					<dd><code>array</code><br>$arrayOfTypes Array of object types.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>DescribsSObjectResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="describeTabs" id="_describeTabs">
+
+		<td class="attributes"><code>
+			 public 
+			DescribeTabSetResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_describeTabs">#</a>
+		<code><a href="source-class-SforceBaseClient.html#705-715" title="Go to source code">describeTabs</a>( )</code>
+
+		<div class="description short">
+			
+<p>The describeTabs call returns information about the standard apps and custom
+apps, if any, available for the user who sends the call, including the list of
+tabs defined for each app.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The describeTabs call returns information about the standard apps and custom
+apps, if any, available for the user who sends the call, including the list of
+tabs defined for each app.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>DescribeTabSetResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="describeDataCategoryGroups" id="_describeDataCategoryGroups">
+
+		<td class="attributes"><code>
+			 public 
+			DescribeDataCategoryGroupResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_describeDataCategoryGroups">#</a>
+		<code><a href="source-class-SforceBaseClient.html#717-729" title="Go to source code">describeDataCategoryGroups</a>( <span>string <var>$sObjectType</var></span> )</code>
+
+		<div class="description short">
+			
+<p>To enable data categories groups you must enable Answers or Knowledge
+Articles module in admin panel, after adding category group and assign it to
+Answers or Knowledge Articles</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>To enable data categories groups you must enable Answers or Knowledge
+Articles module in admin panel, after adding category group and assign it to
+Answers or Knowledge Articles</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sObjectType</var></dt>
+					<dd><code>string</code><br>$sObjectType sObject Type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>DescribeDataCategoryGroupResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="describeDataCategoryGroupStructures" id="_describeDataCategoryGroupStructures">
+
+		<td class="attributes"><code>
+			 public 
+			DescribeLayoutResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_describeDataCategoryGroupStructures">#</a>
+		<code><a href="source-class-SforceBaseClient.html#731-745" title="Go to source code">describeDataCategoryGroupStructures</a>( <span>array <var>$pairs</var></span>, <span>boolean <var>$topCategoriesOnly</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Retrieves available category groups along with their data category structure
+for objects specified in the request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retrieves available category groups along with their data category structure
+for objects specified in the request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pairs</var></dt>
+					<dd><code>DataCategoryGroupSobjectTypePair</code><br>$pairs</dd>
+					<dt><var>$topCategoriesOnly</var></dt>
+					<dd><code>boolean</code><br>$topCategoriesOnly Object Type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>DescribeLayoutResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getDeleted" id="_getDeleted">
+
+		<td class="attributes"><code>
+			 public 
+			GetDeletedResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getDeleted">#</a>
+		<code><a href="source-class-SforceBaseClient.html#747-763" title="Go to source code">getDeleted</a>( <span>string <var>$type</var></span>, <span>date <var>$startDate</var></span>, <span>date <var>$endDate</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Retrieves the list of individual objects that have been deleted within the
+given timespan for the specified object.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retrieves the list of individual objects that have been deleted within the
+given timespan for the specified object.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type Ojbect type</dd>
+					<dt><var>$startDate</var></dt>
+					<dd><code>date</code><br>$startDate Start date</dd>
+					<dt><var>$endDate</var></dt>
+					<dd><code>date</code><br>$endDate End Date</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>GetDeletedResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUpdated" id="_getUpdated">
+
+		<td class="attributes"><code>
+			 public 
+			GetUpdatedResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUpdated">#</a>
+		<code><a href="source-class-SforceBaseClient.html#765-781" title="Go to source code">getUpdated</a>( <span>string <var>$type</var></span>, <span>date <var>$startDate</var></span>, <span>date <var>$endDate</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Retrieves the list of individual objects that have been updated (added or
+changed) within the given timespan for the specified object.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retrieves the list of individual objects that have been updated (added or
+changed) within the given timespan for the specified object.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type Ojbect type</dd>
+					<dt><var>$startDate</var></dt>
+					<dd><code>date</code><br>$startDate Start date</dd>
+					<dt><var>$endDate</var></dt>
+					<dd><code>date</code><br>$endDate End Date</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>GetUpdatedResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="query" id="_query">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-QueryResult.html">QueryResult</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_query">#</a>
+		<code><a href="source-class-SforceBaseClient.html#783-799" title="Go to source code">query</a>( <span><code><a href="class-String.html">String</a></code> <var>$query</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Executes a query against the specified object and returns data that matches
+the specified criteria.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Executes a query against the specified object and returns data that matches
+the specified criteria.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd><code><code><a href="class-String.html">String</a></code></code><br>$query Query String</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-QueryResult.html">QueryResult</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="queryMore" id="_queryMore">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-QueryResult.html">QueryResult</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_queryMore">#</a>
+		<code><a href="source-class-SforceBaseClient.html#801-816" title="Go to source code">queryMore</a>( <span>QueryLocator <var>$queryLocator</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Retrieves the next batch of objects from a query.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retrieves the next batch of objects from a query.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$queryLocator</var></dt>
+					<dd><code>QueryLocator</code><br>$queryLocator Represents the server-side cursor that tracks the current
+processing location in the query result set.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-QueryResult.html">QueryResult</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="queryAll" id="_queryAll">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-QueryResult.html">QueryResult</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_queryAll">#</a>
+		<code><a href="source-class-SforceBaseClient.html#818-833" title="Go to source code">queryAll</a>( <span><code><a href="class-String.html">String</a></code> <var>$query</var></span>, <span><code><a href="class-QueryOptions.html">QueryOptions</a></code> <var>$queryOptions</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Retrieves data from specified objects, whether or not they have been
+deleted.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retrieves data from specified objects, whether or not they have been
+deleted.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd><code><code><a href="class-String.html">String</a></code></code><br>$query Query String</dd>
+					<dt><var>$queryOptions</var></dt>
+					<dd><code><code><a href="class-QueryOptions.html">QueryOptions</a></code></code><br>$queryOptions Batch size limit. OPTIONAL</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-QueryResult.html">QueryResult</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="retrieve" id="_retrieve">
+
+		<td class="attributes"><code>
+			 public 
+			sObject[]
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_retrieve">#</a>
+		<code><a href="source-class-SforceBaseClient.html#836-851" title="Go to source code">retrieve</a>( <span>string <var>$fieldList</var></span>, <span>string <var>$sObjectType</var></span>, <span>array <var>$ids</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Retrieves one or more objects based on the specified object IDs.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retrieves one or more objects based on the specified object IDs.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldList</var></dt>
+					<dd><code>string</code><br>$fieldList One or more fields separated by commas.</dd>
+					<dt><var>$sObjectType</var></dt>
+					<dd><code>string</code><br>$sObjectType Object from which to retrieve data.</dd>
+					<dt><var>$ids</var></dt>
+					<dd><code>array</code><br>$ids Array of one or more IDs of the objects to retrieve.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>sObject[]</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="search" id="_search">
+
+		<td class="attributes"><code>
+			 public 
+			SearchResult
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_search">#</a>
+		<code><a href="source-class-SforceBaseClient.html#853-864" title="Go to source code">search</a>( <span>string <var>$searchString</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Executes a text search in your organization's data.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Executes a text search in your organization's data.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$searchString</var></dt>
+					<dd><code>string</code><br>$searchString Search string that specifies the text expression to search for.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>SearchResult</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getServerTimestamp" id="_getServerTimestamp">
+
+		<td class="attributes"><code>
+			 public 
+			timestamp
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getServerTimestamp">#</a>
+		<code><a href="source-class-SforceBaseClient.html#866-874" title="Go to source code">getServerTimestamp</a>( )</code>
+
+		<div class="description short">
+			
+<p>Retrieves the current system timestamp (GMT) from the Web service.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retrieves the current system timestamp (GMT) from the Web service.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>timestamp</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUserInfo" id="_getUserInfo">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUserInfo">#</a>
+		<code><a href="source-class-SforceBaseClient.html#876-879" title="Go to source code">getUserInfo</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setPassword" id="_setPassword">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setPassword">#</a>
+		<code><a href="source-class-SforceBaseClient.html#881-893" title="Go to source code">setPassword</a>( <span>string <var>$userId</var></span>, <span>string <var>$password</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the specified user's password to the specified value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the specified user's password to the specified value.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userId</var></dt>
+					<dd><code>string</code><br>$userId ID of the User.</dd>
+					<dt><var>$password</var></dt>
+					<dd><code>string</code><br>$password New password</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resetPassword" id="_resetPassword">
+
+		<td class="attributes"><code>
+			 public 
+			password
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resetPassword">#</a>
+		<code><a href="source-class-SforceBaseClient.html#895-906" title="Go to source code">resetPassword</a>( <span>string <var>$userId</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Changes a user's password to a system-generated value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Changes a user's password to a system-generated value.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userId</var></dt>
+					<dd><code>string</code><br>$userId Id of the User</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>password</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="sforce" id="$sforce">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#41" title="Go to source code"><var>$sforce</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$sforce" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sessionId" id="$sessionId">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#42" title="Go to source code"><var>$sessionId</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$sessionId" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="location" id="$location">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#43" title="Go to source code"><var>$location</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$location" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="version" id="$version">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#44" title="Go to source code"><var>$version</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'20.0'</span></code></td>
+		<td class="description"><div>
+			<a href="#$version" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="namespace" id="$namespace">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#46" title="Go to source code"><var>$namespace</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$namespace" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="callOptions" id="$callOptions">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#49" title="Go to source code"><var>$callOptions</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$callOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="assignmentRuleHeader" id="$assignmentRuleHeader">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#50" title="Go to source code"><var>$assignmentRuleHeader</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$assignmentRuleHeader" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="emailHeader" id="$emailHeader">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#51" title="Go to source code"><var>$emailHeader</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$emailHeader" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="loginScopeHeader" id="$loginScopeHeader">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#52" title="Go to source code"><var>$loginScopeHeader</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$loginScopeHeader" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="mruHeader" id="$mruHeader">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#53" title="Go to source code"><var>$mruHeader</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$mruHeader" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="queryHeader" id="$queryHeader">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#54" title="Go to source code"><var>$queryHeader</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$queryHeader" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="userTerritoryDeleteHeader" id="$userTerritoryDeleteHeader">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#55" title="Go to source code"><var>$userTerritoryDeleteHeader</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$userTerritoryDeleteHeader" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sessionHeader" id="$sessionHeader">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#56" title="Go to source code"><var>$sessionHeader</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$sessionHeader" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="allowFieldTruncationHeader" id="$allowFieldTruncationHeader">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#59" title="Go to source code"><var>$allowFieldTruncationHeader</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$allowFieldTruncationHeader" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="localeOptions" id="$localeOptions">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#60" title="Go to source code"><var>$localeOptions</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$localeOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="packageVersionHeader" id="$packageVersionHeader">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#61" title="Go to source code"><var>$packageVersionHeader</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$packageVersionHeader" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="client_id" id="$client_id">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SforceBaseClient.html#76" title="Go to source code"><var>$client_id</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$client_id" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

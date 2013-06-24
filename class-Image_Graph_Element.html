@@ -1,0 +1,2257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Image_Graph_Element | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li class="active"><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li class="active"><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Image_Graph.html">Image_Graph</a></li>
+				<li><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></li>
+				<li class="active"><a href="class-Image_Graph_Element.html">Image_Graph_Element</a></li>
+				<li><a href="class-Image_Graph_Plotarea_Element.html">Image_Graph_Plotarea_Element</a></li>
+				<li><a href="class-Image_Graph_Simple.html">Image_Graph_Simple</a></li>
+				<li><a href="class-Image_Graph_Tool.html">Image_Graph_Tool</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-is_a.html">is_a</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Image.Graph.html" title="Summary of Image\Graph"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Image_Graph_Element</h1>
+
+
+	<div class="description">
+	
+<p>Representation of a element.</p>
+
+<p>The Image_Graph_Element can be drawn on the canvas, ie it has coordinates,
+Image_Graph_Line, <code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code>, border and background -
+although not all of these may apply to all children.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Image_Graph_Common.html"><span>Image_Graph_Common</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Image_Graph_Element</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Image_Graph.html">Image_Graph</a>, 
+			<a href="class-Image_Graph_Figure_Ellipse.html">Image_Graph_Figure_Ellipse</a>, 
+			<a href="class-Image_Graph_Figure_Polygon.html">Image_Graph_Figure_Polygon</a>, 
+			<a href="class-Image_Graph_Figure_Rectangle.html">Image_Graph_Figure_Rectangle</a>, 
+			<a href="class-Image_Graph_Logo.html">Image_Graph_Logo</a>, 
+			<a href="class-Image_Graph_Plotarea_Element.html">Image_Graph_Plotarea_Element</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-Image_Graph_Axis.html">Image_Graph_Axis</a>, 
+			<a href="class-Image_Graph_Axis_Category.html">Image_Graph_Axis_Category</a>, 
+			<a href="class-Image_Graph_Grid_Polar.html">Image_Graph_Grid_Polar</a>, 
+			<a href="class-Image_Graph_Layout.html">Image_Graph_Layout</a>, 
+			<a href="class-Image_Graph_Layout_Horizontal.html">Image_Graph_Layout_Horizontal</a>, 
+			<a href="class-Image_Graph_Layout_Matrix.html">Image_Graph_Layout_Matrix</a>, 
+			<a href="class-Image_Graph_Layout_Vertical.html">Image_Graph_Layout_Vertical</a>, 
+			<a href="class-Image_Graph_Legend.html">Image_Graph_Legend</a>, 
+			<a href="class-Image_Graph_Marker.html">Image_Graph_Marker</a>, 
+			<a href="class-Image_Graph_Marker_Array.html">Image_Graph_Marker_Array</a>, 
+			<a href="class-Image_Graph_Marker_Asterisk.html">Image_Graph_Marker_Asterisk</a>, 
+			<a href="class-Image_Graph_Marker_Average.html">Image_Graph_Marker_Average</a>, 
+			<a href="class-Image_Graph_Axis_Logarithmic.html">Image_Graph_Axis_Logarithmic</a>, 
+			<a href="class-Image_Graph_Marker_Box.html">Image_Graph_Marker_Box</a>, 
+			<a href="class-Image_Graph_Marker_Bubble.html">Image_Graph_Marker_Bubble</a>, 
+			<a href="class-Image_Graph_Marker_Circle.html">Image_Graph_Marker_Circle</a>, 
+			<a href="class-Image_Graph_Marker_Cross.html">Image_Graph_Marker_Cross</a>, 
+			<a href="class-Image_Graph_Marker_Diamond.html">Image_Graph_Marker_Diamond</a>, 
+			<a href="class-Image_Graph_Marker_Icon.html">Image_Graph_Marker_Icon</a>, 
+			<a href="class-Image_Graph_Marker_Pinpoint.html">Image_Graph_Marker_Pinpoint</a>, 
+			<a href="class-Image_Graph_Marker_Plus.html">Image_Graph_Marker_Plus</a>, 
+			<a href="class-Image_Graph_Marker_Pointing.html">Image_Graph_Marker_Pointing</a>, 
+			<a href="class-Image_Graph_Marker_Pointing_Angular.html">Image_Graph_Marker_Pointing_Angular</a>, 
+			<a href="class-Image_Graph_Axis_Marker_Area.html">Image_Graph_Axis_Marker_Area</a>, 
+			<a href="class-Image_Graph_Marker_Pointing_Radial.html">Image_Graph_Marker_Pointing_Radial</a>, 
+			<a href="class-Image_Graph_Marker_ReversePinpoint.html">Image_Graph_Marker_ReversePinpoint</a>, 
+			<a href="class-Image_Graph_Marker_Star.html">Image_Graph_Marker_Star</a>, 
+			<a href="class-Image_Graph_Marker_Triangle.html">Image_Graph_Marker_Triangle</a>, 
+			<a href="class-Image_Graph_Marker_Value.html">Image_Graph_Marker_Value</a>, 
+			<a href="class-Image_Graph_Plot.html">Image_Graph_Plot</a>, 
+			<a href="class-Image_Graph_Plot_Area.html">Image_Graph_Plot_Area</a>, 
+			<a href="class-Image_Graph_Plot_Band.html">Image_Graph_Plot_Band</a>, 
+			<a href="class-Image_Graph_Plot_Bar.html">Image_Graph_Plot_Bar</a>, 
+			<a href="class-Image_Graph_Plot_BoxWhisker.html">Image_Graph_Plot_BoxWhisker</a>, 
+			<a href="class-Image_Graph_Axis_Marker_Line.html">Image_Graph_Axis_Marker_Line</a>, 
+			<a href="class-Image_Graph_Plot_CandleStick.html">Image_Graph_Plot_CandleStick</a>, 
+			<a href="class-Image_Graph_Plot_Dot.html">Image_Graph_Plot_Dot</a>, 
+			<a href="class-Image_Graph_Plot_Fit_Line.html">Image_Graph_Plot_Fit_Line</a>, 
+			<a href="class-Image_Graph_Plot_Impulse.html">Image_Graph_Plot_Impulse</a>, 
+			<a href="class-Image_Graph_Plot_Line.html">Image_Graph_Plot_Line</a>, 
+			<a href="class-Image_Graph_Plot_Odo.html">Image_Graph_Plot_Odo</a>, 
+			<a href="class-Image_Graph_Plot_Pie.html">Image_Graph_Plot_Pie</a>, 
+			<a href="class-Image_Graph_Plot_Radar.html">Image_Graph_Plot_Radar</a>, 
+			<a href="class-Image_Graph_Plot_Smoothed_Area.html">Image_Graph_Plot_Smoothed_Area</a>, 
+			<a href="class-Image_Graph_Plot_Smoothed_Bezier.html">Image_Graph_Plot_Smoothed_Bezier</a>, 
+			<a href="class-Image_Graph_Axis_Radar.html">Image_Graph_Axis_Radar</a>, 
+			<a href="class-Image_Graph_Plot_Smoothed_Line.html">Image_Graph_Plot_Smoothed_Line</a>, 
+			<a href="class-Image_Graph_Plot_Smoothed_Radar.html">Image_Graph_Plot_Smoothed_Radar</a>, 
+			<a href="class-Image_Graph_Plot_Step.html">Image_Graph_Plot_Step</a>, 
+			<a href="class-Image_Graph_Plotarea.html">Image_Graph_Plotarea</a>, 
+			<a href="class-Image_Graph_Plotarea_Map.html">Image_Graph_Plotarea_Map</a>, 
+			<a href="class-Image_Graph_Plotarea_Radar.html">Image_Graph_Plotarea_Radar</a>, 
+			<a href="class-Image_Graph_Simple.html">Image_Graph_Simple</a>, 
+			<a href="class-Image_Graph_Title.html">Image_Graph_Title</a>, 
+			<a href="class-Image_Graph_Figure_Circle.html">Image_Graph_Figure_Circle</a>, 
+			<a href="class-Image_Graph_Grid.html">Image_Graph_Grid</a>, 
+			<a href="class-Image_Graph_Grid_Bars.html">Image_Graph_Grid_Bars</a>, 
+			<a href="class-Image_Graph_Grid_Lines.html">Image_Graph_Grid_Lines</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Image.html">Image</a>\<a href="package-Image.Graph.html">Graph</a><br />
+
+				<b>Category:</b>
+				Images<br />
+				<b>Copyright:</b>
+				Copyright (C) 2003, 2004 Jesper Veggerby Hansen<br />
+				<b>License:</b>
+				<a href="http://www.gnu.org/copyleft/lesser.html">LGPL License 2.1</a><br />
+				<b>Author:</b>
+				Jesper Veggerby &lt;<a
+href="mailto:pear.nosey&#64;veggerby.dk">pear.nosey&#64;<!---->veggerby.dk</a>&gt;<br />
+				<b>Version:</b>
+				Release: @package_version@<br />
+				<b>Link:</b>
+				<a href="http://pear.php.net/package/Image_Graph">http://pear.php.net/package/Image_Graph</a><br />
+		<b>Located at</b> <a href="source-class-Image_Graph_Element.html#35-762" title="Go to source code">app/vendors/Image/Graph/Element.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="setBackground" id="_setBackground">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setBackground">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#151-168" title="Go to source code">setBackground</a>( <span><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code> <var>&amp; $background</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the background fill style of the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the background fill style of the element</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$background</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code></code><br>$background The background</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="showShadow" id="_showShadow">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_showShadow">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#170-179" title="Go to source code">showShadow</a>( <span>mixed <var>$color</var> = <span class="php-quote">'black@0.2'</span></span>, <span>mixed <var>$size</var> = <span class="php-num">5</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Shows shadow on the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Shows shadow on the element</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setBackgroundColor" id="_setBackgroundColor">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setBackgroundColor">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#181-191" title="Go to source code">setBackgroundColor</a>( <span>mixed <var>$color</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the background color of the element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the background color of the element.</p>
+
+<p>See colors.txt in the docs/ folder for a list of available named colors.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$color</var></dt>
+					<dd><code>mixed</code><br>$color The color</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getBackground" id="__getBackground">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getBackground">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#193-210" title="Go to source code">_getBackground</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the background fill style of the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the background fill style of the element</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>A GD fillstyle representing the background style<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setBorderStyle" id="_setBorderStyle">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setBorderStyle">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#212-229" title="Go to source code">setBorderStyle</a>( <span>Image_Graph_Line <var>&amp; $borderStyle</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the border line style of the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the border line style of the element</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$borderStyle</var></dt>
+					<dd><code>Image_Graph_Line</code><br>$borderStyle The line style of the border</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						Image_Graph_Line<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setBorderColor" id="_setBorderColor">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setBorderColor">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#231-240" title="Go to source code">setBorderColor</a>( <span>mixed <var>$color</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the border color of the element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the border color of the element.</p>
+
+<p>See colors.txt in the docs/ folder for a list of available named colors.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$color</var></dt>
+					<dd><code>mixed</code><br>$color The color</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getBorderStyle" id="__getBorderStyle">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getBorderStyle">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#242-262" title="Go to source code">_getBorderStyle</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the border line style of the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the border line style of the element</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>A GD linestyle representing the borders line style<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						Image_Graph_Line<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLineStyle" id="_setLineStyle">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLineStyle">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#264-281" title="Go to source code">setLineStyle</a>( <span>Image_Graph_Line <var>&amp; $lineStyle</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the line style of the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the line style of the element</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$lineStyle</var></dt>
+					<dd><code>Image_Graph_Line</code><br>$lineStyle The line style of the element</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						Image_Graph_Line<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLineColor" id="_setLineColor">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLineColor">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#283-293" title="Go to source code">setLineColor</a>( <span>mixed <var>$color</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the line color of the element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the line color of the element.</p>
+
+<p>See colors.txt in the docs/ folder for a list of available named colors.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$color</var></dt>
+					<dd><code>mixed</code><br>$color The color</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getLineStyle" id="__getLineStyle">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getLineStyle">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#295-320" title="Go to source code">_getLineStyle</a>( <span>mixed <var>$ID</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets the line style of the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the line style of the element</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>A GD linestyle representing the line style<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						Image_Graph_Line<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFillStyle" id="_setFillStyle">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFillStyle">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#322-339" title="Go to source code">setFillStyle</a>( <span><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code> <var>&amp; $fillStyle</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the fill style of the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the fill style of the element</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fillStyle</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code></code><br>$fillStyle The fill style of the element</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFillColor" id="_setFillColor">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFillColor">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#341-351" title="Go to source code">setFillColor</a>( <span>mixed <var>$color</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the fill color of the element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the fill color of the element.</p>
+
+<p>See colors.txt in the docs/ folder for a list of available named colors.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$color</var></dt>
+					<dd><code>mixed</code><br>$color The color</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getFillStyle" id="__getFillStyle">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getFillStyle">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#354-371" title="Go to source code">_getFillStyle</a>( <span>mixed <var>$ID</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets the fill style of the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the fill style of the element</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>A GD filestyle representing the fill style<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getFont" id="__getFont">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getFont">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#373-416" title="Go to source code">_getFont</a>( <span>mixed <var>$options</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets the font of the element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the font of the element.</p>
+
+<p>If not font has been set, the parent font is propagated through it's
+children.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>An associated array used for canvas<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFont" id="_setFont">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFont">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#418-432" title="Go to source code">setFont</a>( <span><code><a href="class-Image_Graph_Font.html">Image_Graph_Font</a></code> <var>&amp; $font</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the font of the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the font of the element</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$font</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Font.html">Image_Graph_Font</a></code></code><br>$font The font of the element</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Image_Graph_Font.html">Image_Graph_Font</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFontSize" id="_setFontSize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFontSize">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#434-442" title="Go to source code">setFontSize</a>( <span>integer <var>$size</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the font size</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the font size</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$size</var></dt>
+					<dd><code>integer</code><br>$size The size of the font</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFontAngle" id="_setFontAngle">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFontAngle">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#444-457" title="Go to source code">setFontAngle</a>( <span>integer <var>$angle</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the font angle</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the font angle</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$angle</var></dt>
+					<dd><code>integer</code><br>$angle The angle of the font</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFontColor" id="_setFontColor">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFontColor">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#459-467" title="Go to source code">setFontColor</a>( <span>mixed <var>$color</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the font color</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the font color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$color</var></dt>
+					<dd><code>mixed</code><br>$color The color of the font</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_clip" id="__clip">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__clip">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#469-488" title="Go to source code">_clip</a>( <span>mixed <var>$enable</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Clip the canvas to the coordinates of the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clip the canvas to the coordinates of the element</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$enable</var></dt>
+					<dd><code>mixed</code><br>$enable bool Whether clipping should be enabled or disabled</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setCoords" id="__setCoords">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setCoords">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#490-521" title="Go to source code">_setCoords</a>( <span>integer <var>$left</var></span>, <span>integer <var>$top</var></span>, <span>integer <var>$right</var></span>, <span>integer <var>$bottom</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the coordinates of the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the coordinates of the element</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$left</var></dt>
+					<dd><code>integer</code><br>$left The leftmost pixel of the element on the canvas</dd>
+					<dt><var>$top</var></dt>
+					<dd><code>integer</code><br>$top The topmost pixel of the element on the canvas</dd>
+					<dt><var>$right</var></dt>
+					<dd><code>integer</code><br>$right The rightmost pixel of the element on the canvas</dd>
+					<dt><var>$bottom</var></dt>
+					<dd><code>integer</code><br>$bottom The bottommost pixel of the element on the canvas</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_move" id="__move">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__move">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#523-538" title="Go to source code">_move</a>( <span>integer <var>$deltaX</var></span>, <span>integer <var>$deltaY</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Moves the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Moves the element</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$deltaX</var></dt>
+					<dd><code>integer</code><br>$deltaX Number of pixels to move the element to the right (negative values move
+to the left)</dd>
+					<dt><var>$deltaY</var></dt>
+					<dd><code>integer</code><br>$deltaY Number of pixels to move the element downwards (negative values move
+upwards)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setWidth" id="__setWidth">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setWidth">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#540-549" title="Go to source code">_setWidth</a>( <span>integer <var>$width</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the width of the element relative to the left side</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the width of the element relative to the left side</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$width</var></dt>
+					<dd><code>integer</code><br>$width Number of pixels the element should be in width</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setHeight" id="__setHeight">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setHeight">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#551-560" title="Go to source code">_setHeight</a>( <span>integer <var>$height</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the height of the element relative to the top</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the height of the element relative to the top</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$height</var></dt>
+					<dd><code>integer</code><br>$width Number of pixels the element should be in height</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setPadding" id="_setPadding">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setPadding">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#562-585" title="Go to source code">setPadding</a>( <span>mixed <var>$padding</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets padding of the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets padding of the element</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$padding</var></dt>
+					<dd><code>mixed</code><br>$padding Number of pixels the element should be padded with or an array of
+paddings (left, top, right and bottom as index)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="width" id="_width">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_width">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#587-595" title="Go to source code">width</a>( )</code>
+
+		<div class="description short">
+			
+<p>The width of the element on the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The width of the element on the canvas</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Number of pixels representing the width of the element<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="height" id="_height">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_height">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#597-605" title="Go to source code">height</a>( )</code>
+
+		<div class="description short">
+			
+<p>The height of the element on the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The height of the element on the canvas</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Number of pixels representing the height of the element<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_fillLeft" id="__fillLeft">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__fillLeft">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#607-616" title="Go to source code">_fillLeft</a>( )</code>
+
+		<div class="description short">
+			
+<p>Left boundary of the background fill area</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Left boundary of the background fill area</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Leftmost position on the canvas<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_fillTop" id="__fillTop">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__fillTop">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#618-627" title="Go to source code">_fillTop</a>( )</code>
+
+		<div class="description short">
+			
+<p>Top boundary of the background fill area</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Top boundary of the background fill area</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Topmost position on the canvas<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_fillRight" id="__fillRight">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__fillRight">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#629-638" title="Go to source code">_fillRight</a>( )</code>
+
+		<div class="description short">
+			
+<p>Right boundary of the background fill area</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Right boundary of the background fill area</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Rightmost position on the canvas<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_fillBottom" id="__fillBottom">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__fillBottom">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#640-649" title="Go to source code">_fillBottom</a>( )</code>
+
+		<div class="description short">
+			
+<p>Bottom boundary of the background fill area</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Bottom boundary of the background fill area</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Bottommost position on the canvas<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_fillWidth" id="__fillWidth">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__fillWidth">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#651-660" title="Go to source code">_fillWidth</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the filling width of the element on the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the filling width of the element on the canvas</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Filling width<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_fillHeight" id="__fillHeight">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__fillHeight">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#662-671" title="Go to source code">_fillHeight</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the filling height of the element on the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the filling height of the element on the canvas</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Filling height<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_displayShadow" id="__displayShadow">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__displayShadow">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#673-694" title="Go to source code">_displayShadow</a>( )</code>
+
+		<div class="description short">
+			
+<p>Draws a shadow 'around' the element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draws a shadow 'around' the element</p>
+
+<p>Not implemented yet.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="write" id="_write">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_write">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#696-736" title="Go to source code">write</a>( <span>integer <var>$x</var></span>, <span>integer <var>$y</var></span>, <span>string <var>$text</var></span>, <span>integer <var>$alignment</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$font</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Writes text to the canvas.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Writes text to the canvas.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x</var></dt>
+					<dd><code>integer</code><br>$x The x position relative to alignment</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>integer</code><br>$y The y position relative to alignment</dd>
+					<dt><var>$text</var></dt>
+					<dd><code>string</code><br>$text The text</dd>
+					<dt><var>$alignment</var></dt>
+					<dd><code>integer</code><br>$alignmen The text alignment (both vertically and horizontally)</dd>
+					<dt><var>$font</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_done" id="__done">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__done">#</a>
+		<code><a href="source-class-Image_Graph_Element.html#738-760" title="Go to source code">_done</a>( )</code>
+
+		<div class="description short">
+			
+<p>Output the element to the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Output the element to the canvas</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Was the output 'good' (true) or 'bad' (false).<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></code></code><br />
+				</div>
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Common.html#__done">Image_Graph_Common::_done()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Common.html#methods">Image_Graph_Common</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Common.html#_Image_Graph_Common">Image_Graph_Common()</a>, 
+			<a href="class-Image_Graph_Common.html#__error">_error()</a>, 
+			<a href="class-Image_Graph_Common.html#__getCanvas">_getCanvas()</a>, 
+			<a href="class-Image_Graph_Common.html#__reset">_reset()</a>, 
+			<a href="class-Image_Graph_Common.html#__setParent">_setParent()</a>, 
+			<a href="class-Image_Graph_Common.html#__updateCoords">_updateCoords()</a>, 
+			<a href="class-Image_Graph_Common.html#_add">add()</a>, 
+			<a href="class-Image_Graph_Common.html#_addNew">addNew()</a>, 
+			<a href="class-Image_Graph_Common.html#_hide">hide()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_left" id="$_left">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#54-59" title="Go to source code"><var>$_left</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$_left" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The leftmost pixel of the element on the canvas</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The leftmost pixel of the element on the canvas</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_top" id="$_top">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#61-66" title="Go to source code"><var>$_top</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$_top" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The topmost pixel of the element on the canvas</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The topmost pixel of the element on the canvas</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_right" id="$_right">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#68-73" title="Go to source code"><var>$_right</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$_right" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The rightmost pixel of the element on the canvas</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The rightmost pixel of the element on the canvas</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_bottom" id="$_bottom">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#75-80" title="Go to source code"><var>$_bottom</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$_bottom" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The bottommost pixel of the element on the canvas</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The bottommost pixel of the element on the canvas</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_background" id="$_background">
+		<td class="attributes"><code>
+			public  
+			FillStyle
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#82-87" title="Go to source code"><var>$_background</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$_background" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Background of the element. Default: None</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Background of the element. Default: None</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_borderStyle" id="$_borderStyle">
+		<td class="attributes"><code>
+			public  
+			LineStyle
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#89-94" title="Go to source code"><var>$_borderStyle</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$_borderStyle" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Borderstyle of the element. Default: None</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Borderstyle of the element. Default: None</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_lineStyle" id="$_lineStyle">
+		<td class="attributes"><code>
+			public  
+			LineStyle
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#96-101" title="Go to source code"><var>$_lineStyle</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'black'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_lineStyle" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Line style of the element. Default: None</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Line style of the element. Default: None</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_fillStyle" id="$_fillStyle">
+		<td class="attributes"><code>
+			public  
+			FillStyle
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#103-108" title="Go to source code"><var>$_fillStyle</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'white'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_fillStyle" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Fill style of the element. Default: None</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Fill style of the element. Default: None</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_font" id="$_font">
+		<td class="attributes"><code>
+			public  
+			Font
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#110-116" title="Go to source code"><var>$_font</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$_font" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Font of the element. Default: Standard font - FONT</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Font of the element. Default: Standard font - FONT</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							$IMAGE_GRAPH_FONT<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_fontOptions" id="$_fontOptions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#118-123" title="Go to source code"><var>$_fontOptions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_fontOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Font options</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Font options</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_defaultFontOptions" id="$_defaultFontOptions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#125-135" title="Go to source code"><var>$_defaultFontOptions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_defaultFontOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Default font options</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Default font options</p>
+
+<p>This option is included for performance reasons. The value is calculated
+before output and reused in default cases to avoid unnecessary recursive
+calls.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_shadow" id="$_shadow">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#137-142" title="Go to source code"><var>$_shadow</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_shadow" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Shadows options of the element</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Shadows options of the element</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_padding" id="$_padding">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Element.html#144-149" title="Go to source code"><var>$_padding</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'left'</span> =&gt; <span class="php-num">0</span>, <span class="php-quote">'top'</span> =&gt; <span class="php-num">0</span>, <span class="php-quote">'right'</span> =&gt; <span class="php-num">0</span>, <span class="php-quote">'bottom'</span> =&gt; <span class="php-num">0</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$_padding" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The padding displayed on the element</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The padding displayed on the element</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Graph_Common.html#properties">Image_Graph_Common</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Common.html#$_canvas"><var>$_canvas</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_elements"><var>$_elements</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_parent"><var>$_parent</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_visible"><var>$_visible</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Image_Canvas_GD_JPG | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li class="active"><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li class="active"><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Image_Canvas.html">Image_Canvas</a></li>
+				<li><a href="class-Image_Canvas_Color.html">Image_Canvas_Color</a></li>
+				<li><a href="class-Image_Canvas_GD.html">Image_Canvas_GD</a></li>
+				<li class="active"><a href="class-Image_Canvas_GD_JPG.html">Image_Canvas_GD_JPG</a></li>
+				<li><a href="class-Image_Canvas_GD_PNG.html">Image_Canvas_GD_PNG</a></li>
+				<li><a href="class-Image_Canvas_ImageMap.html">Image_Canvas_ImageMap</a></li>
+				<li><a href="class-Image_Canvas_PDF.html">Image_Canvas_PDF</a></li>
+				<li><a href="class-Image_Canvas_SVG.html">Image_Canvas_SVG</a></li>
+				<li><a href="class-Image_Canvas_Tool.html">Image_Canvas_Tool</a></li>
+				<li><a href="class-Image_Canvas_WithMap.html">Image_Canvas_WithMap</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Image.Canvas.html" title="Summary of Image\Canvas"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Image_Canvas_GD_JPG</h1>
+
+
+	<div class="description">
+	
+<p>JPEG Canvas class.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Image_Canvas.html"><span>Image_Canvas</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Canvas_WithMap.html"><span>Image_Canvas_WithMap</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Canvas_GD.html"><span>Image_Canvas_GD</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:90px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Image_Canvas_GD_JPG</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Image.html">Image</a>\<a href="package-Image.Canvas.html">Canvas</a><br />
+
+				<b>Category:</b>
+				Images<br />
+				<b>Copyright:</b>
+				Copyright (C) 2003, 2004 Jesper Veggerby Hansen<br />
+				<b>License:</b>
+				<a href="http://www.gnu.org/copyleft/lesser.html">LGPL License 2.1</a><br />
+				<b>Author:</b>
+				Jesper Veggerby &lt;<a
+href="mailto:pear.nosey&#64;veggerby.dk">pear.nosey&#64;<!---->veggerby.dk</a>&gt;<br />
+				<b>Version:</b>
+				Release: @package_version@<br />
+				<b>Link:</b>
+				<a href="http://pear.php.net/pepr/pepr-proposal-show.php?id=212">http://pear.php.net/pepr/pepr-proposal-show.php?id=212</a><br />
+		<b>Located at</b> <a href="source-class-Image_Canvas_GD_JPG.html#37-117" title="Go to source code">app/vendors/Image/Canvas/GD/JPG.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="Image_Canvas_GD_JPG" id="_Image_Canvas_GD_JPG">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_Image_Canvas_GD_JPG">#</a>
+		<code><a href="source-class-Image_Canvas_GD_JPG.html#58-87" title="Go to source code">Image_Canvas_GD_JPG</a>( <span>array <var>$param</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create the JPEG canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create the JPEG canvas</p>
+
+<p>Additional parameters other than those available for common Image_Graph_Canvas_GD class are:</p>
+
+<p>'quality' The JPEG quality in as a percentage value from 0 (lowest quality,
+smallest file) to 100 (highest quality, biggest file)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$param</var></dt>
+					<dd><code>array</code><br>$param Parameter array</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="show" id="_show">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_show">#</a>
+		<code><a href="source-class-Image_Canvas_GD_JPG.html#89-102" title="Go to source code">show</a>( <span>array <var>$param</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Output the result of the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Output the result of the canvas</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$param</var></dt>
+					<dd><code>array</code><br>$param Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_show">Image_Canvas::show()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="save" id="_save">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_save">#</a>
+		<code><a href="source-class-Image_Canvas_GD_JPG.html#104-115" title="Go to source code">save</a>( <span>array <var>$param</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Output the result of the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Output the result of the canvas</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$param</var></dt>
+					<dd><code>array</code><br>$param Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_save">Image_Canvas::save()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Canvas_GD.html#methods">Image_Canvas_GD</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Canvas_GD.html#_Image_Canvas_GD">Image_Canvas_GD()</a>, 
+			<a href="class-Image_Canvas_GD.html#__antialiasedLine">_antialiasedLine()</a>, 
+			<a href="class-Image_Canvas_GD.html#__antialiasedPixel">_antialiasedPixel()</a>, 
+			<a href="class-Image_Canvas_GD.html#__antialisedSubPixel">_antialisedSubPixel()</a>, 
+			<a href="class-Image_Canvas_GD.html#__color">_color()</a>, 
+			<a href="class-Image_Canvas_GD.html#__getAbsolutePosition">_getAbsolutePosition()</a>, 
+			<a href="class-Image_Canvas_GD.html#__getFillStyle">_getFillStyle()</a>, 
+			<a href="class-Image_Canvas_GD.html#__getGD">_getGD()</a>, 
+			<a href="class-Image_Canvas_GD.html#__getLineStyle">_getLineStyle()</a>, 
+			<a href="class-Image_Canvas_GD.html#__linePixels">_linePixels()</a>, 
+			<a href="class-Image_Canvas_GD.html#__reset">_reset()</a>, 
+			<a href="class-Image_Canvas_GD.html#__version">_version()</a>, 
+			<a href="class-Image_Canvas_GD.html#_addText">addText()</a>, 
+			<a href="class-Image_Canvas_GD.html#_drawEnd">drawEnd()</a>, 
+			<a href="class-Image_Canvas_GD.html#_ellipse">ellipse()</a>, 
+			<a href="class-Image_Canvas_GD.html#_image">image()</a>, 
+			<a href="class-Image_Canvas_GD.html#_line">line()</a>, 
+			<a href="class-Image_Canvas_GD.html#_pieslice">pieslice()</a>, 
+			<a href="class-Image_Canvas_GD.html#_polygon">polygon()</a>, 
+			<a href="class-Image_Canvas_GD.html#_rectangle">rectangle()</a>, 
+			<a href="class-Image_Canvas_GD.html#_setClipping">setClipping()</a>, 
+			<a href="class-Image_Canvas_GD.html#_setFillImage">setFillImage()</a>, 
+			<a href="class-Image_Canvas_GD.html#_setFont">setFont()</a>, 
+			<a href="class-Image_Canvas_GD.html#_textHeight">textHeight()</a>, 
+			<a href="class-Image_Canvas_GD.html#_textWidth">textWidth()</a>, 
+			<a href="class-Image_Canvas_GD.html#_toHtml">toHtml()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Canvas_WithMap.html#methods">Image_Canvas_WithMap</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Canvas_WithMap.html#_Image_Canvas_WithMap">Image_Canvas_WithMap()</a>, 
+			<a href="class-Image_Canvas_WithMap.html#_addSpline">addSpline()</a>, 
+			<a href="class-Image_Canvas_WithMap.html#_addVertex">addVertex()</a>, 
+			<a href="class-Image_Canvas_WithMap.html#_getImageMap">getImageMap()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Canvas.html#methods">Image_Canvas</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Canvas.html#_Image_Canvas">Image_Canvas()</a>, 
+			<a href="class-Image_Canvas.html#__getX">_getX()</a>, 
+			<a href="class-Image_Canvas.html#__getY">_getY()</a>, 
+			<a href="class-Image_Canvas.html#_endGroup">endGroup()</a>, 
+			<a href="class-Image_Canvas.html#_factory">factory()</a>, 
+			<a href="class-Image_Canvas.html#_getHeight">getHeight()</a>, 
+			<a href="class-Image_Canvas.html#_getWidth">getWidth()</a>, 
+			<a href="class-Image_Canvas.html#_reset">reset()</a>, 
+			<a href="class-Image_Canvas.html#_setDefaultFont">setDefaultFont()</a>, 
+			<a href="class-Image_Canvas.html#_setFill">setFill()</a>, 
+			<a href="class-Image_Canvas.html#_setFillColor">setFillColor()</a>, 
+			<a href="class-Image_Canvas.html#_setGradientFill">setGradientFill()</a>, 
+			<a href="class-Image_Canvas.html#_setLineColor">setLineColor()</a>, 
+			<a href="class-Image_Canvas.html#_setLineThickness">setLineThickness()</a>, 
+			<a href="class-Image_Canvas.html#_startGroup">startGroup()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_quality" id="$_quality">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Canvas_GD_JPG.html#51-56" title="Go to source code"><var>$_quality</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">75</span></code></td>
+		<td class="description"><div>
+			<a href="#$_quality" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The JPEG quality</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The JPEG quality</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Canvas_GD.html#properties">Image_Canvas_GD</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Canvas_GD.html#$_alpha"><var>$_alpha</var></a>, 
+			<a href="class-Image_Canvas_GD.html#$_antialias"><var>$_antialias</var></a>, 
+			<a href="class-Image_Canvas_GD.html#$_canvas"><var>$_canvas</var></a>, 
+			<a href="class-Image_Canvas_GD.html#$_clipping"><var>$_clipping</var></a>, 
+			<a href="class-Image_Canvas_GD.html#$_gd2"><var>$_gd2</var></a>, 
+			<a href="class-Image_Canvas_GD.html#$_tileImage"><var>$_tileImage</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Canvas_WithMap.html#properties">Image_Canvas_WithMap</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Canvas_WithMap.html#$_imageMap"><var>$_imageMap</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Canvas.html#properties">Image_Canvas</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Canvas.html#$_defaultFont"><var>$_defaultFont</var></a>, 
+			<a href="class-Image_Canvas.html#$_fillStyle"><var>$_fillStyle</var></a>, 
+			<a href="class-Image_Canvas.html#$_font"><var>$_font</var></a>, 
+			<a href="class-Image_Canvas.html#$_height"><var>$_height</var></a>, 
+			<a href="class-Image_Canvas.html#$_left"><var>$_left</var></a>, 
+			<a href="class-Image_Canvas.html#$_lineStyle"><var>$_lineStyle</var></a>, 
+			<a href="class-Image_Canvas.html#$_polygon"><var>$_polygon</var></a>, 
+			<a href="class-Image_Canvas.html#$_thickness"><var>$_thickness</var></a>, 
+			<a href="class-Image_Canvas.html#$_top"><var>$_top</var></a>, 
+			<a href="class-Image_Canvas.html#$_width"><var>$_width</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

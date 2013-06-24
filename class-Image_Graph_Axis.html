@@ -1,0 +1,2894 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Image_Graph_Axis | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li class="active"><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li class="active"><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li class="active"><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Image_Graph_Axis.html">Image_Graph_Axis</a></li>
+				<li><a href="class-Image_Graph_Axis_Category.html">Image_Graph_Axis_Category</a></li>
+				<li><a href="class-Image_Graph_Axis_Logarithmic.html">Image_Graph_Axis_Logarithmic</a></li>
+				<li><a href="class-Image_Graph_Axis_Radar.html">Image_Graph_Axis_Radar</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Image.Graph.Axis.html" title="Summary of Image\Graph\Axis"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Image_Graph_Axis</h1>
+
+
+	<div class="description">
+	
+<p>Diplays a normal linear axis (either X- or Y-axis).</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Image_Graph_Common.html"><span>Image_Graph_Common</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Graph_Element.html"><span>Image_Graph_Element</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Graph_Plotarea_Element.html"><span>Image_Graph_Plotarea_Element</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:90px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Image_Graph_Axis</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Image_Graph_Axis_Category.html">Image_Graph_Axis_Category</a>, 
+			<a href="class-Image_Graph_Axis_Logarithmic.html">Image_Graph_Axis_Logarithmic</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-Image_Graph_Axis_Radar.html">Image_Graph_Axis_Radar</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Image.html">Image</a>\<a href="package-Image.Graph.html">Graph</a>\<a href="package-Image.Graph.Axis.html">Axis</a><br />
+
+				<b>Category:</b>
+				Images<br />
+				<b>Copyright:</b>
+				Copyright (C) 2003, 2004 Jesper Veggerby Hansen<br />
+				<b>License:</b>
+				<a href="http://www.gnu.org/copyleft/lesser.html">LGPL License 2.1</a><br />
+				<b>Author:</b>
+				Jesper Veggerby &lt;<a
+href="mailto:pear.nosey&#64;veggerby.dk">pear.nosey&#64;<!---->veggerby.dk</a>&gt;<br />
+				<b>Version:</b>
+				Release: @package_version@<br />
+				<b>Link:</b>
+				<a href="http://pear.php.net/package/Image_Graph">http://pear.php.net/package/Image_Graph</a><br />
+		<b>Located at</b> <a href="source-class-Image_Graph_Axis.html#36-1688" title="Go to source code">app/vendors/Image/Graph/Axis.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="Image_Graph_Axis" id="_Image_Graph_Axis">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_Image_Graph_Axis">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#260-275" title="Go to source code">Image_Graph_Axis</a>( <span>integer <var>$type</var> = IMAGE_GRAPH_AXIS_X</span> )</code>
+
+		<div class="description short">
+			
+<p>Image_Graph_Axis [Constructor]. Normally a manual creation should not be
+necessary, axis are created automatically by the <code><a href="class-Image_Graph_Plotarea.html">Image_Graph_Plotarea</a></code>
+constructor unless explicitly defined otherwise</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Image_Graph_Axis [Constructor]. Normally a manual creation should not be
+necessary, axis are created automatically by the <code><a href="class-Image_Graph_Plotarea.html">Image_Graph_Plotarea</a></code>
+constructor unless explicitly defined otherwise</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>integer</code><br>$type The type (direction) of the Axis, use IMAGE_GRAPH_AXIS_X for an X-axis
+(default, may be omitted) and IMAGE_GRAPH_AXIS_Y for Y- axis)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_pushValues" id="__pushValues">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__pushValues">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#277-285" title="Go to source code">_pushValues</a>( )</code>
+
+		<div class="description short">
+			
+<p>Push the values by 0.5 (for bar and step chart)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Push the values by 0.5 (for bar and step chart)</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setAxisPadding" id="__setAxisPadding">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setAxisPadding">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#287-296" title="Go to source code">_setAxisPadding</a>( <span>string <var>$where</var></span>, <span>integer <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the axis padding for a given position ('low' or 'high')</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the axis padding for a given position ('low' or 'high')</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$where</var></dt>
+					<dd><code>string</code><br>$where The position</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>integer</code><br>$value The number of pixels to "pad"</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getTitleFont" id="__getTitleFont">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getTitleFont">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#298-325" title="Go to source code">_getTitleFont</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the font of the title.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the font of the title.</p>
+
+<p>If not font has been set, the parent font is propagated through it's
+children.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>An associated array used for canvas<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="showLabel" id="_showLabel">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_showLabel">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#327-345" title="Go to source code">showLabel</a>( <span>integer <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Shows a label for the the specified values.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Shows a label for the the specified values.</p>
+Allowed values are combinations of:
+<ul>
+	<li>IMAGE_GRAPH_LABEL_MINIMUM</li>
+
+	<li>IMAGE_GRAPH_LABEL_ZERO</li>
+
+	<li>IMAGE_GRAPH_LABEL_MAXIMUM</li>
+</ul>
+ By default none of these are shows on the axis
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>integer</code><br>$value The values to show labels for</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setDataPreProcessor" id="_setDataPreProcessor">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setDataPreProcessor">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#347-356" title="Go to source code">setDataPreProcessor</a>( <span><code><a href="class-Image_Graph_DataPreprocessor.html">Image_Graph_DataPreprocessor</a></code> <var>&amp; $dataPreProcessor</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets a data preprocessor for formatting the axis labels</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets a data preprocessor for formatting the axis labels</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$dataPreProcessor</var></dt>
+					<dd><code><code><a href="class-Image_Graph_DataPreprocessor.html">Image_Graph_DataPreprocessor</a></code></code><br>$dataPreProcessor The data preprocessor</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Image_Graph_DataPreprocessor.html">Image_Graph_DataPreprocessor</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getMinimum" id="__getMinimum">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getMinimum">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#358-367" title="Go to source code">_getMinimum</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the minimum value the axis will show</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the minimum value the axis will show</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The minumum value<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getMaximum" id="__getMaximum">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getMaximum">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#369-378" title="Go to source code">_getMaximum</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the maximum value the axis will show</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the maximum value the axis will show</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The maximum value<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setMinimum" id="__setMinimum">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setMinimum">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#380-393" title="Go to source code">_setMinimum</a>( <span>float <var>$minimum</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the minimum value the axis will show</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the minimum value the axis will show</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$minimum</var></dt>
+					<dd><code>float</code><br>$minimum The minumum value to use on the axis</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setMaximum" id="__setMaximum">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setMaximum">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#395-408" title="Go to source code">_setMaximum</a>( <span>float <var>$maximum</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the maximum value the axis will show</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the maximum value the axis will show</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$maximum</var></dt>
+					<dd><code>float</code><br>$maximum The maximum value to use on the axis</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="forceMinimum" id="_forceMinimum">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_forceMinimum">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#410-423" title="Go to source code">forceMinimum</a>( <span>float <var>$minimum</var></span>, <span>boolean <var>$userEnforce</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Forces the minimum value of the axis</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Forces the minimum value of the axis</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$minimum</var></dt>
+					<dd><code>float</code><br>$minimum The minumum value to use on the axis</dd>
+					<dt><var>$userEnforce</var></dt>
+					<dd><code>boolean</code><br>$userEnforce This value should not be set, used internally</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="forceMaximum" id="_forceMaximum">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_forceMaximum">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#425-438" title="Go to source code">forceMaximum</a>( <span>float <var>$maximum</var></span>, <span>boolean <var>$userEnforce</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Forces the maximum value of the axis</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Forces the maximum value of the axis</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$maximum</var></dt>
+					<dd><code>float</code><br>$maximum The maximum value to use on the axis</dd>
+					<dt><var>$userEnforce</var></dt>
+					<dd><code>boolean</code><br>$userEnforce This value should not be set, used internally</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="showArrow" id="_showArrow">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_showArrow">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#440-446" title="Go to source code">showArrow</a>( )</code>
+
+		<div class="description short">
+			
+<p>Show an arrow head on the 'end' of the axis</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Show an arrow head on the 'end' of the axis</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hideArrow" id="_hideArrow">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hideArrow">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#448-454" title="Go to source code">hideArrow</a>( )</code>
+
+		<div class="description short">
+			
+<p>Do not show an arrow head on the 'end' of the axis (default)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Do not show an arrow head on the 'end' of the axis (default)</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_labelDistance" id="__labelDistance">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__labelDistance">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#456-468" title="Go to source code">_labelDistance</a>( <span>integer <var>$level</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Return the label distance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return the label distance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level The label level to return the distance of</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The distance between 2 adjacent labels<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLabelInterval" id="_setLabelInterval">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLabelInterval">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#470-493" title="Go to source code">setLabelInterval</a>( <span>mixed <var>$labelInterval</var> = <span class="php-quote">'auto'</span></span>, <span>integer <var>$level</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets an interval for when labels are shown on the axis.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets an interval for when labels are shown on the axis.</p>
+
+<p>By default 'auto' is used, forcing the axis to calculate a approximate best
+label interval to be used. Specify an array to use user-defined values for
+labels.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$labelInterval</var></dt>
+					<dd><code>mixed</code><br>$labelInterval The interval with which labels are shown</dd>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level The label level to set the interval on</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLabelOption" id="_setLabelOption">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLabelOption">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#495-531" title="Go to source code">setLabelOption</a>( <span>string <var>$option</var></span>, <span>mixed <var>$value</var></span>, <span>integer <var>$level</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets options for the label at a specific level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets options for the label at a specific level.</p>
+
+<p>Possible options are:</p>
+
+<p>'showtext' true or false whether label text should be shown or not</p>
+
+<p>'showoffset' should the label be shown at an offset, i.e. should the label be
+shown at a position so that it does not overlap with prior levels. Only applies
+to multilevel labels with text</p>
+
+<p>'font' The font options as an associated array</p>
+
+<p>'position' The position at which the labels are written ('inside' or
+'outside' the axis). NB! This relative position only applies to the default
+location of the axis, i.e. if an x-axis is inverted then 'outside' still refers
+to the "left" side of a normal y-axis (since this is normally 'outside') but the
+actual output will be labels on the "inside"!</p>
+
+<p>'format' To format the label text according to a sprintf statement</p>
+
+<p>'dateformat' To format the label as a date, fx. j. M Y = 29. Jun 2005</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$option</var></dt>
+					<dd><code>string</code><br>$option The label option name (see detailed description for possible values)</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value The value for the option</dd>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level The label level to set the interval on</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLabelOptions" id="_setLabelOptions">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLabelOptions">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#533-552" title="Go to source code">setLabelOptions</a>( <span>array <var>$options</var></span>, <span>integer <var>$level</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets options for the label at a specific level.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets options for the label at a specific level.</p>
+
+<p>The possible options are specified in Image_Graph_Axis::
+setLabelOption().</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options An assciated array with label options</dd>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level The label level to set the interval on</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTitle" id="_setTitle">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTitle">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#554-578" title="Go to source code">setTitle</a>( <span>string <var>$title</var></span>, <span><code><a href="class-Image_Graph_Font.html">Image_Graph_Font</a></code> <var>$font</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the title of this axis.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the title of this axis.</p>
+
+<p>This is used as an alternative (maybe better) method, than using layout's for
+axis-title generation.</p>
+
+<p>To use the current propagated font, but just set it vertically, simply pass
+'vertical' as second parameter for vertical alignment down-to-up or 'vertical2'
+for up-to-down alignment.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$title</var></dt>
+					<dd><code>string</code><br>$title The title of this axis</dd>
+					<dt><var>$font</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Font.html">Image_Graph_Font</a></code></code><br>$font The font used for the title</dd>
+				</dl></div>
+
+
+
+				<h4>Since</h4>
+				<div class="list">
+						0.3.0dev2<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFixedSize" id="_setFixedSize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFixedSize">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#580-592" title="Go to source code">setFixedSize</a>( <span>integer <var>$size</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets a fixed "size" for the axis.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets a fixed "size" for the axis.</p>
+
+<p>If the axis is any type of y-axis the size relates to the width of the axis,
+if an x-axis is concerned the size is the height.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$size</var></dt>
+					<dd><code>integer</code><br>$size The fixed size of the axis</dd>
+				</dl></div>
+
+
+
+				<h4>Since</h4>
+				<div class="list">
+						0.3.0dev5<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_value" id="__value">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__value">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#594-604" title="Go to source code">_value</a>( <span>float <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Preprocessor for values, ie for using logarithmic axis</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Preprocessor for values, ie for using logarithmic axis</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>float</code><br>$value The value to preprocess</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The preprocessed value<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_applyDataset" id="__applyDataset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__applyDataset">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#606-621" title="Go to source code">_applyDataset</a>( <span><code><a href="class-Image_Graph_Dataset.html">Image_Graph_Dataset</a></code> <var>&amp; $dataset</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Apply the dataset to the axis</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Apply the dataset to the axis</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$dataset</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Dataset.html">Image_Graph_Dataset</a></code></code><br>$dataset The dataset</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_point" id="__point">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__point">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#623-647" title="Go to source code">_point</a>( <span>float <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the pixel position represented by a value on the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the pixel position represented by a value on the canvas</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>float</code><br>$value the value to get the pixel-point for</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The pixel position along the axis<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_intersectPoint" id="__intersectPoint">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__intersectPoint">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#650-695" title="Go to source code">_intersectPoint</a>( <span>float <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the axis intersection pixel position</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the axis intersection pixel position</p>
+
+<p>This is only to be called prior to output! I.e. between the user invokation
+of Image_Graph::done() and any actual output is performed. This is because it
+can change the axis range.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>float</code><br>$value the intersection value to get the pixel-point for</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The pixel position along the axis<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_calcDelta" id="__calcDelta">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__calcDelta">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#697-713" title="Go to source code">_calcDelta</a>( )</code>
+
+		<div class="description short">
+			
+<p>Calculate the delta value (the number of pixels representing one unit on the
+axis)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculate the delta value (the number of pixels representing one unit on the
+axis)</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The label interval<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_calcLabelInterval" id="__calcLabelInterval">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__calcLabelInterval">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#715-783" title="Go to source code">_calcLabelInterval</a>( )</code>
+
+		<div class="description short">
+			
+<p>Calculate the label interval</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculate the label interval</p>
+
+<p>If explicitly defined this will be calucated to an approximate best.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The label interval<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getNextLabel" id="__getNextLabel">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getNextLabel">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#785-839" title="Go to source code">_getNextLabel</a>( <span>doubt <var>$currentLabel</var> = <span class="php-keyword1">false</span></span>, <span>integer <var>$level</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get next label point</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get next label point</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$currentLabel</var></dt>
+					<dd><code>doubt</code><br>$currentLabel The current label, if omitted or false, the first is returned</dd>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level The label level to get the next label from</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The next label point<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_labelInterval" id="__labelInterval">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__labelInterval">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#841-862" title="Go to source code">_labelInterval</a>( <span>integer <var>$level</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the interval with which labels are shown on the axis.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the interval with which labels are shown on the axis.</p>
+
+<p>If explicitly defined this will be calucated to an approximate best.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level The label level to get the label interval for</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The label interval<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_size" id="__size">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__size">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#864-959" title="Go to source code">_size</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the size in pixels of the axis.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the size in pixels of the axis.</p>
+
+<p>For an x-axis this is the width of the axis including labels, and for an
+y-axis it is the corrresponding height</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The size of the axis<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addMark" id="_addMark">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addMark">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#961-974" title="Go to source code">addMark</a>( <span>float <var>$value</var></span>, <span>float <var>$value2</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$text</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a mark to the axis at the specified value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a mark to the axis at the specified value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>float</code><br>$value The value</dd>
+					<dt><var>$value2</var></dt>
+					<dd><code>float</code><br>$value2 The second value (for a ranged mark)</dd>
+					<dt><var>$text</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_isNumeric" id="__isNumeric">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__isNumeric">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#976-985" title="Go to source code">_isNumeric</a>( )</code>
+
+		<div class="description short">
+			
+<p>Is the axis numeric or not?</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Is the axis numeric or not?</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if numeric, false if not<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTickOptions" id="_setTickOptions">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTickOptions">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#987-1010" title="Go to source code">setTickOptions</a>( <span>integer <var>$start</var></span>, <span>integer <var>$end</var></span>, <span>integer <var>$level</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the major tick appearance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the major tick appearance.</p>
+
+<p>The positions are specified in pixels relative to the axis, meaning that a
+value of -1 for start will draw the major tick 'line' starting at 1 pixel
+outside (negative) value the axis (i.e. below an x-axis and to the left of a
+normal y-axis).</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$start</var></dt>
+					<dd><code>integer</code><br>$start The start position relative to the axis</dd>
+					<dt><var>$end</var></dt>
+					<dd><code>integer</code><br>$end The end position relative to the axis</dd>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level The label level to set the tick options for</dd>
+				</dl></div>
+
+
+
+				<h4>Since</h4>
+				<div class="list">
+						0.3.0dev2<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setInverted" id="_setInverted">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setInverted">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#1012-1025" title="Go to source code">setInverted</a>( <span>boolean <var>$invert</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Invert the axis direction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Invert the axis direction</p>
+
+<p>If the minimum values are normally displayed fx. at the bottom setting axis
+inversion to true, will cause the minimum values to be displayed at the top and
+maximum at the bottom.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$invert</var></dt>
+					<dd><code>boolean</code><br>$invert True if the axis is to be inverted, false if not</dd>
+				</dl></div>
+
+
+
+				<h4>Since</h4>
+				<div class="list">
+						0.3.0dev3<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setAxisIntersection" id="_setAxisIntersection">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setAxisIntersection">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#1027-1060" title="Go to source code">setAxisIntersection</a>( <span>mixed <var>$intersection</var></span>, <span>mixed <var>$axis</var> = <span class="php-quote">'default'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set axis intersection.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set axis intersection.</p>
+
+<p>Sets the value at which the axis intersects other axis, fx. at which Y- value
+the x-axis intersects the y-axis (normally at 0).</p>
+
+<p>Possible values are 'default', 'min', 'max' or a number between axis min and
+max (the value will automatically be limited to this range).</p>
+
+<p>For a coordinate system with 2 y-axis, the x-axis can either intersect the
+primary or the secondary y-axis. To make the x-axis intersect the secondary
+y-axis at a given value pass IMAGE_GRAPH_AXIS_Y_SECONDARY as second
+parameter.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$intersection</var></dt>
+					<dd><code>mixed</code><br>$intersection The value at which the axis intersect the 'other' axis</dd>
+					<dt><var>$axis</var></dt>
+					<dd><code>mixed</code><br>$axis The axis to intersect. Only applies to x-axis with both a primary and
+secondary y-axis available.</dd>
+				</dl></div>
+
+
+
+				<h4>Since</h4>
+				<div class="list">
+						0.3.0dev2<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getAxisIntersection" id="__getAxisIntersection">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getAxisIntersection">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#1062-1096" title="Go to source code">_getAxisIntersection</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get axis intersection data.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get axis intersection data.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>An array with the axis intersection data.<br />
+				</div>
+
+
+				<h4>Since</h4>
+				<div class="list">
+						0.3.0dev2<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_reset" id="__reset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__reset">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#1098-1107" title="Go to source code">_reset</a>( )</code>
+
+		<div class="description short">
+			
+<p>Resets the elements</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resets the elements</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Common.html#__reset">Image_Graph_Common::_reset()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_drawTick" id="__drawTick">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__drawTick">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#1109-1391" title="Go to source code">_drawTick</a>( <span>integer <var>$value</var></span>, <span>integer <var>$level</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Output an axis tick mark.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Output an axis tick mark.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>integer</code><br>$value The value to output</dd>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level The label level to draw the tick for</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_drawAxisLines" id="__drawAxisLines">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__drawAxisLines">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#1393-1532" title="Go to source code">_drawAxisLines</a>( )</code>
+
+		<div class="description short">
+			
+<p>Draws axis lines.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draws axis lines.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_updateCoords" id="__updateCoords">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__updateCoords">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#1534-1546" title="Go to source code">_updateCoords</a>( )</code>
+
+		<div class="description short">
+			
+<p>Causes the object to update all sub elements coordinates</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Causes the object to update all sub elements coordinates</p>
+
+<p>(Image_Graph_Common, does not itself have coordinates, this is basically an
+abstract method)</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Common.html#__updateCoords">Image_Graph_Common::_updateCoords()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_done" id="__done">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__done">#</a>
+		<code><a href="source-class-Image_Graph_Axis.html#1548-1686" title="Go to source code">_done</a>( )</code>
+
+		<div class="description short">
+			
+<p>Output the axis</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Output the axis</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Was the output 'good' (true) or 'bad' (false).<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Element.html#__done">Image_Graph_Element::_done()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Plotarea_Element.html#methods">Image_Graph_Plotarea_Element</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Plotarea_Element.html#__pointX">_pointX()</a>, 
+			<a href="class-Image_Graph_Plotarea_Element.html#__pointXY">_pointXY()</a>, 
+			<a href="class-Image_Graph_Plotarea_Element.html#__pointY">_pointY()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Element.html#methods">Image_Graph_Element</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Element.html#__clip">_clip()</a>, 
+			<a href="class-Image_Graph_Element.html#__displayShadow">_displayShadow()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillBottom">_fillBottom()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillHeight">_fillHeight()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillLeft">_fillLeft()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillRight">_fillRight()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillTop">_fillTop()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillWidth">_fillWidth()</a>, 
+			<a href="class-Image_Graph_Element.html#__getBackground">_getBackground()</a>, 
+			<a href="class-Image_Graph_Element.html#__getBorderStyle">_getBorderStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#__getFillStyle">_getFillStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#__getFont">_getFont()</a>, 
+			<a href="class-Image_Graph_Element.html#__getLineStyle">_getLineStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#__move">_move()</a>, 
+			<a href="class-Image_Graph_Element.html#__setCoords">_setCoords()</a>, 
+			<a href="class-Image_Graph_Element.html#__setHeight">_setHeight()</a>, 
+			<a href="class-Image_Graph_Element.html#__setWidth">_setWidth()</a>, 
+			<a href="class-Image_Graph_Element.html#_height">height()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBackground">setBackground()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBackgroundColor">setBackgroundColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBorderColor">setBorderColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBorderStyle">setBorderStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFillColor">setFillColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFillStyle">setFillStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFont">setFont()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFontAngle">setFontAngle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFontColor">setFontColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFontSize">setFontSize()</a>, 
+			<a href="class-Image_Graph_Element.html#_setLineColor">setLineColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setLineStyle">setLineStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setPadding">setPadding()</a>, 
+			<a href="class-Image_Graph_Element.html#_showShadow">showShadow()</a>, 
+			<a href="class-Image_Graph_Element.html#_width">width()</a>, 
+			<a href="class-Image_Graph_Element.html#_write">write()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Common.html#methods">Image_Graph_Common</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Common.html#_Image_Graph_Common">Image_Graph_Common()</a>, 
+			<a href="class-Image_Graph_Common.html#__error">_error()</a>, 
+			<a href="class-Image_Graph_Common.html#__getCanvas">_getCanvas()</a>, 
+			<a href="class-Image_Graph_Common.html#__setParent">_setParent()</a>, 
+			<a href="class-Image_Graph_Common.html#_add">add()</a>, 
+			<a href="class-Image_Graph_Common.html#_addNew">addNew()</a>, 
+			<a href="class-Image_Graph_Common.html#_hide">hide()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_type" id="$_type">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#51-61" title="Go to source code"><var>$_type</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_type" class="anchor">#</a>
+
+			<div class="description short">
+				The type of the axis, possible values are:
+<ul>
+	<li>IMAGE_GRAPH_AXIS_X / IMAGE_GRAPH_AXIS_HORIZONTAL</li>
+
+	<li>IMAGE_GRAPH_AXIS_Y / IMAGE_GRAPH_AXIS_VERTICAL /
+	IMAGE_GRAPH_AXIS_Y_SECONDARY</li>
+</ul>
+
+			</div>
+
+			<div class="description detailed hidden">
+				The type of the axis, possible values are:
+<ul>
+	<li>IMAGE_GRAPH_AXIS_X / IMAGE_GRAPH_AXIS_HORIZONTAL</li>
+
+	<li>IMAGE_GRAPH_AXIS_Y / IMAGE_GRAPH_AXIS_VERTICAL /
+	IMAGE_GRAPH_AXIS_Y_SECONDARY</li>
+</ul>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_minimum" id="$_minimum">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#63-68" title="Go to source code"><var>$_minimum</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_minimum" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The minimum value the axis displays</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The minimum value the axis displays</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_minimumSet" id="$_minimumSet">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#70-75" title="Go to source code"><var>$_minimumSet</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_minimumSet" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The minimum value the axis has been explicitly set by the user</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The minimum value the axis has been explicitly set by the user</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_maximum" id="$_maximum">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#77-82" title="Go to source code"><var>$_maximum</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_maximum" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The maximum value the axis displays</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The maximum value the axis displays</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_maximumSet" id="$_maximumSet">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#84-89" title="Go to source code"><var>$_maximumSet</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_maximumSet" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The maximum value the axis has been explicitly set by the user</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The maximum value the axis has been explicitly set by the user</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_axisSpan" id="$_axisSpan">
+		<td class="attributes"><code>
+			public  
+			float
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#91-97" title="Go to source code"><var>$_axisSpan</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_axisSpan" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The value span of the axis. This is primarily included for performance
+reasons</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The value span of the axis. This is primarily included for performance
+reasons</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_axisValueSpan" id="$_axisValueSpan">
+		<td class="attributes"><code>
+			public  
+			float
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#99-105" title="Go to source code"><var>$_axisValueSpan</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_axisValueSpan" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The value span of the axis. This is primarily included for performance
+reasons</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The value span of the axis. This is primarily included for performance
+reasons</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_axisPadding" id="$_axisPadding">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#107-120" title="Go to source code"><var>$_axisPadding</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'low'</span> =&gt; <span class="php-num">0</span>, <span class="php-quote">'high'</span> =&gt; <span class="php-num">0</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$_axisPadding" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The axis padding. The index 'low' specifies the padding for the low axis
+values (when not inverted), i.e. to the left on an x-axis and on the bottom of
+an y-axis, vice versa for 'high'.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The axis padding. The index 'low' specifies the padding for the low axis
+values (when not inverted), i.e. to the left on an x-axis and on the bottom of
+an y-axis, vice versa for 'high'.</p>
+
+<p>Axis padding does not make sense on a normal linear y-axis with a 'y-min' of
+0 since this corresponds to displaying a small part of the y-axis below 0!</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_delta" id="$_delta">
+		<td class="attributes"><code>
+			public  
+			float
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#122-129" title="Go to source code"><var>$_delta</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_delta" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The number of "pixels" representing 1 unit on the axis</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The number of "pixels" representing 1 unit on the axis</p>
+
+<p>This is primarily included for performance reasons</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_showLabelMinimum" id="$_showLabelMinimum">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#131-136" title="Go to source code"><var>$_showLabelMinimum</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$_showLabelMinimum" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Specify if the axis should label the minimum value</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Specify if the axis should label the minimum value</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_showLabelZero" id="$_showLabelZero">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#138-143" title="Go to source code"><var>$_showLabelZero</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_showLabelZero" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Specify if the axis should label 0 (zero)</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Specify if the axis should label 0 (zero)</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_showLabelMaximum" id="$_showLabelMaximum">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#145-150" title="Go to source code"><var>$_showLabelMaximum</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$_showLabelMaximum" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Specify if the axis should label the maximum value</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Specify if the axis should label the maximum value</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_showArrow" id="$_showArrow">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#152-157" title="Go to source code"><var>$_showArrow</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_showArrow" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Show arrow heads at the 'end' of the axis, default: false</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Show arrow heads at the 'end' of the axis, default: false</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_intersect" id="$_intersect">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#159-164" title="Go to source code"><var>$_intersect</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'value'</span> =&gt; <span class="php-quote">'default'</span>, <span class="php-quote">'axis'</span> =&gt; <span class="php-quote">'default'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$_intersect" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Intersection data of axis</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Intersection data of axis</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_fixedSize" id="$_fixedSize">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#166-171" title="Go to source code"><var>$_fixedSize</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_fixedSize" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The fixed size of the axis (i.e. width for y-axis, height for x-axis)</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The fixed size of the axis (i.e. width for y-axis, height for x-axis)</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_labelOptions" id="$_labelOptions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#173-196" title="Go to source code"><var>$_labelOptions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-num">1</span> =&gt; <span class="php-keyword1">array</span>(
+        <span class="php-quote">'interval'</span> =&gt; <span class="php-num">1</span>,
+        <span class="php-quote">'type'</span> =&gt; <span class="php-quote">'auto'</span>,
+        <span class="php-quote">'tick'</span> =&gt; <span class="php-keyword1">array</span>(
+            <span class="php-quote">'start'</span> =&gt; -<span class="php-num">2</span>, 
+            <span class="php-quote">'end'</span> =&gt; <span class="php-num">2</span>, 
+            <span class="php-quote">'color'</span> =&gt; <span class="php-keyword1">false</span> <span class="php-comment">// default color</span>
+        ),
+        <span class="php-quote">'showtext'</span> =&gt; <span class="php-keyword1">true</span>,
+        <span class="php-quote">'showoffset'</span> =&gt; <span class="php-keyword1">false</span>,
+        <span class="php-quote">'font'</span> =&gt; <span class="php-keyword1">array</span>(),
+        <span class="php-quote">'offset'</span> =&gt; <span class="php-num">0</span>,
+        <span class="php-quote">'position'</span> =&gt; <span class="php-quote">'outside'</span>,            
+    )
+)</code></td>
+		<td class="description"><div>
+			<a href="#$_labelOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The label options</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The label options</p>
+
+<p>Should text be shows, preferences for ticks. The indexes start at level 1,
+which is chosen for readability</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_labelText" id="$_labelText">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#198-204" title="Go to source code"><var>$_labelText</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_labelText" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The labels that are shown.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The labels that are shown.</p>
+
+<p>This is used to make values show only once...</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_dataPreProcessor" id="$_dataPreProcessor">
+		<td class="attributes"><code>
+			public  
+			Image_Graph_DatePreProcessor
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#206-213" title="Go to source code"><var>$_dataPreProcessor</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$_dataPreProcessor" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>A data preprocessor for formatting labels, fx showing dates as a standard
+date instead of Unix time stamp</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>A data preprocessor for formatting labels, fx showing dates as a standard
+date instead of Unix time stamp</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							Image_Graph_DataPreProcessor<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_marks" id="$_marks">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#215-220" title="Go to source code"><var>$_marks</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_marks" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Point marked in the axis</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Point marked in the axis</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_pushValues" id="$_pushValues">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#222-227" title="Go to source code"><var>$_pushValues</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_pushValues" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Specifies whether the values should be 'pushed' by 0.5</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Specifies whether the values should be 'pushed' by 0.5</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_title" id="$_title">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#229-234" title="Go to source code"><var>$_title</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$_title" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The title of this axis</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The title of this axis</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_titleFont" id="$_titleFont">
+		<td class="attributes"><code>
+			public  
+			<code><a href="class-Image_Graph_Font.html">Image_Graph_Font</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#236-241" title="Go to source code"><var>$_titleFont</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_titleFont" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The font used for the title of this axis</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The font used for the title of this axis</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_invert" id="$_invert">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#243-250" title="Go to source code"><var>$_invert</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_invert" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Invert the axis (i.e. if an y-axis normally displays minimum values at the
+bottom, they are not displayed at the top</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Invert the axis (i.e. if an y-axis normally displays minimum values at the
+bottom, they are not displayed at the top</p>
+
+
+					<h4>Since</h4>
+					<div class="list">
+							0.3.0dev3<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_transpose" id="$_transpose">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Axis.html#252-258" title="Go to source code"><var>$_transpose</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_transpose" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Transpose the axis (i.e. is a normal y-axis transposed, so thats it's not
+show vertically as normally expected, but instead horizontally)</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Transpose the axis (i.e. is a normal y-axis transposed, so thats it's not
+show vertically as normally expected, but instead horizontally)</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Graph_Element.html#properties">Image_Graph_Element</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Element.html#$_background"><var>$_background</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_borderStyle"><var>$_borderStyle</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_bottom"><var>$_bottom</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_defaultFontOptions"><var>$_defaultFontOptions</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_fillStyle"><var>$_fillStyle</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_font"><var>$_font</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_fontOptions"><var>$_fontOptions</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_left"><var>$_left</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_lineStyle"><var>$_lineStyle</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_padding"><var>$_padding</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_right"><var>$_right</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_shadow"><var>$_shadow</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_top"><var>$_top</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Graph_Common.html#properties">Image_Graph_Common</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Common.html#$_canvas"><var>$_canvas</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_elements"><var>$_elements</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_parent"><var>$_parent</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_visible"><var>$_visible</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

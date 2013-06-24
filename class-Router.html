@@ -1,0 +1,2138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Router | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-App.html">App</a></li>
+				<li><a href="class-Cache.html">Cache</a></li>
+				<li><a href="class-CacheEngine.html">CacheEngine</a></li>
+				<li><a href="class-CakeLog.html">CakeLog</a></li>
+				<li><a href="class-CakeSession.html">CakeSession</a></li>
+				<li><a href="class-CakeSocket.html">CakeSocket</a></li>
+				<li><a href="class-CalendarclassComponent.html">CalendarclassComponent</a></li>
+				<li><a href="class-CasAuthenticationComponent.html">CasAuthenticationComponent</a></li>
+				<li><a href="class-CheckoutComponent.html">CheckoutComponent</a></li>
+				<li><a href="class-ClassRegistry.html">ClassRegistry</a></li>
+				<li><a href="class-Configure.html">Configure</a></li>
+				<li><a href="class-ConnectionManager.html">ConnectionManager</a></li>
+				<li><a href="class-DateTimeComponent.html">DateTimeComponent</a></li>
+				<li><a href="class-Debugger.html">Debugger</a></li>
+				<li><a href="class-File.html">File</a></li>
+				<li><a href="class-FileUploadComponent.html">FileUploadComponent</a></li>
+				<li><a href="class-Flay.html">Flay</a></li>
+				<li><a href="class-Folder.html">Folder</a></li>
+				<li><a href="class-GeoIpComponent.html">GeoIpComponent</a></li>
+				<li><a href="class-GifPixComponent.html">GifPixComponent</a></li>
+				<li><a href="class-HttpSocket.html">HttpSocket</a></li>
+				<li><a href="class-I18n.html">I18n</a></li>
+				<li><a href="class-ImageComponent.html">ImageComponent</a></li>
+				<li><a href="class-Inflector.html">Inflector</a></li>
+				<li><a href="class-L10n.html">L10n</a></li>
+				<li><a href="class-MailChimpComponent.html">MailChimpComponent</a></li>
+				<li><a href="class-ManageLaMemberComponent.html">ManageLaMemberComponent</a></li>
+				<li><a href="class-NeatString.html">NeatString</a></li>
+				<li><a href="class-NominationNominationComponent.html">NominationNominationComponent</a></li>
+				<li><a href="class-Object.html">Object</a></li>
+				<li><a href="class-OutputComponent.html">OutputComponent</a></li>
+				<li><a href="class-PayFlowProComponent.html">PayFlowProComponent</a></li>
+				<li><a href="class-PlayersRegComponent.html">PlayersRegComponent</a></li>
+				<li><a href="class-RegistrationComponent.html">RegistrationComponent</a></li>
+				<li class="active"><a href="class-Router.html">Router</a></li>
+				<li><a href="class-Sanitize.html">Sanitize</a></li>
+				<li><a href="class-Security.html">Security</a></li>
+				<li><a href="class-ServerCopyComponent.html">ServerCopyComponent</a></li>
+				<li><a href="class-SessionHelper.html">SessionHelper</a></li>
+				<li><a href="class-Set.html">Set</a></li>
+				<li><a href="class-SimplepieComponent.html">SimplepieComponent</a></li>
+				<li><a href="class-String.html">String</a></li>
+				<li><a href="class-SwiftMailerComponent.html">SwiftMailerComponent</a></li>
+				<li><a href="class-Validation.html">Validation</a></li>
+				<li><a href="class-VerifyEmailComponent.html">VerifyEmailComponent</a></li>
+				<li><a href="class-XML.html">XML</a></li>
+				<li><a href="class-XMLNode.html">XMLNode</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-__enclose.html">__enclose</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.html" title="Summary of cake\cake\libs"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Router</h1>
+
+
+	<div class="description">
+	
+<p>Parses the request URL into controller, action, and parameters.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Object.html"><span>Object</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Router</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-Router.html#37-1181" title="Go to source code">cake/libs/router.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="getInstance" id="_getInstance">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInstance">#</a>
+		<code><a href="source-class-Router.html#168-182" title="Go to source code">getInstance</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets a reference to the Router object instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets a reference to the Router object instance</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>Object instance<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getNamedExpressions" id="_getNamedExpressions">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getNamedExpressions">#</a>
+		<code><a href="source-class-Router.html#183-193" title="Go to source code">getNamedExpressions</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the named route elements for use in app/config/routes.php</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the named route elements for use in app/config/routes.php</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Named route elements<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="connect" id="_connect">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_connect">#</a>
+		<code><a href="source-class-Router.html#194-227" title="Go to source code">connect</a>( <span>string <var>$route</var></span>, <span>array <var>$default</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns this object's routes array. Returns false if there are no routes
+available.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns this object's routes array. Returns false if there are no routes
+available.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$route</var></dt>
+					<dd><code>string</code><br>$route An empty string, or a route string "/"</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>array</code><br>$default NULL or an array describing the default route</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params An array matching the named elements in the route to regular expressions
+which that element should match.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Array of routes<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Router.html#$routes">Router::<var>$routes</var></a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="connectNamed" id="_connectNamed">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_connectNamed">#</a>
+		<code><a href="source-class-Router.html#228-250" title="Go to source code">connectNamed</a>( <span>array <var>$named</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Connects an array of named arguments (with optional scoping options)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Connects an array of named arguments (with optional scoping options)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$named</var></dt>
+					<dd><code>array</code><br>$named List of named arguments</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Named argument handling options</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="mapResources" id="_mapResources">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_mapResources">#</a>
+		<code><a href="source-class-Router.html#251-278" title="Go to source code">mapResources</a>( <span>mixed <var>$controller</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates REST resource routes for the given controller(s)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates REST resource routes for the given controller(s)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>mixed</code><br>$controller A controller name or array of controller names (i.e. "Posts" or
+"ListItems")</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="writeRoute" id="_writeRoute">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_writeRoute">#</a>
+		<code><a href="source-class-Router.html#279-318" title="Go to source code">writeRoute</a>( <span>string <var>$route</var></span>, <span>array <var>$default</var></span>, <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Builds a route regular expression</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Builds a route regular expression</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$route</var></dt>
+					<dd><code>string</code><br>$route An empty string, or a route string "/"</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>array</code><br>$default NULL or an array describing the default route</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params An array matching the named elements in the route to regular expressions
+which that element should match.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Router.html#$routes">Router::<var>$routes</var></a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="prefixes" id="_prefixes">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_prefixes">#</a>
+		<code><a href="source-class-Router.html#319-329" title="Go to source code">prefixes</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the list of prefixes used in connected routes</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the list of prefixes used in connected routes</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>A list of prefixes used in connected routes<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parse" id="_parse">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parse">#</a>
+		<code><a href="source-class-Router.html#330-398" title="Go to source code">parse</a>( <span>string <var>$url</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parses given URL and returns an array of controllers, action and parameters
+taken from that URL.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parses given URL and returns an array of controllers, action and parameters
+taken from that URL.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br>$url URL to be parsed</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Parsed elements from URL<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="matchRoute" id="_matchRoute">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_matchRoute">#</a>
+		<code><a href="source-class-Router.html#399-438" title="Go to source code">matchRoute</a>( <span>array <var>$route</var></span>, <span>string <var>$url</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks to see if the given URL matches the given route</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks to see if the given URL matches the given route</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$route</var></dt>
+					<dd><code>array</code><br>$route</dd>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br>$url</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Boolean false on failure, otherwise array<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__parseExtension" id="___parseExtension">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___parseExtension">#</a>
+		<code><a href="source-class-Router.html#439-467" title="Go to source code">__parseExtension</a>( <span>string <var>$url</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parses a file extension out of a URL, if Router::parseExtensions() is
+enabled.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parses a file extension out of a URL, if Router::parseExtensions() is
+enabled.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br>$url</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Returns an array containing the altered URL and the parsed extension.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__connectDefaultRoutes" id="___connectDefaultRoutes">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___connectDefaultRoutes">#</a>
+		<code><a href="source-class-Router.html#468-523" title="Go to source code">__connectDefaultRoutes</a>( )</code>
+
+		<div class="description short">
+			
+<p>Connects the default, built-in routes, including admin routes, and
+(deprecated) web services routes.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Connects the default, built-in routes, including admin routes, and
+(deprecated) web services routes.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setRequestInfo" id="_setRequestInfo">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setRequestInfo">#</a>
+		<code><a href="source-class-Router.html#524-545" title="Go to source code">setRequestInfo</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Takes parameter and path information back from the Dispatcher</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Takes parameter and path information back from the Dispatcher</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameters and path information</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getParams" id="_getParams">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getParams">#</a>
+		<code><a href="source-class-Router.html#546-560" title="Go to source code">getParams</a>( <span>boolean <var>$current</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets parameter information</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets parameter information</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$current</var></dt>
+					<dd><code>boolean</code><br>$current Get current parameter (true)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Parameter information<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getParam" id="_getParam">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getParam">#</a>
+		<code><a href="source-class-Router.html#561-577" title="Go to source code">getParam</a>( <span>string <var>$name</var> = <span class="php-quote">'controller'</span></span>, <span>boolean <var>$current</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets URL parameter by name</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets URL parameter by name</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Parameter name</dd>
+					<dt><var>$current</var></dt>
+					<dd><code>boolean</code><br>$current Current parameter</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Parameter value<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPaths" id="_getPaths">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPaths">#</a>
+		<code><a href="source-class-Router.html#578-595" title="Go to source code">getPaths</a>( <span>boolean <var>$current</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets path information</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets path information</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$current</var></dt>
+					<dd><code>boolean</code><br>$current Current parameter</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="reload" id="_reload">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_reload">#</a>
+		<code><a href="source-class-Router.html#596-607" title="Go to source code">reload</a>( )</code>
+
+		<div class="description short">
+			
+<p>Reloads default Router settings</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Reloads default Router settings</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="promote" id="_promote">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_promote">#</a>
+		<code><a href="source-class-Router.html#608-629" title="Go to source code">promote</a>( <span>mixed <var>$which</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Promote a route (by default, the last one added) to the beginning of the
+list</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Promote a route (by default, the last one added) to the beginning of the
+list</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$which</var></dt>
+					<dd><code>mixed</code><br>$which A zero-based array index representing the route to move. For example, if
+3 routes have been added, the last route would be 2.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Retuns false if no route exists at the position specified by $which.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="url" id="_url">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_url">#</a>
+		<code><a href="source-class-Router.html#630-803" title="Go to source code">url</a>( <span>mixed <var>$url</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$full</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Finds URL for specified action.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Finds URL for specified action.</p>
+
+<p>Returns an URL pointing to a combination of controller and action. Param $url
+can be: + Empty - the method will find adress to actuall controller/action. +
+'/' - the method will find base URL of application. + A combination of
+controller/action - the method will find url for it.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>mixed</code><br>$url Cake-relative URL, like "/products/edit/92" or "/presidents/elect/4" or an
+array specifying any of the following: 'controller', 'action', and/or 'plugin',
+in addition to named arguments (keyed array elements), and standard URL
+arguments (indexed array elements)</dd>
+					<dt><var>$full</var></dt>
+					<dd><code>boolean</code><br>$full If true, the full base URL will be prepended to the result</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Full translated URL with base path.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="mapRouteElements" id="_mapRouteElements">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_mapRouteElements">#</a>
+		<code><a href="source-class-Router.html#804-908" title="Go to source code">mapRouteElements</a>( <span>array <var>$route</var></span>, <span>array <var>$url</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Maps a URL array onto a route and returns the string result, or false if no
+match</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Maps a URL array onto a route and returns the string result, or false if no
+match</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$route</var></dt>
+					<dd><code>array</code><br>$route Route Route</dd>
+					<dt><var>$url</var></dt>
+					<dd><code>array</code><br>$url URL URL to map</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Result (as string) or false if no match<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__mapRoute" id="___mapRoute">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___mapRoute">#</a>
+		<code><a href="source-class-Router.html#909-963" title="Go to source code">__mapRoute</a>( <span>array <var>$route</var></span>, <span>array <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Merges URL parameters into a route string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Merges URL parameters into a route string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$route</var></dt>
+					<dd><code>array</code><br>$route Route</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Merged URL with parameters<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getNamedElements" id="_getNamedElements">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getNamedElements">#</a>
+		<code><a href="source-class-Router.html#964-1003" title="Go to source code">getNamedElements</a>( <span>array <var>$params</var></span>, <span>string <var>$controller</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$action</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Takes an array of URL parameters and separates the ones that can be used as
+named arguments</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Takes an array of URL parameters and separates the ones that can be used as
+named arguments</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Associative array of URL parameters.</dd>
+					<dt><var>$controller</var></dt>
+					<dd><code>string</code><br>$controller Name of controller being routed. Used in scoping.</dd>
+					<dt><var>$action</var></dt>
+					<dd><code>string</code><br>$action Name of action being routed. Used in scoping.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="queryString" id="_queryString">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_queryString">#</a>
+		<code><a href="source-class-Router.html#1005-1031" title="Go to source code">queryString</a>( <span>mixed <var>$q</var></span>, <span>array <var>$extra</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Generates a well-formed querystring from $q</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates a well-formed querystring from $q</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$q</var></dt>
+					<dd><code>mixed</code><br>$q Query string</dd>
+					<dt><var>$extra</var></dt>
+					<dd><code>array</code><br>$extra Extra querystring parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="normalize" id="_normalize">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_normalize">#</a>
+		<code><a href="source-class-Router.html#1032-1059" title="Go to source code">normalize</a>( <span>mixed <var>$url</var> = <span class="php-quote">'/'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Normalizes a URL for purposes of comparison</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Normalizes a URL for purposes of comparison</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>mixed</code><br>$url URL to normalize</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Normalized URL<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="requestRoute" id="_requestRoute">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_requestRoute">#</a>
+		<code><a href="source-class-Router.html#1060-1070" title="Go to source code">requestRoute</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the route matching the current request URL.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the route matching the current request URL.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Matching route<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="currentRoute" id="_currentRoute">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_currentRoute">#</a>
+		<code><a href="source-class-Router.html#1071-1081" title="Go to source code">currentRoute</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the route matching the current request (useful for requestAction
+traces)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the route matching the current request (useful for requestAction
+traces)</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Matching route<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="stripPlugin" id="_stripPlugin">
+
+		<td class="attributes"><code>
+			 public 
+			base
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_stripPlugin">#</a>
+		<code><a href="source-class-Router.html#1082-1103" title="Go to source code">stripPlugin</a>( <span>string <var>$base</var></span>, <span>string <var>$plugin</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Removes the plugin name from the base URL.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Removes the plugin name from the base URL.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$base</var></dt>
+					<dd><code>string</code><br>$base Base URL</dd>
+					<dt><var>$plugin</var></dt>
+					<dd><code>string</code><br>$plugin Plugin name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>base</code><br>url with plugin name removed if present<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="stripEscape" id="_stripEscape">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_stripEscape">#</a>
+		<code><a href="source-class-Router.html#1105-1133" title="Go to source code">stripEscape</a>( <span>mixed <var>$param</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Strip escape characters from parameter values.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Strip escape characters from parameter values.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$param</var></dt>
+					<dd><code>mixed</code><br>$param Either an array, or a string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Array or string escaped<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseExtensions" id="_parseExtensions">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseExtensions">#</a>
+		<code><a href="source-class-Router.html#1134-1155" title="Go to source code">parseExtensions</a>( )</code>
+
+		<div class="description short">
+			
+<p>Instructs the router to parse out file extensions from the URL. For example,
+<a href="http://example.com/posts.rss">http://example.com/posts.rss</a> would
+yield an file extension of "rss". The file extension itself is made available in
+the controller as $this-&gt;params['url']['ext'], and is used by the
+RequestHandler component to automatically switch to alternate layouts and
+templates, and load helpers corresponding to the given content, i.e.
+RssHelper.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Instructs the router to parse out file extensions from the URL. For example,
+<a href="http://example.com/posts.rss">http://example.com/posts.rss</a> would
+yield an file extension of "rss". The file extension itself is made available in
+the controller as $this-&gt;params['url']['ext'], and is used by the
+RequestHandler component to automatically switch to alternate layouts and
+templates, and load helpers corresponding to the given content, i.e.
+RssHelper.</p>
+
+<p>A list of valid extension can be passed to this method, i.e.
+Router::parseExtensions('rss', 'xml'); If no parameters are given, anything
+after the first . (dot) after the last / in the URL will be parsed, excluding
+querystring parameters (i.e. ?q=...).</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getArgs" id="_getArgs">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getArgs">#</a>
+		<code><a href="source-class-Router.html#1157-1180" title="Go to source code">getArgs</a>( <span>array <var>$args</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Takes an passed params and converts it to args</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Takes an passed params and converts it to args</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$params</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Object.html#methods">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#_Object">Object()</a>, 
+			<a href="class-Object.html#___construct">__construct()</a>, 
+			<a href="class-Object.html#___openPersistent">__openPersistent()</a>, 
+			<a href="class-Object.html#__persist">_persist()</a>, 
+			<a href="class-Object.html#__savePersistent">_savePersistent()</a>, 
+			<a href="class-Object.html#__set">_set()</a>, 
+			<a href="class-Object.html#_cakeError">cakeError()</a>, 
+			<a href="class-Object.html#_log">log()</a>, 
+			<a href="class-Object.html#_requestAction">requestAction()</a>, 
+			<a href="class-Object.html#_toString">toString()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="routes" id="$routes">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#45-51" title="Go to source code"><var>$routes</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$routes" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Array of routes</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Array of routes</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__admin" id="$__admin">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#52-58" title="Go to source code"><var>$__admin</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$__admin" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>CAKE_ADMIN route</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>CAKE_ADMIN route</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__prefixes" id="$__prefixes">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#59-65" title="Go to source code"><var>$__prefixes</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$__prefixes" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of action prefixes used in connected routes</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of action prefixes used in connected routes</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__parseExtensions" id="$__parseExtensions">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#66-72" title="Go to source code"><var>$__parseExtensions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$__parseExtensions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Directive for Router to parse out file extensions for mapping to
+Content-types.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Directive for Router to parse out file extensions for mapping to
+Content-types.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__validExtensions" id="$__validExtensions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#73-79" title="Go to source code"><var>$__validExtensions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$__validExtensions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of valid extensions to parse from a URL. If null, any extension is
+allowed.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of valid extensions to parse from a URL. If null, any extension is
+allowed.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__named" id="$__named">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#80-93" title="Go to source code"><var>$__named</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'Action'</span>    =&gt; <span class="php-quote">'index|show|list|add|create|edit|update|remove|del|delete|new|view|item'</span>,
+    <span class="php-quote">'Year'</span>      =&gt; <span class="php-quote">'[12][0-9]{3}'</span>,
+    <span class="php-quote">'Month'</span>     =&gt; <span class="php-quote">'0[1-9]|1[012]'</span>,
+    <span class="php-quote">'Day'</span>       =&gt; <span class="php-quote">'0[1-9]|[12][0-9]|3[01]'</span>,
+    <span class="php-quote">'ID'</span>        =&gt; <span class="php-quote">'[0-9]+'</span>,
+    <span class="php-quote">'UUID'</span>      =&gt; <span class="php-quote">'[A-Fa-f0-9]{8}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{12}'</span>
+)</code></td>
+		<td class="description"><div>
+			<a href="#$__named" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>'Constant' regular expression definitions for named route elements</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>'Constant' regular expression definitions for named route elements</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__currentRoute" id="$__currentRoute">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#94-100" title="Go to source code"><var>$__currentRoute</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$__currentRoute" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The route matching the URL of the current request</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The route matching the URL of the current request</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__headerMap" id="$__headerMap">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#101-111" title="Go to source code"><var>$__headerMap</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'type'</span>      =&gt; <span class="php-quote">'content_type'</span>,
+    <span class="php-quote">'method'</span>    =&gt; <span class="php-quote">'request_method'</span>,
+    <span class="php-quote">'server'</span>    =&gt; <span class="php-quote">'server_name'</span>
+)</code></td>
+		<td class="description"><div>
+			<a href="#$__headerMap" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>HTTP header shortcut map. Used for evaluating header-based route
+expressions.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>HTTP header shortcut map. Used for evaluating header-based route
+expressions.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__resourceMap" id="$__resourceMap">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#112-125" title="Go to source code"><var>$__resourceMap</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-keyword1">array</span>(<span class="php-quote">'action'</span> =&gt; <span class="php-quote">'index'</span>,  <span class="php-quote">'method'</span> =&gt; <span class="php-quote">'GET'</span>,      <span class="php-quote">'id'</span> =&gt; <span class="php-keyword1">false</span>),
+    <span class="php-keyword1">array</span>(<span class="php-quote">'action'</span> =&gt; <span class="php-quote">'view'</span>,   <span class="php-quote">'method'</span> =&gt; <span class="php-quote">'GET'</span>,      <span class="php-quote">'id'</span> =&gt; <span class="php-keyword1">true</span>),
+    <span class="php-keyword1">array</span>(<span class="php-quote">'action'</span> =&gt; <span class="php-quote">'add'</span>,    <span class="php-quote">'method'</span> =&gt; <span class="php-quote">'POST'</span>,     <span class="php-quote">'id'</span> =&gt; <span class="php-keyword1">false</span>),
+    <span class="php-keyword1">array</span>(<span class="php-quote">'action'</span> =&gt; <span class="php-quote">'edit'</span>,   <span class="php-quote">'method'</span> =&gt; <span class="php-quote">'PUT'</span>,      <span class="php-quote">'id'</span> =&gt; <span class="php-keyword1">true</span>),
+    <span class="php-keyword1">array</span>(<span class="php-quote">'action'</span> =&gt; <span class="php-quote">'delete'</span>, <span class="php-quote">'method'</span> =&gt; <span class="php-quote">'DELETE'</span>,   <span class="php-quote">'id'</span> =&gt; <span class="php-keyword1">true</span>),
+    <span class="php-keyword1">array</span>(<span class="php-quote">'action'</span> =&gt; <span class="php-quote">'edit'</span>,   <span class="php-quote">'method'</span> =&gt; <span class="php-quote">'POST'</span>,     <span class="php-quote">'id'</span> =&gt; <span class="php-keyword1">true</span>)
+)</code></td>
+		<td class="description"><div>
+			<a href="#$__resourceMap" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Default HTTP request method =&gt; controller action map.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Default HTTP request method =&gt; controller action map.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__resourceMapped" id="$__resourceMapped">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#126-132" title="Go to source code"><var>$__resourceMapped</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$__resourceMapped" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of resource-mapped controllers</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of resource-mapped controllers</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__params" id="$__params">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#133-139" title="Go to source code"><var>$__params</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$__params" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Maintains the parameter stack for the current request</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Maintains the parameter stack for the current request</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__namedArgs" id="$__namedArgs">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#140-146" title="Go to source code"><var>$__namedArgs</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$__namedArgs" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of named arguments allowed in routes</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of named arguments allowed in routes</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__argSeparator" id="$__argSeparator">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#147-153" title="Go to source code"><var>$__argSeparator</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">':'</span></code></td>
+		<td class="description"><div>
+			<a href="#$__argSeparator" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Separator used to join/split/detect named arguments</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Separator used to join/split/detect named arguments</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__paths" id="$__paths">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#154-160" title="Go to source code"><var>$__paths</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$__paths" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Maintains the path stack for the current request</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Maintains the path stack for the current request</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__defaultsMapped" id="$__defaultsMapped">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#161-167" title="Go to source code"><var>$__defaultsMapped</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$__defaultsMapped" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Keeps Router state to determine if default routes have already been
+connected</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Keeps Router state to determine if default routes have already been
+connected</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Object.html#properties">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#$_log"><var>$_log</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

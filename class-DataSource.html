@@ -1,0 +1,1852 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class DataSource | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li class="active"><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-DataSource.html">DataSource</a></li>
+				<li><a href="class-DboSource.html">DboSource</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.model.datasources.html" title="Summary of cake\cake\libs\model\datasources"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class DataSource</h1>
+
+
+	<div class="description">
+	
+<p>DataSource base class</p>
+
+<p>Long description for file</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Object.html"><span>Object</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>DataSource</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-DboSource.html">DboSource</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-DboAdodb.html">DboAdodb</a>, 
+			<a href="class-DboDb2.html">DboDb2</a>, 
+			<a href="class-DboPear.html">DboPear</a>, 
+			<a href="class-DboPostgres.html">DboPostgres</a>, 
+			<a href="class-DboPostgresTestDb.html">DboPostgresTestDb</a>, 
+			<a href="class-DboSqlite.html">DboSqlite</a>, 
+			<a href="class-DboSybase.html">DboSybase</a>, 
+			<a href="class-DboTest.html">DboTest</a>, 
+			<a href="class-DboFirebird.html">DboFirebird</a>, 
+			<a href="class-DboMssql.html">DboMssql</a>, 
+			<a href="class-DboMssqlTestDb.html">DboMssqlTestDb</a>, 
+			<a href="class-DboMysql.html">DboMysql</a>, 
+			<a href="class-DboMysqli.html">DboMysqli</a>, 
+			<a href="class-DboMysqlTestDb.html">DboMysqlTestDb</a>, 
+			<a href="class-DboOdbc.html">DboOdbc</a>, 
+			<a href="class-DboOracle.html">DboOracle</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a>\<a href="package-cake.cake.libs.model.html">model</a>\<a href="package-cake.cake.libs.model.datasources.html">datasources</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-DataSource.html#29-511" title="Go to source code">cake/libs/model/datasources/datasource.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-DataSource.html#179-187" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			
+<p>Constructor.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor.</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Object.html#___construct">Object::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="listSources" id="_listSources">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_listSources">#</a>
+		<code><a href="source-class-DataSource.html#188-223" title="Go to source code">listSources</a>( <span>mixed <var>$data</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Caches/returns cached results for child instances</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Caches/returns cached results for child instances</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sources" id="_sources">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sources">#</a>
+		<code><a href="source-class-DataSource.html#224-232" title="Go to source code">sources</a>( )</code>
+
+		<div class="description short">
+			
+<p>Convenience method for DboSource::listSources(). Returns source names in
+lowercase.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Convenience method for DboSource::listSources(). Returns source names in
+lowercase.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="describe" id="_describe">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_describe">#</a>
+		<code><a href="source-class-DataSource.html#233-253" title="Go to source code">describe</a>( <span><code><a href="class-Model.html">Model</a></code> <var>$model</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a Model description (metadata) or null if none found.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a Model description (metadata) or null if none found.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-Model.html">Model</a></code></code><br>$model</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="begin" id="_begin">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_begin">#</a>
+		<code><a href="source-class-DataSource.html#254-261" title="Go to source code">begin</a>( )</code>
+
+		<div class="description short">
+			
+<p>Begin a transaction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Begin a transaction</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="commit" id="_commit">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_commit">#</a>
+		<code><a href="source-class-DataSource.html#262-269" title="Go to source code">commit</a>( <span>mixed <var>&amp; $model</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Commit a transaction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Commit a transaction</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rollback" id="_rollback">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rollback">#</a>
+		<code><a href="source-class-DataSource.html#270-277" title="Go to source code">rollback</a>( <span>mixed <var>&amp; $model</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Rollback a transaction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Rollback a transaction</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="column" id="_column">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_column">#</a>
+		<code><a href="source-class-DataSource.html#278-286" title="Go to source code">column</a>( <span>string <var>$real</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Converts column types to basic types</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Converts column types to basic types</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$real</var></dt>
+					<dd><code>string</code><br>$real Real column type (i.e. "varchar(255)")</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Abstract column type (i.e. "string")<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="create" id="_create">
+
+		<td class="attributes"><code>
+			 public 
+			unknown
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_create">#</a>
+		<code><a href="source-class-DataSource.html#287-297" title="Go to source code">create</a>( <span>unknown_type <var>&amp; $model</var></span>, <span>unknown_type <var>$fields</var> = <span class="php-keyword1">null</span></span>, <span>unknown_type <var>$values</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>To-be-overridden in subclasses.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>To-be-overridden in subclasses.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>unknown_type</code><br>$model</dd>
+					<dt><var>$fields</var></dt>
+					<dd><code>unknown_type</code><br>$fields</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>unknown_type</code><br>$values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>unknown</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="read" id="_read">
+
+		<td class="attributes"><code>
+			 public 
+			unknown
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_read">#</a>
+		<code><a href="source-class-DataSource.html#298-307" title="Go to source code">read</a>( <span>unknown_type <var>&amp; $model</var></span>, <span>unknown_type <var>$queryData</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>To-be-overridden in subclasses.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>To-be-overridden in subclasses.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>unknown_type</code><br>$model</dd>
+					<dt><var>$queryData</var></dt>
+					<dd><code>unknown_type</code><br>$queryData</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>unknown</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public 
+			unknown
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code><a href="source-class-DataSource.html#308-318" title="Go to source code">update</a>( <span>unknown_type <var>&amp; $model</var></span>, <span>unknown_type <var>$fields</var> = <span class="php-keyword1">null</span></span>, <span>unknown_type <var>$values</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>To-be-overridden in subclasses.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>To-be-overridden in subclasses.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>unknown_type</code><br>$model</dd>
+					<dt><var>$fields</var></dt>
+					<dd><code>unknown_type</code><br>$fields</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>unknown_type</code><br>$values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>unknown</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-DataSource.html#319-329" title="Go to source code">delete</a>( <span>unknown_type <var>&amp; $model</var></span>, <span>unknown_type <var>$id</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>To-be-overridden in subclasses.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>To-be-overridden in subclasses.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>unknown_type</code><br>$model</dd>
+					<dt><var>$id</var></dt>
+					<dd><code>unknown_type</code><br>$id</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lastInsertId" id="_lastInsertId">
+
+		<td class="attributes"><code>
+			 public 
+			in
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_lastInsertId">#</a>
+		<code><a href="source-class-DataSource.html#330-338" title="Go to source code">lastInsertId</a>( <span>unknown_type <var>$source</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns the ID generated from the previous INSERT operation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the ID generated from the previous INSERT operation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$source</var></dt>
+					<dd><code>unknown_type</code><br>$source</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>in</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lastNumRows" id="_lastNumRows">
+
+		<td class="attributes"><code>
+			 public 
+			in
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_lastNumRows">#</a>
+		<code><a href="source-class-DataSource.html#339-347" title="Go to source code">lastNumRows</a>( <span>unknown_type <var>$source</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns the ID generated from the previous INSERT operation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the ID generated from the previous INSERT operation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$source</var></dt>
+					<dd><code>unknown_type</code><br>$source</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>in</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lastAffected" id="_lastAffected">
+
+		<td class="attributes"><code>
+			 public 
+			in
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_lastAffected">#</a>
+		<code><a href="source-class-DataSource.html#348-356" title="Go to source code">lastAffected</a>( <span>unknown_type <var>$source</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns the ID generated from the previous INSERT operation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the ID generated from the previous INSERT operation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$source</var></dt>
+					<dd><code>unknown_type</code><br>$source</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>in</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isInterfaceSupported" id="_isInterfaceSupported">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isInterfaceSupported">#</a>
+		<code><a href="source-class-DataSource.html#357-369" title="Go to source code">isInterfaceSupported</a>( <span>string <var>$interface</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the DataSource supports the given interface (method)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the DataSource supports the given interface (method)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$interface</var></dt>
+					<dd><code>string</code><br>$interface The name of the interface (method)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True on success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setConfig" id="_setConfig">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setConfig">#</a>
+		<code><a href="source-class-DataSource.html#370-382" title="Go to source code">setConfig</a>( <span>array <var>$config</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the configuration for the DataSource</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the configuration for the DataSource</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$config</var></dt>
+					<dd><code>array</code><br>$config The configuration array</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__cacheDescription" id="___cacheDescription">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___cacheDescription">#</a>
+		<code><a href="source-class-DataSource.html#383-411" title="Go to source code">__cacheDescription</a>( <span>string <var>$object</var></span>, <span>mixed <var>$data</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Cache the DataSource description</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Cache the DataSource description</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$object</var></dt>
+					<dd><code>string</code><br>$object The name of the object (model) to cache</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br>$data The description of the model, usually a string or array</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insertQueryData" id="_insertQueryData">
+
+		<td class="attributes"><code>
+			 public 
+			unknown
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insertQueryData">#</a>
+		<code><a href="source-class-DataSource.html#412-491" title="Go to source code">insertQueryData</a>( <span>unknown_type <var>$query</var></span>, <span>unknown_type <var>$data</var></span>, <span>unknown_type <var>$association</var></span>, <span>unknown_type <var>$assocData</var></span>, <span><code><a href="class-Model.html">Model</a></code> <var>&amp; $model</var></span>, <span><code><a href="class-Model.html">Model</a></code> <var>&amp; $linkModel</var></span>, <span>array <var>$stack</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Enter description here...</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Enter description here...</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd><code>unknown_type</code><br>$query</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>unknown_type</code><br>$data</dd>
+					<dt><var>$association</var></dt>
+					<dd><code>unknown_type</code><br>$association</dd>
+					<dt><var>$assocData</var></dt>
+					<dd><code>unknown_type</code><br>$assocData</dd>
+					<dt><var>$model</var></dt>
+					<dd><code><code><a href="class-Model.html">Model</a></code></code><br>$model</dd>
+					<dt><var>$linkModel</var></dt>
+					<dd><code><code><a href="class-Model.html">Model</a></code></code><br>$linkModel</dd>
+					<dt><var>$stack</var></dt>
+					<dd><code>array</code><br>$stack</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>unknown</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resolveKey" id="_resolveKey">
+
+		<td class="attributes"><code>
+			 public 
+			unknown
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resolveKey">#</a>
+		<code><a href="source-class-DataSource.html#492-501" title="Go to source code">resolveKey</a>( <span>unknown_type <var>$model</var></span>, <span>unknown_type <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>To-be-overridden in subclasses.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>To-be-overridden in subclasses.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>unknown_type</code><br>$model</dd>
+					<dt><var>$key</var></dt>
+					<dd><code>unknown_type</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>unknown</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__destruct" id="___destruct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___destruct">#</a>
+		<code><a href="source-class-DataSource.html#502-510" title="Go to source code">__destruct</a>( )</code>
+
+		<div class="description short">
+			
+<p>Closes the current datasource.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Closes the current datasource.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Object.html#methods">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#_Object">Object()</a>, 
+			<a href="class-Object.html#___openPersistent">__openPersistent()</a>, 
+			<a href="class-Object.html#__persist">_persist()</a>, 
+			<a href="class-Object.html#__savePersistent">_savePersistent()</a>, 
+			<a href="class-Object.html#__set">_set()</a>, 
+			<a href="class-Object.html#_cakeError">cakeError()</a>, 
+			<a href="class-Object.html#_log">log()</a>, 
+			<a href="class-Object.html#_requestAction">requestAction()</a>, 
+			<a href="class-Object.html#_toString">toString()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="connected" id="$connected">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#38-44" title="Go to source code"><var>$connected</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$connected" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Are we connected to the DataSource?</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Are we connected to the DataSource?</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="fullDebug" id="$fullDebug">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#45-51" title="Go to source code"><var>$fullDebug</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$fullDebug" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Print full query debug info?</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Print full query debug info?</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="$error">
+		<td class="attributes"><code>
+			public  
+			unknown_type
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#52-58" title="Go to source code"><var>$error</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$error" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Error description of last query</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Error description of last query</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="affected" id="$affected">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#59-65" title="Go to source code"><var>$affected</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$affected" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>String to hold how many rows were affected by the last SQL operation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>String to hold how many rows were affected by the last SQL operation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="numRows" id="$numRows">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#66-72" title="Go to source code"><var>$numRows</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$numRows" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Number of rows in current resultset</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Number of rows in current resultset</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="took" id="$took">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#73-79" title="Go to source code"><var>$took</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$took" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Time the last query took</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Time the last query took</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_result" id="$_result">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#80-86" title="Go to source code"><var>$_result</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$_result" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Enter description here...</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Enter description here...</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_queriesCnt" id="$_queriesCnt">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#87-93" title="Go to source code"><var>$_queriesCnt</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$_queriesCnt" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Queries count.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Queries count.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_queriesTime" id="$_queriesTime">
+		<td class="attributes"><code>
+			public  
+			unknown_type
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#94-100" title="Go to source code"><var>$_queriesTime</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$_queriesTime" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Total duration of all queries.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Total duration of all queries.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_queriesLog" id="$_queriesLog">
+		<td class="attributes"><code>
+			public  
+			unknown_type
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#101-107" title="Go to source code"><var>$_queriesLog</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_queriesLog" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Log of queries executed by this DataSource</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Log of queries executed by this DataSource</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_queriesLogMax" id="$_queriesLogMax">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#108-116" title="Go to source code"><var>$_queriesLogMax</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">200</span></code></td>
+		<td class="description"><div>
+			<a href="#$_queriesLogMax" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Maximum number of items in query log, to prevent query log taking over too
+much memory on large amounts of queries -- I we've had problems at &gt;6000
+queries on one system.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Maximum number of items in query log, to prevent query log taking over too
+much memory on large amounts of queries -- I we've had problems at &gt;6000
+queries on one system.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_queryCache" id="$_queryCache">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#117-123" title="Go to source code"><var>$_queryCache</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_queryCache" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Caches serialzed results of executed queries</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Caches serialzed results of executed queries</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_baseConfig" id="$_baseConfig">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#124-130" title="Go to source code"><var>$_baseConfig</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_baseConfig" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The default configuration of a specific DataSource</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The default configuration of a specific DataSource</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__descriptions" id="$__descriptions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#131-137" title="Go to source code"><var>$__descriptions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$__descriptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Holds references to descriptions loaded by the DataSource</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Holds references to descriptions loaded by the DataSource</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_sources" id="$_sources">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#138-144" title="Go to source code"><var>$_sources</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$_sources" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Holds a list of sources (tables) contained in the DataSource</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Holds a list of sources (tables) contained in the DataSource</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="connection" id="$connection">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#145-151" title="Go to source code"><var>$connection</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$connection" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>A reference to the physical connection of this DataSource</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>A reference to the physical connection of this DataSource</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="config" id="$config">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#152-158" title="Go to source code"><var>$config</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$config" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The DataSource configuration</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The DataSource configuration</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="configKeyName" id="$configKeyName">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#159-165" title="Go to source code"><var>$configKeyName</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$configKeyName" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The DataSource configuration key name</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The DataSource configuration key name</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_transactionStarted" id="$_transactionStarted">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#166-172" title="Go to source code"><var>$_transactionStarted</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_transactionStarted" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Whether or not this DataSource is in the middle of a transaction</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Whether or not this DataSource is in the middle of a transaction</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="cacheSources" id="$cacheSources">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-DataSource.html#173-178" title="Go to source code"><var>$cacheSources</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$cacheSources" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Enter description here...</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Enter description here...</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Object.html#properties">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#$_log"><var>$_log</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

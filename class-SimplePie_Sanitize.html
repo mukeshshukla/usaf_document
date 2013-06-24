@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class SimplePie_Sanitize | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-SimplePie.html">SimplePie</a></li>
+				<li><a href="class-SimplePie_Author.html">SimplePie_Author</a></li>
+				<li><a href="class-SimplePie_Cache.html">SimplePie_Cache</a></li>
+				<li><a href="class-SimplePie_Cache_DB.html">SimplePie_Cache_DB</a></li>
+				<li><a href="class-SimplePie_Cache_File.html">SimplePie_Cache_File</a></li>
+				<li><a href="class-SimplePie_Cache_MySQL.html">SimplePie_Cache_MySQL</a></li>
+				<li><a href="class-SimplePie_Caption.html">SimplePie_Caption</a></li>
+				<li><a href="class-SimplePie_Category.html">SimplePie_Category</a></li>
+				<li><a href="class-SimplePie_Content_Type_Sniffer.html">SimplePie_Content_Type_Sniffer</a></li>
+				<li><a href="class-SimplePie_Copyright.html">SimplePie_Copyright</a></li>
+				<li><a href="class-SimplePie_Credit.html">SimplePie_Credit</a></li>
+				<li><a href="class-SimplePie_Decode_HTML_Entities.html">SimplePie_Decode_HTML_Entities</a></li>
+				<li><a href="class-SimplePie_Enclosure.html">SimplePie_Enclosure</a></li>
+				<li><a href="class-SimplePie_File.html">SimplePie_File</a></li>
+				<li><a href="class-SimplePie_gzdecode.html">SimplePie_gzdecode</a></li>
+				<li><a href="class-SimplePie_HTTP_Parser.html">SimplePie_HTTP_Parser</a></li>
+				<li><a href="class-SimplePie_IRI.html">SimplePie_IRI</a></li>
+				<li><a href="class-SimplePie_Item.html">SimplePie_Item</a></li>
+				<li><a href="class-SimplePie_Locator.html">SimplePie_Locator</a></li>
+				<li><a href="class-SimplePie_Misc.html">SimplePie_Misc</a></li>
+				<li><a href="class-SimplePie_Net_IPv6.html">SimplePie_Net_IPv6</a></li>
+				<li><a href="class-SimplePie_Parse_Date.html">SimplePie_Parse_Date</a></li>
+				<li><a href="class-SimplePie_Parser.html">SimplePie_Parser</a></li>
+				<li><a href="class-SimplePie_Rating.html">SimplePie_Rating</a></li>
+				<li><a href="class-SimplePie_Restriction.html">SimplePie_Restriction</a></li>
+				<li class="active"><a href="class-SimplePie_Sanitize.html">SimplePie_Sanitize</a></li>
+				<li><a href="class-SimplePie_Source.html">SimplePie_Source</a></li>
+				<li><a href="class-SimplePie_XML_Declaration_Parser.html">SimplePie_XML_Declaration_Parser</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-SimplePie.html" title="Summary of SimplePie"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class SimplePie_Sanitize</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-SimplePie.html">SimplePie</a><br />
+
+				<b>Copyright:</b>
+				2004-2009 Ryan Parman, Geoffrey Sneddon<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/bsd-license.php">BSD License</a><br />
+				<b>Author:</b>
+				Ryan Parman<br />
+				<b>Author:</b>
+				Geoffrey Sneddon<br />
+		<b>Located at</b> <a href="source-class-SimplePie_Sanitize.html#14646-14999" title="Go to source code">app/vendors/simplepie/simplepie.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="remove_div" id="_remove_div">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_remove_div">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14683-14686" title="Go to source code">remove_div</a>( <span>mixed <var>$enable</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_image_handler" id="_set_image_handler">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_image_handler">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14688-14698" title="Go to source code">set_image_handler</a>( <span>mixed <var>$page</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="pass_cache_data" id="_pass_cache_data">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_pass_cache_data">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14700-14721" title="Go to source code">pass_cache_data</a>( <span>mixed <var>$enable_cache</var> = <span class="php-keyword1">true</span></span>, <span>mixed <var>$cache_location</var> = <span class="php-quote">'./cache'</span></span>, <span>mixed <var>$cache_name_function</var> = <span class="php-quote">'md5'</span></span>, <span>mixed <var>$cache_class</var> = <span class="php-quote">'SimplePie_Cache'</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="pass_file_data" id="_pass_file_data">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_pass_file_data">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14723-14744" title="Go to source code">pass_file_data</a>( <span>mixed <var>$file_class</var> = <span class="php-quote">'SimplePie_File'</span></span>, <span>mixed <var>$timeout</var> = <span class="php-num">10</span></span>, <span>mixed <var>$useragent</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$force_fsockopen</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="strip_htmltags" id="_strip_htmltags">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_strip_htmltags">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14746-14763" title="Go to source code">strip_htmltags</a>( <span>mixed <var>$tags</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'base'</span>, <span class="php-quote">'blink'</span>, <span class="php-quote">'body'</span>, <span class="php-quote">'doctype'</span>, <span class="php-quote">'embed'</span>, <span class="php-quote">'font'</span>, <span class="php-quote">'form'</span>, <span class="php-quote">'frame'</span>, <span class="php-quote">'frameset'</span>, <span class="php-quote">'html'</span>, <span class="php-quote">'iframe'</span>, <span class="php-quote">'input'</span>, <span class="php-quote">'marquee'</span>, <span class="php-quote">'meta'</span>, <span class="php-quote">'noscript'</span>, <span class="php-quote">'object'</span>, <span class="php-quote">'param'</span>, <span class="php-quote">'script'</span>, <span class="php-quote">'style'</span>)</span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="encode_instead_of_strip" id="_encode_instead_of_strip">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_encode_instead_of_strip">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14765-14768" title="Go to source code">encode_instead_of_strip</a>( <span>mixed <var>$encode</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="strip_attributes" id="_strip_attributes">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_strip_attributes">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14770-14787" title="Go to source code">strip_attributes</a>( <span>mixed <var>$attribs</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'bgsound'</span>, <span class="php-quote">'class'</span>, <span class="php-quote">'expr'</span>, <span class="php-quote">'id'</span>, <span class="php-quote">'style'</span>, <span class="php-quote">'onclick'</span>, <span class="php-quote">'onerror'</span>, <span class="php-quote">'onfinish'</span>, <span class="php-quote">'onmouseover'</span>, <span class="php-quote">'onmouseout'</span>, <span class="php-quote">'onfocus'</span>, <span class="php-quote">'onblur'</span>, <span class="php-quote">'lowsrc'</span>, <span class="php-quote">'dynsrc'</span>)</span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="strip_comments" id="_strip_comments">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_strip_comments">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14789-14792" title="Go to source code">strip_comments</a>( <span>mixed <var>$strip</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_output_encoding" id="_set_output_encoding">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_output_encoding">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14794-14797" title="Go to source code">set_output_encoding</a>( <span>mixed <var>$encoding</var> = <span class="php-quote">'UTF-8'</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_url_replacements" id="_set_url_replacements">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_url_replacements">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14799-14810" title="Go to source code">set_url_replacements</a>( <span>array <var>$element_attribute</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'a'</span> =&gt; <span class="php-quote">'href'</span>, <span class="php-quote">'area'</span> =&gt; <span class="php-quote">'href'</span>, <span class="php-quote">'blockquote'</span> =&gt; <span class="php-quote">'cite'</span>, <span class="php-quote">'del'</span> =&gt; <span class="php-quote">'cite'</span>, <span class="php-quote">'form'</span> =&gt; <span class="php-quote">'action'</span>, <span class="php-quote">'img'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'longdesc'</span>, <span class="php-quote">'src'</span>), <span class="php-quote">'input'</span> =&gt; <span class="php-quote">'src'</span>, <span class="php-quote">'ins'</span> =&gt; <span class="php-quote">'cite'</span>, <span class="php-quote">'q'</span> =&gt; <span class="php-quote">'cite'</span>)</span> )</code>
+
+		<div class="description short">
+			
+<p>Set element/attribute key/value pairs of HTML attributes containing URLs that
+need to be resolved relative to the feed</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set element/attribute key/value pairs of HTML attributes containing URLs that
+need to be resolved relative to the feed</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element_attribute</var></dt>
+					<dd><code>array</code><br>$element_attribute Element/attribute key/value pairs</dd>
+				</dl></div>
+
+
+
+				<h4>Since</h4>
+				<div class="list">
+						1.0<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sanitize" id="_sanitize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sanitize">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14812-14943" title="Go to source code">sanitize</a>( <span>mixed <var>$data</var></span>, <span>mixed <var>$type</var></span>, <span>mixed <var>$base</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replace_urls" id="_replace_urls">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replace_urls">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14945-14973" title="Go to source code">replace_urls</a>( <span>mixed <var>$data</var></span>, <span>mixed <var>$tag</var></span>, <span>mixed <var>$attributes</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="do_strip_htmltags" id="_do_strip_htmltags">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_do_strip_htmltags">#</a>
+		<code><a href="source-class-SimplePie_Sanitize.html#14975-14998" title="Go to source code">do_strip_htmltags</a>( <span>mixed <var>$match</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="base" id="$base">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14652" title="Go to source code"><var>$base</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$base" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="remove_div" id="$remove_div">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14655" title="Go to source code"><var>$remove_div</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$remove_div" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="image_handler" id="$image_handler">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14656" title="Go to source code"><var>$image_handler</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$image_handler" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="strip_htmltags" id="$strip_htmltags">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14657" title="Go to source code"><var>$strip_htmltags</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'base'</span>, <span class="php-quote">'blink'</span>, <span class="php-quote">'body'</span>, <span class="php-quote">'doctype'</span>, <span class="php-quote">'embed'</span>, <span class="php-quote">'font'</span>, <span class="php-quote">'form'</span>, <span class="php-quote">'frame'</span>, <span class="php-quote">'frameset'</span>, <span class="php-quote">'html'</span>, <span class="php-quote">'iframe'</span>, <span class="php-quote">'input'</span>, <span class="php-quote">'marquee'</span>, <span class="php-quote">'meta'</span>, <span class="php-quote">'noscript'</span>, <span class="php-quote">'object'</span>, <span class="php-quote">'param'</span>, <span class="php-quote">'script'</span>, <span class="php-quote">'style'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$strip_htmltags" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="encode_instead_of_strip" id="$encode_instead_of_strip">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14658" title="Go to source code"><var>$encode_instead_of_strip</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$encode_instead_of_strip" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="strip_attributes" id="$strip_attributes">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14659" title="Go to source code"><var>$strip_attributes</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'bgsound'</span>, <span class="php-quote">'class'</span>, <span class="php-quote">'expr'</span>, <span class="php-quote">'id'</span>, <span class="php-quote">'style'</span>, <span class="php-quote">'onclick'</span>, <span class="php-quote">'onerror'</span>, <span class="php-quote">'onfinish'</span>, <span class="php-quote">'onmouseover'</span>, <span class="php-quote">'onmouseout'</span>, <span class="php-quote">'onfocus'</span>, <span class="php-quote">'onblur'</span>, <span class="php-quote">'lowsrc'</span>, <span class="php-quote">'dynsrc'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$strip_attributes" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="strip_comments" id="$strip_comments">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14660" title="Go to source code"><var>$strip_comments</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$strip_comments" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="output_encoding" id="$output_encoding">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14661" title="Go to source code"><var>$output_encoding</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'UTF-8'</span></code></td>
+		<td class="description"><div>
+			<a href="#$output_encoding" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="enable_cache" id="$enable_cache">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14662" title="Go to source code"><var>$enable_cache</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$enable_cache" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="cache_location" id="$cache_location">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14663" title="Go to source code"><var>$cache_location</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'./cache'</span></code></td>
+		<td class="description"><div>
+			<a href="#$cache_location" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="cache_name_function" id="$cache_name_function">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14664" title="Go to source code"><var>$cache_name_function</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'md5'</span></code></td>
+		<td class="description"><div>
+			<a href="#$cache_name_function" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="cache_class" id="$cache_class">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14665" title="Go to source code"><var>$cache_class</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'SimplePie_Cache'</span></code></td>
+		<td class="description"><div>
+			<a href="#$cache_class" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="file_class" id="$file_class">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14666" title="Go to source code"><var>$file_class</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'SimplePie_File'</span></code></td>
+		<td class="description"><div>
+			<a href="#$file_class" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="timeout" id="$timeout">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14667" title="Go to source code"><var>$timeout</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">10</span></code></td>
+		<td class="description"><div>
+			<a href="#$timeout" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="useragent" id="$useragent">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14668" title="Go to source code"><var>$useragent</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$useragent" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="force_fsockopen" id="$force_fsockopen">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14669" title="Go to source code"><var>$force_fsockopen</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$force_fsockopen" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="replace_url_attributes" id="$replace_url_attributes">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_Sanitize.html#14671-14681" title="Go to source code"><var>$replace_url_attributes</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'a'</span> =&gt; <span class="php-quote">'href'</span>,
+    <span class="php-quote">'area'</span> =&gt; <span class="php-quote">'href'</span>,
+    <span class="php-quote">'blockquote'</span> =&gt; <span class="php-quote">'cite'</span>,
+    <span class="php-quote">'del'</span> =&gt; <span class="php-quote">'cite'</span>,
+    <span class="php-quote">'form'</span> =&gt; <span class="php-quote">'action'</span>,
+    <span class="php-quote">'img'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'longdesc'</span>, <span class="php-quote">'src'</span>),
+    <span class="php-quote">'input'</span> =&gt; <span class="php-quote">'src'</span>,
+    <span class="php-quote">'ins'</span> =&gt; <span class="php-quote">'cite'</span>,
+    <span class="php-quote">'q'</span> =&gt; <span class="php-quote">'cite'</span>
+)</code></td>
+		<td class="description"><div>
+			<a href="#$replace_url_attributes" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

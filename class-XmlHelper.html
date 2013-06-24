@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class XmlHelper | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-ActivityTableHelper.html">ActivityTableHelper</a></li>
+				<li><a href="class-AjaxHelper.html">AjaxHelper</a></li>
+				<li><a href="class-AjaxLinkHelper.html">AjaxLinkHelper</a></li>
+				<li><a href="class-CacheHelper.html">CacheHelper</a></li>
+				<li><a href="class-FformHelper.html">FformHelper</a></li>
+				<li><a href="class-FormatingHelper.html">FormatingHelper</a></li>
+				<li><a href="class-FormHelper.html">FormHelper</a></li>
+				<li><a href="class-HtmlHelper.html">HtmlHelper</a></li>
+				<li><a href="class-JavascriptHelper.html">JavascriptHelper</a></li>
+				<li><a href="class-JsHelper.html">JsHelper</a></li>
+				<li><a href="class-JsHelperObject.html">JsHelperObject</a></li>
+				<li><a href="class-LapHelper.html">LapHelper</a></li>
+				<li><a href="class-LctHtmlHelper.html">LctHtmlHelper</a></li>
+				<li><a href="class-Lib24watchCaptchaHelper.html">Lib24watchCaptchaHelper</a></li>
+				<li><a href="class-Lib24watchHtmlHelper.html">Lib24watchHtmlHelper</a></li>
+				<li><a href="class-Lib24watchPaginatorHelper.html">Lib24watchPaginatorHelper</a></li>
+				<li><a href="class-MembershipLinkHelper.html">MembershipLinkHelper</a></li>
+				<li><a href="class-MenuLinkHelper.html">MenuLinkHelper</a></li>
+				<li><a href="class-NumberHelper.html">NumberHelper</a></li>
+				<li><a href="class-PaginationHelper.html">PaginationHelper</a></li>
+				<li><a href="class-PaginatorHelper.html">PaginatorHelper</a></li>
+				<li><a href="class-RssHelper.html">RssHelper</a></li>
+				<li><a href="class-SchoolsPaginateHelper.html">SchoolsPaginateHelper</a></li>
+				<li><a href="class-TextHelper.html">TextHelper</a></li>
+				<li><a href="class-TicketActivityHelper.html">TicketActivityHelper</a></li>
+				<li><a href="class-TicketColorHelper.html">TicketColorHelper</a></li>
+				<li><a href="class-TimeHelper.html">TimeHelper</a></li>
+				<li class="active"><a href="class-XmlHelper.html">XmlHelper</a></li>
+				<li><a href="class-ZazzleHelper.html">ZazzleHelper</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.view.helpers.html" title="Summary of cake\cake\libs\view\helpers"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class XmlHelper</h1>
+
+
+	<div class="description">
+	
+<p>XML Helper class for easy output of XML structures.</p>
+
+<p>XmlHelper encloses all methods needed while working with XML documents.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-AppHelper.html"><span class="invalid">AppHelper</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>XmlHelper</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-RssHelper.html">RssHelper</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a>\<a href="package-cake.cake.libs.view.html">view</a>\<a href="package-cake.cake.libs.view.helpers.html">helpers</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-XmlHelper.html#29-265" title="Go to source code">cake/libs/view/helpers/xml.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="header" id="_header">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_header">#</a>
+		<code><a href="source-class-XmlHelper.html#84-96" title="Go to source code">header</a>( <span>array <var>$attrib</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns an XML document header</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns an XML document header</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attrib</var></dt>
+					<dd><code>array</code><br>$attrib Header tag attributes</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>XML header<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addNs" id="_addNs">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addNs">#</a>
+		<code><a href="source-class-XmlHelper.html#97-119" title="Go to source code">addNs</a>( <span>string <var>$name</var></span>, <span>string <var>$url</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a namespace to any documents generated</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a namespace to any documents generated</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name The namespace name</dd>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br>$url The namespace URI; can be empty if in the default namespace map</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>False if no URL is specified, and the namespace does not exist default namespace
+map, otherwise true<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeNs" id="_removeNs">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeNs">#</a>
+		<code><a href="source-class-XmlHelper.html#120-138" title="Go to source code">removeNs</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Removes a namespace added in addNs()</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Removes a namespace added in addNs()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name The namespace name or URI</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__prepareNamespaces" id="___prepareNamespaces">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___prepareNamespaces">#</a>
+		<code><a href="source-class-XmlHelper.html#139-154" title="Go to source code">__prepareNamespaces</a>( )</code>
+
+		<div class="description short">
+			
+<p>Prepares the current set of namespaces for output in elem() /
+__composeAttributes()</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prepares the current set of namespaces for output in elem() /
+__composeAttributes()</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>The contents of $__namespaces, with all keys prefixed with 'xmlns:'<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="elem" id="_elem">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_elem">#</a>
+		<code><a href="source-class-XmlHelper.html#155-183" title="Go to source code">elem</a>( <span>string <var>$name</var></span>, <span>array <var>$attrib</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$content</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$endTag</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Generates an XML element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates an XML element</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name The name of the XML element</dd>
+					<dt><var>$attrib</var></dt>
+					<dd><code>array</code><br>$attrib The attributes of the XML element</dd>
+					<dt><var>$content</var></dt>
+					<dd><code>mixed</code><br>$content XML element content</dd>
+					<dt><var>$endTag</var></dt>
+					<dd><code>boolean</code><br>$endTag Whether the end tag of the element should be printed</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>XML<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__composeAttributes" id="___composeAttributes">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___composeAttributes">#</a>
+		<code><a href="source-class-XmlHelper.html#184-204" title="Go to source code">__composeAttributes</a>( <span>mixed <var>$attributes</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Generates XML element attributes</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates XML element attributes</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attributes</var></dt>
+					<dd><code>mixed</code><br>$attributes</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Formatted XML attributes for inclusion in an XML element<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__composeContent" id="___composeContent">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___composeContent">#</a>
+		<code><a href="source-class-XmlHelper.html#205-241" title="Go to source code">__composeContent</a>( <span>mixed <var>$content</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Generates XML content based on the type of variable or object passed</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates XML content based on the type of variable or object passed</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$content</var></dt>
+					<dd><code>mixed</code><br>$content The content to be converted to XML</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>XML<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="serialize" id="_serialize">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_serialize">#</a>
+		<code><a href="source-class-XmlHelper.html#242-264" title="Go to source code">serialize</a>( <span>mixed <var>$data</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Serializes a model resultset into XML</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Serializes a model resultset into XML</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br>$data The content to be converted to XML</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options The data formatting options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>A copy of $data in XML format<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="model" id="$model">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-XmlHelper.html#39-45" title="Go to source code"><var>$model</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$model" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Name of the current model</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Name of the current model</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="field" id="$field">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-XmlHelper.html#46-52" title="Go to source code"><var>$field</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$field" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Name of the current field</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Name of the current field</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__defaultNamespaceMap" id="$__defaultNamespaceMap">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-XmlHelper.html#53-69" title="Go to source code"><var>$__defaultNamespaceMap</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'dc'</span>     =&gt; <span class="php-quote">'http://purl.org/dc/elements/1.1/'</span>,            <span class="php-comment">// Dublin Core</span>
+    <span class="php-quote">'dct'</span>    =&gt; <span class="php-quote">'http://purl.org/dc/terms/'</span>,                   <span class="php-comment">// Dublin Core Terms</span>
+    <span class="php-quote">'g'</span>      =&gt; <span class="php-quote">'http://base.google.com/ns/1.0'</span>,               <span class="php-comment">// Google Base</span>
+    <span class="php-quote">'rc'</span>     =&gt; <span class="php-quote">'http://purl.org/rss/1.0/modules/content/'</span>,    <span class="php-comment">// RSS 1.0 Content Module</span>
+    <span class="php-quote">'wf'</span>     =&gt; <span class="php-quote">'http://wellformedweb.org/CommentAPI/'</span>,        <span class="php-comment">// Well-Formed Web Comment API</span>
+    <span class="php-quote">'fb'</span>     =&gt; <span class="php-quote">'http://rssnamespace.org/feedburner/ext/1.0'</span>,  <span class="php-comment">// FeedBurner extensions</span>
+    <span class="php-quote">'lj'</span>     =&gt; <span class="php-quote">'http://www.livejournal.org/rss/lj/1.0/'</span>,      <span class="php-comment">// Live Journal</span>
+    <span class="php-quote">'itunes'</span> =&gt; <span class="php-quote">'http://www.itunes.com/dtds/podcast-1.0.dtd'</span>,  <span class="php-comment">// iTunes</span>
+    <span class="php-quote">'xhtml'</span>  =&gt; <span class="php-quote">'http://www.w3.org/1999/xhtml'</span>                 <span class="php-comment">// XHTML</span>
+)</code></td>
+		<td class="description"><div>
+			<a href="#$__defaultNamespaceMap" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Map of common namespace URIs</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Map of common namespace URIs</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__namespaces" id="$__namespaces">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-XmlHelper.html#70-76" title="Go to source code"><var>$__namespaces</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$__namespaces" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Namespaces to be utilized by default when generating documents</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Namespaces to be utilized by default when generating documents</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="encoding" id="$encoding">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-XmlHelper.html#77-83" title="Go to source code"><var>$encoding</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'UTF-8'</span></code></td>
+		<td class="description"><div>
+			<a href="#$encoding" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Default document encoding</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Default document encoding</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

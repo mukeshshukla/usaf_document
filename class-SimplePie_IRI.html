@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class SimplePie_IRI | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-SimplePie.html">SimplePie</a></li>
+				<li><a href="class-SimplePie_Author.html">SimplePie_Author</a></li>
+				<li><a href="class-SimplePie_Cache.html">SimplePie_Cache</a></li>
+				<li><a href="class-SimplePie_Cache_DB.html">SimplePie_Cache_DB</a></li>
+				<li><a href="class-SimplePie_Cache_File.html">SimplePie_Cache_File</a></li>
+				<li><a href="class-SimplePie_Cache_MySQL.html">SimplePie_Cache_MySQL</a></li>
+				<li><a href="class-SimplePie_Caption.html">SimplePie_Caption</a></li>
+				<li><a href="class-SimplePie_Category.html">SimplePie_Category</a></li>
+				<li><a href="class-SimplePie_Content_Type_Sniffer.html">SimplePie_Content_Type_Sniffer</a></li>
+				<li><a href="class-SimplePie_Copyright.html">SimplePie_Copyright</a></li>
+				<li><a href="class-SimplePie_Credit.html">SimplePie_Credit</a></li>
+				<li><a href="class-SimplePie_Decode_HTML_Entities.html">SimplePie_Decode_HTML_Entities</a></li>
+				<li><a href="class-SimplePie_Enclosure.html">SimplePie_Enclosure</a></li>
+				<li><a href="class-SimplePie_File.html">SimplePie_File</a></li>
+				<li><a href="class-SimplePie_gzdecode.html">SimplePie_gzdecode</a></li>
+				<li><a href="class-SimplePie_HTTP_Parser.html">SimplePie_HTTP_Parser</a></li>
+				<li class="active"><a href="class-SimplePie_IRI.html">SimplePie_IRI</a></li>
+				<li><a href="class-SimplePie_Item.html">SimplePie_Item</a></li>
+				<li><a href="class-SimplePie_Locator.html">SimplePie_Locator</a></li>
+				<li><a href="class-SimplePie_Misc.html">SimplePie_Misc</a></li>
+				<li><a href="class-SimplePie_Net_IPv6.html">SimplePie_Net_IPv6</a></li>
+				<li><a href="class-SimplePie_Parse_Date.html">SimplePie_Parse_Date</a></li>
+				<li><a href="class-SimplePie_Parser.html">SimplePie_Parser</a></li>
+				<li><a href="class-SimplePie_Rating.html">SimplePie_Rating</a></li>
+				<li><a href="class-SimplePie_Restriction.html">SimplePie_Restriction</a></li>
+				<li><a href="class-SimplePie_Sanitize.html">SimplePie_Sanitize</a></li>
+				<li><a href="class-SimplePie_Source.html">SimplePie_Source</a></li>
+				<li><a href="class-SimplePie_XML_Declaration_Parser.html">SimplePie_XML_Declaration_Parser</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-SimplePie.html" title="Summary of SimplePie"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class SimplePie_IRI</h1>
+
+
+	<div class="description">
+	
+<p>IRI parser/serialiser</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-SimplePie.html">SimplePie</a><br />
+
+				<b>Copyright:</b>
+				2004-2009 Ryan Parman, Geoffrey Sneddon<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/bsd-license.php">BSD License</a><br />
+				<b>Author:</b>
+				Ryan Parman<br />
+				<b>Author:</b>
+				Geoffrey Sneddon<br />
+		<b>Located at</b> <a href="source-class-SimplePie_IRI.html#11568-12307" title="Go to source code">app/vendors/simplepie/simplepie.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__toString" id="___toString">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___toString">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#11639-11648" title="Go to source code">__toString</a>( )</code>
+
+		<div class="description short">
+			
+<p>Return the entire IRI when you try and read the object as a string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return the entire IRI when you try and read the object as a string</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="SimplePie_IRI" id="_SimplePie_IRI">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-SimplePie_IRI.html">SimplePie_IRI</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_SimplePie_IRI">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#11650-11669" title="Go to source code">SimplePie_IRI</a>( <span>string <var>$iri</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new IRI object, from a specified string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new IRI object, from a specified string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$iri</var></dt>
+					<dd><code>string</code><br>$iri</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-SimplePie_IRI.html">SimplePie_IRI</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="absolutize" id="_absolutize">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-SimplePie_IRI.html">SimplePie_IRI</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_absolutize">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#11671-11750" title="Go to source code">absolutize</a>( <span><code><a href="class-SimplePie_IRI.html">SimplePie_IRI</a></code> <var>$base</var></span>, <span>string <var>$relative</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new IRI object by resolving a relative IRI</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new IRI object by resolving a relative IRI</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$base</var></dt>
+					<dd><code><code><a href="class-SimplePie_IRI.html">SimplePie_IRI</a></code></code><br>$base Base IRI</dd>
+					<dt><var>$relative</var></dt>
+					<dd><code>string</code><br>$relative Relative IRI</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-SimplePie_IRI.html">SimplePie_IRI</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parse_iri" id="_parse_iri">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parse_iri">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#11752-11767" title="Go to source code">parse_iri</a>( <span>string <var>$iri</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parse an IRI into scheme/authority/path/query/fragment segments</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parse an IRI into scheme/authority/path/query/fragment segments</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$iri</var></dt>
+					<dd><code>string</code><br>$iri</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="remove_dot_segments" id="_remove_dot_segments">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_remove_dot_segments">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#11769-11828" title="Go to source code">remove_dot_segments</a>( <span>string <var>$input</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Remove dot segments from a path</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove dot segments from a path</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$input</var></dt>
+					<dd><code>string</code><br>$input</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replace_invalid_with_pct_encoding" id="_replace_invalid_with_pct_encoding">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replace_invalid_with_pct_encoding">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#11830-11907" title="Go to source code">replace_invalid_with_pct_encoding</a>( <span>string <var>$string</var></span>, <span>string <var>$valid_chars</var></span>, <span>integer <var>$case</var> = SIMPLEPIE_SAME_CASE</span> )</code>
+
+		<div class="description short">
+			
+<p>Replace invalid character with percent encoding</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace invalid character with percent encoding</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string Input string</dd>
+					<dt><var>$valid_chars</var></dt>
+					<dd><code>string</code><br>$valid_chars Valid characters</dd>
+					<dt><var>$case</var></dt>
+					<dd><code>integer</code><br>$case Normalise case</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_valid" id="_is_valid">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_valid">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#11909-11918" title="Go to source code">is_valid</a>( )</code>
+
+		<div class="description short">
+			
+<p>Check if the object represents a valid IRI</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if the object represents a valid IRI</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_scheme" id="_set_scheme">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_scheme">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#11920-11959" title="Go to source code">set_scheme</a>( <span>string <var>$scheme</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the scheme. Returns true on success, false on failure (if there are any
+invalid characters).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the scheme. Returns true on success, false on failure (if there are any
+invalid characters).</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$scheme</var></dt>
+					<dd><code>string</code><br>$scheme</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_authority" id="_set_authority">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_authority">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#11961-11992" title="Go to source code">set_authority</a>( <span>string <var>$authority</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the authority. Returns true on success, false on failure (if there are
+any invalid characters).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the authority. Returns true on success, false on failure (if there are
+any invalid characters).</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$authority</var></dt>
+					<dd><code>string</code><br>$authority</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_userinfo" id="_set_userinfo">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_userinfo">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#11994-12013" title="Go to source code">set_userinfo</a>( <span>string <var>$userinfo</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the userinfo.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the userinfo.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userinfo</var></dt>
+					<dd><code>string</code><br>$userinfo</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_host" id="_set_host">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_host">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12015-12052" title="Go to source code">set_host</a>( <span>string <var>$host</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the host. Returns true on success, false on failure (if there are any
+invalid characters).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the host. Returns true on success, false on failure (if there are any
+invalid characters).</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$host</var></dt>
+					<dd><code>string</code><br>$host</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_port" id="_set_port">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_port">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12054-12082" title="Go to source code">set_port</a>( <span>string <var>$port</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the port. Returns true on success, false on failure (if there are any
+invalid characters).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the port. Returns true on success, false on failure (if there are any
+invalid characters).</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$port</var></dt>
+					<dd><code>string</code><br>$port</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_path" id="_set_path">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_path">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12084-12115" title="Go to source code">set_path</a>( <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the path.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the path.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_query" id="_set_query">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_query">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12117-12136" title="Go to source code">set_query</a>( <span>string <var>$query</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the query.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the query.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd><code>string</code><br>$query</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_fragment" id="_set_fragment">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_fragment">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12138-12157" title="Go to source code">set_fragment</a>( <span>string <var>$fragment</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the fragment.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the fragment.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fragment</var></dt>
+					<dd><code>string</code><br>$fragment</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_iri" id="_get_iri">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_iri">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12159-12197" title="Go to source code">get_iri</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the complete IRI</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the complete IRI</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_scheme" id="_get_scheme">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_scheme">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12199-12208" title="Go to source code">get_scheme</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the scheme</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the scheme</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_authority" id="_get_authority">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_authority">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12210-12240" title="Go to source code">get_authority</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the complete authority</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the complete authority</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_userinfo" id="_get_userinfo">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_userinfo">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12242-12251" title="Go to source code">get_userinfo</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the user information</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the user information</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_host" id="_get_host">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_host">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12253-12262" title="Go to source code">get_host</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the host</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the host</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_port" id="_get_port">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_port">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12264-12273" title="Go to source code">get_port</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the port</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the port</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_path" id="_get_path">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_path">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12275-12284" title="Go to source code">get_path</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the path</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the path</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_query" id="_get_query">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_query">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12286-12295" title="Go to source code">get_query</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the query</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_fragment" id="_get_fragment">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_fragment">#</a>
+		<code><a href="source-class-SimplePie_IRI.html#12297-12306" title="Go to source code">get_fragment</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the fragment</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the fragment</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="scheme" id="$scheme">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_IRI.html#11575-11581" title="Go to source code"><var>$scheme</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$scheme" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Scheme</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Scheme</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="userinfo" id="$userinfo">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_IRI.html#11583-11589" title="Go to source code"><var>$userinfo</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$userinfo" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>User Information</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>User Information</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="host" id="$host">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_IRI.html#11591-11597" title="Go to source code"><var>$host</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$host" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Host</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Host</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="port" id="$port">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_IRI.html#11599-11605" title="Go to source code"><var>$port</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$port" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Port</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Port</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="path" id="$path">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_IRI.html#11607-11613" title="Go to source code"><var>$path</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$path" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Path</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Path</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="query" id="$query">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_IRI.html#11615-11621" title="Go to source code"><var>$query</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$query" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Query</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Query</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="fragment" id="$fragment">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_IRI.html#11623-11629" title="Go to source code"><var>$fragment</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$fragment" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Fragment</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Fragment</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="valid" id="$valid">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimplePie_IRI.html#11631-11637" title="Go to source code"><var>$valid</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$valid" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Whether the object represents a valid IRI</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Whether the object represents a valid IRI</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

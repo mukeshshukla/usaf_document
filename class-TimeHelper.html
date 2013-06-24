@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class TimeHelper | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-ActivityTableHelper.html">ActivityTableHelper</a></li>
+				<li><a href="class-AjaxHelper.html">AjaxHelper</a></li>
+				<li><a href="class-AjaxLinkHelper.html">AjaxLinkHelper</a></li>
+				<li><a href="class-CacheHelper.html">CacheHelper</a></li>
+				<li><a href="class-FformHelper.html">FformHelper</a></li>
+				<li><a href="class-FormatingHelper.html">FormatingHelper</a></li>
+				<li><a href="class-FormHelper.html">FormHelper</a></li>
+				<li><a href="class-HtmlHelper.html">HtmlHelper</a></li>
+				<li><a href="class-JavascriptHelper.html">JavascriptHelper</a></li>
+				<li><a href="class-JsHelper.html">JsHelper</a></li>
+				<li><a href="class-JsHelperObject.html">JsHelperObject</a></li>
+				<li><a href="class-LapHelper.html">LapHelper</a></li>
+				<li><a href="class-LctHtmlHelper.html">LctHtmlHelper</a></li>
+				<li><a href="class-Lib24watchCaptchaHelper.html">Lib24watchCaptchaHelper</a></li>
+				<li><a href="class-Lib24watchHtmlHelper.html">Lib24watchHtmlHelper</a></li>
+				<li><a href="class-Lib24watchPaginatorHelper.html">Lib24watchPaginatorHelper</a></li>
+				<li><a href="class-MembershipLinkHelper.html">MembershipLinkHelper</a></li>
+				<li><a href="class-MenuLinkHelper.html">MenuLinkHelper</a></li>
+				<li><a href="class-NumberHelper.html">NumberHelper</a></li>
+				<li><a href="class-PaginationHelper.html">PaginationHelper</a></li>
+				<li><a href="class-PaginatorHelper.html">PaginatorHelper</a></li>
+				<li><a href="class-RssHelper.html">RssHelper</a></li>
+				<li><a href="class-SchoolsPaginateHelper.html">SchoolsPaginateHelper</a></li>
+				<li><a href="class-TextHelper.html">TextHelper</a></li>
+				<li><a href="class-TicketActivityHelper.html">TicketActivityHelper</a></li>
+				<li><a href="class-TicketColorHelper.html">TicketColorHelper</a></li>
+				<li class="active"><a href="class-TimeHelper.html">TimeHelper</a></li>
+				<li><a href="class-XmlHelper.html">XmlHelper</a></li>
+				<li><a href="class-ZazzleHelper.html">ZazzleHelper</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.view.helpers.html" title="Summary of cake\cake\libs\view\helpers"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class TimeHelper</h1>
+
+
+	<div class="description">
+	
+<p>Time Helper class for easy use of time data.</p>
+
+<p>Manipulation of time data.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-AppHelper.html"><span class="invalid">AppHelper</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>TimeHelper</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a>\<a href="package-cake.cake.libs.view.html">view</a>\<a href="package-cake.cake.libs.view.helpers.html">helpers</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-TimeHelper.html#29-465" title="Go to source code">cake/libs/view/helpers/time.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="fromString" id="_fromString">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fromString">#</a>
+		<code><a href="source-class-TimeHelper.html#38-50" title="Go to source code">fromString</a>( <span>string <var>$date_string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a UNIX timestamp, given either a UNIX timestamp or a valid
+strtotime() date string.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a UNIX timestamp, given either a UNIX timestamp or a valid
+strtotime() date string.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Formatted date string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="nice" id="_nice">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_nice">#</a>
+		<code><a href="source-class-TimeHelper.html#51-66" title="Go to source code">nice</a>( <span>string <var>$date_string</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a nicely formatted date string for given Datetime string.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a nicely formatted date string for given Datetime string.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string or Unix timestamp</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Formatted date string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="niceShort" id="_niceShort">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_niceShort">#</a>
+		<code><a href="source-class-TimeHelper.html#67-92" title="Go to source code">niceShort</a>( <span>string <var>$date_string</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a formatted descriptive date string for given datetime string.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a formatted descriptive date string for given datetime string.</p>
+
+<p>If the given date is today, the returned string could be "Today, 16:54". If
+the given date was yesterday, the returned string could be "Yesterday, 16:54".
+If $date_string's year is the current year, the returned string does not include
+mention of the year.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string or Unix timestamp</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Described, relative date string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="daysAsSql" id="_daysAsSql">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_daysAsSql">#</a>
+		<code><a href="source-class-TimeHelper.html#93-109" title="Go to source code">daysAsSql</a>( <span>string <var>$begin</var></span>, <span>string <var>$end</var></span>, <span>string <var>$field_name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a partial SQL string to search for all records between two dates.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a partial SQL string to search for all records between two dates.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$begin</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string or Unix timestamp</dd>
+					<dt><var>$end</var></dt>
+					<dd><code>string</code><br>$end Datetime string or Unix timestamp</dd>
+					<dt><var>$field_name</var></dt>
+					<dd><code>string</code><br>$field_name Name of database field to compare with</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Partial SQL string.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dayAsSql" id="_dayAsSql">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dayAsSql">#</a>
+		<code><a href="source-class-TimeHelper.html#110-122" title="Go to source code">dayAsSql</a>( <span>string <var>$date_string</var></span>, <span>string <var>$field_name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a partial SQL string to search for all records between two times
+occurring on the same day.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a partial SQL string to search for all records between two times
+occurring on the same day.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string or Unix timestamp</dd>
+					<dt><var>$field_name</var></dt>
+					<dd><code>string</code><br>$field_name Name of database field to compare with</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Partial SQL string.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isToday" id="_isToday">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isToday">#</a>
+		<code><a href="source-class-TimeHelper.html#123-132" title="Go to source code">isToday</a>( <span>string <var>$date_string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if given datetime string is today.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if given datetime string is today.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string or Unix timestamp</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if datetime string is today<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isThisWeek" id="_isThisWeek">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isThisWeek">#</a>
+		<code><a href="source-class-TimeHelper.html#133-141" title="Go to source code">isThisWeek</a>( <span>string <var>$date_string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if given datetime string is within this week</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if given datetime string is within this week</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if datetime string is within current week<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isThisMonth" id="_isThisMonth">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isThisMonth">#</a>
+		<code><a href="source-class-TimeHelper.html#142-150" title="Go to source code">isThisMonth</a>( <span>string <var>$date_string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if given datetime string is within this month</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if given datetime string is within this month</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if datetime string is within current month<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isThisYear" id="_isThisYear">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isThisYear">#</a>
+		<code><a href="source-class-TimeHelper.html#151-160" title="Go to source code">isThisYear</a>( <span>string <var>$date_string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if given datetime string is within current year.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if given datetime string is within current year.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string or Unix timestamp</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if datetime string is within current year<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="wasYesterday" id="_wasYesterday">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_wasYesterday">#</a>
+		<code><a href="source-class-TimeHelper.html#161-170" title="Go to source code">wasYesterday</a>( <span>string <var>$date_string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if given datetime string was yesterday.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if given datetime string was yesterday.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string or Unix timestamp</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if datetime string was yesterday<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isTomorrow" id="_isTomorrow">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isTomorrow">#</a>
+		<code><a href="source-class-TimeHelper.html#171-180" title="Go to source code">isTomorrow</a>( <span>string <var>$date_string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if given datetime string is tomorrow.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if given datetime string is tomorrow.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string or Unix timestamp</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if datetime string was yesterday<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="toQuarter" id="_toQuarter">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_toQuarter">#</a>
+		<code><a href="source-class-TimeHelper.html#181-214" title="Go to source code">toQuarter</a>( <span>string <var>$date_string</var></span>, <span>boolean <var>$range</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns the quart</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the quart</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string</dd>
+					<dt><var>$range</var></dt>
+					<dd><code>boolean</code><br>$range if true returns a range in Y-m-d format</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if datetime string is within current week<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="toUnix" id="_toUnix">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_toUnix">#</a>
+		<code><a href="source-class-TimeHelper.html#215-224" title="Go to source code">toUnix</a>( <span>string <var>$date_string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a UNIX timestamp from a textual datetime description. Wrapper for PHP
+function strtotime().</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a UNIX timestamp from a textual datetime description. Wrapper for PHP
+function strtotime().</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string to be represented as a Unix timestamp</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Unix timestamp<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="toAtom" id="_toAtom">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_toAtom">#</a>
+		<code><a href="source-class-TimeHelper.html#225-235" title="Go to source code">toAtom</a>( <span>string <var>$date_string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a date formatted for Atom RSS feeds.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a date formatted for Atom RSS feeds.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string or Unix timestamp</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Formatted date string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="toRSS" id="_toRSS">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_toRSS">#</a>
+		<code><a href="source-class-TimeHelper.html#236-246" title="Go to source code">toRSS</a>( <span>string <var>$date_string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Formats date for RSS feeds</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Formats date for RSS feeds</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string or Unix timestamp</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Formatted date string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="timeAgoInWords" id="_timeAgoInWords">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_timeAgoInWords">#</a>
+		<code><a href="source-class-TimeHelper.html#247-342" title="Go to source code">timeAgoInWords</a>( <span>string <var>$datetime_string</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$backwards</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns either a relative date or a formatted date depending on the
+difference between the current time and given datetime. $datetime should be in a
+<i>strtotime</i>-parsable format, like MySQL's datetime datatype.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns either a relative date or a formatted date depending on the
+difference between the current time and given datetime. $datetime should be in a
+<i>strtotime</i>-parsable format, like MySQL's datetime datatype.</p>
+
+<p>Relative dates look something like this: 3 weeks, 4 days ago 15 seconds ago
+Formatted dates look like this: on 02/18/2004</p>
+
+<p>The returned string includes 'ago' or 'on' and assumes you'll properly add a
+word like 'Posted ' before the function output.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$datetime_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string or Unix timestamp</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Default format if timestamp is used in $date_string</dd>
+					<dt><var>$backwards</var></dt>
+					<dd><code>string</code><br>$backwards False if $date_string is in the past, true if in the future</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Relative time string.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="relativeTime" id="_relativeTime">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_relativeTime">#</a>
+		<code><a href="source-class-TimeHelper.html#343-360" title="Go to source code">relativeTime</a>( <span>string <var>$datetime_string</var></span>, <span>string <var>$format</var> = <span class="php-quote">'j/n/y'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Alias for timeAgoInWords, but can also calculate dates in the future</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Alias for timeAgoInWords, but can also calculate dates in the future</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$datetime_string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string or Unix timestamp</dd>
+					<dt><var>$format</var></dt>
+					<dd><code>string</code><br>$format Default format if timestamp is used in $date_string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Relative time string.<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-TimeHelper.html#_timeAgoInWords">TimeHelper::timeAgoInWords()</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="wasWithinLast" id="_wasWithinLast">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_wasWithinLast">#</a>
+		<code><a href="source-class-TimeHelper.html#361-432" title="Go to source code">wasWithinLast</a>( <span>mixed <var>$timeInterval</var></span>, <span>mixed <var>$date_string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if specified datetime was within the interval specified, else
+false.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if specified datetime was within the interval specified, else
+false.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$timeInterval</var></dt>
+					<dd><code>mixed</code><br>$timeInterval the numeric value with space then time type. Example of valid
+types: 6 hours, 2 days, 1 minute.</dd>
+					<dt><var>$date_string</var></dt>
+					<dd><code>mixed</code><br>$date_string the datestring or unix timestamp to compare</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="gmt" id="_gmt">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_gmt">#</a>
+		<code><a href="source-class-TimeHelper.html#433-455" title="Go to source code">gmt</a>( <span>string <var>$string</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns gmt, given either a UNIX timestamp or a valid strtotime() date
+string.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns gmt, given either a UNIX timestamp or a valid strtotime() date
+string.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Formatted date string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="format" id="_format">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_format">#</a>
+		<code><a href="source-class-TimeHelper.html#456-464" title="Go to source code">format</a>( <span>string <var>$format</var> = <span class="php-quote">'d-m-Y'</span></span>, <span>mixed <var>$date</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a UNIX timestamp, given either a UNIX timestamp or a valid
+strtotime() date string.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a UNIX timestamp, given either a UNIX timestamp or a valid
+strtotime() date string.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$format</var></dt>
+					<dd><code>string</code><br>$date_string Datetime string</dd>
+					<dt><var>$date</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Formatted date string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

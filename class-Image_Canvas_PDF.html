@@ -1,0 +1,1653 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Image_Canvas_PDF | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li class="active"><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li class="active"><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Image_Canvas.html">Image_Canvas</a></li>
+				<li><a href="class-Image_Canvas_Color.html">Image_Canvas_Color</a></li>
+				<li><a href="class-Image_Canvas_GD.html">Image_Canvas_GD</a></li>
+				<li><a href="class-Image_Canvas_GD_JPG.html">Image_Canvas_GD_JPG</a></li>
+				<li><a href="class-Image_Canvas_GD_PNG.html">Image_Canvas_GD_PNG</a></li>
+				<li><a href="class-Image_Canvas_ImageMap.html">Image_Canvas_ImageMap</a></li>
+				<li class="active"><a href="class-Image_Canvas_PDF.html">Image_Canvas_PDF</a></li>
+				<li><a href="class-Image_Canvas_SVG.html">Image_Canvas_SVG</a></li>
+				<li><a href="class-Image_Canvas_Tool.html">Image_Canvas_Tool</a></li>
+				<li><a href="class-Image_Canvas_WithMap.html">Image_Canvas_WithMap</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Image.Canvas.html" title="Summary of Image\Canvas"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Image_Canvas_PDF</h1>
+
+
+	<div class="description">
+	
+<p>PDF Canvas class.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Image_Canvas.html"><span>Image_Canvas</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Image_Canvas_PDF</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Image.html">Image</a>\<a href="package-Image.Canvas.html">Canvas</a><br />
+
+				<b>Category:</b>
+				Images<br />
+				<b>Copyright:</b>
+				Copyright (C) 2003, 2004 Jesper Veggerby Hansen<br />
+				<b>License:</b>
+				<a href="http://www.gnu.org/copyleft/lesser.html">LGPL License 2.1</a><br />
+				<b>Author:</b>
+				Jesper Veggerby &lt;<a
+href="mailto:pear.nosey&#64;veggerby.dk">pear.nosey&#64;<!---->veggerby.dk</a>&gt;<br />
+				<b>Version:</b>
+				Release: @package_version@<br />
+				<b>Link:</b>
+				<a href="http://pear.php.net/pepr/pepr-proposal-show.php?id=212">http://pear.php.net/pepr/pepr-proposal-show.php?id=212</a><br />
+		<b>Located at</b> <a href="source-class-Image_Canvas_PDF.html#42-1010" title="Go to source code">app/vendors/Image/Canvas/PDF.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="Image_Canvas_PDF" id="_Image_Canvas_PDF">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_Image_Canvas_PDF">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#91-332" title="Go to source code">Image_Canvas_PDF</a>( <span>array <var>$param</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create the PDF canvas.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create the PDF canvas.</p>
+
+<p>Parameters available:</p>
+
+<p>'page' Specify the page/paper format for the graph's page, available formats
+are: A0, A1, A2, A3, A4, A5, A6, B5, letter, legal, ledger, 11x17, cd_front,
+inlay, inlay_nosides</p>
+
+<p>'align' Alignment of the graph on the page, available options are: topleft,
+topcenter, topright, leftcenter, center, rightcenter, leftbottom, centerbottom,
+rightbottom</p>
+
+<p>'orientation' Specifies the paper orientation, default is 'portrait' and
+'landscape' is also supported.</p>
+
+<p>'creator' The creator tag of the PDF/graph</p>
+
+<p>'author' The author tag of the PDF/graph</p>
+
+<p>'title' The title tag of the PDF/graph</p>
+
+<p>'width' The width of the graph on the page</p>
+
+<p>'height' The height of the graph on the page</p>
+
+<p>'left' The left offset of the graph on the page</p>
+
+<p>'top' The top offset of the graph on the page</p>
+
+<p>'filename' The PDF file to open/add page to, using 'filename' requires the
+commercial version of PDFlib (<a
+href="http://www.pdflib.com/">http://www.pdflib.com/</a>), this has for obvious
+($ 450) reasons not been tested</p>
+
+<p>'pdf' An existing PDFlib PDF document to add the page to</p>
+
+<p>'add_page' (true/false) Used together with 'pdf', to specify whether the
+canvas should add a new graph page (true) or create the graph on the current
+page (false), default is 'true'</p>
+
+<p>The 'page' and 'width' &amp; 'height' can be mutually omitted, if 'page' is
+omitted the page is created using dimensions of width x height, and if width and
+height are omitted the page dimensions are used for the graph.</p>
+
+<p>If 'pdf' is specified, 'filename', 'creator', 'author' and 'title' has no
+effect.</p>
+
+<p>'left' and 'top' are overridden by 'align'</p>
+
+<p>It is required either to specify 'width' &amp; 'height' or 'page'.</p>
+
+<p>The PDF format/PDFlib has some limitations on the capabilities, which means
+some functionality available using other canvass (fx. alpha blending and
+gradient fills) are not supported with PDF (see Canvas.txt in the docs/ folder
+for further details)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$param</var></dt>
+					<dd><code>array</code><br>$param Parameter array</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getX" id="__getX">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getX">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#334-344" title="Go to source code">_getX</a>( <span>float <var>$x</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the x-point from the relative to absolute coordinates</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the x-point from the relative to absolute coordinates</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x</var></dt>
+					<dd><code>float</code><br>$x The relative x-coordinate (in percentage of total width)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The x-coordinate as applied to the canvas<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#__getX">Image_Canvas::_getX()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getY" id="__getY">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getY">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#346-356" title="Go to source code">_getY</a>( <span>float <var>$y</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the y-point from the relative to absolute coordinates</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the y-point from the relative to absolute coordinates</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$y</var></dt>
+					<dd><code>float</code><br>$y The relative y-coordinate (in percentage of total width)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The y-coordinate as applied to the canvas<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#__getY">Image_Canvas::_getY()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_color" id="__color">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__color">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#358-376" title="Go to source code">_color</a>( <span>integer <var>$color</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the color index for the RGB color</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the color index for the RGB color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$color</var></dt>
+					<dd><code>integer</code><br>$color The color</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The GD image index of the color<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setLineStyle" id="__setLineStyle">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setLineStyle">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#378-411" title="Go to source code">_setLineStyle</a>( <span>mixed <var>$lineStyle</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the PDF linestyle</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the PDF linestyle</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$lineStyle</var></dt>
+					<dd><code>mixed</code><br>$lineStyle The line style to return, false if the one explicitly set</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if set (so that a line should be drawn)<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setFillStyle" id="__setFillStyle">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setFillStyle">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#413-439" title="Go to source code">_setFillStyle</a>( <span>mixed <var>$fillStyle</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the PDF fill style</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the PDF fill style</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fillStyle</var></dt>
+					<dd><code>mixed</code><br>$fillStyle The fillstyle to return, false if the one explicitly set</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if set (so that a line should be drawn)<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setFont" id="__setFont">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setFont">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#441-460" title="Go to source code">_setFont</a>( )</code>
+
+		<div class="description short">
+			
+<p>Set the PDF font</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the PDF font</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFillImage" id="_setFillImage">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFillImage">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#462-472" title="Go to source code">setFillImage</a>( <span>string <var>$filename</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets an image that should be used for filling.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets an image that should be used for filling.</p>
+
+<p>Image filling is not supported with PDF, filling 'transparent'</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filename</var></dt>
+					<dd><code>string</code><br>$filename The filename of the image to fill with</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_setFillImage">Image_Canvas::setFillImage()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setGradientFill" id="_setGradientFill">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setGradientFill">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#474-484" title="Go to source code">setGradientFill</a>( <span>array <var>$gradient</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets a gradient fill</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets a gradient fill</p>
+
+<p>Gradient filling is not supported with PDF, end color used as solid fill.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$gradient</var></dt>
+					<dd><code>array</code><br>$gradient Gradient fill options</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_setGradientFill">Image_Canvas::setGradientFill()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFont" id="_setFont">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFont">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#486-515" title="Go to source code">setFont</a>( <span>array <var>$fontOptions</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the font options.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the font options.</p>
+
+<p>The $font array may have the following entries:</p>
+
+<p>'ttf' = the .ttf file (either the basename, filename or full path) If 'ttf'
+is specified, then the following can be specified</p>
+
+<p>'size' = size in pixels</p>
+
+<p>'angle' = the angle with which to write the text</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fontOptions</var></dt>
+					<dd><code>array</code><br>$font The font options.</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_setFont">Image_Canvas::setFont()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_reset" id="__reset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__reset">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#517-528" title="Go to source code">_reset</a>( )</code>
+
+		<div class="description short">
+			
+<p>Resets the canvas.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resets the canvas.</p>
+
+<p>Includes fillstyle, linestyle, thickness and polygon</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#__reset">Image_Canvas::_reset()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="line" id="_line">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_line">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#530-550" title="Go to source code">line</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Draw a line</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw a line</p>
+
+<p>Parameter array: 'x0': int X start point 'y0': int Y start point 'x1': int X
+end point 'y1': int Y end point 'color': mixed [optional] The line color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_line">Image_Canvas::line()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="polygon" id="_polygon">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_polygon">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#552-623" title="Go to source code">polygon</a>( <span>array <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Parameter array: 'connect': bool [optional] Specifies whether the start point
+should be<br />
+connected to the endpoint (closed polygon) or not (connected line) 'fill': mixed
+[optional] The fill color 'line': mixed [optional] The line color</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parameter array: 'connect': bool [optional] Specifies whether the start point
+should be connected to the endpoint (closed polygon) or not (connected line)
+'fill': mixed [optional] The fill color 'line': mixed [optional] The line
+color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_polygon">Image_Canvas::polygon()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rectangle" id="_rectangle">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rectangle">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#625-659" title="Go to source code">rectangle</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Draw a rectangle</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw a rectangle</p>
+
+<p>Parameter array: 'x0': int X start point 'y0': int Y start point 'x1': int X
+end point 'y1': int Y end point 'fill': mixed [optional] The fill color 'line':
+mixed [optional] The line color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_rectangle">Image_Canvas::rectangle()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ellipse" id="_ellipse">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ellipse">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#661-720" title="Go to source code">ellipse</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Draw an ellipse</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw an ellipse</p>
+
+<p>Parameter array: 'x': int X center point 'y': int Y center point 'rx': int X
+radius 'ry': int Y radius 'fill': mixed [optional] The fill color 'line': mixed
+[optional] The line color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_ellipse">Image_Canvas::ellipse()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="pieslice" id="_pieslice">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_pieslice">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#722-753" title="Go to source code">pieslice</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Draw a pie slice</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw a pie slice</p>
+
+<p>Parameter array: 'x': int X center point 'y': int Y center point 'rx': int X
+radius 'ry': int Y radius 'v1': int The starting angle (in degrees) 'v2': int
+The end angle (in degrees) 'srx': int [optional] Starting X-radius of the pie
+slice (i.e. for a doughnut) 'sry': int [optional] Starting Y-radius of the pie
+slice (i.e. for a doughnut) 'fill': mixed [optional] The fill color 'line':
+mixed [optional] The line color</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_pieslice">Image_Canvas::pieslice()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="textWidth" id="_textWidth">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_textWidth">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#755-768" title="Go to source code">textWidth</a>( <span>string <var>$text</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the width of a text,</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the width of a text,</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$text</var></dt>
+					<dd><code>string</code><br>$text The text to get the width of</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The width of the text<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_textWidth">Image_Canvas::textWidth()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="textHeight" id="_textHeight">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_textHeight">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#770-783" title="Go to source code">textHeight</a>( <span>string <var>$text</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the height of a text,</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the height of a text,</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$text</var></dt>
+					<dd><code>string</code><br>$text The text to get the height of</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The height of the text<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_textHeight">Image_Canvas::textHeight()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addText" id="_addText">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addText">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#785-841" title="Go to source code">addText</a>( <span>mixed <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Writes text</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Writes text</p>
+
+<p>Parameter array: 'x': int X-point of text 'y': int Y-point of text 'text':
+string The text to add 'alignment': array [optional] Alignment 'color': mixed
+[optional] The color of the text</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_addText">Image_Canvas::addText()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="image" id="_image">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_image">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#843-910" title="Go to source code">image</a>( <span>mixed <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Overlay image</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Overlay image</p>
+
+<p>Parameter array: 'x': int X-point of overlayed image 'y': int Y-point of
+overlayed image 'filename': string The filename of the image to overlay 'width':
+int [optional] The width of the overlayed image (resizing if possible) 'height':
+int [optional] The height of the overlayed image (resizing if possible)
+'alignment': array [optional] Alignment</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_image">Image_Canvas::image()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="show" id="_show">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_show">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#912-933" title="Go to source code">show</a>( <span>array <var>$param</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Output the result of the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Output the result of the canvas</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$param</var></dt>
+					<dd><code>array</code><br>$param Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_show">Image_Canvas::show()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="save" id="_save">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_save">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#935-956" title="Go to source code">save</a>( <span>array <var>$param</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Output the result of the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Output the result of the canvas</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$param</var></dt>
+					<dd><code>array</code><br>$param Parameter array</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_save">Image_Canvas::save()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="toHtml" id="_toHtml">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_toHtml">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#958-974" title="Go to source code">toHtml</a>( <span>mixed <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a canvas specific HTML tag.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a canvas specific HTML tag.</p>
+
+<p>This method implicitly saves the canvas to the filename in the filesystem
+path specified and parses it as URL specified by URL path</p>
+
+<p>Parameter array: 'filename': string 'filepath': string Path to the file on
+the file system. Remember the final slash 'urlpath': string Path to the file
+available through an URL. Remember the final slash 'title': string The url
+title</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Canvas.html#_toHtml">Image_Canvas::toHtml()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_version" id="__version">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__version">#</a>
+		<code><a href="source-class-Image_Canvas_PDF.html#976-1008" title="Go to source code">_version</a>( )</code>
+
+		<div class="description short">
+			
+<p>Check which major version of PDFlib is installed</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check which major version of PDFlib is installed</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The mahor version number of PDFlib<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Canvas.html#methods">Image_Canvas</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Canvas.html#_Image_Canvas">Image_Canvas()</a>, 
+			<a href="class-Image_Canvas.html#_addSpline">addSpline()</a>, 
+			<a href="class-Image_Canvas.html#_addVertex">addVertex()</a>, 
+			<a href="class-Image_Canvas.html#_drawEnd">drawEnd()</a>, 
+			<a href="class-Image_Canvas.html#_endGroup">endGroup()</a>, 
+			<a href="class-Image_Canvas.html#_factory">factory()</a>, 
+			<a href="class-Image_Canvas.html#_getHeight">getHeight()</a>, 
+			<a href="class-Image_Canvas.html#_getWidth">getWidth()</a>, 
+			<a href="class-Image_Canvas.html#_reset">reset()</a>, 
+			<a href="class-Image_Canvas.html#_setClipping">setClipping()</a>, 
+			<a href="class-Image_Canvas.html#_setDefaultFont">setDefaultFont()</a>, 
+			<a href="class-Image_Canvas.html#_setFill">setFill()</a>, 
+			<a href="class-Image_Canvas.html#_setFillColor">setFillColor()</a>, 
+			<a href="class-Image_Canvas.html#_setLineColor">setLineColor()</a>, 
+			<a href="class-Image_Canvas.html#_setLineThickness">setLineThickness()</a>, 
+			<a href="class-Image_Canvas.html#_startGroup">startGroup()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_pdf" id="$_pdf">
+		<td class="attributes"><code>
+			public  
+			resource
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Canvas_PDF.html#56-61" title="Go to source code"><var>$_pdf</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_pdf" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The PDF document</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The PDF document</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_pdflib" id="$_pdflib">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Canvas_PDF.html#63-68" title="Go to source code"><var>$_pdflib</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_pdflib" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The major version of PDFlib</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The major version of PDFlib</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_pdfFont" id="$_pdfFont">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Canvas_PDF.html#70-75" title="Go to source code"><var>$_pdfFont</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_pdfFont" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The font</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The font</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_pageWidth" id="$_pageWidth">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Canvas_PDF.html#77-82" title="Go to source code"><var>$_pageWidth</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_pageWidth" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The width of the page</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The width of the page</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_pageHeight" id="$_pageHeight">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Canvas_PDF.html#84-89" title="Go to source code"><var>$_pageHeight</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_pageHeight" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The height of the page</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The height of the page</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Canvas.html#properties">Image_Canvas</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Canvas.html#$_defaultFont"><var>$_defaultFont</var></a>, 
+			<a href="class-Image_Canvas.html#$_fillStyle"><var>$_fillStyle</var></a>, 
+			<a href="class-Image_Canvas.html#$_font"><var>$_font</var></a>, 
+			<a href="class-Image_Canvas.html#$_height"><var>$_height</var></a>, 
+			<a href="class-Image_Canvas.html#$_left"><var>$_left</var></a>, 
+			<a href="class-Image_Canvas.html#$_lineStyle"><var>$_lineStyle</var></a>, 
+			<a href="class-Image_Canvas.html#$_polygon"><var>$_polygon</var></a>, 
+			<a href="class-Image_Canvas.html#$_thickness"><var>$_thickness</var></a>, 
+			<a href="class-Image_Canvas.html#$_top"><var>$_top</var></a>, 
+			<a href="class-Image_Canvas.html#$_width"><var>$_width</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

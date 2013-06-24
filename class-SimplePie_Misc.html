@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class SimplePie_Misc | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-SimplePie.html">SimplePie</a></li>
+				<li><a href="class-SimplePie_Author.html">SimplePie_Author</a></li>
+				<li><a href="class-SimplePie_Cache.html">SimplePie_Cache</a></li>
+				<li><a href="class-SimplePie_Cache_DB.html">SimplePie_Cache_DB</a></li>
+				<li><a href="class-SimplePie_Cache_File.html">SimplePie_Cache_File</a></li>
+				<li><a href="class-SimplePie_Cache_MySQL.html">SimplePie_Cache_MySQL</a></li>
+				<li><a href="class-SimplePie_Caption.html">SimplePie_Caption</a></li>
+				<li><a href="class-SimplePie_Category.html">SimplePie_Category</a></li>
+				<li><a href="class-SimplePie_Content_Type_Sniffer.html">SimplePie_Content_Type_Sniffer</a></li>
+				<li><a href="class-SimplePie_Copyright.html">SimplePie_Copyright</a></li>
+				<li><a href="class-SimplePie_Credit.html">SimplePie_Credit</a></li>
+				<li><a href="class-SimplePie_Decode_HTML_Entities.html">SimplePie_Decode_HTML_Entities</a></li>
+				<li><a href="class-SimplePie_Enclosure.html">SimplePie_Enclosure</a></li>
+				<li><a href="class-SimplePie_File.html">SimplePie_File</a></li>
+				<li><a href="class-SimplePie_gzdecode.html">SimplePie_gzdecode</a></li>
+				<li><a href="class-SimplePie_HTTP_Parser.html">SimplePie_HTTP_Parser</a></li>
+				<li><a href="class-SimplePie_IRI.html">SimplePie_IRI</a></li>
+				<li><a href="class-SimplePie_Item.html">SimplePie_Item</a></li>
+				<li><a href="class-SimplePie_Locator.html">SimplePie_Locator</a></li>
+				<li class="active"><a href="class-SimplePie_Misc.html">SimplePie_Misc</a></li>
+				<li><a href="class-SimplePie_Net_IPv6.html">SimplePie_Net_IPv6</a></li>
+				<li><a href="class-SimplePie_Parse_Date.html">SimplePie_Parse_Date</a></li>
+				<li><a href="class-SimplePie_Parser.html">SimplePie_Parser</a></li>
+				<li><a href="class-SimplePie_Rating.html">SimplePie_Rating</a></li>
+				<li><a href="class-SimplePie_Restriction.html">SimplePie_Restriction</a></li>
+				<li><a href="class-SimplePie_Sanitize.html">SimplePie_Sanitize</a></li>
+				<li><a href="class-SimplePie_Source.html">SimplePie_Source</a></li>
+				<li><a href="class-SimplePie_XML_Declaration_Parser.html">SimplePie_XML_Declaration_Parser</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-SimplePie.html" title="Summary of SimplePie"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class SimplePie_Misc</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-SimplePie.html">SimplePie</a><br />
+
+				<b>Copyright:</b>
+				2004-2009 Ryan Parman, Geoffrey Sneddon<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/bsd-license.php">BSD License</a><br />
+				<b>Author:</b>
+				Ryan Parman<br />
+				<b>Author:</b>
+				Geoffrey Sneddon<br />
+		<b>Located at</b> <a href="source-class-SimplePie_Misc.html#9071-11362" title="Go to source code">app/vendors/simplepie/simplepie.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="time_hms" id="_time_hms">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_time_hms">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9073-9099" title="Go to source code">time_hms</a>( <span>mixed <var>$seconds</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="absolutize_url" id="_absolutize_url">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_absolutize_url">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9101-9105" title="Go to source code">absolutize_url</a>( <span>mixed <var>$relative</var></span>, <span>mixed <var>$base</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="remove_dot_segments" id="_remove_dot_segments">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_remove_dot_segments">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9107-9159" title="Go to source code">remove_dot_segments</a>( <span>mixed <var>$input</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_element" id="_get_element">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_element">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9161-9196" title="Go to source code">get_element</a>( <span>mixed <var>$realname</var></span>, <span>mixed <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="element_implode" id="_element_implode">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_element_implode">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9198-9215" title="Go to source code">element_implode</a>( <span>mixed <var>$element</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="_error">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_error">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9217-9239" title="Go to source code">error</a>( <span>mixed <var>$message</var></span>, <span>mixed <var>$level</var></span>, <span>mixed <var>$file</var></span>, <span>mixed <var>$line</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="display_cached_file" id="_display_cached_file">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_display_cached_file">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9241-9283" title="Go to source code">display_cached_file</a>( <span>str <var>$identifier_url</var></span>, <span>str <var>$cache_location</var> = <span class="php-quote">'./cache'</span></span>, <span>str <var>$cache_extension</var> = <span class="php-quote">'spc'</span></span>, <span>str <var>$cache_class</var> = <span class="php-quote">'SimplePie_Cache'</span></span>, <span>str <var>$cache_name_function</var> = <span class="php-quote">'md5'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>If a file has been cached, retrieve and display it.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>If a file has been cached, retrieve and display it.</p>
+
+<p>This is most useful for caching images (get_favicon(), etc.), however it
+works for all cached files. This WILL NOT display ANY file/image/page/whatever,
+but rather only display what has already been cached by SimplePie.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$identifier_url</var></dt>
+					<dd><code>str</code><br>$identifier_url URL that is used to identify the content. This may or may not be
+the actual URL of the live content.</dd>
+					<dt><var>$cache_location</var></dt>
+					<dd><code>str</code><br>$cache_location Location of SimplePie's cache. Defaults to './cache'.</dd>
+					<dt><var>$cache_extension</var></dt>
+					<dd><code>str</code><br>$cache_extension The file extension that the file was cached with. Defaults to
+'spc'.</dd>
+					<dt><var>$cache_class</var></dt>
+					<dd><code>str</code><br>$cache_class Name of the cache-handling class being used in SimplePie. Defaults
+to 'SimplePie_Cache', and should be left as-is unless you've overloaded the
+class.</dd>
+					<dt><var>$cache_name_function</var></dt>
+					<dd><code>str</code><br>$cache_name_function Obsolete. Exists for backwards compatibility reasons only.</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-SimplePie.html#_get_favicon">SimplePie::get_favicon()</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fix_protocol" id="_fix_protocol">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fix_protocol">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9285-9315" title="Go to source code">fix_protocol</a>( <span>mixed <var>$url</var></span>, <span>mixed <var>$http</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parse_url" id="_parse_url">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parse_url">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9317-9327" title="Go to source code">parse_url</a>( <span>mixed <var>$url</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="compress_parse_url" id="_compress_parse_url">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_compress_parse_url">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9329-9338" title="Go to source code">compress_parse_url</a>( <span>mixed <var>$scheme</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$authority</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$path</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$query</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$fragment</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="normalize_url" id="_normalize_url">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_normalize_url">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9340-9344" title="Go to source code">normalize_url</a>( <span>mixed <var>$url</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="percent_encoding_normalization" id="_percent_encoding_normalization">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_percent_encoding_normalization">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9346-9357" title="Go to source code">percent_encoding_normalization</a>( <span>mixed <var>$match</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="utf8_bad_replace" id="_utf8_bad_replace">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_utf8_bad_replace">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9359-9392" title="Go to source code">utf8_bad_replace</a>( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Remove bad UTF-8 bytes</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove bad UTF-8 bytes</p>
+
+<p>PCRE Pattern to locate bad bytes in a UTF-8 string comes from W3C FAQ:
+Multilingual Forms (modified to include full ASCII range)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code><br>$str String to remove bad UTF-8 bytes from</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>UTF-8 string<br />
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Geoffrey Sneddon<br />
+				</div>
+				<h4>See</h4>
+				<div class="list">
+						<a
+href="http://www.w3.org/International/questions/qa-forms-utf-8">http://www.w3.org/International/questions/qa-forms-utf-8</a><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="windows_1252_to_utf8" id="_windows_1252_to_utf8">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_windows_1252_to_utf8">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9394-9407" title="Go to source code">windows_1252_to_utf8</a>( <span>string <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Converts a Windows-1252 encoded string to a UTF-8 encoded string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Converts a Windows-1252 encoded string to a UTF-8 encoded string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string Windows-1252 encoded string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>UTF-8 encoded string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="change_encoding" id="_change_encoding">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_change_encoding">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9409-9448" title="Go to source code">change_encoding</a>( <span>mixed <var>$data</var></span>, <span>mixed <var>$input</var></span>, <span>mixed <var>$output</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="encoding" id="_encoding">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_encoding">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#9450-10764" title="Go to source code">encoding</a>( <span>mixed <var>$charset</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_curl_version" id="_get_curl_version">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_curl_version">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#10766-10785" title="Go to source code">get_curl_version</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_subclass_of" id="_is_subclass_of">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_subclass_of">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#10787-10819" title="Go to source code">is_subclass_of</a>( <span>mixed <var>$class1</var></span>, <span>mixed <var>$class2</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="strip_comments" id="_strip_comments">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_strip_comments">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#10821-10844" title="Go to source code">strip_comments</a>( <span>string <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Strip HTML comments</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Strip HTML comments</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code><br>$data Data to strip comments from</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Comment stripped string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parse_date" id="_parse_date">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parse_date">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#10846-10850" title="Go to source code">parse_date</a>( <span>mixed <var>$dt</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="entities_decode" id="_entities_decode">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_entities_decode">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#10852-10864" title="Go to source code">entities_decode</a>( <span>string <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Decode HTML entities</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Decode HTML entities</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code><br>$data Input data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Output data<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="uncomment_rfc822" id="_uncomment_rfc822">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_uncomment_rfc822">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#10866-10925" title="Go to source code">uncomment_rfc822</a>( <span>string <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Remove RFC822 comments</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove RFC822 comments</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$data Data to strip comments from</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Comment stripped string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parse_mime" id="_parse_mime">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parse_mime">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#10927-10937" title="Go to source code">parse_mime</a>( <span>mixed <var>$mime</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="htmlspecialchars_decode" id="_htmlspecialchars_decode">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_htmlspecialchars_decode">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#10939-10949" title="Go to source code">htmlspecialchars_decode</a>( <span>mixed <var>$string</var></span>, <span>mixed <var>$quote_style</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="atom_03_construct_type" id="_atom_03_construct_type">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_atom_03_construct_type">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#10951-10985" title="Go to source code">atom_03_construct_type</a>( <span>mixed <var>$attribs</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="atom_10_construct_type" id="_atom_10_construct_type">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_atom_10_construct_type">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#10987-11007" title="Go to source code">atom_10_construct_type</a>( <span>mixed <var>$attribs</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="atom_10_content_construct_type" id="_atom_10_content_construct_type">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_atom_10_content_construct_type">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#11009-11038" title="Go to source code">atom_10_content_construct_type</a>( <span>mixed <var>$attribs</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_isegment_nz_nc" id="_is_isegment_nz_nc">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_isegment_nz_nc">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#11040-11043" title="Go to source code">is_isegment_nz_nc</a>( <span>mixed <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="space_seperated_tokens" id="_space_seperated_tokens">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_space_seperated_tokens">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#11045-11062" title="Go to source code">space_seperated_tokens</a>( <span>mixed <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="array_unique" id="_array_unique">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_array_unique">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#11064-11104" title="Go to source code">array_unique</a>( <span>mixed <var>$array</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="codepoint_to_utf8" id="_codepoint_to_utf8">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_codepoint_to_utf8">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#11106-11142" title="Go to source code">codepoint_to_utf8</a>( <span>integer <var>$codepoint</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Converts a unicode codepoint to a UTF-8 character</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Converts a unicode codepoint to a UTF-8 character</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$codepoint</var></dt>
+					<dd><code>integer</code><br>$codepoint Unicode codepoint</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>UTF-8 character<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="stripos" id="_stripos">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_stripos">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#11144-11185" title="Go to source code">stripos</a>( <span>object <var>$haystack</var></span>, <span>string <var>$needle</var></span>, <span>integer <var>$offset</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Re-implementation of PHP 5's stripos()</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Re-implementation of PHP 5's stripos()</p>
+
+<p>Returns the numeric position of the first occurrence of needle in the
+haystack string.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$haystack</var></dt>
+					<dd><code>object</code><br>$haystack</dd>
+					<dt><var>$needle</var></dt>
+					<dd><code>string</code><br>$needle Note that the needle may be a string of one or more characters. If
+needle is not a string, it is converted to an integer and applied as the ordinal
+value of a character.</dd>
+					<dt><var>$offset</var></dt>
+					<dd><code>integer</code><br>$offset The optional offset parameter allows you to specify which character in
+haystack to start searching. The position returned is still relative to the
+beginning of haystack.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>If needle is not found, stripos() will return boolean false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parse_str" id="_parse_str">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parse_str">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#11187-11217" title="Go to source code">parse_str</a>( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Similar to parse_str()</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Similar to parse_str()</p>
+
+<p>Returns an associative array of name/value pairs, where the value is an array
+of values that have used the same name</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code><br>$str The input string.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="xml_encoding" id="_xml_encoding">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_xml_encoding">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#11219-11324" title="Go to source code">xml_encoding</a>( <span>string <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Detect XML encoding, as per XML 1.0 Appendix F.1</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Detect XML encoding, as per XML 1.0 Appendix F.1</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code><br>$data XML data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Possible encodings<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="output_javascript" id="_output_javascript">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_output_javascript">#</a>
+		<code><a href="source-class-SimplePie_Misc.html#11326-11361" title="Go to source code">output_javascript</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1777 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class SimpleMock | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AnythingExpectation.html">AnythingExpectation</a></li>
+				<li><a href="class-CallCountExpectation.html">CallCountExpectation</a></li>
+				<li><a href="class-FailedExpectation.html">FailedExpectation</a></li>
+				<li><a href="class-FalseExpectation.html">FalseExpectation</a></li>
+				<li><a href="class-MaximumCallCountExpectation.html">MaximumCallCountExpectation</a></li>
+				<li><a href="class-MinimumCallCountExpectation.html">MinimumCallCountExpectation</a></li>
+				<li><a href="class-Mock.html">Mock</a></li>
+				<li><a href="class-MockGenerator.html">MockGenerator</a></li>
+				<li><a href="class-MockWithInjectedTestCase.html">MockWithInjectedTestCase</a></li>
+				<li><a href="class-ParametersExpectation.html">ParametersExpectation</a></li>
+				<li><a href="class-SimpleByReference.html">SimpleByReference</a></li>
+				<li><a href="class-SimpleByValue.html">SimpleByValue</a></li>
+				<li><a href="class-SimpleCallSchedule.html">SimpleCallSchedule</a></li>
+				<li><a href="class-SimpleErrorThrower.html">SimpleErrorThrower</a></li>
+				<li class="active"><a href="class-SimpleMock.html">SimpleMock</a></li>
+				<li><a href="class-SimpleSignatureMap.html">SimpleSignatureMap</a></li>
+				<li><a href="class-SimpleThrower.html">SimpleThrower</a></li>
+				<li><a href="class-TrueExpectation.html">TrueExpectation</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-SimpleTest.MockObjects.html" title="Summary of SimpleTest\MockObjects"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class SimpleMock</h1>
+
+
+	<div class="description">
+	
+<p>A base class or delegate that extends an empty collection of methods that can
+have their return values set and expectations made of the calls upon them. The
+mock will assert the expectations against it's attached test case in addition to
+the server stub behaviour or returning preprogrammed responses.</p>
+
+	</div>
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-MockWithInjectedTestCase.html">MockWithInjectedTestCase</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-SimpleTest.html">SimpleTest</a>\<a href="package-SimpleTest.MockObjects.html">MockObjects</a><br />
+
+		<b>Located at</b> <a href="source-class-SimpleMock.html#628-1108" title="Go to source code">app/vendors/simpletest/mock_objects.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="SimpleMock" id="_SimpleMock">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_SimpleMock">#</a>
+		<code><a href="source-class-SimpleMock.html#649-664" title="Go to source code">SimpleMock</a>( )</code>
+
+		<div class="description short">
+			
+<p>Creates an empty action list and expectation list.<br />
+All call counts are set to zero.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates an empty action list and expectation list. All call counts are set to
+zero.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="disableExpectationNameChecks" id="_disableExpectationNameChecks">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_disableExpectationNameChecks">#</a>
+		<code><a href="source-class-SimpleMock.html#666-673" title="Go to source code">disableExpectationNameChecks</a>( )</code>
+
+		<div class="description short">
+			
+<p>Disables a name check when setting expectations.<br />
+This hack is needed for the partial mocks.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Disables a name check when setting expectations. This hack is needed for the
+partial mocks.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getCurrentTestCase" id="__getCurrentTestCase">
+
+		<td class="attributes"><code>
+			 public 
+			SimpeTestCase
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getCurrentTestCase">#</a>
+		<code><a href="source-class-SimpleMock.html#675-683" title="Go to source code">_getCurrentTestCase</a>( )</code>
+
+		<div class="description short">
+			
+<p>Finds currently running test.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Finds currently running test.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>SimpeTestCase</code><br>Current test case.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_checkArgumentsIsArray" id="__checkArgumentsIsArray">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__checkArgumentsIsArray">#</a>
+		<code><a href="source-class-SimpleMock.html#685-698" title="Go to source code">_checkArgumentsIsArray</a>( <span>mixed <var>$args</var></span>, <span>string <var>$task</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Die if bad arguments array is passed.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Die if bad arguments array is passed.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$args</var></dt>
+					<dd><code>mixed</code><br>$args The arguments value to be checked.</dd>
+					<dt><var>$task</var></dt>
+					<dd><code>string</code><br>$task Description of task attempt.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Valid arguments<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_dieOnNoMethod" id="__dieOnNoMethod">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__dieOnNoMethod">#</a>
+		<code><a href="source-class-SimpleMock.html#700-713" title="Go to source code">_dieOnNoMethod</a>( <span>string <var>$method</var></span>, <span>string <var>$task</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Triggers a PHP error if the method is not part<br />
+of this object.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Triggers a PHP error if the method is not part of this object.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Name of method.</dd>
+					<dt><var>$task</var></dt>
+					<dd><code>string</code><br>$task Description of task attempt.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_replaceWildcards" id="__replaceWildcards">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__replaceWildcards">#</a>
+		<code><a href="source-class-SimpleMock.html#715-733" title="Go to source code">_replaceWildcards</a>( <span>array <var>$args</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replaces wildcard matches with wildcard<br />
+expectations in the argument list.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replaces wildcard matches with wildcard expectations in the argument
+list.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args Raw argument list.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Argument list with expectations.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_addCall" id="__addCall">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__addCall">#</a>
+		<code><a href="source-class-SimpleMock.html#735-746" title="Go to source code">_addCall</a>( <span>string <var>$method</var></span>, <span>array <var>$args</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Adds one to the call count of a method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds one to the call count of a method.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method called.</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args Arguments as an array.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCallCount" id="_getCallCount">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCallCount">#</a>
+		<code><a href="source-class-SimpleMock.html#748-761" title="Go to source code">getCallCount</a>( <span>string <var>$method</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetches the call count of a method so far.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches the call count of a method so far.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method name called.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Number of calls so far.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setReturnValue" id="_setReturnValue">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setReturnValue">#</a>
+		<code><a href="source-class-SimpleMock.html#763-775" title="Go to source code">setReturnValue</a>( <span>string <var>$method</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$args</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets a return for a parameter list that will<br />
+be passed by value for all calls to this method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets a return for a parameter list that will be passed by value for all calls
+to this method.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method name.</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value Result of call passed by value.</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args List of parameters to match including wildcards.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setReturnValueAt" id="_setReturnValueAt">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setReturnValueAt">#</a>
+		<code><a href="source-class-SimpleMock.html#777-794" title="Go to source code">setReturnValueAt</a>( <span>integer <var>$timing</var></span>, <span>string <var>$method</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$args</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets a return for a parameter list that will<br />
+be passed by value only when the required call count<br />
+is reached.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets a return for a parameter list that will be passed by value only when the
+required call count is reached.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$timing</var></dt>
+					<dd><code>integer</code><br>$timing Number of calls in the future to which the result applies. If not set
+then all calls will return the value.</dd>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method name.</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value Result of call passed by value.</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args List of parameters to match including wildcards.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setReturnReference" id="_setReturnReference">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setReturnReference">#</a>
+		<code><a href="source-class-SimpleMock.html#796-808" title="Go to source code">setReturnReference</a>( <span>string <var>$method</var></span>, <span>mixed <var>&amp; $reference</var></span>, <span>array <var>$args</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets a return for a parameter list that will<br />
+be passed by reference for all calls.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets a return for a parameter list that will be passed by reference for all
+calls.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method name.</dd>
+					<dt><var>$reference</var></dt>
+					<dd><code>mixed</code><br>$reference Result of the call will be this object.</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args List of parameters to match including wildcards.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setReturnReferenceAt" id="_setReturnReferenceAt">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setReturnReferenceAt">#</a>
+		<code><a href="source-class-SimpleMock.html#810-827" title="Go to source code">setReturnReferenceAt</a>( <span>integer <var>$timing</var></span>, <span>string <var>$method</var></span>, <span>mixed <var>&amp; $reference</var></span>, <span>array <var>$args</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets a return for a parameter list that will<br />
+be passed by value only when the required call count<br />
+is reached.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets a return for a parameter list that will be passed by value only when the
+required call count is reached.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$timing</var></dt>
+					<dd><code>integer</code><br>$timing Number of calls in the future to which the result applies. If not set
+then all calls will return the value.</dd>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method name.</dd>
+					<dt><var>$reference</var></dt>
+					<dd><code>mixed</code><br>$reference Result of the call will be this object.</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args List of parameters to match including wildcards.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="expect" id="_expect">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_expect">#</a>
+		<code><a href="source-class-SimpleMock.html#829-848" title="Go to source code">expect</a>( <span>string <var>$method</var></span>, <span>array <var>$args</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets up an expected call with a set of<br />
+expected parameters in that call. All<br />
+calls will be compared to these expectations<br />
+regardless of when the call is made.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets up an expected call with a set of expected parameters in that call. All
+calls will be compared to these expectations regardless of when the call is
+made.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method call to test.</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args Expected parameters for the call including wildcards.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Overridden message.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="expectAt" id="_expectAt">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_expectAt">#</a>
+		<code><a href="source-class-SimpleMock.html#857-881" title="Go to source code">expectAt</a>( <span>integer <var>$timing</var></span>, <span>string <var>$method</var></span>, <span>array <var>$args</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets up an expected call with a set of<br />
+expected parameters in that call. The<br />
+expected call count will be adjusted if it<br />
+is set too low to reach this call.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets up an expected call with a set of expected parameters in that call. The
+expected call count will be adjusted if it is set too low to reach this
+call.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$timing</var></dt>
+					<dd><code>integer</code><br>$timing Number of calls in the future at which to test. Next call is 0.</dd>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method call to test.</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args Expected parameters for the call including wildcards.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Overridden message.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="expectCallCount" id="_expectCallCount">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_expectCallCount">#</a>
+		<code><a href="source-class-SimpleMock.html#890-905" title="Go to source code">expectCallCount</a>( <span>string <var>$method</var></span>, <span>integer <var>$count</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets an expectation for the number of times<br />
+a method will be called. The tally method<br />
+is used to check this.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets an expectation for the number of times a method will be called. The
+tally method is used to check this.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method call to test.</dd>
+					<dt><var>$count</var></dt>
+					<dd><code>integer</code><br>$count Number of times it should have been called at tally.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Overridden message.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="expectMaximumCallCount" id="_expectMaximumCallCount">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_expectMaximumCallCount">#</a>
+		<code><a href="source-class-SimpleMock.html#907-921" title="Go to source code">expectMaximumCallCount</a>( <span>string <var>$method</var></span>, <span>integer <var>$count</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the number of times a method may be called<br />
+before a test failure is triggered.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the number of times a method may be called before a test failure is
+triggered.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method call to test.</dd>
+					<dt><var>$count</var></dt>
+					<dd><code>integer</code><br>$count Most number of times it should have been called.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Overridden message.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="expectMinimumCallCount" id="_expectMinimumCallCount">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_expectMinimumCallCount">#</a>
+		<code><a href="source-class-SimpleMock.html#923-937" title="Go to source code">expectMinimumCallCount</a>( <span>string <var>$method</var></span>, <span>integer <var>$count</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the number of times to call a method to prevent<br />
+a failure on the tally.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the number of times to call a method to prevent a failure on the
+tally.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method call to test.</dd>
+					<dt><var>$count</var></dt>
+					<dd><code>integer</code><br>$count Least number of times it should have been called.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Overridden message.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="expectNever" id="_expectNever">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_expectNever">#</a>
+		<code><a href="source-class-SimpleMock.html#939-948" title="Go to source code">expectNever</a>( <span>string <var>$method</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Convenience method for barring a method<br />
+call.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Convenience method for barring a method call.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method call to ban.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Overridden message.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="expectOnce" id="_expectOnce">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_expectOnce">#</a>
+		<code><a href="source-class-SimpleMock.html#950-964" title="Go to source code">expectOnce</a>( <span>string <var>$method</var></span>, <span>array <var>$args</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Convenience method for a single method<br />
+call.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Convenience method for a single method call.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method call to track.</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args Expected argument list or false for any arguments.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Overridden message.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="expectAtLeastOnce" id="_expectAtLeastOnce">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_expectAtLeastOnce">#</a>
+		<code><a href="source-class-SimpleMock.html#966-980" title="Go to source code">expectAtLeastOnce</a>( <span>string <var>$method</var></span>, <span>array <var>$args</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Convenience method for requiring a method<br />
+call.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Convenience method for requiring a method call.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method call to track.</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args Expected argument list or false for any arguments.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Overridden message.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="throwOn" id="_throwOn">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_throwOn">#</a>
+		<code><a href="source-class-SimpleMock.html#982-991" title="Go to source code">throwOn</a>( <span>string <var>$method</var></span>, <span>mixed <var>$exception</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$args</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets up a trigger to throw an exception upon the<br />
+method call.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets up a trigger to throw an exception upon the method call.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method name to throw on.</dd>
+					<dt><var>$exception</var></dt>
+					<dd></dd>
+					<dt><var>$args</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="throwAt" id="_throwAt">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_throwAt">#</a>
+		<code><a href="source-class-SimpleMock.html#993-1001" title="Go to source code">throwAt</a>( <span>mixed <var>$timing</var></span>, <span>mixed <var>$method</var></span>, <span>mixed <var>$exception</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$args</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets up a trigger to throw an exception upon the<br />
+method call.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets up a trigger to throw an exception upon the method call.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="errorOn" id="_errorOn">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_errorOn">#</a>
+		<code><a href="source-class-SimpleMock.html#1003-1010" title="Go to source code">errorOn</a>( <span>mixed <var>$method</var></span>, <span>mixed <var>$error</var> = <span class="php-quote">'A mock error'</span></span>, <span>mixed <var>$args</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$severity</var> = E_USER_ERROR</span> )</code>
+
+		<div class="description short">
+			
+<p>Sets up a trigger to throw an error upon the<br />
+method call.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets up a trigger to throw an error upon the method call.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="errorAt" id="_errorAt">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_errorAt">#</a>
+		<code><a href="source-class-SimpleMock.html#1012-1019" title="Go to source code">errorAt</a>( <span>mixed <var>$timing</var></span>, <span>mixed <var>$method</var></span>, <span>mixed <var>$error</var> = <span class="php-quote">'A mock error'</span></span>, <span>mixed <var>$args</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$severity</var> = E_USER_ERROR</span> )</code>
+
+		<div class="description short">
+			
+<p>Sets up a trigger to throw an error upon the<br />
+method call.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets up a trigger to throw an error upon the method call.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="atTestEnd" id="_atTestEnd">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_atTestEnd">#</a>
+		<code><a href="source-class-SimpleMock.html#1027-1045" title="Go to source code">atTestEnd</a>( <span>string <var>$test_method</var></span>, <span><code><a href="class-SimpleTestCase.html">SimpleTestCase</a></code> <var>&amp; $test</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Receives event from unit test that the current<br />
+test method has finished. Totals up the call<br />
+counts and triggers a test assertion if a test<br />
+is present for expected call counts.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Receives event from unit test that the current test method has finished.
+Totals up the call counts and triggers a test assertion if a test is present for
+expected call counts.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$test_method</var></dt>
+					<dd><code>string</code><br>$test_method Current method name.</dd>
+					<dt><var>$test</var></dt>
+					<dd><code><code><a href="class-SimpleTestCase.html">SimpleTestCase</a></code></code><br>$test Test to send message to.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_invoke" id="__invoke">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__invoke">#</a>
+		<code><a href="source-class-SimpleMock.html#1047-1064" title="Go to source code">_invoke</a>( <span>string <var>$method</var></span>, <span>array <var>$args</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns the expected value for the method name<br />
+and checks expectations. Will generate any<br />
+test assertions as a result of expectations<br />
+if there is a test present.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the expected value for the method name and checks expectations. Will
+generate any test assertions as a result of expectations if there is a test
+present.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Name of method to simulate.</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args Arguments as an array.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Stored return.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_emulateCall" id="__emulateCall">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__emulateCall">#</a>
+		<code><a href="source-class-SimpleMock.html#1066-1079" title="Go to source code">_emulateCall</a>( <span>string <var>$method</var></span>, <span>array <var>$args</var></span>, <span>integer <var>$step</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Finds the return value matching the incoming<br />
+arguments. If there is no matching value found<br />
+then an error is triggered.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Finds the return value matching the incoming arguments. If there is no
+matching value found then an error is triggered.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method name.</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args Calling arguments.</dd>
+					<dt><var>$step</var></dt>
+					<dd><code>integer</code><br>$step Current position in the call history.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Stored return or other action.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_checkExpectations" id="__checkExpectations">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__checkExpectations">#</a>
+		<code><a href="source-class-SimpleMock.html#1081-1107" title="Go to source code">_checkExpectations</a>( <span>string <var>$method</var></span>, <span>array <var>$args</var></span>, <span>integer <var>$timing</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Tests the arguments against expectations.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests the arguments against expectations.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method to check.</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args Argument list to match.</dd>
+					<dt><var>$timing</var></dt>
+					<dd><code>integer</code><br>$timing The position of this call in the call history.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_actions" id="$_actions">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleMock.html#640" title="Go to source code"><var>$_actions</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_actions" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_wildcard" id="$_wildcard">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleMock.html#641" title="Go to source code"><var>$_wildcard</var></a>
+		</td>
+		<td class="value"><code>MOCK_ANYTHING</code></td>
+		<td class="description"><div>
+			<a href="#$_wildcard" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_is_strict" id="$_is_strict">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleMock.html#642" title="Go to source code"><var>$_is_strict</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$_is_strict" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_call_counts" id="$_call_counts">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleMock.html#643" title="Go to source code"><var>$_call_counts</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_call_counts" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_expected_counts" id="$_expected_counts">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleMock.html#644" title="Go to source code"><var>$_expected_counts</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_expected_counts" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_max_counts" id="$_max_counts">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleMock.html#645" title="Go to source code"><var>$_max_counts</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_max_counts" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_expected_args" id="$_expected_args">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleMock.html#646" title="Go to source code"><var>$_expected_args</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_expected_args" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_expected_args_at" id="$_expected_args_at">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleMock.html#647" title="Go to source code"><var>$_expected_args_at</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_expected_args_at" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

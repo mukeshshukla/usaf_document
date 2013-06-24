@@ -1,0 +1,1618 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Image_Graph_Dataset | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li class="active"><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li class="active"><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li class="active"><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Image_Graph_Dataset.html">Image_Graph_Dataset</a></li>
+				<li><a href="class-Image_Graph_Dataset_Function.html">Image_Graph_Dataset_Function</a></li>
+				<li><a href="class-Image_Graph_Dataset_Random.html">Image_Graph_Dataset_Random</a></li>
+				<li><a href="class-Image_Graph_Dataset_Sequential.html">Image_Graph_Dataset_Sequential</a></li>
+				<li><a href="class-Image_Graph_Dataset_Trivial.html">Image_Graph_Dataset_Trivial</a></li>
+				<li><a href="class-Image_Graph_Dataset_VectorFunction.html">Image_Graph_Dataset_VectorFunction</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Image.Graph.Dataset.html" title="Summary of Image\Graph\Dataset"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Image_Graph_Dataset</h1>
+
+
+	<div class="description">
+	
+<p>Data set used to represent a data collection to plot in a chart</p>
+
+	</div>
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Image_Graph_Dataset_Function.html">Image_Graph_Dataset_Function</a>, 
+			<a href="class-Image_Graph_Dataset_Trivial.html">Image_Graph_Dataset_Trivial</a>, 
+			<a href="class-Image_Graph_Dataset_VectorFunction.html">Image_Graph_Dataset_VectorFunction</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-Image_Graph_Dataset_Random.html">Image_Graph_Dataset_Random</a>, 
+			<a href="class-Image_Graph_Dataset_Sequential.html">Image_Graph_Dataset_Sequential</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Image.html">Image</a>\<a href="package-Image.Graph.html">Graph</a>\<a href="package-Image.Graph.Dataset.html">Dataset</a><br />
+
+				<b>Category:</b>
+				Images<br />
+				<b>Copyright:</b>
+				Copyright (C) 2003, 2004 Jesper Veggerby Hansen<br />
+				<b>License:</b>
+				<a href="http://www.gnu.org/copyleft/lesser.html">LGPL License 2.1</a><br />
+				<b>Author:</b>
+				Jesper Veggerby &lt;<a
+href="mailto:pear.nosey&#64;veggerby.dk">pear.nosey&#64;<!---->veggerby.dk</a>&gt;<br />
+				<b>Version:</b>
+				Release: @package_version@<br />
+				<b>Link:</b>
+				<a href="http://pear.php.net/package/Image_Graph">http://pear.php.net/package/Image_Graph</a><br />
+		<b>Located at</b> <a href="source-class-Image_Graph_Dataset.html#32-482" title="Go to source code">app/vendors/Image/Graph/Dataset.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="Image_Graph_Dataset" id="_Image_Graph_Dataset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_Image_Graph_Dataset">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#97-102" title="Go to source code">Image_Graph_Dataset</a>( )</code>
+
+		<div class="description short">
+			
+<p>Image_Graph_Dataset [Constructor]</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Image_Graph_Dataset [Constructor]</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setName" id="_setName">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setName">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#104-112" title="Go to source code">setName</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the name of the data set, used for legending</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the name of the data set, used for legending</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name The name of the dataset</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addPoint" id="_addPoint">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addPoint">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#114-162" title="Go to source code">addPoint</a>( <span>integer <var>$x</var></span>, <span>integer <var>$y</var> = <span class="php-keyword1">false</span></span>, <span>var <var>$ID</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a point to the dataset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a point to the dataset</p>
+
+<p>$ID can contain either the ID of the point, i.e. 'DK', 123, 'George', etc. or
+it can contain values used for creation of the HTML image map. This is achieved
+using is an an associated array with the following values:</p>
+
+<p>'url' The URL to create the link to</p>
+
+<p>'alt' [optional] The alt text on the link</p>
+
+<p>'target' [optional] The target of the link</p>
+
+<p>'htmltags' [optional] An associated array with html tags (tag as key), fx.
+'onMouseOver' =&gt; 'history.go(-1);', 'id' =&gt; 'thelink'</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x</var></dt>
+					<dd><code>integer</code><br>$x The X value to add</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>integer</code><br>$y The Y value to add, can be omited</dd>
+					<dt><var>$ID</var></dt>
+					<dd><code>var</code><br>$ID The ID of the point</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="count" id="_count">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_count">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#164-172" title="Go to source code">count</a>( )</code>
+
+		<div class="description short">
+			
+<p>The number of values in the dataset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The number of values in the dataset</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The number of values in the dataset<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getPointX" id="__getPointX">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getPointX">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#174-185" title="Go to source code">_getPointX</a>( <span>var <var>$x</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets a X point from the dataset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets a X point from the dataset</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x</var></dt>
+					<dd><code>var</code><br>$x The variable to return an X value from, fx in a vector function data set</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The X value of the variable<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getPointY" id="__getPointY">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getPointY">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#187-198" title="Go to source code">_getPointY</a>( <span>var <var>$x</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets a Y point from the dataset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets a Y point from the dataset</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x</var></dt>
+					<dd><code>var</code><br>$x The variable to return an Y value from, fx in a vector function data set</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The Y value of the variable<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getPointID" id="__getPointID">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getPointID">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#200-211" title="Go to source code">_getPointID</a>( <span>var <var>$x</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets a ID from the dataset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets a ID from the dataset</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x</var></dt>
+					<dd><code>var</code><br>$x The variable to return an Y value from, fx in a vector function data set</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The ID value of the variable<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getPointData" id="__getPointData">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getPointData">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#213-224" title="Go to source code">_getPointData</a>( <span>var <var>$x</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets point data from the dataset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets point data from the dataset</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x</var></dt>
+					<dd><code>var</code><br>$x The variable to return an Y value from, fx in a vector function data set</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>The data for the point<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="minimumX" id="_minimumX">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_minimumX">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#226-234" title="Go to source code">minimumX</a>( )</code>
+
+		<div class="description short">
+			
+<p>The minimum X value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The minimum X value</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The minimum X value<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="maximumX" id="_maximumX">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_maximumX">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#236-244" title="Go to source code">maximumX</a>( )</code>
+
+		<div class="description short">
+			
+<p>The maximum X value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The maximum X value</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The maximum X value<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="minimumY" id="_minimumY">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_minimumY">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#246-254" title="Go to source code">minimumY</a>( )</code>
+
+		<div class="description short">
+			
+<p>The minimum Y value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The minimum Y value</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The minimum Y value<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="maximumY" id="_maximumY">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_maximumY">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#256-264" title="Go to source code">maximumY</a>( )</code>
+
+		<div class="description short">
+			
+<p>The maximum Y value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The maximum Y value</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The maximum Y value<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="first" id="_first">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_first">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#266-274" title="Go to source code">first</a>( )</code>
+
+		<div class="description short">
+			
+<p>The first point</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The first point</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>The last point<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="last" id="_last">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_last">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#276-284" title="Go to source code">last</a>( )</code>
+
+		<div class="description short">
+			
+<p>The last point</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The last point</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>The first point<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setMinimumX" id="__setMinimumX">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setMinimumX">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#286-295" title="Go to source code">_setMinimumX</a>( <span>var <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>The minimum X value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The minimum X value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>var</code><br>$value The minimum X value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setMaximumX" id="__setMaximumX">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setMaximumX">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#297-306" title="Go to source code">_setMaximumX</a>( <span>var <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>The maximum X value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The maximum X value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>var</code><br>$value The maximum X value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setMinimumY" id="__setMinimumY">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setMinimumY">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#308-317" title="Go to source code">_setMinimumY</a>( <span>var <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>The minimum Y value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The minimum Y value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>var</code><br>$value The minimum X value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_setMaximumY" id="__setMaximumY">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__setMaximumY">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#319-328" title="Go to source code">_setMaximumY</a>( <span>var <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>The maximum Y value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The maximum Y value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>var</code><br>$value The maximum X value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_stepX" id="__stepX">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__stepX">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#330-339" title="Go to source code">_stepX</a>( )</code>
+
+		<div class="description short">
+			
+<p>The interval between 2 adjacent X values</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The interval between 2 adjacent X values</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The interval<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_stepY" id="__stepY">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__stepY">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#341-350" title="Go to source code">_stepY</a>( )</code>
+
+		<div class="description short">
+			
+<p>The interval between 2 adjacent Y values</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The interval between 2 adjacent Y values</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The interval<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_reset" id="__reset">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__reset">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#352-362" title="Go to source code">_reset</a>( )</code>
+
+		<div class="description short">
+			
+<p>Reset the intertal dataset pointer</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Reset the intertal dataset pointer</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The first X value<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_nearby" id="__nearby">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__nearby">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#364-383" title="Go to source code">_nearby</a>( <span>integer <var>$step</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a point close to the internal pointer</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a point close to the internal pointer</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$step</var></dt>
+					<dd><code>integer</code><br>Step Number of points next to the internal pointer, negative Step is towards
+lower X values, positive towards higher X values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>The point<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_next" id="__next">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__next">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#385-404" title="Go to source code">_next</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the next point the internal pointer refers to and advance the pointer</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the next point the internal pointer refers to and advance the pointer</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>The next point<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_averageY" id="__averageY">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__averageY">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#406-428" title="Go to source code">_averageY</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the average of the dataset's Y points</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the average of the dataset's Y points</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The Y-average across the dataset<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_median" id="__median">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__median">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#430-462" title="Go to source code">_median</a>( <span>array <var>$data</var></span>, <span>integer <var>$quartile</var> = <span class="php-quote">'second'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the median of the array passed Y points</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the median of the array passed Y points</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data The data-array to get the median from</dd>
+					<dt><var>$quartile</var></dt>
+					<dd><code>integer</code><br>$quartile The quartile to return the median from</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The Y-median across the dataset from the specified quartile<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_medianY" id="__medianY">
+
+		<td class="attributes"><code>
+			 public 
+			var
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__medianY">#</a>
+		<code><a href="source-class-Image_Graph_Dataset.html#464-480" title="Go to source code">_medianY</a>( <span>integer <var>$quartile</var> = <span class="php-quote">'second'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the median of the datasets Y points</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the median of the datasets Y points</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$quartile</var></dt>
+					<dd><code>integer</code><br>$quartile The quartile to return the median from</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>var</code><br>The Y-median across the dataset from the specified quartile<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_posX" id="$_posX">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Dataset.html#48-53" title="Go to source code"><var>$_posX</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$_posX" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The pointer of the data set</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The pointer of the data set</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_minimumX" id="$_minimumX">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Dataset.html#55-60" title="Go to source code"><var>$_minimumX</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$_minimumX" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The minimum X value of the dataset</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The minimum X value of the dataset</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_maximumX" id="$_maximumX">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Dataset.html#62-67" title="Go to source code"><var>$_maximumX</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$_maximumX" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The maximum X value of the dataset</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The maximum X value of the dataset</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_minimumY" id="$_minimumY">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Dataset.html#69-74" title="Go to source code"><var>$_minimumY</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$_minimumY" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The minimum Y value of the dataset</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The minimum Y value of the dataset</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_maximumY" id="$_maximumY">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Dataset.html#76-81" title="Go to source code"><var>$_maximumY</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$_maximumY" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The maximum Y value of the dataset</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The maximum Y value of the dataset</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_count" id="$_count">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Dataset.html#83-88" title="Go to source code"><var>$_count</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$_count" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The number of points in the dataset</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The number of points in the dataset</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_name" id="$_name">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Dataset.html#90-95" title="Go to source code"><var>$_name</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$_name" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The name of the dataset, used for legending</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The name of the dataset, used for legending</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

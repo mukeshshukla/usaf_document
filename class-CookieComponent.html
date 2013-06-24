@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CookieComponent | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li class="active"><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AclBase.html">AclBase</a></li>
+				<li><a href="class-AclComponent.html">AclComponent</a></li>
+				<li><a href="class-AppEmailComponent.html">AppEmailComponent</a></li>
+				<li><a href="class-AuthComponent.html">AuthComponent</a></li>
+				<li class="active"><a href="class-CookieComponent.html">CookieComponent</a></li>
+				<li><a href="class-EmailComponent.html">EmailComponent</a></li>
+				<li><a href="class-RequestHandlerComponent.html">RequestHandlerComponent</a></li>
+				<li><a href="class-SecurityComponent.html">SecurityComponent</a></li>
+				<li><a href="class-SessionComponent.html">SessionComponent</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.controller.components.html" title="Summary of cake\cake\libs\controller\components"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CookieComponent</h1>
+
+
+	<div class="description">
+	
+<p>Cookie Component.</p>
+
+<p>Cookie handling for the controller.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Object.html"><span>Object</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>CookieComponent</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a>\<a href="package-cake.cake.libs.controller.html">controller</a>\<a href="package-cake.cake.libs.controller.components.html">components</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-CookieComponent.html#35-505" title="Go to source code">cake/libs/controller/components/cookie.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="startup" id="_startup">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_startup">#</a>
+		<code><a href="source-class-CookieComponent.html#187-198" title="Go to source code">startup</a>( )</code>
+
+		<div class="description short">
+			
+<p>Start CookieComponent for use in the controller</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Start CookieComponent for use in the controller</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="write" id="_write">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_write">#</a>
+		<code><a href="source-class-CookieComponent.html#199-248" title="Go to source code">write</a>( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$encrypt</var> = <span class="php-keyword1">true</span></span>, <span>string <var>$expires</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Write a value to the $_COOKIE[$key];</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Write a value to the $_COOKIE[$key];</p>
+
+<p>Optional [Name.], reguired key, optional $value, optional $encrypt, optional
+$expires $this-&gt;Cookie-&gt;write('[Name.]key, $value);</p>
+
+<p>By default all values are encrypted. You must pass $encrypt false to store
+values in clear test</p>
+
+<p>You must use this method before any output is sent to the browser. Failure to
+do so will result in header already sent errors.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key Key for the value</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value Value</dd>
+					<dt><var>$encrypt</var></dt>
+					<dd><code>boolean</code><br>$encrypt Set to true to encrypt value, false otherwise</dd>
+					<dt><var>$expires</var></dt>
+					<dd><code>string</code><br>$expires Can be either Unix timestamp, or date string</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="read" id="_read">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_read">#</a>
+		<code><a href="source-class-CookieComponent.html#249-283" title="Go to source code">read</a>( <span>mixed <var>$key</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Read the value of the $_COOKIE[$key];</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Read the value of the $_COOKIE[$key];</p>
+
+<p>Optional [Name.], reguired key $this-&gt;Cookie-&gt;read(Name.key);</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key Key of the value to be obtained. If none specified, obtain map key =&gt;
+values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>or null, value for specified key<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="del" id="_del">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_del">#</a>
+		<code><a href="source-class-CookieComponent.html#284-315" title="Go to source code">del</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Delete a cookie value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete a cookie value</p>
+
+<p>Optional [Name.], reguired key $this-&gt;Cookie-&gt;read('Name.key);</p>
+
+<p>You must use this method before any output is sent to the browser. Failure to
+do so will result in header already sent errors.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key Key of the value to be deleted</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="destroy" id="_destroy">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_destroy">#</a>
+		<code><a href="source-class-CookieComponent.html#316-339" title="Go to source code">destroy</a>( )</code>
+
+		<div class="description short">
+			
+<p>Destroy current cookie</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Destroy current cookie</p>
+
+<p>You must use this method before any output is sent to the browser. Failure to
+do so will result in header already sent errors.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="type" id="_type">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_type">#</a>
+		<code><a href="source-class-CookieComponent.html#340-349" title="Go to source code">type</a>( <span>string <var>$type</var> = <span class="php-quote">'cipher'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Will allow overriding default encryption method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Will allow overriding default encryption method.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type Encryption method</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__expire" id="___expire">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___expire">#</a>
+		<code><a href="source-class-CookieComponent.html#350-375" title="Go to source code">__expire</a>( <span>mixed <var>$expires</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the expire time for a session variable.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the expire time for a session variable.</p>
+
+<p>Creates a new expire time for a session variable. $expire can be either
+integer Unix timestamp or a date string.</p>
+
+<p>Used by write() CookieComponent::write(string, string, boolean, 8400);
+CookieComponent::write(string, string, boolean, '5 Days');</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$expires</var></dt>
+					<dd><code>mixed</code><br>$expires Can be either Unix timestamp, or date string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Unix timestamp<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__write" id="___write">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___write">#</a>
+		<code><a href="source-class-CookieComponent.html#376-391" title="Go to source code">__write</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set cookie</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set cookie</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name for cookie</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value Value for cookie</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__delete" id="___delete">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___delete">#</a>
+		<code><a href="source-class-CookieComponent.html#392-400" title="Go to source code">__delete</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets a cookie expire time to remove cookie value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets a cookie expire time to remove cookie value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name of cookie</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__encrypt" id="___encrypt">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___encrypt">#</a>
+		<code><a href="source-class-CookieComponent.html#401-418" title="Go to source code">__encrypt</a>( <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Encrypts $value using var $type method in Security class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Encrypts $value using var $type method in Security class</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value Value to encrypt</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>encrypted string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__decrypt" id="___decrypt">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___decrypt">#</a>
+		<code><a href="source-class-CookieComponent.html#419-453" title="Go to source code">__decrypt</a>( <span>array <var>$values</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Decrypts $value using var $type method in Security class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Decrypts $value using var $type method in Security class</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>$values Values to decrypt</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>decrypted string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__cookieVarNames" id="___cookieVarNames">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___cookieVarNames">#</a>
+		<code><a href="source-class-CookieComponent.html#455-472" title="Go to source code">__cookieVarNames</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates an array from the $name parameter which allows the dot notation
+similar to one used by Session and Configure classes</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates an array from the $name parameter which allows the dot notation
+similar to one used by Session and Configure classes</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name with or without dot notation</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Extracted names<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__implode" id="___implode">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___implode">#</a>
+		<code><a href="source-class-CookieComponent.html#473-486" title="Go to source code">__implode</a>( <span>array <var>$array</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Implode method to keep keys are multidimensional arrays</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Implode method to keep keys are multidimensional arrays</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$array</var></dt>
+					<dd><code>array</code><br>$array Map of key and values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>String in the form key1|value1,key2|value2<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__explode" id="___explode">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___explode">#</a>
+		<code><a href="source-class-CookieComponent.html#487-504" title="Go to source code">__explode</a>( <span>string <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Explode method to return array from string set in
+CookieComponent::__implode()</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Explode method to return array from string set in
+CookieComponent::__implode()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string String in the form key1|value1,key2|value2</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Map of key and values<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Object.html#methods">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#_Object">Object()</a>, 
+			<a href="class-Object.html#___construct">__construct()</a>, 
+			<a href="class-Object.html#___openPersistent">__openPersistent()</a>, 
+			<a href="class-Object.html#__persist">_persist()</a>, 
+			<a href="class-Object.html#__savePersistent">_savePersistent()</a>, 
+			<a href="class-Object.html#__set">_set()</a>, 
+			<a href="class-Object.html#_cakeError">cakeError()</a>, 
+			<a href="class-Object.html#_log">log()</a>, 
+			<a href="class-Object.html#_requestAction">requestAction()</a>, 
+			<a href="class-Object.html#_toString">toString()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="name" id="$name">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CookieComponent.html#45-54" title="Go to source code"><var>$name</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'CakeCookie'</span></code></td>
+		<td class="description"><div>
+			<a href="#$name" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The name of the cookie.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The name of the cookie.</p>
+
+<p>Overridden with the controller beforeFilter(); $this-&gt;Cookie-&gt;name =
+'CookieName';</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="time" id="$time">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CookieComponent.html#55-66" title="Go to source code"><var>$time</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$time" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The time a cookie will remain valid.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The time a cookie will remain valid.</p>
+
+<p>Can be either integer Unix timestamp or a date string.</p>
+
+<p>Overridden with the controller beforeFilter(); $this-&gt;Cookie-&gt;time = '5
+Days';</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="path" id="$path">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CookieComponent.html#67-81" title="Go to source code"><var>$path</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'/'</span></code></td>
+		<td class="description"><div>
+			<a href="#$path" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Cookie path.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Cookie path.</p>
+
+<p>Overridden with the controller beforeFilter(); $this-&gt;Cookie-&gt;path =
+'/';</p>
+
+<p>The path on the server in which the cookie will be available on. If var
+$cookiePath is set to '/foo/', the cookie will only be available within the
+/foo/ directory and all sub-directories such as /foo/bar/ of domain. The default
+value is the entire domain.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="domain" id="$domain">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CookieComponent.html#82-96" title="Go to source code"><var>$domain</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$domain" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Domain path.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Domain path.</p>
+
+<p>The domain that the cookie is available.</p>
+
+<p>Overridden with the controller beforeFilter(); $this-&gt;Cookie-&gt;domain =
+'.example.com';</p>
+
+<p>To make the cookie available on all subdomains of example.com. Set
+$this-&gt;Cookie-&gt;domain = '.example.com'; in your controller
+beforeFilter</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="secure" id="$secure">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CookieComponent.html#97-109" title="Go to source code"><var>$secure</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$secure" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Secure HTTPS only cookie.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Secure HTTPS only cookie.</p>
+
+<p>Overridden with the controller beforeFilter(); $this-&gt;Cookie-&gt;secure =
+true;</p>
+
+<p>Indicates that the cookie should only be transmitted over a secure HTTPS
+connection. When set to true, the cookie will only be set if a secure connection
+exists.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="key" id="$key">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CookieComponent.html#110-119" title="Go to source code"><var>$key</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$key" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Encryption key.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Encryption key.</p>
+
+<p>Overridden with the controller beforeFilter(); $this-&gt;Cookie-&gt;key =
+'SomeRandomString';</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__values" id="$__values">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CookieComponent.html#120-129" title="Go to source code"><var>$__values</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$__values" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Values stored in the cookie.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Values stored in the cookie.</p>
+
+<p>Accessed in the controller using $this-&gt;Cookie-&gt;read('Name.key');</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							CookieComponent::read();<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__type" id="$__type">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CookieComponent.html#130-140" title="Go to source code"><var>$__type</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'cipher'</span></code></td>
+		<td class="description"><div>
+			<a href="#$__type" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Type of encryption to use.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Type of encryption to use.</p>
+
+<p>Currently only one method is available Defaults to Security::cipher();</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__reset" id="$__reset">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CookieComponent.html#141-147" title="Go to source code"><var>$__reset</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$__reset" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Used to reset cookie time if $expire is passed to
+CookieComponent::write()</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Used to reset cookie time if $expire is passed to
+CookieComponent::write()</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__expires" id="$__expires">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-CookieComponent.html#148-156" title="Go to source code"><var>$__expires</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$__expires" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Expire time of the cookie</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Expire time of the cookie</p>
+
+<p>This is controlled by CookieComponent::time;</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Object.html#properties">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#$_log"><var>$_log</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

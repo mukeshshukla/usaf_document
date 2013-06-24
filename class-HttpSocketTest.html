@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class HttpSocketTest | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li class="active"><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CacheTest.html">CacheTest</a></li>
+				<li><a href="class-CakeLogTest.html">CakeLogTest</a></li>
+				<li><a href="class-CakeSchemaTest.html">CakeSchemaTest</a></li>
+				<li><a href="class-ConfigureTest.html">ConfigureTest</a></li>
+				<li><a href="class-DebuggerTest.html">DebuggerTest</a></li>
+				<li><a href="class-ErrorHandlerTest.html">ErrorHandlerTest</a></li>
+				<li><a href="class-FileTest.html">FileTest</a></li>
+				<li><a href="class-FlayTest.html">FlayTest</a></li>
+				<li><a href="class-FolderTest.html">FolderTest</a></li>
+				<li><a href="class-HelperTest.html">HelperTest</a></li>
+				<li class="active"><a href="class-HttpSocketTest.html">HttpSocketTest</a></li>
+				<li><a href="class-I18nTest.html">I18nTest</a></li>
+				<li><a href="class-InflectorTest.html">InflectorTest</a></li>
+				<li><a href="class-L10nTest.html">L10nTest</a></li>
+				<li><a href="class-MagicDb.html">MagicDb</a></li>
+				<li><a href="class-MagicDbTest.html">MagicDbTest</a></li>
+				<li><a href="class-MagicDbTestData.html">MagicDbTestData</a></li>
+				<li><a href="class-MagicFileResource.html">MagicFileResource</a></li>
+				<li><a href="class-MyAppSchema.html">MyAppSchema</a></li>
+				<li><a href="class-ObjectTest.html">ObjectTest</a></li>
+				<li><a href="class-OverloadableTest.html">OverloadableTest</a></li>
+				<li><a href="class-RouterTest.html">RouterTest</a></li>
+				<li><a href="class-SanitizeTest.html">SanitizeTest</a></li>
+				<li><a href="class-SecurityTest.html">SecurityTest</a></li>
+				<li><a href="class-SessionTest.html">SessionTest</a></li>
+				<li><a href="class-SetTest.html">SetTest</a></li>
+				<li><a href="class-SocketTest.html">SocketTest</a></li>
+				<li><a href="class-StringTest.html">StringTest</a></li>
+				<li><a href="class-ThemePostsController.html">ThemePostsController</a></li>
+				<li><a href="class-ThemeViewTest.html">ThemeViewTest</a></li>
+				<li><a href="class-ValidationTestCase.html">ValidationTestCase</a></li>
+				<li><a href="class-ViewPostsController.html">ViewPostsController</a></li>
+				<li><a href="class-ViewTest.html">ViewTest</a></li>
+				<li><a href="class-XMLNodeTest.html">XMLNodeTest</a></li>
+				<li><a href="class-XMLTest.html">XMLTest</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.tests.cases.libs.html" title="Summary of cake\tests\cases\libs"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class HttpSocketTest</h1>
+
+
+	<div class="description">
+	
+<p>Short description for class.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-SimpleTestCase.html"><span>SimpleTestCase</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-UnitTestCase.html"><span>UnitTestCase</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>HttpSocketTest</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.tests.html">tests</a>\<a href="package-cake.tests.cases.html">cases</a>\<a href="package-cake.tests.cases.libs.html">libs</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/opengroup.php">The Open Group Test Suite License</a><br />
+		<b>Located at</b> <a href="source-class-HttpSocketTest.html#30-1272" title="Go to source code">cake/tests/cases/libs/http_socket.test.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="setUp" id="_setUp">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUp">#</a>
+		<code><a href="source-class-HttpSocketTest.html#41-53" title="Go to source code">setUp</a>( )</code>
+
+		<div class="description short">
+			
+<p>This function sets up a TestHttpSocket instance we are going to use for
+testing</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>This function sets up a TestHttpSocket instance we are going to use for
+testing</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-SimpleTestCase.html#_setUp">SimpleTestCase::setUp()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="tearDown" id="_tearDown">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_tearDown">#</a>
+		<code><a href="source-class-HttpSocketTest.html#54-60" title="Go to source code">tearDown</a>( )</code>
+
+		<div class="description short">
+			
+<p>We use this function to clean up after the test case was executed</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>We use this function to clean up after the test case was executed</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-SimpleTestCase.html#_tearDown">SimpleTestCase::tearDown()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testConstruct" id="_testConstruct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testConstruct">#</a>
+		<code><a href="source-class-HttpSocketTest.html#61-82" title="Go to source code">testConstruct</a>( )</code>
+
+		<div class="description short">
+			
+<p>Test that HttpSocket::__construct does what one would expect it to do</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Test that HttpSocket::__construct does what one would expect it to do</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testConfigUri" id="_testConfigUri">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testConfigUri">#</a>
+		<code><a href="source-class-HttpSocketTest.html#84-148" title="Go to source code">testConfigUri</a>( )</code>
+
+		<div class="description short">
+			
+<p>Test that HttpSocket::configUri works properly with different types of
+arguments</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Test that HttpSocket::configUri works properly with different types of
+arguments</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testRequest" id="_testRequest">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testRequest">#</a>
+		<code><a href="source-class-HttpSocketTest.html#150-405" title="Go to source code">testRequest</a>( )</code>
+
+		<div class="description short">
+			
+<p>Tests that HttpSocket::request (the heart of the HttpSocket) is working
+properly.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests that HttpSocket::request (the heart of the HttpSocket) is working
+properly.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testUrl" id="_testUrl">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testUrl">#</a>
+		<code><a href="source-class-HttpSocketTest.html#407-454" title="Go to source code">testUrl</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testGet" id="_testGet">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testGet">#</a>
+		<code><a href="source-class-HttpSocketTest.html#456-473" title="Go to source code">testGet</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testPostPutDelete" id="_testPostPutDelete">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testPostPutDelete">#</a>
+		<code><a href="source-class-HttpSocketTest.html#475-488" title="Go to source code">testPostPutDelete</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testParseResponse" id="_testParseResponse">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testParseResponse">#</a>
+		<code><a href="source-class-HttpSocketTest.html#490-578" title="Go to source code">testParseResponse</a>( )</code>
+
+		<div class="description short">
+			
+<p>Enter description here...</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Enter description here...</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testDecodeBody" id="_testDecodeBody">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testDecodeBody">#</a>
+		<code><a href="source-class-HttpSocketTest.html#580-620" title="Go to source code">testDecodeBody</a>( )</code>
+
+		<div class="description short">
+			
+<p>Enter description here...</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Enter description here...</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testDecodeChunkedBody" id="_testDecodeChunkedBody">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testDecodeChunkedBody">#</a>
+		<code><a href="source-class-HttpSocketTest.html#622-668" title="Go to source code">testDecodeChunkedBody</a>( )</code>
+
+		<div class="description short">
+			
+<p>Enter description here...</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Enter description here...</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testBuildRequestLine" id="_testBuildRequestLine">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testBuildRequestLine">#</a>
+		<code><a href="source-class-HttpSocketTest.html#670-727" title="Go to source code">testBuildRequestLine</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testParseUri" id="_testParseUri">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testParseUri">#</a>
+		<code><a href="source-class-HttpSocketTest.html#729-831" title="Go to source code">testParseUri</a>( )</code>
+
+		<div class="description short">
+			
+<p>Asserts that HttpSocket::parseUri is working properly</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Asserts that HttpSocket::parseUri is working properly</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testBuildUri" id="_testBuildUri">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testBuildUri">#</a>
+		<code><a href="source-class-HttpSocketTest.html#833-893" title="Go to source code">testBuildUri</a>( )</code>
+
+		<div class="description short">
+			
+<p>Tests that HttpSocket::buildUri can turn all kinds of uri arrays (and
+strings) into fully or partially qualified URI's</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests that HttpSocket::buildUri can turn all kinds of uri arrays (and
+strings) into fully or partially qualified URI's</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testParseQuery" id="_testParseQuery">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testParseQuery">#</a>
+		<code><a href="source-class-HttpSocketTest.html#895-997" title="Go to source code">testParseQuery</a>( )</code>
+
+		<div class="description short">
+			
+<p>Asserts that HttpSocket::parseQuery is working properly</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Asserts that HttpSocket::parseQuery is working properly</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testBuildHeader" id="_testBuildHeader">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testBuildHeader">#</a>
+		<code><a href="source-class-HttpSocketTest.html#999-1034" title="Go to source code">testBuildHeader</a>( )</code>
+
+		<div class="description short">
+			
+<p>Tests that HttpSocket::buildHeader can turn a given $header array into a
+proper header string according to HTTP 1.1 specs.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests that HttpSocket::buildHeader can turn a given $header array into a
+proper header string according to HTTP 1.1 specs.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testParseHeader" id="_testParseHeader">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testParseHeader">#</a>
+		<code><a href="source-class-HttpSocketTest.html#1036-1094" title="Go to source code">testParseHeader</a>( )</code>
+
+		<div class="description short">
+			
+<p>Test that HttpSocket::parseHeader can take apart a given (and valid) $header
+string and turn it into an array.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Test that HttpSocket::parseHeader can take apart a given (and valid) $header
+string and turn it into an array.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testParseCookies" id="_testParseCookies">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testParseCookies">#</a>
+		<code><a href="source-class-HttpSocketTest.html#1095-1131" title="Go to source code">testParseCookies</a>( )</code>
+
+		<div class="description short">
+			
+<p>undocumented function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>undocumented function</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testBuildCookies" id="_testBuildCookies">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testBuildCookies">#</a>
+		<code><a href="source-class-HttpSocketTest.html#1132-1152" title="Go to source code">testBuildCookies</a>( )</code>
+
+		<div class="description short">
+			
+<p>undocumented function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>undocumented function</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testTokenEscapeChars" id="_testTokenEscapeChars">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testTokenEscapeChars">#</a>
+		<code><a href="source-class-HttpSocketTest.html#1153-1173" title="Go to source code">testTokenEscapeChars</a>( )</code>
+
+		<div class="description short">
+			
+<p>Tests that HttpSocket::__tokenEscapeChars() returns the right characters.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests that HttpSocket::__tokenEscapeChars() returns the right characters.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testEscapeToken" id="_testEscapeToken">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testEscapeToken">#</a>
+		<code><a href="source-class-HttpSocketTest.html#1175-1197" title="Go to source code">testEscapeToken</a>( )</code>
+
+		<div class="description short">
+			
+<p>Test that HttpSocket::escapeToken is escaping all characters as descriped in
+RFC 2616 (HTTP 1.1 specs)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Test that HttpSocket::escapeToken is escaping all characters as descriped in
+RFC 2616 (HTTP 1.1 specs)</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testUnescapeToken" id="_testUnescapeToken">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testUnescapeToken">#</a>
+		<code><a href="source-class-HttpSocketTest.html#1199-1221" title="Go to source code">testUnescapeToken</a>( )</code>
+
+		<div class="description short">
+			
+<p>Test that escaped token strings are properly unescaped by
+HttpSocket::unescapeToken</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Test that escaped token strings are properly unescaped by
+HttpSocket::unescapeToken</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testReset" id="_testReset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testReset">#</a>
+		<code><a href="source-class-HttpSocketTest.html#1223-1243" title="Go to source code">testReset</a>( )</code>
+
+		<div class="description short">
+			
+<p>This tests asserts HttpSocket::reset() resets a HttpSocket instance to it's
+initial state (before Object::__construct got executed)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>This tests asserts HttpSocket::reset() resets a HttpSocket instance to it's
+initial state (before Object::__construct got executed)</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testPartialReset" id="_testPartialReset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testPartialReset">#</a>
+		<code><a href="source-class-HttpSocketTest.html#1245-1270" title="Go to source code">testPartialReset</a>( )</code>
+
+		<div class="description short">
+			
+<p>This tests asserts HttpSocket::reset(false) resets certain HttpSocket
+properties to their initial state (before Object::__construct got executed).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>This tests asserts HttpSocket::reset(false) resets certain HttpSocket
+properties to their initial state (before Object::__construct got executed).</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-UnitTestCase.html#methods">UnitTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-UnitTestCase.html#_UnitTestCase">UnitTestCase()</a>, 
+			<a href="class-UnitTestCase.html#__coerceExpectation">_coerceExpectation()</a>, 
+			<a href="class-UnitTestCase.html#_assertClone">assertClone()</a>, 
+			<a href="class-UnitTestCase.html#_assertEqual">assertEqual()</a>, 
+			<a href="class-UnitTestCase.html#_assertFalse">assertFalse()</a>, 
+			<a href="class-UnitTestCase.html#_assertIdentical">assertIdentical()</a>, 
+			<a href="class-UnitTestCase.html#_assertIsA">assertIsA()</a>, 
+			<a href="class-UnitTestCase.html#_assertNoPattern">assertNoPattern()</a>, 
+			<a href="class-UnitTestCase.html#_assertNotA">assertNotA()</a>, 
+			<a href="class-UnitTestCase.html#_assertNotEqual">assertNotEqual()</a>, 
+			<a href="class-UnitTestCase.html#_assertNotIdentical">assertNotIdentical()</a>, 
+			<a href="class-UnitTestCase.html#_assertNotNull">assertNotNull()</a>, 
+			<a href="class-UnitTestCase.html#_assertNull">assertNull()</a>, 
+			<a href="class-UnitTestCase.html#_assertOutsideMargin">assertOutsideMargin()</a>, 
+			<a href="class-UnitTestCase.html#_assertPattern">assertPattern()</a>, 
+			<a href="class-UnitTestCase.html#_assertReference">assertReference()</a>, 
+			<a href="class-UnitTestCase.html#_assertTrue">assertTrue()</a>, 
+			<a href="class-UnitTestCase.html#_assertWithinMargin">assertWithinMargin()</a>, 
+			<a href="class-UnitTestCase.html#_expectError">expectError()</a>, 
+			<a href="class-UnitTestCase.html#_expectException">expectException()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-SimpleTestCase.html#methods">SimpleTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-SimpleTestCase.html#_SimpleTestCase">SimpleTestCase()</a>, 
+			<a href="class-SimpleTestCase.html#__isTest">_isTest()</a>, 
+			<a href="class-SimpleTestCase.html#_after">after()</a>, 
+			<a href="class-SimpleTestCase.html#_assert">assert()</a>, 
+			<a href="class-SimpleTestCase.html#_before">before()</a>, 
+			<a href="class-SimpleTestCase.html#_createInvoker">createInvoker()</a>, 
+			<a href="class-SimpleTestCase.html#_dump">dump()</a>, 
+			<a href="class-SimpleTestCase.html#_error">error()</a>, 
+			<a href="class-SimpleTestCase.html#_exception">exception()</a>, 
+			<a href="class-SimpleTestCase.html#_fail">fail()</a>, 
+			<a href="class-SimpleTestCase.html#_getAssertionLine">getAssertionLine()</a>, 
+			<a href="class-SimpleTestCase.html#_getLabel">getLabel()</a>, 
+			<a href="class-SimpleTestCase.html#_getSize">getSize()</a>, 
+			<a href="class-SimpleTestCase.html#_getTests">getTests()</a>, 
+			<a href="class-SimpleTestCase.html#_run">run()</a>, 
+			<a href="class-SimpleTestCase.html#_skip">skip()</a>, 
+			<a href="class-SimpleTestCase.html#_skipIf">skipIf()</a>, 
+			<a href="class-SimpleTestCase.html#_skipUnless">skipUnless()</a>, 
+			<a href="class-SimpleTestCase.html#_tell">tell()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="Socket" id="$Socket">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-HttpSocketTest.html#38" title="Go to source code"><var>$Socket</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$Socket" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="RequestSocket" id="$RequestSocket">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-HttpSocketTest.html#40" title="Go to source code"><var>$RequestSocket</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$RequestSocket" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-SimpleTestCase.html#properties">SimpleTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-SimpleTestCase.html#$_label"><var>$_label</var></a>, 
+			<a href="class-SimpleTestCase.html#$_observers"><var>$_observers</var></a>, 
+			<a href="class-SimpleTestCase.html#$_reporter"><var>$_reporter</var></a>, 
+			<a href="class-SimpleTestCase.html#$_should_skip"><var>$_should_skip</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

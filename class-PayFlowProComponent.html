@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class PayFlowProComponent | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-App.html">App</a></li>
+				<li><a href="class-Cache.html">Cache</a></li>
+				<li><a href="class-CacheEngine.html">CacheEngine</a></li>
+				<li><a href="class-CakeLog.html">CakeLog</a></li>
+				<li><a href="class-CakeSession.html">CakeSession</a></li>
+				<li><a href="class-CakeSocket.html">CakeSocket</a></li>
+				<li><a href="class-CalendarclassComponent.html">CalendarclassComponent</a></li>
+				<li><a href="class-CasAuthenticationComponent.html">CasAuthenticationComponent</a></li>
+				<li><a href="class-CheckoutComponent.html">CheckoutComponent</a></li>
+				<li><a href="class-ClassRegistry.html">ClassRegistry</a></li>
+				<li><a href="class-Configure.html">Configure</a></li>
+				<li><a href="class-ConnectionManager.html">ConnectionManager</a></li>
+				<li><a href="class-DateTimeComponent.html">DateTimeComponent</a></li>
+				<li><a href="class-Debugger.html">Debugger</a></li>
+				<li><a href="class-File.html">File</a></li>
+				<li><a href="class-FileUploadComponent.html">FileUploadComponent</a></li>
+				<li><a href="class-Flay.html">Flay</a></li>
+				<li><a href="class-Folder.html">Folder</a></li>
+				<li><a href="class-GeoIpComponent.html">GeoIpComponent</a></li>
+				<li><a href="class-GifPixComponent.html">GifPixComponent</a></li>
+				<li><a href="class-HttpSocket.html">HttpSocket</a></li>
+				<li><a href="class-I18n.html">I18n</a></li>
+				<li><a href="class-ImageComponent.html">ImageComponent</a></li>
+				<li><a href="class-Inflector.html">Inflector</a></li>
+				<li><a href="class-L10n.html">L10n</a></li>
+				<li><a href="class-MailChimpComponent.html">MailChimpComponent</a></li>
+				<li><a href="class-ManageLaMemberComponent.html">ManageLaMemberComponent</a></li>
+				<li><a href="class-NeatString.html">NeatString</a></li>
+				<li><a href="class-NominationNominationComponent.html">NominationNominationComponent</a></li>
+				<li><a href="class-Object.html">Object</a></li>
+				<li><a href="class-OutputComponent.html">OutputComponent</a></li>
+				<li class="active"><a href="class-PayFlowProComponent.html">PayFlowProComponent</a></li>
+				<li><a href="class-PlayersRegComponent.html">PlayersRegComponent</a></li>
+				<li><a href="class-RegistrationComponent.html">RegistrationComponent</a></li>
+				<li><a href="class-Router.html">Router</a></li>
+				<li><a href="class-Sanitize.html">Sanitize</a></li>
+				<li><a href="class-Security.html">Security</a></li>
+				<li><a href="class-ServerCopyComponent.html">ServerCopyComponent</a></li>
+				<li><a href="class-SessionHelper.html">SessionHelper</a></li>
+				<li><a href="class-Set.html">Set</a></li>
+				<li><a href="class-SimplepieComponent.html">SimplepieComponent</a></li>
+				<li><a href="class-String.html">String</a></li>
+				<li><a href="class-SwiftMailerComponent.html">SwiftMailerComponent</a></li>
+				<li><a href="class-Validation.html">Validation</a></li>
+				<li><a href="class-VerifyEmailComponent.html">VerifyEmailComponent</a></li>
+				<li><a href="class-XML.html">XML</a></li>
+				<li><a href="class-XMLNode.html">XMLNode</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-__enclose.html">__enclose</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.html" title="Summary of cake\cake\libs"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class PayFlowProComponent</h1>
+
+
+	<div class="description">
+	
+<p>Object class, allowing __construct and __destruct in PHP4.</p>
+
+<p>Also includes methods for logging and the special method RequestAction, to
+call other Controllers' Actions from anywhere.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Object.html"><span>Object</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>PayFlowProComponent</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a><br />
+
+		<b>Located at</b> <a href="source-class-PayFlowProComponent.html#3-269" title="Go to source code">app/controllers/components/pay_flow_pro.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-PayFlowProComponent.html#130-146" title="Go to source code">__construct</a>( <span>mixed <var>$tender</var> = <code><a href="class-PayFlowProComponent.html#PFP_TENDER_CREDITCARD">PayFlowProComponent::<b>PFP_TENDER_CREDITCARD</b></a></code></span>, <span>mixed <var>$type</var> = <code><a href="class-PayFlowProComponent.html#PFP_TRXTYPE_SALE">PayFlowProComponent::<b>PFP_TRXTYPE_SALE</b></a></code></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$xmlPay</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Class constructor, overridden in descendant classes.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Class constructor, overridden in descendant classes.</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Object.html#___construct">Object::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendRequest" id="_sendRequest">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendRequest">#</a>
+		<code><a href="source-class-PayFlowProComponent.html#148-180" title="Go to source code">sendRequest</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="buildRequest" id="_buildRequest">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_buildRequest">#</a>
+		<code><a href="source-class-PayFlowProComponent.html#182-219" title="Go to source code">buildRequest</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="processResponse" id="_processResponse">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_processResponse">#</a>
+		<code><a href="source-class-PayFlowProComponent.html#221-268" title="Go to source code">processResponse</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Object.html#methods">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#_Object">Object()</a>, 
+			<a href="class-Object.html#___openPersistent">__openPersistent()</a>, 
+			<a href="class-Object.html#__persist">_persist()</a>, 
+			<a href="class-Object.html#__savePersistent">_savePersistent()</a>, 
+			<a href="class-Object.html#__set">_set()</a>, 
+			<a href="class-Object.html#_cakeError">cakeError()</a>, 
+			<a href="class-Object.html#_log">log()</a>, 
+			<a href="class-Object.html#_requestAction">requestAction()</a>, 
+			<a href="class-Object.html#_toString">toString()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="PFP_CURRENCY_USDOLLAR" id="PFP_CURRENCY_USDOLLAR">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#5" title="Go to source code"><b>PFP_CURRENCY_USDOLLAR</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'USD'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_CURRENCY_USDOLLAR" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_CURRENCY_EURO" id="PFP_CURRENCY_EURO">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#6" title="Go to source code"><b>PFP_CURRENCY_EURO</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'EUR'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_CURRENCY_EURO" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_CURRENCY_UK" id="PFP_CURRENCY_UK">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#7" title="Go to source code"><b>PFP_CURRENCY_UK</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'GBP'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_CURRENCY_UK" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_CURRENCY_CANADA" id="PFP_CURRENCY_CANADA">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#8" title="Go to source code"><b>PFP_CURRENCY_CANADA</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'CAD'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_CURRENCY_CANADA" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_CURRENCY_JAPAN" id="PFP_CURRENCY_JAPAN">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#9" title="Go to source code"><b>PFP_CURRENCY_JAPAN</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'JPY'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_CURRENCY_JAPAN" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_CURRENCY_AUSTRALIA" id="PFP_CURRENCY_AUSTRALIA">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#10" title="Go to source code"><b>PFP_CURRENCY_AUSTRALIA</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'AUD'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_CURRENCY_AUSTRALIA" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TENDER_ACH" id="PFP_TENDER_ACH">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#12" title="Go to source code"><b>PFP_TENDER_ACH</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'A'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TENDER_ACH" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TENDER_CREDITCARD" id="PFP_TENDER_CREDITCARD">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#13" title="Go to source code"><b>PFP_TENDER_CREDITCARD</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'C'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TENDER_CREDITCARD" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TENDER_DEBIT" id="PFP_TENDER_DEBIT">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#14" title="Go to source code"><b>PFP_TENDER_DEBIT</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'D'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TENDER_DEBIT" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TENDER_TELECHECK" id="PFP_TENDER_TELECHECK">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#15" title="Go to source code"><b>PFP_TENDER_TELECHECK</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'K'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TENDER_TELECHECK" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TENDER_PAYPAL" id="PFP_TENDER_PAYPAL">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#16" title="Go to source code"><b>PFP_TENDER_PAYPAL</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'P'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TENDER_PAYPAL" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TRXTYPE_SALE" id="PFP_TRXTYPE_SALE">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#18" title="Go to source code"><b>PFP_TRXTYPE_SALE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'S'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TRXTYPE_SALE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TRXTYPE_CREDIT" id="PFP_TRXTYPE_CREDIT">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#19" title="Go to source code"><b>PFP_TRXTYPE_CREDIT</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'C'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TRXTYPE_CREDIT" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TRXTYPE_AUTHORIZATION" id="PFP_TRXTYPE_AUTHORIZATION">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#20" title="Go to source code"><b>PFP_TRXTYPE_AUTHORIZATION</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'A'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TRXTYPE_AUTHORIZATION" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TRXTYPE_DELAYED_CAPTURE" id="PFP_TRXTYPE_DELAYED_CAPTURE">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#21" title="Go to source code"><b>PFP_TRXTYPE_DELAYED_CAPTURE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'D'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TRXTYPE_DELAYED_CAPTURE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TRXTYPE_VOID" id="PFP_TRXTYPE_VOID">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#22" title="Go to source code"><b>PFP_TRXTYPE_VOID</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'V'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TRXTYPE_VOID" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TRXTYPE_VOICE_AUTH" id="PFP_TRXTYPE_VOICE_AUTH">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#23" title="Go to source code"><b>PFP_TRXTYPE_VOICE_AUTH</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'F'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TRXTYPE_VOICE_AUTH" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TRXTYPE_INQUIRY" id="PFP_TRXTYPE_INQUIRY">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#24" title="Go to source code"><b>PFP_TRXTYPE_INQUIRY</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'I'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TRXTYPE_INQUIRY" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_TRXTYPE_DUPLICATE" id="PFP_TRXTYPE_DUPLICATE">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#25" title="Go to source code"><b>PFP_TRXTYPE_DUPLICATE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'N'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_TRXTYPE_DUPLICATE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_URL_LIVE" id="PFP_URL_LIVE">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#27" title="Go to source code"><b>PFP_URL_LIVE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'payflowpro.paypal.com/transaction'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_URL_LIVE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="PFP_URL_TEST" id="PFP_URL_TEST">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-PayFlowProComponent.html#28" title="Go to source code"><b>PFP_URL_TEST</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'pilot-payflowpro.paypal.com/transaction'</span></code></td>
+		<td class="description"><div>
+			<a href="#PFP_URL_TEST" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="pfpAuth" id="$pfpAuth">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-PayFlowProComponent.html#30-35" title="Go to source code"><var>$pfpAuth</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'partner'</span>  =&gt; <span class="php-quote">'paypal'</span>,
+    <span class="php-quote">'vendor'</span>   =&gt; <span class="php-quote">'USAFootball'</span>,
+    <span class="php-quote">'user'</span>     =&gt; <span class="php-quote">'USAFootball'</span>,
+    <span class="php-quote">'pwd'</span>      =&gt; <span class="php-quote">'Football1234'</span>
+)</code></td>
+		<td class="description"><div>
+			<a href="#$pfpAuth" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="debug" id="$debug">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-PayFlowProComponent.html#37" title="Go to source code"><var>$debug</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$debug" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="built" id="$built">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-PayFlowProComponent.html#39" title="Go to source code"><var>$built</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$built" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="useXMLPay" id="$useXMLPay">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-PayFlowProComponent.html#40" title="Go to source code"><var>$useXMLPay</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$useXMLPay" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="requestData" id="$requestData">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-PayFlowProComponent.html#41" title="Go to source code"><var>$requestData</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$requestData" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="responseData" id="$responseData">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-PayFlowProComponent.html#42" title="Go to source code"><var>$responseData</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$responseData" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="pfpResponseCodes" id="$pfpResponseCodes">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-PayFlowProComponent.html#44-75" title="Go to source code"><var>$pfpResponseCodes</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'approved'</span> =&gt; <span class="php-keyword1">array</span>(
+        self::PFP_TENDER_CREDITCARD =&gt; <span class="php-keyword1">array</span>(
+            <span class="php-quote">'0'</span> =&gt; <span class="php-quote">'Approved'</span>,
+        ),
+        self::PFP_TENDER_TELECHECK =&gt; <span class="php-keyword1">array</span>(
+            <span class="php-quote">'0'</span> =&gt; <span class="php-quote">'Approved'</span>,
+            <span class="php-quote">'000500'</span> =&gt; <span class="php-quote">'Approved'</span>,
+            <span class="php-quote">'000501'</span> =&gt; <span class="php-quote">'Transction timed out'</span>,
+            <span class="php-quote">'000502'</span> =&gt; <span class="php-quote">'Test Card (Approved)'</span>,
+            <span class="php-quote">'000504'</span> =&gt; <span class="php-quote">'ANI Sale Approved'</span>,
+            <span class="php-quote">'000505'</span> =&gt; <span class="php-quote">'PB Sale Approved'</span>,
+            <span class="php-quote">'000800'</span> =&gt; <span class="php-quote">'Sale/ECA Approved'</span>,
+            <span class="php-quote">'000801'</span> =&gt; <span class="php-quote">'Sale Approved (no ECA)'</span>,
+            <span class="php-quote">'000802'</span> =&gt; <span class="php-quote">'Sale/ECA Approved, no guarantee'</span>,
+            <span class="php-quote">'000803'</span> =&gt; <span class="php-quote">'Sale Approved no ECA, no guarantee'</span>,
+        )
+    ),
+    <span class="php-quote">'failure'</span> =&gt; <span class="php-keyword1">array</span>(
+        self::PFP_TENDER_CREDITCARD =&gt; <span class="php-keyword1">array</span>(
+        ),
+        self::PFP_TENDER_TELECHECK =&gt; <span class="php-keyword1">array</span>(
+            <span class="php-quote">'000300'</span> =&gt; <span class="php-quote">'Declined'</span>,
+            <span class="php-quote">'000301'</span> =&gt; <span class="php-quote">'Rejected (Does not meet risk standards)'</span>,
+            <span class="php-quote">'000804'</span> =&gt; <span class="php-quote">'Declined (Negative data)'</span>,
+            <span class="php-quote">'000807'</span> =&gt; <span class="php-quote">'Declined (Check failure)'</span>,
+            <span class="php-quote">'000100'</span> =&gt; <span class="php-quote">'General Failure (Host based)'</span>,
+            <span class="php-quote">'000101'</span> =&gt; <span class="php-quote">'General Failure (Invalid data)'</span>,
+            <span class="php-quote">'999999'</span> =&gt; <span class="php-quote">'Failure (Unknown response)'</span>
+        )
+    ),
+)</code></td>
+		<td class="description"><div>
+			<a href="#$pfpResponseCodes" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="pfpParams" id="$pfpParams">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-PayFlowProComponent.html#77-128" title="Go to source code"><var>$pfpParams</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'always'</span> =&gt; <span class="php-keyword1">array</span>(
+        <span class="php-quote">'AMT'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'amount'</span>),
+        <span class="php-quote">'PARTNER'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'partner name'</span>),
+        <span class="php-quote">'PWD'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'password'</span>),
+        <span class="php-quote">'TENDER'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'tender type'</span>),
+        <span class="php-quote">'TRXTYPE'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'transaction type'</span>),
+        <span class="php-quote">'USER'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'username'</span>),
+        <span class="php-quote">'VENDOR'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'vendor name'</span>),
+    ),
+    self::PFP_TENDER_CREDITCARD =&gt; <span class="php-keyword1">array</span>(
+        <span class="php-quote">'ACCT'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'account number'</span>),
+        <span class="php-quote">'AUTHCODE'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'COMMENT1'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'COMMENT2'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'CURRENCY'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'currency'</span>),
+        <span class="php-quote">'CUSTREF'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'CVV2'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'ENDTIME'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'EXPDATE'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'FIRSTNAME'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'LASTNAME'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'ORIGID'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'original id'</span>),
+        <span class="php-quote">'STARTTIME'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'STREET'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'CITY'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'STATE'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'SWIPE'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'VERBOSITY'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'ZIP'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>)
+    ),
+    self::PFP_TENDER_TELECHECK =&gt; <span class="php-keyword1">array</span>(
+        <span class="php-quote">'CHKNUM'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'check number'</span>),
+        <span class="php-quote">'CHKTYPE'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'check type'</span>),
+        <span class="php-quote">'CITY'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'city'</span>),
+        <span class="php-quote">'COMMENT1'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'COMMENT2'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'DL'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">null</span>, <span class="php-quote">'alternative'</span>=&gt;<span class="php-quote">'SS'</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'drivers license'</span>),
+        <span class="php-quote">'DOB'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'EMAIL'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'email'</span>),
+        <span class="php-quote">'INVNUM'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'MICR'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'NAME'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>),
+        <span class="php-quote">'PHONENUM'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'SS'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">null</span>, <span class="php-quote">'alternative'</span>=&gt;<span class="php-quote">'DL'</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'SSN/Federal Tax ID'</span>),
+        <span class="php-quote">'STATE'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'state'</span>),
+        <span class="php-quote">'CITY'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>),
+        <span class="php-quote">'STREET'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'street'</span>),
+        <span class="php-quote">'VERBOSITY'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">false</span>),
+        <span class="php-quote">'ZIP'</span> =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'required'</span>=&gt;<span class="php-keyword1">true</span>, <span class="php-quote">'name'</span>=&gt;<span class="php-quote">'zipcode'</span>)
+    )
+)</code></td>
+		<td class="description"><div>
+			<a href="#$pfpParams" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Object.html#properties">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#$_log"><var>$_log</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

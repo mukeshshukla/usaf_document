@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class PaginatorHelper | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-ActivityTableHelper.html">ActivityTableHelper</a></li>
+				<li><a href="class-AjaxHelper.html">AjaxHelper</a></li>
+				<li><a href="class-AjaxLinkHelper.html">AjaxLinkHelper</a></li>
+				<li><a href="class-CacheHelper.html">CacheHelper</a></li>
+				<li><a href="class-FformHelper.html">FformHelper</a></li>
+				<li><a href="class-FormatingHelper.html">FormatingHelper</a></li>
+				<li><a href="class-FormHelper.html">FormHelper</a></li>
+				<li><a href="class-HtmlHelper.html">HtmlHelper</a></li>
+				<li><a href="class-JavascriptHelper.html">JavascriptHelper</a></li>
+				<li><a href="class-JsHelper.html">JsHelper</a></li>
+				<li><a href="class-JsHelperObject.html">JsHelperObject</a></li>
+				<li><a href="class-LapHelper.html">LapHelper</a></li>
+				<li><a href="class-LctHtmlHelper.html">LctHtmlHelper</a></li>
+				<li><a href="class-Lib24watchCaptchaHelper.html">Lib24watchCaptchaHelper</a></li>
+				<li><a href="class-Lib24watchHtmlHelper.html">Lib24watchHtmlHelper</a></li>
+				<li><a href="class-Lib24watchPaginatorHelper.html">Lib24watchPaginatorHelper</a></li>
+				<li><a href="class-MembershipLinkHelper.html">MembershipLinkHelper</a></li>
+				<li><a href="class-MenuLinkHelper.html">MenuLinkHelper</a></li>
+				<li><a href="class-NumberHelper.html">NumberHelper</a></li>
+				<li><a href="class-PaginationHelper.html">PaginationHelper</a></li>
+				<li class="active"><a href="class-PaginatorHelper.html">PaginatorHelper</a></li>
+				<li><a href="class-RssHelper.html">RssHelper</a></li>
+				<li><a href="class-SchoolsPaginateHelper.html">SchoolsPaginateHelper</a></li>
+				<li><a href="class-TextHelper.html">TextHelper</a></li>
+				<li><a href="class-TicketActivityHelper.html">TicketActivityHelper</a></li>
+				<li><a href="class-TicketColorHelper.html">TicketColorHelper</a></li>
+				<li><a href="class-TimeHelper.html">TimeHelper</a></li>
+				<li><a href="class-XmlHelper.html">XmlHelper</a></li>
+				<li><a href="class-ZazzleHelper.html">ZazzleHelper</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.view.helpers.html" title="Summary of cake\cake\libs\view\helpers"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class PaginatorHelper</h1>
+
+
+	<div class="description">
+	
+<p>Pagination Helper class for easy generation of pagination links.</p>
+
+<p>PaginationHelper encloses all methods needed when working with
+pagination.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-AppHelper.html"><span class="invalid">AppHelper</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>PaginatorHelper</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Lib24watchPaginatorHelper.html">Lib24watchPaginatorHelper</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a>\<a href="package-cake.cake.libs.view.html">view</a>\<a href="package-cake.cake.libs.view.helpers.html">helpers</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-PaginatorHelper.html#27-602" title="Go to source code">cake/libs/view/helpers/paginator.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="params" id="_params">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_params">#</a>
+		<code><a href="source-class-PaginatorHelper.html#70-84" title="Go to source code">params</a>( <span>string <var>$model</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets the current page of the in the recordset for the given model</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the current page of the in the recordset for the given model</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>$model Optional model name. Uses the default if none is specified.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>The current page number of the paginated resultset.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="options" id="_options">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_options">#</a>
+		<code><a href="source-class-PaginatorHelper.html#85-113" title="Go to source code">options</a>( <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Sets default options for all pagination links</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets default options for all pagination links</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>mixed</code><br>$options Default options for pagination links. If a string is supplied - it is
+used as the DOM id element to update. See #options for list of keys.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="current" id="_current">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_current">#</a>
+		<code><a href="source-class-PaginatorHelper.html#114-127" title="Go to source code">current</a>( <span>string <var>$model</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets the current page of the recordset for the given model</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the current page of the recordset for the given model</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>$model Optional model name. Uses the default if none is specified.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>The current page number of the recordset.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sortKey" id="_sortKey">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sortKey">#</a>
+		<code><a href="source-class-PaginatorHelper.html#128-152" title="Go to source code">sortKey</a>( <span>string <var>$model</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Gets the current key by which the recordset is sorted</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the current key by which the recordset is sorted</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>$model Optional model name. Uses the default if none is specified.</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>mixed</code><br>$options Options for pagination links. See #options for list of keys.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>The name of the key by which the recordset is being sorted, or null if the
+results are not currently sorted.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sortDir" id="_sortDir">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sortDir">#</a>
+		<code><a href="source-class-PaginatorHelper.html#153-179" title="Go to source code">sortDir</a>( <span>string <var>$model</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Gets the current direction the recordset is sorted</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the current direction the recordset is sorted</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>$model Optional model name. Uses the default if none is specified.</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>mixed</code><br>$options Options for pagination links. See #options for list of keys.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>The direction by which the recordset is being sorted, or null if the results are
+not currently sorted.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="prev" id="_prev">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_prev">#</a>
+		<code><a href="source-class-PaginatorHelper.html#180-191" title="Go to source code">prev</a>( <span>string <var>$title</var> = <span class="php-quote">'&lt;&lt; Previous'</span></span>, <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$disabledTitle</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$disabledOptions</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Generates a "previous" link for a set of paged records</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates a "previous" link for a set of paged records</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$title</var></dt>
+					<dd><code>string</code><br>$title Title for the link. Defaults to '&lt;&lt; Previous'.</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>mixed</code><br>$options Options for pagination link. See #options for list of keys.</dd>
+					<dt><var>$disabledTitle</var></dt>
+					<dd><code>string</code><br>$disabledTitle Title when the link is disabled.</dd>
+					<dt><var>$disabledOptions</var></dt>
+					<dd><code>mixed</code><br>$disabledOptions Options for the disabled pagination link. See #options for list
+of keys.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>A "previous" link or $disabledTitle text if the link is disabled.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="next" id="_next">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_next">#</a>
+		<code><a href="source-class-PaginatorHelper.html#192-203" title="Go to source code">next</a>( <span>string <var>$title</var> = <span class="php-quote">'Next &gt;&gt;'</span></span>, <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$disabledTitle</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$disabledOptions</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Generates a "next" link for a set of paged records</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates a "next" link for a set of paged records</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$title</var></dt>
+					<dd><code>string</code><br>$title Title for the link. Defaults to 'Next &gt;&gt;'.</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>mixed</code><br>$options Options for pagination link. See #options for list of keys.</dd>
+					<dt><var>$disabledTitle</var></dt>
+					<dd><code>string</code><br>$disabledTitle Title when the link is disabled.</dd>
+					<dt><var>$disabledOptions</var></dt>
+					<dd><code>mixed</code><br>$disabledOptions Options for the disabled pagination link. See #options for list
+of keys.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>A "next" link or or $disabledTitle text if the link is disabled.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sort" id="_sort">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sort">#</a>
+		<code><a href="source-class-PaginatorHelper.html#204-230" title="Go to source code">sort</a>( <span>string <var>$title</var></span>, <span>string <var>$key</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Generates a sorting link</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates a sorting link</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$title</var></dt>
+					<dd><code>string</code><br>$title Title for the link.</dd>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key The name of the key that the recordset should be sorted.</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Options for sorting link. See #options for list of keys.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>A link sorting default by 'asc'. If the resultset is sorted 'asc' by the
+specified key the returned link will sort by 'desc'.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="link" id="_link">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_link">#</a>
+		<code><a href="source-class-PaginatorHelper.html#231-256" title="Go to source code">link</a>( <span>string <var>$title</var></span>, <span>mixed <var>$url</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Generates a plain or Ajax link with pagination parameters</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates a plain or Ajax link with pagination parameters</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$title</var></dt>
+					<dd><code>string</code><br>$title Title for the link.</dd>
+					<dt><var>$url</var></dt>
+					<dd><code>mixed</code><br>$url Url for the action. See Router::url()</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Options for the link. See #options for list of keys.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>A link with pagination parameters.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="url" id="_url">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_url">#</a>
+		<code><a href="source-class-PaginatorHelper.html#257-282" title="Go to source code">url</a>( <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$asArray</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$model</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Merges passed URL options with current pagination state to generate a
+pagination URL.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Merges passed URL options with current pagination state to generate a
+pagination URL.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Pagination/URL options array</dd>
+					<dt><var>$asArray</var></dt>
+					<dd><code>boolean</code><br>$asArray</dd>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>$model Which model to paginate on</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>By default, returns a full pagination URL string for use in non-standard
+contexts (i.e. JavaScript)<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__pagingLink" id="___pagingLink">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___pagingLink">#</a>
+		<code><a href="source-class-PaginatorHelper.html#283-313" title="Go to source code">__pagingLink</a>( <span>mixed <var>$which</var></span>, <span>mixed <var>$title</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$disabledTitle</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$disabledOptions</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Protected method for generating prev/next links</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Protected method for generating prev/next links</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasPrev" id="_hasPrev">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasPrev">#</a>
+		<code><a href="source-class-PaginatorHelper.html#314-322" title="Go to source code">hasPrev</a>( <span>string <var>$model</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the given result set is not at the first page</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the given result set is not at the first page</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>$model Optional model name. Uses the default if none is specified.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if the result set is not at the first page.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasNext" id="_hasNext">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasNext">#</a>
+		<code><a href="source-class-PaginatorHelper.html#323-331" title="Go to source code">hasNext</a>( <span>string <var>$model</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the given result set is not at the last page</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the given result set is not at the last page</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>$model Optional model name. Uses the default if none is specified.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if the result set is not at the last page.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasPage" id="_hasPage">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasPage">#</a>
+		<code><a href="source-class-PaginatorHelper.html#332-346" title="Go to source code">hasPage</a>( <span>string <var>$model</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$page</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the given result set has the page number given by $page</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the given result set has the page number given by $page</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>$model Optional model name. Uses the default if none is specified.</dd>
+					<dt><var>$page</var></dt>
+					<dd><code>integer</code><br>$page The page number - if not set defaults to 1.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if the given result set has the specified page number.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__hasPage" id="___hasPage">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___hasPage">#</a>
+		<code><a href="source-class-PaginatorHelper.html#347-359" title="Go to source code">__hasPage</a>( <span>mixed <var>$model</var></span>, <span>mixed <var>$page</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Protected method</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Protected method</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="defaultModel" id="_defaultModel">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_defaultModel">#</a>
+		<code><a href="source-class-PaginatorHelper.html#360-374" title="Go to source code">defaultModel</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the default model of the paged sets</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the default model of the paged sets</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Model name or null if the pagination isn't initialized.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="counter" id="_counter">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_counter">#</a>
+		<code><a href="source-class-PaginatorHelper.html#375-423" title="Go to source code">counter</a>( <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a counter string for the paged result set</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a counter string for the paged result set</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>mixed</code><br>$options Options for the counter string. See #options for list of keys.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Counter string.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="numbers" id="_numbers">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_numbers">#</a>
+		<code><a href="source-class-PaginatorHelper.html#424-513" title="Go to source code">numbers</a>( <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a set of numbers for the paged result set uses a modulus to decide
+how many numbers to show on each side of the current page (default: 8)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a set of numbers for the paged result set uses a modulus to decide
+how many numbers to show on each side of the current page (default: 8)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>mixed</code><br>$options Options for the numbers, (before, after, model, modulus, separator)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>numbers string.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="first" id="_first">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_first">#</a>
+		<code><a href="source-class-PaginatorHelper.html#514-556" title="Go to source code">first</a>( <span>mixed <var>$first</var> = <span class="php-quote">'&lt;&lt; first'</span></span>, <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a first or set of numbers for the first pages</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a first or set of numbers for the first pages</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>mixed</code><br>$first if string use as label for the link, if numeric print page numbers</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>mixed</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>numbers string.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="last" id="_last">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_last">#</a>
+		<code><a href="source-class-PaginatorHelper.html#557-601" title="Go to source code">last</a>( <span>mixed <var>$last</var> = <span class="php-quote">'last &gt;&gt;'</span></span>, <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a last or set of numbers for the last pages</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a last or set of numbers for the last pages</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$last</var></dt>
+					<dd><code>mixed</code><br>$last if string use as label for the link, if numeric print page numbers</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>mixed</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>numbers string.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="helpers" id="$helpers">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-PaginatorHelper.html#37-42" title="Go to source code"><var>$helpers</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'Html'</span>, <span class="php-quote">'Ajax'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$helpers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Helper dependencies</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Helper dependencies</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__defaultModel" id="$__defaultModel">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-PaginatorHelper.html#43-48" title="Go to source code"><var>$__defaultModel</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$__defaultModel" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Holds the default model for paged recordsets</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Holds the default model for paged recordsets</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="options" id="$options">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-PaginatorHelper.html#49-69" title="Go to source code"><var>$options</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$options" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Holds the default options for pagination links</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Holds the default options for pagination links</p>
+
+<p>The values that may be specified are:</p>
+
+<ul>
+	<li><i>$options['sort']</i> the key that the recordset is sorted.</li>
+
+	<li><i>$options['direction']</i> Direction of the sorting (default: 'asc').</li>
+
+	<li><i>$options['format']</i> Format of the counter. Supported formats are
+	'range' and 'pages' and custom (default). In the default mode the supplied
+	string is parsed and constants are replaced by their actual values. Constants:
+	%page%, %pages%, %current%, %count%, %start%, %end% .</li>
+
+	<li><i>$options['separator']</i> The separator of the actual page and number of
+	pages (default: ' of ').</li>
+
+	<li><i>$options['url']</i> Url of the action. See Router::url()</li>
+
+	<li><i>$options['model']</i> The name of the model.</li>
+
+	<li><i>$options['escape']</i> Defines if the title field for the link should be
+	escaped (default: true).</li>
+
+	<li><i>$options['update']</i> DOM id of the element updated with the results of
+	the AJAX call. If this key isn't specified Paginator will use plain HTML
+	links.</li>
+
+	<li><i>$options['indicator']</i> DOM id of the element that will be shown when
+	doing AJAX requests.</li>
+</ul>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

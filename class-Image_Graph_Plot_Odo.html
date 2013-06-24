@@ -1,0 +1,1897 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Image_Graph_Plot_Odo | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li class="active"><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li class="active"><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li class="active"><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Image_Graph_Plot.html">Image_Graph_Plot</a></li>
+				<li><a href="class-Image_Graph_Plot_Area.html">Image_Graph_Plot_Area</a></li>
+				<li><a href="class-Image_Graph_Plot_Band.html">Image_Graph_Plot_Band</a></li>
+				<li><a href="class-Image_Graph_Plot_Bar.html">Image_Graph_Plot_Bar</a></li>
+				<li><a href="class-Image_Graph_Plot_BoxWhisker.html">Image_Graph_Plot_BoxWhisker</a></li>
+				<li><a href="class-Image_Graph_Plot_CandleStick.html">Image_Graph_Plot_CandleStick</a></li>
+				<li><a href="class-Image_Graph_Plot_Dot.html">Image_Graph_Plot_Dot</a></li>
+				<li><a href="class-Image_Graph_Plot_Fit_Line.html">Image_Graph_Plot_Fit_Line</a></li>
+				<li><a href="class-Image_Graph_Plot_Impulse.html">Image_Graph_Plot_Impulse</a></li>
+				<li><a href="class-Image_Graph_Plot_Line.html">Image_Graph_Plot_Line</a></li>
+				<li class="active"><a href="class-Image_Graph_Plot_Odo.html">Image_Graph_Plot_Odo</a></li>
+				<li><a href="class-Image_Graph_Plot_Pie.html">Image_Graph_Plot_Pie</a></li>
+				<li><a href="class-Image_Graph_Plot_Radar.html">Image_Graph_Plot_Radar</a></li>
+				<li><a href="class-Image_Graph_Plot_Smoothed_Area.html">Image_Graph_Plot_Smoothed_Area</a></li>
+				<li><a href="class-Image_Graph_Plot_Smoothed_Bezier.html">Image_Graph_Plot_Smoothed_Bezier</a></li>
+				<li><a href="class-Image_Graph_Plot_Smoothed_Line.html">Image_Graph_Plot_Smoothed_Line</a></li>
+				<li><a href="class-Image_Graph_Plot_Smoothed_Radar.html">Image_Graph_Plot_Smoothed_Radar</a></li>
+				<li><a href="class-Image_Graph_Plot_Step.html">Image_Graph_Plot_Step</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Image.Graph.Plot.html" title="Summary of Image\Graph\Plot"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Image_Graph_Plot_Odo</h1>
+
+
+	<div class="description">
+	
+<p>2D Odochart.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Image_Graph_Common.html"><span>Image_Graph_Common</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Graph_Element.html"><span>Image_Graph_Element</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Graph_Plotarea_Element.html"><span>Image_Graph_Plotarea_Element</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:90px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Graph_Plot.html"><span>Image_Graph_Plot</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:120px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Image_Graph_Plot_Odo</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Image.html">Image</a>\<a href="package-Image.Graph.html">Graph</a>\<a href="package-Image.Graph.Plot.html">Plot</a><br />
+
+				<b>Category:</b>
+				Images<br />
+				<b>Copyright:</b>
+				Copyright (C) 2005 Maxime Delorme<br />
+				<b>License:</b>
+				<a href="http://www.gnu.org/copyleft/lesser.html">LGPL License 2.1</a><br />
+				<b>Author:</b>
+				Maxime Delorme &lt;<a
+href="mailto:mdelorme&#64;tennaxia.com">mdelorme&#64;<!---->tennaxia.com</a>&gt;<br />
+				<b>Version:</b>
+				Release: @package_version@<br />
+				<b>Link:</b>
+				<a href="http://pear.php.net/package/Image_Graph">http://pear.php.net/package/Image_Graph</a><br />
+		<b>Located at</b> <a href="source-class-Image_Graph_Plot_Odo.html#41-718" title="Go to source code">app/vendors/Image/Graph/Plot/Odo.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="Image_Graph_Plot_Odo" id="_Image_Graph_Plot_Odo">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_Image_Graph_Plot_Odo">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#166-196" title="Go to source code">Image_Graph_Plot_Odo</a>( <span><code><a href="class-Image_Graph_Dataset.html">Image_Graph_Dataset</a></code> <var>&amp; $dataset</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Plot_Odo [Constructor]</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Plot_Odo [Constructor]</p>
+
+<p>dataset with one data per arrow</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$dataset</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Dataset.html">Image_Graph_Dataset</a></code></code><br>$dataset The data set (value containter) to plot or an array of datasets <code><a href="class-Image_Graph_Legend.html">Image_Graph_Legend</a></code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCenter" id="_setCenter">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCenter">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#198-208" title="Go to source code">setCenter</a>( <span>integer <var>$centerX</var></span>, <span>integer <var>$centerY</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the center of the odometer</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the center of the odometer</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$centerX</var></dt>
+					<dd><code>integer</code><br>$centerX The center x point</dd>
+					<dt><var>$centerY</var></dt>
+					<dd><code>integer</code><br>$centerY The center y point</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_value2angle" id="__value2angle">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__value2angle">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#210-220" title="Go to source code">_value2angle</a>( <span>integer <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Convert a value to the angle position onto the odometer</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Convert a value to the angle position onto the odometer</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>integer</code><br>$value the value to convert</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>the angle'position onto the odometer<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_initialize" id="__initialize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__initialize">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#222-256" title="Go to source code">_initialize</a>( )</code>
+
+		<div class="description short">
+			
+<p>set some internal var</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>set some internal var</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setRange" id="_setRange">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setRange">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#258-269" title="Go to source code">setRange</a>( <span>integer <var>$value_min</var></span>, <span>integer <var>$value_max</var></span> )</code>
+
+		<div class="description short">
+			
+<p>set min and max value of the range</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>set min and max value of the range</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value_min</var></dt>
+					<dd><code>integer</code><br>$value_min the minimun value of the chart or the start value</dd>
+					<dt><var>$value_max</var></dt>
+					<dd><code>integer</code><br>$value_max the maximum value of the chart or the end value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setAngles" id="_setAngles">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setAngles">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#271-282" title="Go to source code">setAngles</a>( <span>integer <var>$deg_offset</var></span>, <span>integer <var>$deg_width</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set start's angle and amplitude of the chart</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set start's angle and amplitude of the chart</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$deg_offset</var></dt>
+					<dd><code>integer</code><br>$deg_offset the start angle</dd>
+					<dt><var>$deg_width</var></dt>
+					<dd><code>integer</code><br>$deg_width the angle of the chart (the length)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setRadiusWidth" id="_setRadiusWidth">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setRadiusWidth">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#284-293" title="Go to source code">setRadiusWidth</a>( <span>string <var>$radius_percent</var></span> )</code>
+
+		<div class="description short">
+			
+<p>set the width of the chart</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>set the width of the chart</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$radius_percent</var></dt>
+					<dd><code>string</code><br>$radius_percent a value between 0 and 100</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setArrowSize" id="_setArrowSize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setArrowSize">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#295-305" title="Go to source code">setArrowSize</a>( <span>integer <var>$length</var></span>, <span>integer <var>$width</var></span> )</code>
+
+		<div class="description short">
+			
+<p>set the width and length of the arrow (in percent of the total plot
+"radius")</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>set the width and length of the arrow (in percent of the total plot
+"radius")</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$length</var></dt>
+					<dd><code>integer</code><br>length The length in percent</dd>
+					<dt><var>$width</var></dt>
+					<dd><code>integer</code><br>width The width in percent</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setArrowMarker" id="_setArrowMarker">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setArrowMarker">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#307-314" title="Go to source code">setArrowMarker</a>( <span><code><a href="class-Image_Graph_Marker.html">Image_Graph_Marker</a></code> <var>&amp; $marker</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the arrow marker</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the arrow marker</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$marker</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Marker.html">Image_Graph_Marker</a></code></code><br>$marker The marker to set for arrow marker</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_done" id="__done">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__done">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#317-334" title="Go to source code">_done</a>( )</code>
+
+		<div class="description short">
+			
+<p>Output the plot</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Output the plot</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Was the output 'good' (true) or 'bad' (false).<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Element.html#__done">Image_Graph_Element::_done()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTickLength" id="_setTickLength">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTickLength">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#336-345" title="Go to source code">setTickLength</a>( <span>string <var>$radius</var></span> )</code>
+
+		<div class="description short">
+			
+<p>set the length of the ticks</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>set the length of the ticks</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$radius</var></dt>
+					<dd><code>string</code><br>$radius_percent a value between 0 and 100</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setAxisTicks" id="_setAxisTicks">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setAxisTicks">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#347-356" title="Go to source code">setAxisTicks</a>( <span>string <var>$int</var></span> )</code>
+
+		<div class="description short">
+			
+<p>set the length of the ticks</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>set the length of the ticks</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$int</var></dt>
+					<dd><code>string</code><br>$radius_percent a value between 0 and 100</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_drawAxis" id="__drawAxis">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__drawAxis">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#358-410" title="Go to source code">_drawAxis</a>( )</code>
+
+		<div class="description short">
+			
+<p>Draw the outline and the axis</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw the outline and the axis</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setArrowLineStyle" id="_setArrowLineStyle">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setArrowLineStyle">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#412-422" title="Go to source code">setArrowLineStyle</a>( <span>Image_Graph_Line <var>$lineStyle</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the line style of the arrows</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the line style of the arrows</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$lineStyle</var></dt>
+					<dd><code>Image_Graph_Line</code><br>$lineStyle The line style of the Arrow</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						Image_Graph_Line<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setArrowFillStyle" id="_setArrowFillStyle">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setArrowFillStyle">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#424-434" title="Go to source code">setArrowFillStyle</a>( <span><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code> <var>$fillStyle</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the fillstyle of the arrows</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the fillstyle of the arrows</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fillStyle</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code></code><br>$fillStyle The fill style of the arrows</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_drawArrow" id="__drawArrow">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__drawArrow">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#436-465" title="Go to source code">_drawArrow</a>( )</code>
+
+		<div class="description short">
+			
+<p>Draw the arrows</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw the arrows</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_getMarkerData" id="__getMarkerData">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__getMarkerData">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#467-497" title="Go to source code">_getMarkerData</a>( <span>array <var>$point</var></span>, <span>array <var>$nextPoint</var></span>, <span>array <var>$prevPoint</var></span>, <span>array <var>&amp; $totals</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculate marker point data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculate marker point data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$point</var></dt>
+					<dd><code>array</code><br>$point The point to calculate data for</dd>
+					<dt><var>$nextPoint</var></dt>
+					<dd><code>array</code><br>$nextPoint The next point</dd>
+					<dt><var>$prevPoint</var></dt>
+					<dd><code>array</code><br>$prevPoint The previous point</dd>
+					<dt><var>$totals</var></dt>
+					<dd><code>array</code><br>$totals The pre-calculated totals, if needed</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>An array containing marker point data<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Plot.html#__getMarkerData">Image_Graph_Plot::_getMarkerData()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_drawMarker" id="__drawMarker">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__drawMarker">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#499-546" title="Go to source code">_drawMarker</a>( )</code>
+
+		<div class="description short">
+			
+<p>Draws markers of the arrows on the canvas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draws markers of the arrows on the canvas</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Plot.html#__drawMarker">Image_Graph_Plot::_drawMarker()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addRangeMarker" id="_addRangeMarker">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addRangeMarker">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#548-564" title="Go to source code">addRangeMarker</a>( <span><code><a href="class-Image_Graph_Dataset.html">Image_Graph_Dataset</a></code> <var>$min</var></span>, <span>mixed <var>$max</var></span>, <span>mixed <var>$id</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set range</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set range</p>
+
+<p>dataset with two data start and end value of the range</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$min</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Dataset.html">Image_Graph_Dataset</a></code></code><br>$dataset The data set (value containter) to plot or an array of datasets</dd>
+					<dt><var>$max</var></dt>
+					<dd></dd>
+					<dt><var>$id</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setRangeMarkerFillStyle" id="_setRangeMarkerFillStyle">
+
+		<td class="attributes"><code>
+			 public 
+			
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setRangeMarkerFillStyle">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#566-576" title="Go to source code">setRangeMarkerFillStyle</a>( <span><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code> <var>&amp; $rangeMarkerFillStyle</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the fillstyle of the ranges</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the fillstyle of the ranges</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$rangeMarkerFillStyle</var></dt>
+					<dd><code><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code></code><br>$fillStyle The fill style of the range</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_drawRange" id="__drawRange">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__drawRange">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#578-611" title="Go to source code">_drawRange</a>( )</code>
+
+		<div class="description short">
+			
+<p>Draw the ranges</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw the ranges</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_drawLegendSample" id="__drawLegendSample">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__drawLegendSample">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#613-629" title="Go to source code">_drawLegendSample</a>( <span>integer <var>$x0</var></span>, <span>integer <var>$y0</var></span>, <span>integer <var>$x1</var></span>, <span>integer <var>$y1</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Perform the actual drawing on the legend.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Perform the actual drawing on the legend.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x0</var></dt>
+					<dd><code>integer</code><br>$x0 The top-left x-coordinate</dd>
+					<dt><var>$y0</var></dt>
+					<dd><code>integer</code><br>$y0 The top-left y-coordinate</dd>
+					<dt><var>$x1</var></dt>
+					<dd><code>integer</code><br>$x1 The bottom-right x-coordinate</dd>
+					<dt><var>$y1</var></dt>
+					<dd><code>integer</code><br>$y1 The bottom-right y-coordinate</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Plot.html#__drawLegendSample">Image_Graph_Plot::_drawLegendSample()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_legendSample" id="__legendSample">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__legendSample">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Odo.html#631-717" title="Go to source code">_legendSample</a>( <span>array <var>&amp; $param</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Draw a sample for use with legend</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Draw a sample for use with legend</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$param</var></dt>
+					<dd><code>array</code><br>$param The parameters for the legend</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Plot.html#__legendSample">Image_Graph_Plot::_legendSample()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Plot.html#methods">Image_Graph_Plot</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Plot.html#_Image_Graph_Plot">Image_Graph_Plot()</a>, 
+			<a href="class-Image_Graph_Plot.html#__getTotals">_getTotals()</a>, 
+			<a href="class-Image_Graph_Plot.html#__maximumX">_maximumX()</a>, 
+			<a href="class-Image_Graph_Plot.html#__maximumY">_maximumY()</a>, 
+			<a href="class-Image_Graph_Plot.html#__mergeData">_mergeData()</a>, 
+			<a href="class-Image_Graph_Plot.html#__minimumX">_minimumX()</a>, 
+			<a href="class-Image_Graph_Plot.html#__minimumY">_minimumY()</a>, 
+			<a href="class-Image_Graph_Plot.html#__pointX">_pointX()</a>, 
+			<a href="class-Image_Graph_Plot.html#__pointY">_pointY()</a>, 
+			<a href="class-Image_Graph_Plot.html#__setAxisY">_setAxisY()</a>, 
+			<a href="class-Image_Graph_Plot.html#__updateCoords">_updateCoords()</a>, 
+			<a href="class-Image_Graph_Plot.html#_dataset">dataset()</a>, 
+			<a href="class-Image_Graph_Plot.html#_setDataSelector">setDataSelector()</a>, 
+			<a href="class-Image_Graph_Plot.html#_setMarker">setMarker()</a>, 
+			<a href="class-Image_Graph_Plot.html#_setTitle">setTitle()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Plotarea_Element.html#methods">Image_Graph_Plotarea_Element</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Plotarea_Element.html#__pointXY">_pointXY()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Element.html#methods">Image_Graph_Element</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Element.html#__clip">_clip()</a>, 
+			<a href="class-Image_Graph_Element.html#__displayShadow">_displayShadow()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillBottom">_fillBottom()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillHeight">_fillHeight()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillLeft">_fillLeft()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillRight">_fillRight()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillTop">_fillTop()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillWidth">_fillWidth()</a>, 
+			<a href="class-Image_Graph_Element.html#__getBackground">_getBackground()</a>, 
+			<a href="class-Image_Graph_Element.html#__getBorderStyle">_getBorderStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#__getFillStyle">_getFillStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#__getFont">_getFont()</a>, 
+			<a href="class-Image_Graph_Element.html#__getLineStyle">_getLineStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#__move">_move()</a>, 
+			<a href="class-Image_Graph_Element.html#__setCoords">_setCoords()</a>, 
+			<a href="class-Image_Graph_Element.html#__setHeight">_setHeight()</a>, 
+			<a href="class-Image_Graph_Element.html#__setWidth">_setWidth()</a>, 
+			<a href="class-Image_Graph_Element.html#_height">height()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBackground">setBackground()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBackgroundColor">setBackgroundColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBorderColor">setBorderColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBorderStyle">setBorderStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFillColor">setFillColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFillStyle">setFillStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFont">setFont()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFontAngle">setFontAngle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFontColor">setFontColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFontSize">setFontSize()</a>, 
+			<a href="class-Image_Graph_Element.html#_setLineColor">setLineColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setLineStyle">setLineStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setPadding">setPadding()</a>, 
+			<a href="class-Image_Graph_Element.html#_showShadow">showShadow()</a>, 
+			<a href="class-Image_Graph_Element.html#_width">width()</a>, 
+			<a href="class-Image_Graph_Element.html#_write">write()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Common.html#methods">Image_Graph_Common</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Common.html#_Image_Graph_Common">Image_Graph_Common()</a>, 
+			<a href="class-Image_Graph_Common.html#__error">_error()</a>, 
+			<a href="class-Image_Graph_Common.html#__getCanvas">_getCanvas()</a>, 
+			<a href="class-Image_Graph_Common.html#__reset">_reset()</a>, 
+			<a href="class-Image_Graph_Common.html#__setParent">_setParent()</a>, 
+			<a href="class-Image_Graph_Common.html#_add">add()</a>, 
+			<a href="class-Image_Graph_Common.html#_addNew">addNew()</a>, 
+			<a href="class-Image_Graph_Common.html#_hide">hide()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_radiusPercent" id="$_radiusPercent">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#55-60" title="Go to source code"><var>$_radiusPercent</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">50</span></code></td>
+		<td class="description"><div>
+			<a href="#$_radiusPercent" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>the percent of the radius of the chart that will be use as the width of the
+range</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>the percent of the radius of the chart that will be use as the width of the
+range</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_value_min" id="$_value_min">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#62-67" title="Go to source code"><var>$_value_min</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$_value_min" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>the minimun value of the chart or the start value</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>the minimun value of the chart or the start value</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_value_max" id="$_value_max">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#69-74" title="Go to source code"><var>$_value_max</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">100</span></code></td>
+		<td class="description"><div>
+			<a href="#$_value_max" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>the maximum value of the chart or the end value</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>the maximum value of the chart or the end value</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_deg_offset" id="$_deg_offset">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#76-81" title="Go to source code"><var>$_deg_offset</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">135</span></code></td>
+		<td class="description"><div>
+			<a href="#$_deg_offset" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>the start angle</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>the start angle</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_deg_width" id="$_deg_width">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#83-89" title="Go to source code"><var>$_deg_width</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">270</span></code></td>
+		<td class="description"><div>
+			<a href="#$_deg_width" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>the angle of the chart , the length of the chart 180 min a half circle</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>the angle of the chart , the length of the chart 180 min a half circle</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_tickLength" id="$_tickLength">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#91-98" title="Go to source code"><var>$_tickLength</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">14</span></code></td>
+		<td class="description"><div>
+			<a href="#$_tickLength" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>the length of the big ticks the small ones will be half ot it, the values
+160% of it 180 min a half circle</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>the length of the big ticks the small ones will be half ot it, the values
+160% of it 180 min a half circle</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_axisTicks" id="$_axisTicks">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#100-108" title="Go to source code"><var>$_axisTicks</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">5</span></code></td>
+		<td class="description"><div>
+			<a href="#$_axisTicks" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>how many small ticks a big tick appears the small ticks appear every 6� so
+with the default value of 5, every 30� there is a value and a big tick 180 min
+a half circle</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>how many small ticks a big tick appears the small ticks appear every 6� so
+with the default value of 5, every 30� there is a value and a big tick 180 min
+a half circle</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_arrowMarker" id="$_arrowMarker">
+		<td class="attributes"><code>
+			public  
+			<code><a href="class-Image_Graph_Marker.html">Image_Graph_Marker</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#110-115" title="Go to source code"><var>$_arrowMarker</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_arrowMarker" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Arrow marker</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Arrow marker</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_rangeFillStyle" id="$_rangeFillStyle">
+		<td class="attributes"><code>
+			public  
+			<code><a href="class-Image_Graph_Fill.html">Image_Graph_Fill</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#117-122" title="Go to source code"><var>$_rangeFillStyle</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$_rangeFillStyle" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Range marker fill style</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Range marker fill style</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_arrowWidth" id="$_arrowWidth">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#124-129" title="Go to source code"><var>$_arrowWidth</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">5</span></code></td>
+		<td class="description"><div>
+			<a href="#$_arrowWidth" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The width of the arrow</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The width of the arrow</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_arrowLength" id="$_arrowLength">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#131-136" title="Go to source code"><var>$_arrowLength</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">80</span></code></td>
+		<td class="description"><div>
+			<a href="#$_arrowLength" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The length of the arrow</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The length of the arrow</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_radius" id="$_radius">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#138-143" title="Go to source code"><var>$_radius</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_radius" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The radius of the plot</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The radius of the plot</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_totalY" id="$_totalY">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#145-150" title="Go to source code"><var>$_totalY</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_totalY" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The total Y</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The total Y</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_centerX" id="$_centerX">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#152-157" title="Go to source code"><var>$_centerX</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_centerX" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Center X of odometer "circle"</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Center X of odometer "circle"</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_centerY" id="$_centerY">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Odo.html#159-164" title="Go to source code"><var>$_centerY</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_centerY" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Center y of odometer "circle"</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Center y of odometer "circle"</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Graph_Plot.html#properties">Image_Graph_Plot</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Plot.html#$_axisY"><var>$_axisY</var></a>, 
+			<a href="class-Image_Graph_Plot.html#$_dataSelector"><var>$_dataSelector</var></a>, 
+			<a href="class-Image_Graph_Plot.html#$_dataset"><var>$_dataset</var></a>, 
+			<a href="class-Image_Graph_Plot.html#$_marker"><var>$_marker</var></a>, 
+			<a href="class-Image_Graph_Plot.html#$_multiType"><var>$_multiType</var></a>, 
+			<a href="class-Image_Graph_Plot.html#$_title"><var>$_title</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Graph_Element.html#properties">Image_Graph_Element</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Element.html#$_background"><var>$_background</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_borderStyle"><var>$_borderStyle</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_bottom"><var>$_bottom</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_defaultFontOptions"><var>$_defaultFontOptions</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_fillStyle"><var>$_fillStyle</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_font"><var>$_font</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_fontOptions"><var>$_fontOptions</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_left"><var>$_left</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_lineStyle"><var>$_lineStyle</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_padding"><var>$_padding</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_right"><var>$_right</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_shadow"><var>$_shadow</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_top"><var>$_top</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Graph_Common.html#properties">Image_Graph_Common</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Common.html#$_canvas"><var>$_canvas</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_elements"><var>$_elements</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_parent"><var>$_parent</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_visible"><var>$_visible</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

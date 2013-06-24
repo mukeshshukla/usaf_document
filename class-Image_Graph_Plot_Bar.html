@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Image_Graph_Plot_Bar | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li class="active"><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li class="active"><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li class="active"><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Image_Graph_Plot.html">Image_Graph_Plot</a></li>
+				<li><a href="class-Image_Graph_Plot_Area.html">Image_Graph_Plot_Area</a></li>
+				<li><a href="class-Image_Graph_Plot_Band.html">Image_Graph_Plot_Band</a></li>
+				<li class="active"><a href="class-Image_Graph_Plot_Bar.html">Image_Graph_Plot_Bar</a></li>
+				<li><a href="class-Image_Graph_Plot_BoxWhisker.html">Image_Graph_Plot_BoxWhisker</a></li>
+				<li><a href="class-Image_Graph_Plot_CandleStick.html">Image_Graph_Plot_CandleStick</a></li>
+				<li><a href="class-Image_Graph_Plot_Dot.html">Image_Graph_Plot_Dot</a></li>
+				<li><a href="class-Image_Graph_Plot_Fit_Line.html">Image_Graph_Plot_Fit_Line</a></li>
+				<li><a href="class-Image_Graph_Plot_Impulse.html">Image_Graph_Plot_Impulse</a></li>
+				<li><a href="class-Image_Graph_Plot_Line.html">Image_Graph_Plot_Line</a></li>
+				<li><a href="class-Image_Graph_Plot_Odo.html">Image_Graph_Plot_Odo</a></li>
+				<li><a href="class-Image_Graph_Plot_Pie.html">Image_Graph_Plot_Pie</a></li>
+				<li><a href="class-Image_Graph_Plot_Radar.html">Image_Graph_Plot_Radar</a></li>
+				<li><a href="class-Image_Graph_Plot_Smoothed_Area.html">Image_Graph_Plot_Smoothed_Area</a></li>
+				<li><a href="class-Image_Graph_Plot_Smoothed_Bezier.html">Image_Graph_Plot_Smoothed_Bezier</a></li>
+				<li><a href="class-Image_Graph_Plot_Smoothed_Line.html">Image_Graph_Plot_Smoothed_Line</a></li>
+				<li><a href="class-Image_Graph_Plot_Smoothed_Radar.html">Image_Graph_Plot_Smoothed_Radar</a></li>
+				<li><a href="class-Image_Graph_Plot_Step.html">Image_Graph_Plot_Step</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Image.Graph.Plot.html" title="Summary of Image\Graph\Plot"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Image_Graph_Plot_Bar</h1>
+
+
+	<div class="description">
+	
+<p>A bar chart.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Image_Graph_Common.html"><span>Image_Graph_Common</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Graph_Element.html"><span>Image_Graph_Element</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Graph_Plotarea_Element.html"><span>Image_Graph_Plotarea_Element</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:90px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Image_Graph_Plot.html"><span>Image_Graph_Plot</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:120px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Image_Graph_Plot_Bar</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Image.html">Image</a>\<a href="package-Image.Graph.html">Graph</a>\<a href="package-Image.Graph.Plot.html">Plot</a><br />
+
+				<b>Category:</b>
+				Images<br />
+				<b>Copyright:</b>
+				Copyright (C) 2003, 2004 Jesper Veggerby Hansen<br />
+				<b>License:</b>
+				<a href="http://www.gnu.org/copyleft/lesser.html">LGPL License 2.1</a><br />
+				<b>Author:</b>
+				Jesper Veggerby &lt;<a
+href="mailto:pear.nosey&#64;veggerby.dk">pear.nosey&#64;<!---->veggerby.dk</a>&gt;<br />
+				<b>Version:</b>
+				Release: @package_version@<br />
+				<b>Link:</b>
+				<a href="http://pear.php.net/package/Image_Graph">http://pear.php.net/package/Image_Graph</a><br />
+		<b>Located at</b> <a href="source-class-Image_Graph_Plot_Bar.html#36-305" title="Go to source code">app/vendors/Image/Graph/Plot/Bar.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="_drawLegendSample" id="__drawLegendSample">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__drawLegendSample">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Bar.html#65-78" title="Go to source code">_drawLegendSample</a>( <span>integer <var>$x0</var></span>, <span>integer <var>$y0</var></span>, <span>integer <var>$x1</var></span>, <span>integer <var>$y1</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Perform the actual drawing on the legend.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Perform the actual drawing on the legend.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x0</var></dt>
+					<dd><code>integer</code><br>$x0 The top-left x-coordinate</dd>
+					<dt><var>$y0</var></dt>
+					<dd><code>integer</code><br>$y0 The top-left y-coordinate</dd>
+					<dt><var>$x1</var></dt>
+					<dd><code>integer</code><br>$x1 The bottom-right x-coordinate</dd>
+					<dt><var>$y1</var></dt>
+					<dd><code>integer</code><br>$y1 The bottom-right y-coordinate</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Plot.html#__drawLegendSample">Image_Graph_Plot::_drawLegendSample()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setSpacing" id="_setSpacing">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setSpacing">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Bar.html#80-89" title="Go to source code">setSpacing</a>( <span>integer <var>$space</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the spacing between 2 neighbouring bars</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the spacing between 2 neighbouring bars</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$space</var></dt>
+					<dd><code>integer</code><br>$space The number of pixels between 2 bars, should be a multipla of 2 (ie an
+even number)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setBarWidth" id="_setBarWidth">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setBarWidth">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Bar.html#91-116" title="Go to source code">setBarWidth</a>( <span>string <var>$width</var></span>, <span>string <var>$unit</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the width of a bars.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the width of a bars.</p>
+
+<p>Specify 'auto' to auto calculate the width based on the positions on the
+x-axis.</p>
+
+<p>Supported units are:</p>
+
+<p>'%' The width is specified in percentage of the total plot width</p>
+
+<p>'px' The width specified in pixels</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$width</var></dt>
+					<dd><code>string</code><br>$width The width of any bar</dd>
+					<dt><var>$unit</var></dt>
+					<dd><code>string</code><br>$unit The unit of the width</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_done" id="__done">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__done">#</a>
+		<code><a href="source-class-Image_Graph_Plot_Bar.html#118-304" title="Go to source code">_done</a>( )</code>
+
+		<div class="description short">
+			
+<p>Output the plot</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Output the plot</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Was the output 'good' (true) or 'bad' (false).<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Image_Graph_Element.html#__done">Image_Graph_Element::_done()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Plot.html#methods">Image_Graph_Plot</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Plot.html#_Image_Graph_Plot">Image_Graph_Plot()</a>, 
+			<a href="class-Image_Graph_Plot.html#__drawMarker">_drawMarker()</a>, 
+			<a href="class-Image_Graph_Plot.html#__getMarkerData">_getMarkerData()</a>, 
+			<a href="class-Image_Graph_Plot.html#__getTotals">_getTotals()</a>, 
+			<a href="class-Image_Graph_Plot.html#__legendSample">_legendSample()</a>, 
+			<a href="class-Image_Graph_Plot.html#__maximumX">_maximumX()</a>, 
+			<a href="class-Image_Graph_Plot.html#__maximumY">_maximumY()</a>, 
+			<a href="class-Image_Graph_Plot.html#__mergeData">_mergeData()</a>, 
+			<a href="class-Image_Graph_Plot.html#__minimumX">_minimumX()</a>, 
+			<a href="class-Image_Graph_Plot.html#__minimumY">_minimumY()</a>, 
+			<a href="class-Image_Graph_Plot.html#__pointX">_pointX()</a>, 
+			<a href="class-Image_Graph_Plot.html#__pointY">_pointY()</a>, 
+			<a href="class-Image_Graph_Plot.html#__setAxisY">_setAxisY()</a>, 
+			<a href="class-Image_Graph_Plot.html#__updateCoords">_updateCoords()</a>, 
+			<a href="class-Image_Graph_Plot.html#_dataset">dataset()</a>, 
+			<a href="class-Image_Graph_Plot.html#_setDataSelector">setDataSelector()</a>, 
+			<a href="class-Image_Graph_Plot.html#_setMarker">setMarker()</a>, 
+			<a href="class-Image_Graph_Plot.html#_setTitle">setTitle()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Plotarea_Element.html#methods">Image_Graph_Plotarea_Element</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Plotarea_Element.html#__pointXY">_pointXY()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Element.html#methods">Image_Graph_Element</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Element.html#__clip">_clip()</a>, 
+			<a href="class-Image_Graph_Element.html#__displayShadow">_displayShadow()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillBottom">_fillBottom()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillHeight">_fillHeight()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillLeft">_fillLeft()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillRight">_fillRight()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillTop">_fillTop()</a>, 
+			<a href="class-Image_Graph_Element.html#__fillWidth">_fillWidth()</a>, 
+			<a href="class-Image_Graph_Element.html#__getBackground">_getBackground()</a>, 
+			<a href="class-Image_Graph_Element.html#__getBorderStyle">_getBorderStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#__getFillStyle">_getFillStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#__getFont">_getFont()</a>, 
+			<a href="class-Image_Graph_Element.html#__getLineStyle">_getLineStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#__move">_move()</a>, 
+			<a href="class-Image_Graph_Element.html#__setCoords">_setCoords()</a>, 
+			<a href="class-Image_Graph_Element.html#__setHeight">_setHeight()</a>, 
+			<a href="class-Image_Graph_Element.html#__setWidth">_setWidth()</a>, 
+			<a href="class-Image_Graph_Element.html#_height">height()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBackground">setBackground()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBackgroundColor">setBackgroundColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBorderColor">setBorderColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setBorderStyle">setBorderStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFillColor">setFillColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFillStyle">setFillStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFont">setFont()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFontAngle">setFontAngle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFontColor">setFontColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setFontSize">setFontSize()</a>, 
+			<a href="class-Image_Graph_Element.html#_setLineColor">setLineColor()</a>, 
+			<a href="class-Image_Graph_Element.html#_setLineStyle">setLineStyle()</a>, 
+			<a href="class-Image_Graph_Element.html#_setPadding">setPadding()</a>, 
+			<a href="class-Image_Graph_Element.html#_showShadow">showShadow()</a>, 
+			<a href="class-Image_Graph_Element.html#_width">width()</a>, 
+			<a href="class-Image_Graph_Element.html#_write">write()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Image_Graph_Common.html#methods">Image_Graph_Common</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Common.html#_Image_Graph_Common">Image_Graph_Common()</a>, 
+			<a href="class-Image_Graph_Common.html#__error">_error()</a>, 
+			<a href="class-Image_Graph_Common.html#__getCanvas">_getCanvas()</a>, 
+			<a href="class-Image_Graph_Common.html#__reset">_reset()</a>, 
+			<a href="class-Image_Graph_Common.html#__setParent">_setParent()</a>, 
+			<a href="class-Image_Graph_Common.html#_add">add()</a>, 
+			<a href="class-Image_Graph_Common.html#_addNew">addNew()</a>, 
+			<a href="class-Image_Graph_Common.html#_hide">hide()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_space" id="$_space">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Bar.html#51-56" title="Go to source code"><var>$_space</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">4</span></code></td>
+		<td class="description"><div>
+			<a href="#$_space" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The space between 2 bars (should be a multipla of 2)</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The space between 2 bars (should be a multipla of 2)</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_width" id="$_width">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Image_Graph_Plot_Bar.html#58-63" title="Go to source code"><var>$_width</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'auto'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_width" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The width of the bars</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The width of the bars</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Graph_Plot.html#properties">Image_Graph_Plot</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Plot.html#$_axisY"><var>$_axisY</var></a>, 
+			<a href="class-Image_Graph_Plot.html#$_dataSelector"><var>$_dataSelector</var></a>, 
+			<a href="class-Image_Graph_Plot.html#$_dataset"><var>$_dataset</var></a>, 
+			<a href="class-Image_Graph_Plot.html#$_marker"><var>$_marker</var></a>, 
+			<a href="class-Image_Graph_Plot.html#$_multiType"><var>$_multiType</var></a>, 
+			<a href="class-Image_Graph_Plot.html#$_title"><var>$_title</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Graph_Element.html#properties">Image_Graph_Element</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Element.html#$_background"><var>$_background</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_borderStyle"><var>$_borderStyle</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_bottom"><var>$_bottom</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_defaultFontOptions"><var>$_defaultFontOptions</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_fillStyle"><var>$_fillStyle</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_font"><var>$_font</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_fontOptions"><var>$_fontOptions</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_left"><var>$_left</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_lineStyle"><var>$_lineStyle</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_padding"><var>$_padding</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_right"><var>$_right</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_shadow"><var>$_shadow</var></a>, 
+			<a href="class-Image_Graph_Element.html#$_top"><var>$_top</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Image_Graph_Common.html#properties">Image_Graph_Common</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Image_Graph_Common.html#$_canvas"><var>$_canvas</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_elements"><var>$_elements</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_parent"><var>$_parent</var></a>, 
+			<a href="class-Image_Graph_Common.html#$_visible"><var>$_visible</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

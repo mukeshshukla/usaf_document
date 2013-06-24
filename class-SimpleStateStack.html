@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class SimpleStateStack | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-FieldExpectation.html">FieldExpectation</a></li>
+				<li><a href="class-HttpHeaderExpectation.html">HttpHeaderExpectation</a></li>
+				<li><a href="class-LiveTestOfForms.html">LiveTestOfForms</a></li>
+				<li><a href="class-MultipleSelectionTag.html">MultipleSelectionTag</a></li>
+				<li><a href="class-NoHttpHeaderExpectation.html">NoHttpHeaderExpectation</a></li>
+				<li><a href="class-ParallelRegex.html">ParallelRegex</a></li>
+				<li><a href="class-SimpleAnchorTag.html">SimpleAnchorTag</a></li>
+				<li><a href="class-SimpleAttachment.html">SimpleAttachment</a></li>
+				<li><a href="class-SimpleAuthenticator.html">SimpleAuthenticator</a></li>
+				<li><a href="class-SimpleBaseTag.html">SimpleBaseTag</a></li>
+				<li><a href="class-SimpleBrowser.html">SimpleBrowser</a></li>
+				<li><a href="class-SimpleBrowserHistory.html">SimpleBrowserHistory</a></li>
+				<li><a href="class-SimpleButtonTag.html">SimpleButtonTag</a></li>
+				<li><a href="class-SimpleById.html">SimpleById</a></li>
+				<li><a href="class-SimpleByLabel.html">SimpleByLabel</a></li>
+				<li><a href="class-SimpleByLabelOrName.html">SimpleByLabelOrName</a></li>
+				<li><a href="class-SimpleByName.html">SimpleByName</a></li>
+				<li><a href="class-SimpleCheckboxGroup.html">SimpleCheckboxGroup</a></li>
+				<li><a href="class-SimpleCheckboxTag.html">SimpleCheckboxTag</a></li>
+				<li><a href="class-SimpleCookie.html">SimpleCookie</a></li>
+				<li><a href="class-SimpleCookieJar.html">SimpleCookieJar</a></li>
+				<li><a href="class-SimpleEncodedPair.html">SimpleEncodedPair</a></li>
+				<li><a href="class-SimpleEncoding.html">SimpleEncoding</a></li>
+				<li><a href="class-SimpleForm.html">SimpleForm</a></li>
+				<li><a href="class-SimpleFormTag.html">SimpleFormTag</a></li>
+				<li><a href="class-SimpleFrameset.html">SimpleFrameset</a></li>
+				<li><a href="class-SimpleFrameTag.html">SimpleFrameTag</a></li>
+				<li><a href="class-SimpleGetEncoding.html">SimpleGetEncoding</a></li>
+				<li><a href="class-SimpleHeadEncoding.html">SimpleHeadEncoding</a></li>
+				<li><a href="class-SimpleHtmlLexer.html">SimpleHtmlLexer</a></li>
+				<li><a href="class-SimpleHtmlSaxParser.html">SimpleHtmlSaxParser</a></li>
+				<li><a href="class-SimpleHttpHeaders.html">SimpleHttpHeaders</a></li>
+				<li><a href="class-SimpleHttpRequest.html">SimpleHttpRequest</a></li>
+				<li><a href="class-SimpleHttpResponse.html">SimpleHttpResponse</a></li>
+				<li><a href="class-SimpleImageSubmitTag.html">SimpleImageSubmitTag</a></li>
+				<li><a href="class-SimpleLabelTag.html">SimpleLabelTag</a></li>
+				<li><a href="class-SimpleLexer.html">SimpleLexer</a></li>
+				<li><a href="class-SimpleMultipartEncoding.html">SimpleMultipartEncoding</a></li>
+				<li><a href="class-SimpleOptionTag.html">SimpleOptionTag</a></li>
+				<li><a href="class-SimplePage.html">SimplePage</a></li>
+				<li><a href="class-SimplePageBuilder.html">SimplePageBuilder</a></li>
+				<li><a href="class-SimplePostEncoding.html">SimplePostEncoding</a></li>
+				<li><a href="class-SimpleProxyRoute.html">SimpleProxyRoute</a></li>
+				<li><a href="class-SimpleRadioButtonTag.html">SimpleRadioButtonTag</a></li>
+				<li><a href="class-SimpleRadioGroup.html">SimpleRadioGroup</a></li>
+				<li><a href="class-SimpleRealm.html">SimpleRealm</a></li>
+				<li><a href="class-SimpleRoute.html">SimpleRoute</a></li>
+				<li><a href="class-SimpleSaxListener.html">SimpleSaxListener</a></li>
+				<li><a href="class-SimpleSecureSocket.html">SimpleSecureSocket</a></li>
+				<li><a href="class-SimpleSelectionTag.html">SimpleSelectionTag</a></li>
+				<li><a href="class-SimpleSocket.html">SimpleSocket</a></li>
+				<li class="active"><a href="class-SimpleStateStack.html">SimpleStateStack</a></li>
+				<li><a href="class-SimpleStickyError.html">SimpleStickyError</a></li>
+				<li><a href="class-SimpleSubmitTag.html">SimpleSubmitTag</a></li>
+				<li><a href="class-SimpleTag.html">SimpleTag</a></li>
+				<li><a href="class-SimpleTagBuilder.html">SimpleTagBuilder</a></li>
+				<li><a href="class-SimpleTagGroup.html">SimpleTagGroup</a></li>
+				<li><a href="class-SimpleTestAcceptanceTest.html">SimpleTestAcceptanceTest</a></li>
+				<li><a href="class-SimpleTextAreaTag.html">SimpleTextAreaTag</a></li>
+				<li><a href="class-SimpleTextTag.html">SimpleTextTag</a></li>
+				<li><a href="class-SimpleTitleTag.html">SimpleTitleTag</a></li>
+				<li><a href="class-SimpleUploadTag.html">SimpleUploadTag</a></li>
+				<li><a href="class-SimpleUrl.html">SimpleUrl</a></li>
+				<li><a href="class-SimpleUserAgent.html">SimpleUserAgent</a></li>
+				<li><a href="class-SimpleWidget.html">SimpleWidget</a></li>
+				<li><a href="class-TestOfFileUploads.html">TestOfFileUploads</a></li>
+				<li><a href="class-TestOfFrameAuthentication.html">TestOfFrameAuthentication</a></li>
+				<li><a href="class-TestOfGenericAssertionsInWebTester.html">TestOfGenericAssertionsInWebTester</a></li>
+				<li><a href="class-TestOfLinkFollowing.html">TestOfLinkFollowing</a></li>
+				<li><a href="class-TestOfLiveAuthentication.html">TestOfLiveAuthentication</a></li>
+				<li><a href="class-TestOfLiveCookies.html">TestOfLiveCookies</a></li>
+				<li><a href="class-TestOfLiveFetching.html">TestOfLiveFetching</a></li>
+				<li><a href="class-TestOfLiveFrontControllerEmulation.html">TestOfLiveFrontControllerEmulation</a></li>
+				<li><a href="class-TestOfLiveHeaders.html">TestOfLiveHeaders</a></li>
+				<li><a href="class-TestOfLiveHistoryNavigation.html">TestOfLiveHistoryNavigation</a></li>
+				<li><a href="class-TestOfLiveMultiValueWidgets.html">TestOfLiveMultiValueWidgets</a></li>
+				<li><a href="class-TestOfLivePageLinkingWithMinimalLinks.html">TestOfLivePageLinkingWithMinimalLinks</a></li>
+				<li><a href="class-TestOfLiveRedirects.html">TestOfLiveRedirects</a></li>
+				<li><a href="class-TestOfLoadingFrames.html">TestOfLoadingFrames</a></li>
+				<li><a href="class-TestOfNestedFrames.html">TestOfNestedFrames</a></li>
+				<li><a href="class-TestRadioFields.html">TestRadioFields</a></li>
+				<li><a href="class-WebTestCase.html">WebTestCase</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-SimpleTest.WebTester.html" title="Summary of SimpleTest\WebTester"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class SimpleStateStack</h1>
+
+
+	<div class="description">
+	
+<p>States for a stack machine.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-SimpleTest.html">SimpleTest</a>\<a href="package-SimpleTest.WebTester.html">WebTester</a><br />
+
+		<b>Located at</b> <a href="source-class-SimpleStateStack.html#119-169" title="Go to source code">app/vendors/simpletest/parser.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="SimpleStateStack" id="_SimpleStateStack">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_SimpleStateStack">#</a>
+		<code><a href="source-class-SimpleStateStack.html#127-134" title="Go to source code">SimpleStateStack</a>( <span>string <var>$start</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Constructor. Starts in named state.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor. Starts in named state.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$start</var></dt>
+					<dd><code>string</code><br>$start Starting state name.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrent" id="_getCurrent">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrent">#</a>
+		<code><a href="source-class-SimpleStateStack.html#136-143" title="Go to source code">getCurrent</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for current state.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for current state.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>State.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="enter" id="_enter">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_enter">#</a>
+		<code><a href="source-class-SimpleStateStack.html#145-153" title="Go to source code">enter</a>( <span>string <var>$state</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a state to the stack and sets it<br />
+to be the current state.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a state to the stack and sets it to be the current state.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$state</var></dt>
+					<dd><code>string</code><br>$state New state.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="leave" id="_leave">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_leave">#</a>
+		<code><a href="source-class-SimpleStateStack.html#155-168" title="Go to source code">leave</a>( )</code>
+
+		<div class="description short">
+			
+<p>Leaves the current state and reverts<br />
+to the previous one.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Leaves the current state and reverts to the previous one.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>False if we drop off the bottom of the list.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_stack" id="$_stack">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleStateStack.html#125" title="Go to source code"><var>$_stack</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_stack" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

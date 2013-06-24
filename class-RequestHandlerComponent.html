@@ -1,0 +1,1784 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class RequestHandlerComponent | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li class="active"><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AclBase.html">AclBase</a></li>
+				<li><a href="class-AclComponent.html">AclComponent</a></li>
+				<li><a href="class-AppEmailComponent.html">AppEmailComponent</a></li>
+				<li><a href="class-AuthComponent.html">AuthComponent</a></li>
+				<li><a href="class-CookieComponent.html">CookieComponent</a></li>
+				<li><a href="class-EmailComponent.html">EmailComponent</a></li>
+				<li class="active"><a href="class-RequestHandlerComponent.html">RequestHandlerComponent</a></li>
+				<li><a href="class-SecurityComponent.html">SecurityComponent</a></li>
+				<li><a href="class-SessionComponent.html">SessionComponent</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.controller.components.html" title="Summary of cake\cake\libs\controller\components"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class RequestHandlerComponent</h1>
+
+
+	<div class="description">
+	
+<p>Request object for handling HTTP requests</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Object.html"><span>Object</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>RequestHandlerComponent</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a>\<a href="package-cake.cake.libs.controller.html">controller</a>\<a href="package-cake.cake.libs.controller.components.html">components</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-RequestHandlerComponent.html#34-666" title="Go to source code">cake/libs/controller/components/request_handler.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#130-145" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			
+<p>Constructor. Parses the accepted content types accepted by the client using
+HTTP_ACCEPT</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor. Parses the accepted content types accepted by the client using
+HTTP_ACCEPT</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Object.html#___construct">Object::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="initialize" id="_initialize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_initialize">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#146-167" title="Go to source code">initialize</a>( <span>object <var>&amp; $controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Initializes the component, gets a reference to Controller::$parameters, and
+checks to see if a file extension has been parsed by the Router. If yes, the
+corresponding content-type is pushed onto the list of accepted content-types as
+the first item.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Initializes the component, gets a reference to Controller::$parameters, and
+checks to see if a file extension has been parsed by the Router. If yes, the
+corresponding content-type is pushed onto the list of accepted content-types as
+the first item.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller A reference to the controller</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Router.html#_parseExtensions">Router::parseExtensions()</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="startup" id="_startup">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_startup">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#168-208" title="Go to source code">startup</a>( <span>object <var>&amp; $controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>The startup method of the RequestHandler enables several automatic behaviors
+related to the detection of certain properties of the HTTP request,
+including:</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The startup method of the RequestHandler enables several automatic behaviors
+related to the detection of certain properties of the HTTP request,
+including:</p>
+
+<ul>
+	<li>Disabling layout rendering for Ajax requests (based on the
+	HTTP_X_REQUESTED_WITH header)</li>
+
+	<li>If Router::parseExtensions() is enabled, the layout and template type are
+	switched based on the parsed extension. For example, if controller/action.xml is
+	requested, the view path becomes
+	<i>app/views/controller/xml/action.ctp</i>.</li>
+
+	<li>If a helper with the same name as the extension exists, it is added to the
+	controller.</li>
+
+	<li>If the extension is of a type that RequestHandler understands, it will set
+	that Content-type in the response header.</li>
+
+	<li>If the XML data is POSTed, the data is parsed into an XML object, which is
+	assigned to the $data property of the controller, which can then be saved to a
+	model object.</li>
+</ul>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller A reference to the controller</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="beforeRedirect" id="_beforeRedirect">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_beforeRedirect">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#209-220" title="Go to source code">beforeRedirect</a>( <span>object <var>&amp; $controller</var></span>, <span>mixed <var>$url</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Handles (fakes) redirects for Ajax requests using requestAction()</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handles (fakes) redirects for Ajax requests using requestAction()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller A reference to the controller</dd>
+					<dt><var>$url</var></dt>
+					<dd><code>mixed</code><br>$url A string or array containing the redirect location</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isAjax" id="_isAjax">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isAjax">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#221-229" title="Go to source code">isAjax</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the current HTTP request is Ajax, false otherwise</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the current HTTP request is Ajax, false otherwise</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if call is Ajax<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isSSL" id="_isSSL">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isSSL">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#230-238" title="Go to source code">isSSL</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the current request is over HTTPS, false otherwise.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the current request is over HTTPS, false otherwise.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if call is over HTTPS<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isXml" id="_isXml">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isXml">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#239-247" title="Go to source code">isXml</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the current call accepts an XML response, false otherwise</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the current call accepts an XML response, false otherwise</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if client accepts an XML response<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isRss" id="_isRss">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isRss">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#248-256" title="Go to source code">isRss</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the current call accepts an RSS response, false otherwise</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the current call accepts an RSS response, false otherwise</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if client accepts an RSS response<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isAtom" id="_isAtom">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isAtom">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#257-265" title="Go to source code">isAtom</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the current call accepts an Atom response, false
+otherwise</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the current call accepts an Atom response, false
+otherwise</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if client accepts an RSS response<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isMobile" id="_isMobile">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isMobile">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#266-279" title="Go to source code">isMobile</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns true if user agent string matches a mobile web browser, or if the
+client accepts WAP content.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if user agent string matches a mobile web browser, or if the
+client accepts WAP content.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if user agent is a mobile web browser<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isWap" id="_isWap">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isWap">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#280-288" title="Go to source code">isWap</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the client accepts WAP content</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the client accepts WAP content</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isPost" id="_isPost">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isPost">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#289-297" title="Go to source code">isPost</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the current call a POST request</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the current call a POST request</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if call is a POST<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isPut" id="_isPut">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isPut">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#298-306" title="Go to source code">isPut</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the current call a PUT request</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the current call a PUT request</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if call is a PUT<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isGet" id="_isGet">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isGet">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#307-315" title="Go to source code">isGet</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the current call a GET request</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the current call a GET request</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if call is a GET<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isDelete" id="_isDelete">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isDelete">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#316-324" title="Go to source code">isDelete</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the current call a DELETE request</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the current call a DELETE request</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if call is a DELETE<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAjaxVersion" id="_getAjaxVersion">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAjaxVersion">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#325-337" title="Go to source code">getAjaxVersion</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets Prototype version if call is Ajax, otherwise empty string. The Prototype
+library sets a special "Prototype version" HTTP header.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets Prototype version if call is Ajax, otherwise empty string. The Prototype
+library sets a special "Prototype version" HTTP header.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Prototype version of component making Ajax call<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setContent" id="_setContent">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setContent">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#338-355" title="Go to source code">setContent</a>( <span>string <var>$name</var></span>, <span>mixed <var>$type</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Adds/sets the Content-type(s) for the given name. This method allows
+content-types to be mapped to friendly aliases (or extensions), which allows
+RequestHandler to automatically respond to requests of that type in the startup
+method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds/sets the Content-type(s) for the given name. This method allows
+content-types to be mapped to friendly aliases (or extensions), which allows
+RequestHandler to automatically respond to requests of that type in the startup
+method.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name The name of the Content-type, i.e. "html", "xml", "css"</dd>
+					<dt><var>$type</var></dt>
+					<dd><code>mixed</code><br>$type The Content-type or array of Content-types assigned to the name, i.e.
+"text/html", or "application/xml"</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getReferrer" id="_getReferrer">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getReferrer">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#356-371" title="Go to source code">getReferrer</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the server name from which this request was referred</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the server name from which this request was referred</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Server address<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getClientIP" id="_getClientIP">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getClientIP">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#372-397" title="Go to source code">getClientIP</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets remote client IP</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets remote client IP</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Client IP address<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="accepts" id="_accepts">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_accepts">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#398-443" title="Go to source code">accepts</a>( <span>mixed <var>$type</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Determines which content types the client accepts. Acceptance is based on the
+file extension parsed by the Router (if present), and by the HTTP_ACCEPT
+header.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determines which content types the client accepts. Acceptance is based on the
+file extension parsed by the Router (if present), and by the HTTP_ACCEPT
+header.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>mixed</code><br>$type Can be null (or no parameter), a string type name, or an array of types</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>If null or no parameter is passed, returns an array of content types the client
+accepts. If a string is passed, returns true if the client accepts it. If an
+array is passed, returns true if the client accepts one or more elements in the
+array.<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-RequestHandlerComponent.html#_setContent">RequestHandlerComponent::setContent()</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="requestedWith" id="_requestedWith">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_requestedWith">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#444-467" title="Go to source code">requestedWith</a>( <span>mixed <var>$type</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Determines the content type of the data the client has sent (i.e. in a POST
+request)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determines the content type of the data the client has sent (i.e. in a POST
+request)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>mixed</code><br>$type Can be null (or no parameter), a string type name, or an array of types</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="prefers" id="_prefers">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_prefers">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#468-512" title="Go to source code">prefers</a>( <span>mixed <var>$type</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Determines which content-types the client prefers. If no parameters are
+given, the content-type that the client most likely prefers is returned. If
+$type is an array, the first item in the array that the client accepts is
+returned. Preference is determined primarily by the file extension parsed by the
+Router if provided, and secondarily by the list of content-types provided in
+HTTP_ACCEPT.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determines which content-types the client prefers. If no parameters are
+given, the content-type that the client most likely prefers is returned. If
+$type is an array, the first item in the array that the client accepts is
+returned. Preference is determined primarily by the file extension parsed by the
+Router if provided, and secondarily by the list of content-types provided in
+HTTP_ACCEPT.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>mixed</code><br>$type An optional array of 'friendly' content-type names, i.e. 'html', 'xml',
+'js', etc.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>If $type is null or not provided, the first content-type in the list, based on
+preference, is returned.<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-RequestHandlerComponent.html#_setContent">RequestHandlerComponent::setContent()</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderAs" id="_renderAs">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderAs">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#513-553" title="Go to source code">renderAs</a>( <span>object <var>&amp; $controller</var></span>, <span>string <var>$type</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the layout and template paths for the content type defined by $type.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the layout and template paths for the content type defined by $type.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller A reference to a controller object</dd>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type Type of response to send (e.g: 'ajax')</dd>
+				</dl></div>
+
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-RequestHandlerComponent.html#_setContent">RequestHandlerComponent::setContent()</a></code></code><br />
+						<code><code><a href="class-RequestHandlerComponent.html#_respondAs">RequestHandlerComponent::respondAs()</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="respondAs" id="_respondAs">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_respondAs">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#554-621" title="Go to source code">respondAs</a>( <span>mixed <var>$type</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the response header based on type map index name. If DEBUG is greater
+than 2, the header is not set.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the response header based on type map index name. If DEBUG is greater
+than 2, the header is not set.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>mixed</code><br>$type Friendly type name, i.e. 'html' or 'xml', or a full content-type, like
+'application/x-shockwave'.</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options If $type is a friendly type name that is associated with more than one
+type of content, $index is used to select which content-type to use.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Returns false if the friendly type name given in $type does not exist in the
+type map, or if the Content-type header has already been set by this method.<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-RequestHandlerComponent.html#_setContent">RequestHandlerComponent::setContent()</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="responseType" id="_responseType">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_responseType">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#622-634" title="Go to source code">responseType</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the current response type (Content-type header), or null if none has
+been set</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the current response type (Content-type header), or null if none has
+been set</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>A string content type alias, or raw content type if no alias map exists,
+otherwise null<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="mapType" id="_mapType">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_mapType">#</a>
+		<code><a href="source-class-RequestHandlerComponent.html#635-665" title="Go to source code">mapType</a>( <span>mixed <var>$ctype</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Maps a content-type back to an alias</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Maps a content-type back to an alias</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ctype</var></dt>
+					<dd><code>mixed</code><br>$type Content type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Alias<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Object.html#methods">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#_Object">Object()</a>, 
+			<a href="class-Object.html#___openPersistent">__openPersistent()</a>, 
+			<a href="class-Object.html#__persist">_persist()</a>, 
+			<a href="class-Object.html#__savePersistent">_savePersistent()</a>, 
+			<a href="class-Object.html#__set">_set()</a>, 
+			<a href="class-Object.html#_cakeError">cakeError()</a>, 
+			<a href="class-Object.html#_log">log()</a>, 
+			<a href="class-Object.html#_requestAction">requestAction()</a>, 
+			<a href="class-Object.html#_toString">toString()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="ajaxLayout" id="$ajaxLayout">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-RequestHandlerComponent.html#42-49" title="Go to source code"><var>$ajaxLayout</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'ajax'</span></code></td>
+		<td class="description"><div>
+			<a href="#$ajaxLayout" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The layout that will be switched to for Ajax requests</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The layout that will be switched to for Ajax requests</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							RequestHandler::setAjax()<br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="enabled" id="$enabled">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-RequestHandlerComponent.html#50-56" title="Go to source code"><var>$enabled</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$enabled" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Determines whether or not callbacks will be fired on this component</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Determines whether or not callbacks will be fired on this component</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__responseTypeSet" id="$__responseTypeSet">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-RequestHandlerComponent.html#57-64" title="Go to source code"><var>$__responseTypeSet</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$__responseTypeSet" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Holds the content-type of the response that is set when using
+RequestHandler::respondAs()</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Holds the content-type of the response that is set when using
+RequestHandler::respondAs()</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="params" id="$params">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-RequestHandlerComponent.html#65-71" title="Go to source code"><var>$params</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$params" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Holds the copy of Controller::$params</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Holds the copy of Controller::$params</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__requestContent" id="$__requestContent">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-RequestHandlerComponent.html#72-104" title="Go to source code"><var>$__requestContent</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'javascript'</span>    =&gt; <span class="php-quote">'text/javascript'</span>,
+    <span class="php-quote">'js'</span>            =&gt; <span class="php-quote">'text/javascript'</span>,
+    <span class="php-quote">'json'</span>          =&gt; <span class="php-quote">'application/json'</span>,
+    <span class="php-quote">'css'</span>           =&gt; <span class="php-quote">'text/css'</span>,
+    <span class="php-quote">'html'</span>          =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'text/html'</span>, <span class="php-quote">'*/*'</span>),
+    <span class="php-quote">'text'</span>          =&gt; <span class="php-quote">'text/plain'</span>,
+    <span class="php-quote">'txt'</span>           =&gt; <span class="php-quote">'text/plain'</span>,
+    <span class="php-quote">'csv'</span>           =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'application/vnd.ms-excel'</span>, <span class="php-quote">'text/plain'</span>),
+    <span class="php-quote">'form'</span>          =&gt; <span class="php-quote">'application/x-www-form-urlencoded'</span>,
+    <span class="php-quote">'file'</span>          =&gt; <span class="php-quote">'multipart/form-data'</span>,
+    <span class="php-quote">'xhtml'</span>         =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'application/xhtml+xml'</span>, <span class="php-quote">'application/xhtml'</span>, <span class="php-quote">'text/xhtml'</span>),
+    <span class="php-quote">'xhtml-mobile'</span>  =&gt; <span class="php-quote">'application/vnd.wap.xhtml+xml'</span>,
+    <span class="php-quote">'xml'</span>           =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'application/xml'</span>, <span class="php-quote">'text/xml'</span>),
+    <span class="php-quote">'rss'</span>           =&gt; <span class="php-quote">'application/rss+xml'</span>,
+    <span class="php-quote">'atom'</span>          =&gt; <span class="php-quote">'application/atom+xml'</span>,
+    <span class="php-quote">'amf'</span>           =&gt; <span class="php-quote">'application/x-amf'</span>,
+    <span class="php-quote">'wap'</span>           =&gt; <span class="php-keyword1">array</span>(<span class="php-quote">'text/vnd.wap.wml'</span>, <span class="php-quote">'text/vnd.wap.wmlscript'</span>, <span class="php-quote">'image/vnd.wap.wbmp'</span>),
+    <span class="php-quote">'wml'</span>           =&gt; <span class="php-quote">'text/vnd.wap.wml'</span>,
+    <span class="php-quote">'wmlscript'</span>     =&gt; <span class="php-quote">'text/vnd.wap.wmlscript'</span>,
+    <span class="php-quote">'wbmp'</span>          =&gt; <span class="php-quote">'image/vnd.wap.wbmp'</span>,
+    <span class="php-quote">'pdf'</span>           =&gt; <span class="php-quote">'application/pdf'</span>,
+    <span class="php-quote">'zip'</span>           =&gt; <span class="php-quote">'application/x-zip'</span>,
+    <span class="php-quote">'tar'</span>           =&gt; <span class="php-quote">'application/x-tar'</span>
+)</code></td>
+		<td class="description"><div>
+			<a href="#$__requestContent" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Friendly content-type mappings used to set response types and determine
+request types. Can be modified with RequestHandler::setContent()</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Friendly content-type mappings used to set response types and determine
+request types. Can be modified with RequestHandler::setContent()</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-RequestHandlerComponent.html#_setContent">RequestHandlerComponent::setContent()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__acceptTypes" id="$__acceptTypes">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-RequestHandlerComponent.html#105-114" title="Go to source code"><var>$__acceptTypes</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$__acceptTypes" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Content-types accepted by the client. If extension parsing is enabled in the
+Router, and an extension is detected, the corresponding content-type will be
+used as the overriding primary content-type accepted.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Content-types accepted by the client. If extension parsing is enabled in the
+Router, and an extension is detected, the corresponding content-type will be
+used as the overriding primary content-type accepted.</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-Router.html#_parseExtensions">Router::parseExtensions()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__renderType" id="$__renderType">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-RequestHandlerComponent.html#115-121" title="Go to source code"><var>$__renderType</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$__renderType" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The template to use when rendering the given content type.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The template to use when rendering the given content type.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ext" id="$ext">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-RequestHandlerComponent.html#122-129" title="Go to source code"><var>$ext</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$ext" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Contains the file extension parsed out by the Router</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Contains the file extension parsed out by the Router</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-Router.html#_parseExtensions">Router::parseExtensions()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Object.html#properties">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#$_log"><var>$_log</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

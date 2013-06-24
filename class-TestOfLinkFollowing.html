@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class TestOfLinkFollowing | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-FieldExpectation.html">FieldExpectation</a></li>
+				<li><a href="class-HttpHeaderExpectation.html">HttpHeaderExpectation</a></li>
+				<li><a href="class-LiveTestOfForms.html">LiveTestOfForms</a></li>
+				<li><a href="class-MultipleSelectionTag.html">MultipleSelectionTag</a></li>
+				<li><a href="class-NoHttpHeaderExpectation.html">NoHttpHeaderExpectation</a></li>
+				<li><a href="class-ParallelRegex.html">ParallelRegex</a></li>
+				<li><a href="class-SimpleAnchorTag.html">SimpleAnchorTag</a></li>
+				<li><a href="class-SimpleAttachment.html">SimpleAttachment</a></li>
+				<li><a href="class-SimpleAuthenticator.html">SimpleAuthenticator</a></li>
+				<li><a href="class-SimpleBaseTag.html">SimpleBaseTag</a></li>
+				<li><a href="class-SimpleBrowser.html">SimpleBrowser</a></li>
+				<li><a href="class-SimpleBrowserHistory.html">SimpleBrowserHistory</a></li>
+				<li><a href="class-SimpleButtonTag.html">SimpleButtonTag</a></li>
+				<li><a href="class-SimpleById.html">SimpleById</a></li>
+				<li><a href="class-SimpleByLabel.html">SimpleByLabel</a></li>
+				<li><a href="class-SimpleByLabelOrName.html">SimpleByLabelOrName</a></li>
+				<li><a href="class-SimpleByName.html">SimpleByName</a></li>
+				<li><a href="class-SimpleCheckboxGroup.html">SimpleCheckboxGroup</a></li>
+				<li><a href="class-SimpleCheckboxTag.html">SimpleCheckboxTag</a></li>
+				<li><a href="class-SimpleCookie.html">SimpleCookie</a></li>
+				<li><a href="class-SimpleCookieJar.html">SimpleCookieJar</a></li>
+				<li><a href="class-SimpleEncodedPair.html">SimpleEncodedPair</a></li>
+				<li><a href="class-SimpleEncoding.html">SimpleEncoding</a></li>
+				<li><a href="class-SimpleForm.html">SimpleForm</a></li>
+				<li><a href="class-SimpleFormTag.html">SimpleFormTag</a></li>
+				<li><a href="class-SimpleFrameset.html">SimpleFrameset</a></li>
+				<li><a href="class-SimpleFrameTag.html">SimpleFrameTag</a></li>
+				<li><a href="class-SimpleGetEncoding.html">SimpleGetEncoding</a></li>
+				<li><a href="class-SimpleHeadEncoding.html">SimpleHeadEncoding</a></li>
+				<li><a href="class-SimpleHtmlLexer.html">SimpleHtmlLexer</a></li>
+				<li><a href="class-SimpleHtmlSaxParser.html">SimpleHtmlSaxParser</a></li>
+				<li><a href="class-SimpleHttpHeaders.html">SimpleHttpHeaders</a></li>
+				<li><a href="class-SimpleHttpRequest.html">SimpleHttpRequest</a></li>
+				<li><a href="class-SimpleHttpResponse.html">SimpleHttpResponse</a></li>
+				<li><a href="class-SimpleImageSubmitTag.html">SimpleImageSubmitTag</a></li>
+				<li><a href="class-SimpleLabelTag.html">SimpleLabelTag</a></li>
+				<li><a href="class-SimpleLexer.html">SimpleLexer</a></li>
+				<li><a href="class-SimpleMultipartEncoding.html">SimpleMultipartEncoding</a></li>
+				<li><a href="class-SimpleOptionTag.html">SimpleOptionTag</a></li>
+				<li><a href="class-SimplePage.html">SimplePage</a></li>
+				<li><a href="class-SimplePageBuilder.html">SimplePageBuilder</a></li>
+				<li><a href="class-SimplePostEncoding.html">SimplePostEncoding</a></li>
+				<li><a href="class-SimpleProxyRoute.html">SimpleProxyRoute</a></li>
+				<li><a href="class-SimpleRadioButtonTag.html">SimpleRadioButtonTag</a></li>
+				<li><a href="class-SimpleRadioGroup.html">SimpleRadioGroup</a></li>
+				<li><a href="class-SimpleRealm.html">SimpleRealm</a></li>
+				<li><a href="class-SimpleRoute.html">SimpleRoute</a></li>
+				<li><a href="class-SimpleSaxListener.html">SimpleSaxListener</a></li>
+				<li><a href="class-SimpleSecureSocket.html">SimpleSecureSocket</a></li>
+				<li><a href="class-SimpleSelectionTag.html">SimpleSelectionTag</a></li>
+				<li><a href="class-SimpleSocket.html">SimpleSocket</a></li>
+				<li><a href="class-SimpleStateStack.html">SimpleStateStack</a></li>
+				<li><a href="class-SimpleStickyError.html">SimpleStickyError</a></li>
+				<li><a href="class-SimpleSubmitTag.html">SimpleSubmitTag</a></li>
+				<li><a href="class-SimpleTag.html">SimpleTag</a></li>
+				<li><a href="class-SimpleTagBuilder.html">SimpleTagBuilder</a></li>
+				<li><a href="class-SimpleTagGroup.html">SimpleTagGroup</a></li>
+				<li><a href="class-SimpleTestAcceptanceTest.html">SimpleTestAcceptanceTest</a></li>
+				<li><a href="class-SimpleTextAreaTag.html">SimpleTextAreaTag</a></li>
+				<li><a href="class-SimpleTextTag.html">SimpleTextTag</a></li>
+				<li><a href="class-SimpleTitleTag.html">SimpleTitleTag</a></li>
+				<li><a href="class-SimpleUploadTag.html">SimpleUploadTag</a></li>
+				<li><a href="class-SimpleUrl.html">SimpleUrl</a></li>
+				<li><a href="class-SimpleUserAgent.html">SimpleUserAgent</a></li>
+				<li><a href="class-SimpleWidget.html">SimpleWidget</a></li>
+				<li><a href="class-TestOfFileUploads.html">TestOfFileUploads</a></li>
+				<li><a href="class-TestOfFrameAuthentication.html">TestOfFrameAuthentication</a></li>
+				<li><a href="class-TestOfGenericAssertionsInWebTester.html">TestOfGenericAssertionsInWebTester</a></li>
+				<li class="active"><a href="class-TestOfLinkFollowing.html">TestOfLinkFollowing</a></li>
+				<li><a href="class-TestOfLiveAuthentication.html">TestOfLiveAuthentication</a></li>
+				<li><a href="class-TestOfLiveCookies.html">TestOfLiveCookies</a></li>
+				<li><a href="class-TestOfLiveFetching.html">TestOfLiveFetching</a></li>
+				<li><a href="class-TestOfLiveFrontControllerEmulation.html">TestOfLiveFrontControllerEmulation</a></li>
+				<li><a href="class-TestOfLiveHeaders.html">TestOfLiveHeaders</a></li>
+				<li><a href="class-TestOfLiveHistoryNavigation.html">TestOfLiveHistoryNavigation</a></li>
+				<li><a href="class-TestOfLiveMultiValueWidgets.html">TestOfLiveMultiValueWidgets</a></li>
+				<li><a href="class-TestOfLivePageLinkingWithMinimalLinks.html">TestOfLivePageLinkingWithMinimalLinks</a></li>
+				<li><a href="class-TestOfLiveRedirects.html">TestOfLiveRedirects</a></li>
+				<li><a href="class-TestOfLoadingFrames.html">TestOfLoadingFrames</a></li>
+				<li><a href="class-TestOfNestedFrames.html">TestOfNestedFrames</a></li>
+				<li><a href="class-TestRadioFields.html">TestRadioFields</a></li>
+				<li><a href="class-WebTestCase.html">WebTestCase</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-SimpleTest.WebTester.html" title="Summary of SimpleTest\WebTester"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class TestOfLinkFollowing</h1>
+
+
+	<div class="description">
+	
+<p>Test case for testing of web pages. Allows fetching of pages, parsing of HTML
+and submitting forms.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-SimpleTestCase.html"><span>SimpleTestCase</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-WebTestCase.html"><span>WebTestCase</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-SimpleTestAcceptanceTest.html"><span>SimpleTestAcceptanceTest</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:90px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>TestOfLinkFollowing</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-SimpleTest.html">SimpleTest</a>\<a href="package-SimpleTest.WebTester.html">WebTester</a><br />
+
+		<b>Located at</b> <a href="source-class-TestOfLinkFollowing.html#219-261" title="Go to source code">app/vendors/simpletest/test/acceptance_test.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="setUp" id="_setUp">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUp">#</a>
+		<code><a href="source-class-TestOfLinkFollowing.html#220-222" title="Go to source code">setUp</a>( )</code>
+
+		<div class="description short">
+			
+<p>Sets up unit test wide variables at the start<br />
+of each test method. To be overridden in<br />
+actual user test cases.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets up unit test wide variables at the start of each test method. To be
+overridden in actual user test cases.</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-SimpleTestCase.html#_setUp">SimpleTestCase::setUp()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testLinkAssertions" id="_testLinkAssertions">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testLinkAssertions">#</a>
+		<code><a href="source-class-TestOfLinkFollowing.html#224-229" title="Go to source code">testLinkAssertions</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testAbsoluteLinkFollowing" id="_testAbsoluteLinkFollowing">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testAbsoluteLinkFollowing">#</a>
+		<code><a href="source-class-TestOfLinkFollowing.html#231-235" title="Go to source code">testAbsoluteLinkFollowing</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testRelativeLinkFollowing" id="_testRelativeLinkFollowing">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testRelativeLinkFollowing">#</a>
+		<code><a href="source-class-TestOfLinkFollowing.html#237-241" title="Go to source code">testRelativeLinkFollowing</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testLinkIdFollowing" id="_testLinkIdFollowing">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testLinkIdFollowing">#</a>
+		<code><a href="source-class-TestOfLinkFollowing.html#243-248" title="Go to source code">testLinkIdFollowing</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testAbsoluteUrlBehavesAbsolutely" id="_testAbsoluteUrlBehavesAbsolutely">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testAbsoluteUrlBehavesAbsolutely">#</a>
+		<code><a href="source-class-TestOfLinkFollowing.html#250-254" title="Go to source code">testAbsoluteUrlBehavesAbsolutely</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testRelativeUrlRespectsBaseTag" id="_testRelativeUrlRespectsBaseTag">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testRelativeUrlRespectsBaseTag">#</a>
+		<code><a href="source-class-TestOfLinkFollowing.html#256-260" title="Go to source code">testRelativeUrlRespectsBaseTag</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-SimpleTestAcceptanceTest.html#methods">SimpleTestAcceptanceTest</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-SimpleTestAcceptanceTest.html#_samples">samples()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-WebTestCase.html#methods">WebTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-WebTestCase.html#_WebTestCase">WebTestCase()</a>, 
+			<a href="class-WebTestCase.html#__assertFieldValue">_assertFieldValue()</a>, 
+			<a href="class-WebTestCase.html#__failOnError">_failOnError()</a>, 
+			<a href="class-WebTestCase.html#_addHeader">addHeader()</a>, 
+			<a href="class-WebTestCase.html#_after">after()</a>, 
+			<a href="class-WebTestCase.html#_ageCookies">ageCookies()</a>, 
+			<a href="class-WebTestCase.html#_assertAuthentication">assertAuthentication()</a>, 
+			<a href="class-WebTestCase.html#_assertClickable">assertClickable()</a>, 
+			<a href="class-WebTestCase.html#_assertCookie">assertCookie()</a>, 
+			<a href="class-WebTestCase.html#_assertEqual">assertEqual()</a>, 
+			<a href="class-WebTestCase.html#_assertFalse">assertFalse()</a>, 
+			<a href="class-WebTestCase.html#_assertField">assertField()</a>, 
+			<a href="class-WebTestCase.html#_assertFieldById">assertFieldById()</a>, 
+			<a href="class-WebTestCase.html#_assertFieldByName">assertFieldByName()</a>, 
+			<a href="class-WebTestCase.html#_assertHeader">assertHeader()</a>, 
+			<a href="class-WebTestCase.html#_assertImage">assertImage()</a>, 
+			<a href="class-WebTestCase.html#_assertLink">assertLink()</a>, 
+			<a href="class-WebTestCase.html#_assertLinkById">assertLinkById()</a>, 
+			<a href="class-WebTestCase.html#_assertMime">assertMime()</a>, 
+			<a href="class-WebTestCase.html#_assertNoAuthentication">assertNoAuthentication()</a>, 
+			<a href="class-WebTestCase.html#_assertNoCookie">assertNoCookie()</a>, 
+			<a href="class-WebTestCase.html#_assertNoHeader">assertNoHeader()</a>, 
+			<a href="class-WebTestCase.html#_assertNoLink">assertNoLink()</a>, 
+			<a href="class-WebTestCase.html#_assertNoLinkById">assertNoLinkById()</a>, 
+			<a href="class-WebTestCase.html#_assertNoPattern">assertNoPattern()</a>, 
+			<a href="class-WebTestCase.html#_assertNoText">assertNoText()</a>, 
+			<a href="class-WebTestCase.html#_assertNotEqual">assertNotEqual()</a>, 
+			<a href="class-WebTestCase.html#_assertPattern">assertPattern()</a>, 
+			<a href="class-WebTestCase.html#_assertRealm">assertRealm()</a>, 
+			<a href="class-WebTestCase.html#_assertResponse">assertResponse()</a>, 
+			<a href="class-WebTestCase.html#_assertSubmit">assertSubmit()</a>, 
+			<a href="class-WebTestCase.html#_assertText">assertText()</a>, 
+			<a href="class-WebTestCase.html#_assertTitle">assertTitle()</a>, 
+			<a href="class-WebTestCase.html#_assertTrue">assertTrue()</a>, 
+			<a href="class-WebTestCase.html#_authenticate">authenticate()</a>, 
+			<a href="class-WebTestCase.html#_back">back()</a>, 
+			<a href="class-WebTestCase.html#_before">before()</a>, 
+			<a href="class-WebTestCase.html#_clearFrameFocus">clearFrameFocus()</a>, 
+			<a href="class-WebTestCase.html#_click">click()</a>, 
+			<a href="class-WebTestCase.html#_clickImage">clickImage()</a>, 
+			<a href="class-WebTestCase.html#_clickImageById">clickImageById()</a>, 
+			<a href="class-WebTestCase.html#_clickImageByName">clickImageByName()</a>, 
+			<a href="class-WebTestCase.html#_clickLink">clickLink()</a>, 
+			<a href="class-WebTestCase.html#_clickLinkById">clickLinkById()</a>, 
+			<a href="class-WebTestCase.html#_clickSubmit">clickSubmit()</a>, 
+			<a href="class-WebTestCase.html#_clickSubmitById">clickSubmitById()</a>, 
+			<a href="class-WebTestCase.html#_clickSubmitByName">clickSubmitByName()</a>, 
+			<a href="class-WebTestCase.html#_createBrowser">createBrowser()</a>, 
+			<a href="class-WebTestCase.html#_forward">forward()</a>, 
+			<a href="class-WebTestCase.html#_get">get()</a>, 
+			<a href="class-WebTestCase.html#_getAssertionLine">getAssertionLine()</a>, 
+			<a href="class-WebTestCase.html#_getBrowser">getBrowser()</a>, 
+			<a href="class-WebTestCase.html#_getCookie">getCookie()</a>, 
+			<a href="class-WebTestCase.html#_getFrameFocus">getFrameFocus()</a>, 
+			<a href="class-WebTestCase.html#_getTransportError">getTransportError()</a>, 
+			<a href="class-WebTestCase.html#_getUrl">getUrl()</a>, 
+			<a href="class-WebTestCase.html#_head">head()</a>, 
+			<a href="class-WebTestCase.html#_ignoreCookies">ignoreCookies()</a>, 
+			<a href="class-WebTestCase.html#_ignoreErrors">ignoreErrors()</a>, 
+			<a href="class-WebTestCase.html#_ignoreFrames">ignoreFrames()</a>, 
+			<a href="class-WebTestCase.html#_post">post()</a>, 
+			<a href="class-WebTestCase.html#_restart">restart()</a>, 
+			<a href="class-WebTestCase.html#_retry">retry()</a>, 
+			<a href="class-WebTestCase.html#_setBrowser">setBrowser()</a>, 
+			<a href="class-WebTestCase.html#_setConnectionTimeout">setConnectionTimeout()</a>, 
+			<a href="class-WebTestCase.html#_setCookie">setCookie()</a>, 
+			<a href="class-WebTestCase.html#_setField">setField()</a>, 
+			<a href="class-WebTestCase.html#_setFieldById">setFieldById()</a>, 
+			<a href="class-WebTestCase.html#_setFieldByName">setFieldByName()</a>, 
+			<a href="class-WebTestCase.html#_setFrameFocus">setFrameFocus()</a>, 
+			<a href="class-WebTestCase.html#_setFrameFocusByIndex">setFrameFocusByIndex()</a>, 
+			<a href="class-WebTestCase.html#_setMaximumRedirects">setMaximumRedirects()</a>, 
+			<a href="class-WebTestCase.html#_showHeaders">showHeaders()</a>, 
+			<a href="class-WebTestCase.html#_showRequest">showRequest()</a>, 
+			<a href="class-WebTestCase.html#_showSource">showSource()</a>, 
+			<a href="class-WebTestCase.html#_showText">showText()</a>, 
+			<a href="class-WebTestCase.html#_submitFormById">submitFormById()</a>, 
+			<a href="class-WebTestCase.html#_unsetBrowser">unsetBrowser()</a>, 
+			<a href="class-WebTestCase.html#_useProxy">useProxy()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-SimpleTestCase.html#methods">SimpleTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-SimpleTestCase.html#_SimpleTestCase">SimpleTestCase()</a>, 
+			<a href="class-SimpleTestCase.html#__isTest">_isTest()</a>, 
+			<a href="class-SimpleTestCase.html#_assert">assert()</a>, 
+			<a href="class-SimpleTestCase.html#_createInvoker">createInvoker()</a>, 
+			<a href="class-SimpleTestCase.html#_dump">dump()</a>, 
+			<a href="class-SimpleTestCase.html#_error">error()</a>, 
+			<a href="class-SimpleTestCase.html#_exception">exception()</a>, 
+			<a href="class-SimpleTestCase.html#_fail">fail()</a>, 
+			<a href="class-SimpleTestCase.html#_getLabel">getLabel()</a>, 
+			<a href="class-SimpleTestCase.html#_getSize">getSize()</a>, 
+			<a href="class-SimpleTestCase.html#_getTests">getTests()</a>, 
+			<a href="class-SimpleTestCase.html#_run">run()</a>, 
+			<a href="class-SimpleTestCase.html#_skip">skip()</a>, 
+			<a href="class-SimpleTestCase.html#_skipIf">skipIf()</a>, 
+			<a href="class-SimpleTestCase.html#_skipUnless">skipUnless()</a>, 
+			<a href="class-SimpleTestCase.html#_tearDown">tearDown()</a>, 
+			<a href="class-SimpleTestCase.html#_tell">tell()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-WebTestCase.html#properties">WebTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-WebTestCase.html#$_browser"><var>$_browser</var></a>, 
+			<a href="class-WebTestCase.html#$_ignore_errors"><var>$_ignore_errors</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-SimpleTestCase.html#properties">SimpleTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-SimpleTestCase.html#$_label"><var>$_label</var></a>, 
+			<a href="class-SimpleTestCase.html#$_observers"><var>$_observers</var></a>, 
+			<a href="class-SimpleTestCase.html#$_reporter"><var>$_reporter</var></a>, 
+			<a href="class-SimpleTestCase.html#$_should_skip"><var>$_should_skip</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

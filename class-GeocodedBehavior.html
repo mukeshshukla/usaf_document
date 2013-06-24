@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class GeocodedBehavior | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AclNode.html">AclNode</a></li>
+				<li><a href="class-AclNodeTestBase.html">AclNodeTestBase</a></li>
+				<li><a href="class-Aco.html">Aco</a></li>
+				<li><a href="class-AcoAction.html">AcoAction</a></li>
+				<li><a href="class-AcoTest.html">AcoTest</a></li>
+				<li><a href="class-Aro.html">Aro</a></li>
+				<li><a href="class-AroTest.html">AroTest</a></li>
+				<li><a href="class-BlogsAppModel.html">BlogsAppModel</a></li>
+				<li><a href="class-Contactactivityshippingdata.html">Contactactivityshippingdata</a></li>
+				<li><a href="class-ContactsAppModel.html">ContactsAppModel</a></li>
+				<li><a href="class-ContactWebsiteactivityShipping.html">ContactWebsiteactivityShipping</a></li>
+				<li><a href="class-CourseManagerAppModel.html">CourseManagerAppModel</a></li>
+				<li><a href="class-CoursesAppModel.html">CoursesAppModel</a></li>
+				<li><a href="class-DB_ACL.html">DB_ACL</a></li>
+				<li><a href="class-DB_ACL_TEST.html">DB_ACL_TEST</a></li>
+				<li class="active"><a href="class-GeocodedBehavior.html">GeocodedBehavior</a></li>
+				<li><a href="class-GlossaryAppModel.html">GlossaryAppModel</a></li>
+				<li><a href="class-HelpDeskAppModel.html">HelpDeskAppModel</a></li>
+				<li><a href="class-HelperTestComment.html">HelperTestComment</a></li>
+				<li><a href="class-HelperTestPost.html">HelperTestPost</a></li>
+				<li><a href="class-HelperTestPostsTag.html">HelperTestPostsTag</a></li>
+				<li><a href="class-HelperTestTag.html">HelperTestTag</a></li>
+				<li><a href="class-IPlayedAppModel.html">IPlayedAppModel</a></li>
+				<li><a href="class-Magazine.html">Magazine</a></li>
+				<li><a href="class-MagazineAppModel.html">MagazineAppModel</a></li>
+				<li><a href="class-Model.html">Model</a></li>
+				<li><a href="class-ModelBehavior.html">ModelBehavior</a></li>
+				<li><a href="class-MultivalidatableBehavior.html">MultivalidatableBehavior</a></li>
+				<li><a href="class-NcaaTestAppModel.html">NcaaTestAppModel</a></li>
+				<li><a href="class-Permission.html">Permission</a></li>
+				<li><a href="class-PostAjaxTest.html">PostAjaxTest</a></li>
+				<li><a href="class-PromocodesAppModel.html">PromocodesAppModel</a></li>
+				<li><a href="class-Quiz.html">Quiz</a></li>
+				<li><a href="class-QuizAnswer.html">QuizAnswer</a></li>
+				<li><a href="class-QuizChapter.html">QuizChapter</a></li>
+				<li><a href="class-QuizQuestion.html">QuizQuestion</a></li>
+				<li><a href="class-QuizUserAnswer.html">QuizUserAnswer</a></li>
+				<li><a href="class-RenewalEmail.html">RenewalEmail</a></li>
+				<li><a href="class-RenewalEmailsHeader.html">RenewalEmailsHeader</a></li>
+				<li><a href="class-RenewalEmailsLog.html">RenewalEmailsLog</a></li>
+				<li><a href="class-RenewalEmailsTemplate.html">RenewalEmailsTemplate</a></li>
+				<li><a href="class-ReportBuilderReportType.html">ReportBuilderReportType</a></li>
+				<li><a href="class-ReportBuilderSavedReport.html">ReportBuilderSavedReport</a></li>
+				<li><a href="class-ReportsAppModel.html">ReportsAppModel</a></li>
+				<li><a href="class-Ticket.html">Ticket</a></li>
+				<li><a href="class-TicketAttachment.html">TicketAttachment</a></li>
+				<li><a href="class-TicketCategory.html">TicketCategory</a></li>
+				<li><a href="class-TicketCategoryLink.html">TicketCategoryLink</a></li>
+				<li><a href="class-TicketContactMethod.html">TicketContactMethod</a></li>
+				<li><a href="class-TicketContactTime.html">TicketContactTime</a></li>
+				<li><a href="class-TicketDetermination.html">TicketDetermination</a></li>
+				<li><a href="class-TicketInquiryType.html">TicketInquiryType</a></li>
+				<li><a href="class-TicketLog.html">TicketLog</a></li>
+				<li><a href="class-TicketStatus.html">TicketStatus</a></li>
+				<li><a href="class-ViewRenewalMailerMember.html">ViewRenewalMailerMember</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.model.html" title="Summary of cake\cake\libs\model"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class GeocodedBehavior</h1>
+
+
+	<div class="description">
+	
+<p>Short description for file</p>
+
+<p>Long description for file</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Object.html"><span>Object</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-ModelBehavior.html"><span>ModelBehavior</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>GeocodedBehavior</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a>\<a href="package-cake.cake.libs.model.html">model</a><br />
+
+		<b>Located at</b> <a href="source-class-GeocodedBehavior.html#5-177" title="Go to source code">app/models/behaviors/geocoded.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="setup" id="_setup">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setup">#</a>
+		<code><a href="source-class-GeocodedBehavior.html#34-68" title="Go to source code">setup</a>( <span>object <var>&amp; $model</var></span>, <span>array <var>$config</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Setup this behavior with the specified configuration settings.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Setup this behavior with the specified configuration settings.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>object</code><br>$model Model using this behavior</dd>
+					<dt><var>$config</var></dt>
+					<dd><code>array</code><br>$config Configuration settings for $model</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-ModelBehavior.html#_setup">ModelBehavior::setup()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="geocode" id="_geocode">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_geocode">#</a>
+		<code><a href="source-class-GeocodedBehavior.html#69-112" title="Go to source code">geocode</a>( <span>string <var>&amp; $model</var></span>, <span>mixed <var>$address</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the geocode latitude/longitude points from given address. Look in the
+cache first, otherwise get from web service (Google/Yahoo!)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the geocode latitude/longitude points from given address. Look in the
+cache first, otherwise get from web service (Google/Yahoo!)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>$address</dd>
+					<dt><var>$address</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_geocoords" id="__geocoords">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__geocoords">#</a>
+		<code><a href="source-class-GeocodedBehavior.html#113-142" title="Go to source code">_geocoords</a>( <span>string <var>&amp; $model</var></span>, <span>mixed <var>$address</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get geocode lat/lon points for given address from web service
+(Google/Yahoo!)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get geocode lat/lon points for given address from web service
+(Google/Yahoo!)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>$address</dd>
+					<dt><var>$address</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Latitude and longitude data, or false on failure<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="distance" id="_distance">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_distance">#</a>
+		<code><a href="source-class-GeocodedBehavior.html#143-158" title="Go to source code">distance</a>( <span>float <var>$lat1</var></span>, <span>float <var>$lon1</var></span>, <span>float <var>$lat2</var> = <span class="php-keyword1">null</span></span>, <span>float <var>$lon2</var> = <span class="php-keyword1">null</span></span>, <span>float <var>$unit</var> = <span class="php-quote">'M'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculate the distance between to geographic coordinates using the circle
+distance formula</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculate the distance between to geographic coordinates using the circle
+distance formula</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$lat1</var></dt>
+					<dd><code>float</code><br>$lat1</dd>
+					<dt><var>$lon1</var></dt>
+					<dd><code>float</code><br>$lat2</dd>
+					<dt><var>$lat2</var></dt>
+					<dd><code>float</code><br>$lon1</dd>
+					<dt><var>$lon2</var></dt>
+					<dd><code>float</code><br>$lon2</dd>
+					<dt><var>$unit</var></dt>
+					<dd><code>float</code><br>$unit M=miles, K=kilometers, N=nautical miles, I=inches, F=feet</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="findallbydistance" id="_findallbydistance">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_findallbydistance">#</a>
+		<code><a href="source-class-GeocodedBehavior.html#159-176" title="Go to source code">findallbydistance</a>( <span>mixed <var>&amp; $model</var></span>, <span>mixed <var>$x</var></span>, <span>float <var>$y</var></span>, <span>mixed <var>$distance</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Generates an SQL query to calculate the distance between the coordinates of
+each record and the given x/y values, and compares the result to $distance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates an SQL query to calculate the distance between the coordinates of
+each record and the given x/y values, and compares the result to $distance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>mixed</code><br>$x Either a float or an array. If an array, it should contain the X and Y values
+of the coordinate.</dd>
+					<dt><var>$x</var></dt>
+					<dd><code>mixed</code><br>$y If $x is an array, this value is used as $distance, otherwise, the Y
+coordinate.</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>float</code><br>$distance The distance (in miles) to search within</dd>
+					<dt><var>$distance</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-ModelBehavior.html#methods">ModelBehavior</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-ModelBehavior.html#__addToWhitelist">_addToWhitelist()</a>, 
+			<a href="class-ModelBehavior.html#_afterDelete">afterDelete()</a>, 
+			<a href="class-ModelBehavior.html#_afterFind">afterFind()</a>, 
+			<a href="class-ModelBehavior.html#_afterSave">afterSave()</a>, 
+			<a href="class-ModelBehavior.html#_beforeDelete">beforeDelete()</a>, 
+			<a href="class-ModelBehavior.html#_beforeFind">beforeFind()</a>, 
+			<a href="class-ModelBehavior.html#_beforeSave">beforeSave()</a>, 
+			<a href="class-ModelBehavior.html#_beforeValidate">beforeValidate()</a>, 
+			<a href="class-ModelBehavior.html#_onError">onError()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Object.html#methods">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#_Object">Object()</a>, 
+			<a href="class-Object.html#___construct">__construct()</a>, 
+			<a href="class-Object.html#___openPersistent">__openPersistent()</a>, 
+			<a href="class-Object.html#__persist">_persist()</a>, 
+			<a href="class-Object.html#__savePersistent">_savePersistent()</a>, 
+			<a href="class-Object.html#__set">_set()</a>, 
+			<a href="class-Object.html#_cakeError">cakeError()</a>, 
+			<a href="class-Object.html#_log">log()</a>, 
+			<a href="class-Object.html#_requestAction">requestAction()</a>, 
+			<a href="class-Object.html#_toString">toString()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="lookupServices" id="$lookupServices">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-GeocodedBehavior.html#6-22" title="Go to source code"><var>$lookupServices</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'google'</span> =&gt; <span class="php-keyword1">array</span>(
+        <span class="php-quote">'http://maps.google.com/maps/geo?&amp;q=%address&amp;output=csv&amp;key=%key'</span>,
+        <span class="php-quote">'/200,[^,]+,([^,]+),([^,\s]+)/'</span>
+    ),
+    <span class="php-quote">'yahoo'</span>  =&gt; <span class="php-keyword1">array</span>(
+        <span class="php-quote">'http://api.local.yahoo.com/MapsService/V1/geocode?appid=%key&amp;location=%address'</span>,
+        <span class="php-quote">'/&lt;Latitude&gt;(.*)&lt;\/Latitude&gt;&lt;Longitude&gt;(.*)&lt;\/Longitude&gt;/U'</span>
+    )
+)</code></td>
+		<td class="description"><div>
+			<a href="#$lookupServices" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Index of geo-data lookup services. Each item contains a lookup URL with
+placeholders, and a regular expression to parse latitude and longitude
+values.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Index of geo-data lookup services. Each item contains a lookup URL with
+placeholders, and a regular expression to parse latitude and longitude
+values.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="units" id="$units">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-GeocodedBehavior.html#23-32" title="Go to source code"><var>$units</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'K'</span> =&gt; <span class="php-num">1.609344</span>, <span class="php-quote">'N'</span> =&gt; <span class="php-num">0.868976242</span>, <span class="php-quote">'F'</span> =&gt; <span class="php-num">5280</span>, <span class="php-quote">'I'</span> =&gt; <span class="php-num">63360</span>, <span class="php-quote">'M'</span> =&gt; <span class="php-num">1</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$units" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Index of measurement unit factors relative to miles. These values can be
+specified in any method that accepts a $unit parameter. All $unit parameters
+also accept an arbitrary float value to use for distance conversions. Unit
+values are represented as follows: M: miles, K: kilometers, N: nautical miles,
+I: inches, F: feet</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Index of measurement unit factors relative to miles. These values can be
+specified in any method that accepts a $unit parameter. All $unit parameters
+also accept an arbitrary float value to use for distance conversions. Unit
+values are represented as follows: M: miles, K: kilometers, N: nautical miles,
+I: inches, F: feet</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-ModelBehavior.html#properties">ModelBehavior</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-ModelBehavior.html#$mapMethods"><var>$mapMethods</var></a>, 
+			<a href="class-ModelBehavior.html#$settings"><var>$settings</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Object.html#properties">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#$_log"><var>$_log</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

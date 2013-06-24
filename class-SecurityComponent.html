@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class SecurityComponent | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li class="active"><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AclBase.html">AclBase</a></li>
+				<li><a href="class-AclComponent.html">AclComponent</a></li>
+				<li><a href="class-AppEmailComponent.html">AppEmailComponent</a></li>
+				<li><a href="class-AuthComponent.html">AuthComponent</a></li>
+				<li><a href="class-CookieComponent.html">CookieComponent</a></li>
+				<li><a href="class-EmailComponent.html">EmailComponent</a></li>
+				<li><a href="class-RequestHandlerComponent.html">RequestHandlerComponent</a></li>
+				<li class="active"><a href="class-SecurityComponent.html">SecurityComponent</a></li>
+				<li><a href="class-SessionComponent.html">SessionComponent</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.controller.components.html" title="Summary of cake\cake\libs\controller\components"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class SecurityComponent</h1>
+
+
+	<div class="description">
+	
+<p>Short description for file.</p>
+
+<p>Long description for file</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Object.html"><span>Object</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>SecurityComponent</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a>\<a href="package-cake.cake.libs.controller.html">controller</a>\<a href="package-cake.cake.libs.controller.components.html">components</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-SecurityComponent.html#29-639" title="Go to source code">cake/libs/controller/components/security.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="startup" id="_startup">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_startup">#</a>
+		<code><a href="source-class-SecurityComponent.html#126-143" title="Go to source code">startup</a>( <span>object <var>&amp; $controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Component startup. All security checking happens here.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Component startup. All security checking happens here.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller Instantiating controller</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="requirePost" id="_requirePost">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_requirePost">#</a>
+		<code><a href="source-class-SecurityComponent.html#144-154" title="Go to source code">requirePost</a>( )</code>
+
+		<div class="description short">
+			
+<p>Sets the actions that require a POST request, or empty for all actions</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the actions that require a POST request, or empty for all actions</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="requireSecure" id="_requireSecure">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_requireSecure">#</a>
+		<code><a href="source-class-SecurityComponent.html#155-165" title="Go to source code">requireSecure</a>( )</code>
+
+		<div class="description short">
+			
+<p>Sets the actions that require a request that is SSL-secured, or empty for all
+actions</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the actions that require a request that is SSL-secured, or empty for all
+actions</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="requireAuth" id="_requireAuth">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_requireAuth">#</a>
+		<code><a href="source-class-SecurityComponent.html#166-176" title="Go to source code">requireAuth</a>( )</code>
+
+		<div class="description short">
+			
+<p>Sets the actions that require an authenticated request, or empty for all
+actions</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the actions that require an authenticated request, or empty for all
+actions</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="requireLogin" id="_requireLogin">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_requireLogin">#</a>
+		<code><a href="source-class-SecurityComponent.html#177-202" title="Go to source code">requireLogin</a>( )</code>
+
+		<div class="description short">
+			
+<p>Sets the actions that require an HTTP-authenticated request, or empty for all
+actions</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the actions that require an HTTP-authenticated request, or empty for all
+actions</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="loginCredentials" id="_loginCredentials">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_loginCredentials">#</a>
+		<code><a href="source-class-SecurityComponent.html#203-240" title="Go to source code">loginCredentials</a>( <span>string <var>$type</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Attempts to validate the login credentials for an HTTP-authenticated
+request</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Attempts to validate the login credentials for an HTTP-authenticated
+request</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type Either 'basic', 'digest', or null. If null/empty, will try both.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>If successful, returns an array with login name and password, otherwise null.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="loginRequest" id="_loginRequest">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_loginRequest">#</a>
+		<code><a href="source-class-SecurityComponent.html#241-261" title="Go to source code">loginRequest</a>( <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Generates the text of an HTTP-authentication request header from an array of
+options..</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates the text of an HTTP-authentication request header from an array of
+options..</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Set of options for header</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>HTTP-authentication request header<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseDigestAuthData" id="_parseDigestAuthData">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseDigestAuthData">#</a>
+		<code><a href="source-class-SecurityComponent.html#262-288" title="Go to source code">parseDigestAuthData</a>( <span>string <var>$digest</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parses an HTTP digest authentication response, and returns an array of the
+data, or null on failure.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parses an HTTP digest authentication response, and returns an array of the
+data, or null on failure.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$digest</var></dt>
+					<dd><code>string</code><br>$digest Digest authentication response</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Digest authentication parameters<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="generateDigestResponseHash" id="_generateDigestResponseHash">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_generateDigestResponseHash">#</a>
+		<code><a href="source-class-SecurityComponent.html#289-303" title="Go to source code">generateDigestResponseHash</a>( <span>array <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Generates a hash to be compared with an HTTP digest-authenticated
+response</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates a hash to be compared with an HTTP digest-authenticated
+response</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data HTTP digest response data, as parsed by
+SecurityComponent::parseDigestAuthData()</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Digest authentication hash<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-SecurityComponent.html#_parseDigestAuthData">SecurityComponent::parseDigestAuthData()</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="blackHole" id="_blackHole">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_blackHole">#</a>
+		<code><a href="source-class-SecurityComponent.html#304-326" title="Go to source code">blackHole</a>( <span>object <var>&amp; $controller</var></span>, <span>string <var>$error</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Black-hole an invalid request with a 404 error or custom callback. If
+SecurityComponent::$blackHoleCallback is specified, it will use this callback by
+executing the method indicated in $error</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Black-hole an invalid request with a 404 error or custom callback. If
+SecurityComponent::$blackHoleCallback is specified, it will use this callback by
+executing the method indicated in $error</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller Instantiating controller</dd>
+					<dt><var>$error</var></dt>
+					<dd><code>string</code><br>$error Error method</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>If specified, controller blackHoleCallback's response, or no return otherwise<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-SecurityComponent.html#$blackHoleCallback">SecurityComponent::<var>$blackHoleCallback</var></a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__postRequired" id="___postRequired">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___postRequired">#</a>
+		<code><a href="source-class-SecurityComponent.html#327-345" title="Go to source code">__postRequired</a>( <span>object <var>&amp; $controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check if post is required</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if post is required</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller Instantiating controller</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true if post is requred<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__secureRequired" id="___secureRequired">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___secureRequired">#</a>
+		<code><a href="source-class-SecurityComponent.html#346-364" title="Go to source code">__secureRequired</a>( <span>object <var>&amp; $controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check if access requires secure connection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if access requires secure connection</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller Instantiating controller</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true if secure connection required<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__authRequired" id="___authRequired">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___authRequired">#</a>
+		<code><a href="source-class-SecurityComponent.html#365-398" title="Go to source code">__authRequired</a>( <span>object <var>&amp; $controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check if authentication is required</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if authentication is required</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller Instantiating controller</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true if authentication required<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__loginRequired" id="___loginRequired">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___loginRequired">#</a>
+		<code><a href="source-class-SecurityComponent.html#399-442" title="Go to source code">__loginRequired</a>( <span>object <var>&amp; $controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check if login is required</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if login is required</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller Instantiating controller</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true if login is required<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__validatePost" id="___validatePost">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___validatePost">#</a>
+		<code><a href="source-class-SecurityComponent.html#443-572" title="Go to source code">__validatePost</a>( <span>object <var>&amp; $controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate submitted form</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate submitted form</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller Instantiating controller</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true if submitted form is valid<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__generateToken" id="___generateToken">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___generateToken">#</a>
+		<code><a href="source-class-SecurityComponent.html#573-606" title="Go to source code">__generateToken</a>( <span>object <var>&amp; $controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add authentication key for new form posts</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add authentication key for new form posts</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller Instantiating controller</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__setLoginDefaults" id="___setLoginDefaults">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___setLoginDefaults">#</a>
+		<code><a href="source-class-SecurityComponent.html#607-621" title="Go to source code">__setLoginDefaults</a>( <span>array <var>&amp; $options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the default login options for an HTTP-authenticated request</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the default login options for an HTTP-authenticated request</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Default login options</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__callback" id="___callback">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___callback">#</a>
+		<code><a href="source-class-SecurityComponent.html#622-638" title="Go to source code">__callback</a>( <span>object <var>&amp; $controller</var></span>, <span>string <var>$method</var></span>, <span>array <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Calls a controller callback method</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calls a controller callback method</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>object</code><br>$controller Controller to run callback on</dd>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method to execute</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameters to send to method</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Controller callback method's response<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Object.html#methods">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#_Object">Object()</a>, 
+			<a href="class-Object.html#___construct">__construct()</a>, 
+			<a href="class-Object.html#___openPersistent">__openPersistent()</a>, 
+			<a href="class-Object.html#__persist">_persist()</a>, 
+			<a href="class-Object.html#__savePersistent">_savePersistent()</a>, 
+			<a href="class-Object.html#__set">_set()</a>, 
+			<a href="class-Object.html#_cakeError">cakeError()</a>, 
+			<a href="class-Object.html#_log">log()</a>, 
+			<a href="class-Object.html#_requestAction">requestAction()</a>, 
+			<a href="class-Object.html#_toString">toString()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="blackHoleCallback" id="$blackHoleCallback">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SecurityComponent.html#38-44" title="Go to source code"><var>$blackHoleCallback</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$blackHoleCallback" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The controller method that will be called if this request is black-hole'd</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The controller method that will be called if this request is black-hole'd</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="requirePost" id="$requirePost">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SecurityComponent.html#45-52" title="Go to source code"><var>$requirePost</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$requirePost" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of controller actions for which a POST request is required</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of controller actions for which a POST request is required</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-SecurityComponent.html#_requirePost">SecurityComponent::requirePost()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="requireSecure" id="$requireSecure">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SecurityComponent.html#53-60" title="Go to source code"><var>$requireSecure</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$requireSecure" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of actions that require an SSL-secured connection</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of actions that require an SSL-secured connection</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-SecurityComponent.html#_requireSecure">SecurityComponent::requireSecure()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="requireAuth" id="$requireAuth">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SecurityComponent.html#61-68" title="Go to source code"><var>$requireAuth</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$requireAuth" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of actions that require a valid authentication key</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of actions that require a valid authentication key</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-SecurityComponent.html#_requireAuth">SecurityComponent::requireAuth()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="requireLogin" id="$requireLogin">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SecurityComponent.html#69-76" title="Go to source code"><var>$requireLogin</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$requireLogin" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of actions that require an HTTP-authenticated login (basic or
+digest)</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of actions that require an HTTP-authenticated login (basic or
+digest)</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-SecurityComponent.html#_requireLogin">SecurityComponent::requireLogin()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="loginOptions" id="$loginOptions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SecurityComponent.html#77-84" title="Go to source code"><var>$loginOptions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'type'</span> =&gt; <span class="php-quote">''</span>, <span class="php-quote">'prompt'</span> =&gt; <span class="php-keyword1">null</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$loginOptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Login options for SecurityComponent::requireLogin()</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Login options for SecurityComponent::requireLogin()</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-SecurityComponent.html#_requireLogin">SecurityComponent::requireLogin()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="loginUsers" id="$loginUsers">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SecurityComponent.html#85-93" title="Go to source code"><var>$loginUsers</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$loginUsers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>An associative array of usernames/passwords used for HTTP-authenticated
+logins. If using digest authentication, passwords should be MD5-hashed.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>An associative array of usernames/passwords used for HTTP-authenticated
+logins. If using digest authentication, passwords should be MD5-hashed.</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-SecurityComponent.html#_requireLogin">SecurityComponent::requireLogin()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="allowedControllers" id="$allowedControllers">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SecurityComponent.html#94-102" title="Go to source code"><var>$allowedControllers</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$allowedControllers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Controllers from which actions of the current controller are allowed to
+receive requests.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Controllers from which actions of the current controller are allowed to
+receive requests.</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-SecurityComponent.html#_requireAuth">SecurityComponent::requireAuth()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="allowedActions" id="$allowedActions">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SecurityComponent.html#103-111" title="Go to source code"><var>$allowedActions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$allowedActions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Actions from which actions of the current controller are allowed to receive
+requests.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Actions from which actions of the current controller are allowed to receive
+requests.</p>
+
+
+					<h4>See</h4>
+					<div class="list">
+							<code><code><a href="class-SecurityComponent.html#_requireAuth">SecurityComponent::requireAuth()</a></code></code><br />
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="disabledFields" id="$disabledFields">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SecurityComponent.html#112-118" title="Go to source code"><var>$disabledFields</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$disabledFields" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Form fields to disable</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Form fields to disable</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="components" id="$components">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SecurityComponent.html#119-125" title="Go to source code"><var>$components</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'RequestHandler'</span>, <span class="php-quote">'Session'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$components" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Other components used by the Security component</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Other components used by the Security component</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Object.html#properties">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#$_log"><var>$_log</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

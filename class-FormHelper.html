@@ -1,0 +1,1955 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class FormHelper | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-ActivityTableHelper.html">ActivityTableHelper</a></li>
+				<li><a href="class-AjaxHelper.html">AjaxHelper</a></li>
+				<li><a href="class-AjaxLinkHelper.html">AjaxLinkHelper</a></li>
+				<li><a href="class-CacheHelper.html">CacheHelper</a></li>
+				<li><a href="class-FformHelper.html">FformHelper</a></li>
+				<li><a href="class-FormatingHelper.html">FormatingHelper</a></li>
+				<li class="active"><a href="class-FormHelper.html">FormHelper</a></li>
+				<li><a href="class-HtmlHelper.html">HtmlHelper</a></li>
+				<li><a href="class-JavascriptHelper.html">JavascriptHelper</a></li>
+				<li><a href="class-JsHelper.html">JsHelper</a></li>
+				<li><a href="class-JsHelperObject.html">JsHelperObject</a></li>
+				<li><a href="class-LapHelper.html">LapHelper</a></li>
+				<li><a href="class-LctHtmlHelper.html">LctHtmlHelper</a></li>
+				<li><a href="class-Lib24watchCaptchaHelper.html">Lib24watchCaptchaHelper</a></li>
+				<li><a href="class-Lib24watchHtmlHelper.html">Lib24watchHtmlHelper</a></li>
+				<li><a href="class-Lib24watchPaginatorHelper.html">Lib24watchPaginatorHelper</a></li>
+				<li><a href="class-MembershipLinkHelper.html">MembershipLinkHelper</a></li>
+				<li><a href="class-MenuLinkHelper.html">MenuLinkHelper</a></li>
+				<li><a href="class-NumberHelper.html">NumberHelper</a></li>
+				<li><a href="class-PaginationHelper.html">PaginationHelper</a></li>
+				<li><a href="class-PaginatorHelper.html">PaginatorHelper</a></li>
+				<li><a href="class-RssHelper.html">RssHelper</a></li>
+				<li><a href="class-SchoolsPaginateHelper.html">SchoolsPaginateHelper</a></li>
+				<li><a href="class-TextHelper.html">TextHelper</a></li>
+				<li><a href="class-TicketActivityHelper.html">TicketActivityHelper</a></li>
+				<li><a href="class-TicketColorHelper.html">TicketColorHelper</a></li>
+				<li><a href="class-TimeHelper.html">TimeHelper</a></li>
+				<li><a href="class-XmlHelper.html">XmlHelper</a></li>
+				<li><a href="class-ZazzleHelper.html">ZazzleHelper</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.view.helpers.html" title="Summary of cake\cake\libs\view\helpers"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class FormHelper</h1>
+
+
+	<div class="description">
+	
+<p>Form helper library.</p>
+
+<p>Automatic generation of HTML FORMs from given data.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-AppHelper.html"><span class="invalid">AppHelper</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>FormHelper</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-FformHelper.html">FformHelper</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a>\<a href="package-cake.cake.libs.view.html">view</a>\<a href="package-cake.cake.libs.view.helpers.html">helpers</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+		<b>Located at</b> <a href="source-class-FormHelper.html#29-1588" title="Go to source code">cake/libs/view/helpers/form.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="create" id="_create">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_create">#</a>
+		<code><a href="source-class-FormHelper.html#75-215" title="Go to source code">create</a>( <span>string <var>$model</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns an HTML FORM element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns an HTML FORM element.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>$model The model object which the form is being defined for</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>An formatted opening FORM tag.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="end" id="_end">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_end">#</a>
+		<code><a href="source-class-FormHelper.html#216-266" title="Go to source code">end</a>( <span>mixed <var>$options</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Closes an HTML form, cleans up values set by FormHelper::create(), and writes
+hidden input fields where appropriate.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Closes an HTML form, cleans up values set by FormHelper::create(), and writes
+hidden input fields where appropriate.</p>
+
+<p>If $options is set a form submit button will be created.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>mixed</code><br>$options as a string will use $options as the value of button, array usage:
+array('label' =&gt; 'save'); value="save" array('label' =&gt; 'save', 'name'
+=&gt; 'Whatever'); value="save" name="Whatever" array('name' =&gt; 'Whatever');
+value="Submit" name="Whatever" array('label' =&gt; 'save', 'name' =&gt;
+'Whatever', 'div' =&gt; 'good') &lt;div class="good"&gt; value="save"
+name="Whatever" array('label' =&gt; 'save', 'name' =&gt; 'Whatever', 'div' =&gt;
+array('class' =&gt; 'good')); &lt;div class="good"&gt; value="save"
+name="Whatever"</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>a closing FORM tag optional submit button.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="secure" id="_secure">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_secure">#</a>
+		<code><a href="source-class-FormHelper.html#267-294" title="Go to source code">secure</a>( <span>array <var>$fields</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Generates a hidden field with a security hash based on the fields used in the
+form.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates a hidden field with a security hash based on the fields used in the
+form.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fields</var></dt>
+					<dd><code>array</code><br>$fields The list of fields to use when generating the hash</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>A hidden input field with a security hash<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__secure" id="___secure">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___secure">#</a>
+		<code><a href="source-class-FormHelper.html#295-337" title="Go to source code">__secure</a>( <span>string <var>$model</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Generates a field list</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates a field list</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>$model Model name</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Options</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isFieldError" id="_isFieldError">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isFieldError">#</a>
+		<code><a href="source-class-FormHelper.html#338-348" title="Go to source code">isFieldError</a>( <span>string <var>$field</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if there is an error for the given field, otherwise false</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if there is an error for the given field, otherwise false</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code><br>$field This should be "Modelname.fieldname", "Modelname/fieldname" is deprecated</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>If there are errors this method returns true, else false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="_error">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_error">#</a>
+		<code><a href="source-class-FormHelper.html#349-390" title="Go to source code">error</a>( <span>string <var>$field</var></span>, <span>string <var>$text</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a formatted error message for given FORM field, NULL if no
+errors.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a formatted error message for given FORM field, NULL if no
+errors.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code><br>$field A field name, like "Modelname.fieldname", "Modelname/fieldname" is
+deprecated</dd>
+					<dt><var>$text</var></dt>
+					<dd><code>string</code><br>$text Error message</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Rendering options for &lt;div /&gt; wrapper tag</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>If there are errors this method returns an error message, otherwise null.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="label" id="_label">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_label">#</a>
+		<code><a href="source-class-FormHelper.html#391-423" title="Go to source code">label</a>( <span>string <var>$fieldName</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$text</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$attributes</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a formatted LABEL element for HTML FORMs.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a formatted LABEL element for HTML FORMs.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName This should be "Modelname.fieldname", "Modelname/fieldname" is
+deprecated</dd>
+					<dt><var>$text</var></dt>
+					<dd><code>string</code><br>$text Text that will appear in the label field.</dd>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>The formatted LABEL element<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="inputs" id="_inputs">
+
+		<td class="attributes"><code>
+			 public 
+			output
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_inputs">#</a>
+		<code><a href="source-class-FormHelper.html#424-483" title="Go to source code">inputs</a>( <span>array <var>$fields</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$blacklist</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Will display all the fields passed in an array expects fieldName as an array
+key replaces generateFields</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Will display all the fields passed in an array expects fieldName as an array
+key replaces generateFields</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fields</var></dt>
+					<dd><code>array</code><br>$fields works well with Controller::generateFields() or on its own;</dd>
+					<dt><var>$blacklist</var></dt>
+					<dd><code>array</code><br>$blacklist a simple array of fields to skip</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>output</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="input" id="_input">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_input">#</a>
+		<code><a href="source-class-FormHelper.html#484-704" title="Go to source code">input</a>( <span>string <var>$fieldName</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Generates a form input element complete with label and wrapper div</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates a form input element complete with label and wrapper div</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName This should be "Modelname.fieldname", "Modelname/fieldname" is
+deprecated</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checkbox" id="_checkbox">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checkbox">#</a>
+		<code><a href="source-class-FormHelper.html#705-743" title="Go to source code">checkbox</a>( <span>string <var>$fieldName</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a checkbox input widget.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a checkbox input widget.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldNamem Name of a field, like this "Modelname.fieldname",
+"Modelname/fieldname" is deprecated</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Array of HTML attributes.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>An HTML text input element<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="radio" id="_radio">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_radio">#</a>
+		<code><a href="source-class-FormHelper.html#744-805" title="Go to source code">radio</a>( <span>string <var>$fieldName</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$attributes</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a set of radio widgets.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a set of radio widgets.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName Name of a field, like this "Modelname.fieldname"</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Radio button options array.</dd>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes Array of HTML attributes. Use the 'separator' key to define the
+string in between the radio buttons</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="text" id="_text">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_text">#</a>
+		<code><a href="source-class-FormHelper.html#806-817" title="Go to source code">text</a>( <span>string <var>$fieldName</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a text input widget.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a text input widget.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldNamem Name of a field, like this "Modelname.fieldname",
+"Modelname/fieldname" is deprecated</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Array of HTML attributes.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>An HTML text input element<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="password" id="_password">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_password">#</a>
+		<code><a href="source-class-FormHelper.html#818-829" title="Go to source code">password</a>( <span>string <var>$fieldName</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a password input widget.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a password input widget.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName Name of a field, like this "Modelname.fieldname",
+"Modelname/fieldname" is deprecated</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Array of HTML attributes.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="textarea" id="_textarea">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_textarea">#</a>
+		<code><a href="source-class-FormHelper.html#830-850" title="Go to source code">textarea</a>( <span>string <var>$fieldName</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a textarea widget.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a textarea widget.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldNamem Name of a field, like this "Modelname.fieldname",
+"Modelname/fieldname" is deprecated</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Array of HTML attributes.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>An HTML text input element<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hidden" id="_hidden">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hidden">#</a>
+		<code><a href="source-class-FormHelper.html#851-877" title="Go to source code">hidden</a>( <span>string <var>$fieldName</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a hidden input field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a hidden input field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName Name of a field, like this "Modelname.fieldname",
+"Modelname/fieldname" is deprecated</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Array of HTML attributes.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="file" id="_file">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_file">#</a>
+		<code><a href="source-class-FormHelper.html#878-890" title="Go to source code">file</a>( <span>string <var>$fieldName</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates file input widget.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates file input widget.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName Name of a field, like this "Modelname.fieldname",
+"Modelname/fieldname" is deprecated</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Array of HTML attributes.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="button" id="_button">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_button">#</a>
+		<code><a href="source-class-FormHelper.html#891-911" title="Go to source code">button</a>( <span>string <var>$title</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a button tag.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a button tag.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$title</var></dt>
+					<dd><code>string</code><br>$title The button's caption</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Array of options.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>A HTML button tag.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="submit" id="_submit">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_submit">#</a>
+		<code><a href="source-class-FormHelper.html#912-970" title="Go to source code">submit</a>( <span>string <var>$caption</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates a submit button element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a submit button element.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$caption</var></dt>
+					<dd><code>string</code><br>$caption The label appearing on the button OR if string contains :// or the
+extension .jpg, .jpe, .jpeg, .gif, .png use an image if the extension exists,
+AND the first character is /, image is relative to webroot, OR if the first
+character is not /, image is relative to webroot/img,</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>A HTML submit button<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="submitImage" id="_submitImage">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_submitImage">#</a>
+		<code><a href="source-class-FormHelper.html#971-986" title="Go to source code">submitImage</a>( <span>string <var>$path</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Creates an image input widget.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates an image input widget.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Path to the image file, relative to the webroot/img/ directory.</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Array of HTML attributes.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>HTML submit image element<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="select" id="_select">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_select">#</a>
+		<code><a href="source-class-FormHelper.html#987-1065" title="Go to source code">select</a>( <span>string <var>$fieldName</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$selected</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$attributes</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$showEmpty</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a formatted SELECT element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a formatted SELECT element.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName Name attribute of the SELECT</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options Array of the OPTION elements (as 'value'=&gt;'Text' pairs) to be used
+in the SELECT element</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>mixed</code><br>$selected The option selected by default. If null, the default value from POST
+data will be used when available.</dd>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes The HTML attributes of the select element. If 'showParents' is
+included in the array and set to true, an additional option element will be
+added for the parent of each option group.</dd>
+					<dt><var>$showEmpty</var></dt>
+					<dd><code>mixed</code><br>$showEmpty If true, the empty select option is shown. If a string, that string
+is displayed as the empty element.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Formatted SELECT element<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="day" id="_day">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_day">#</a>
+		<code><a href="source-class-FormHelper.html#1066-1097" title="Go to source code">day</a>( <span>string <var>$fieldName</var></span>, <span>string <var>$selected</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$attributes</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$showEmpty</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a SELECT element for days.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a SELECT element for days.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName Prefix name for the SELECT element</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>string</code><br>$selected Option which is selected.</dd>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes HTML attributes for the select element</dd>
+					<dt><var>$showEmpty</var></dt>
+					<dd><code>mixed</code><br>$showEmpty Show/hide the empty select option</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="year" id="_year">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_year">#</a>
+		<code><a href="source-class-FormHelper.html#1098-1135" title="Go to source code">year</a>( <span>string <var>$fieldName</var></span>, <span>integer <var>$minYear</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$maxYear</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$selected</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$attributes</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$showEmpty</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a SELECT element for years</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a SELECT element for years</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName Prefix name for the SELECT element</dd>
+					<dt><var>$minYear</var></dt>
+					<dd><code>integer</code><br>$minYear First year in sequence</dd>
+					<dt><var>$maxYear</var></dt>
+					<dd><code>integer</code><br>$maxYear Last year in sequence</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>string</code><br>$selected Option which is selected.</dd>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes Attribute array for the select elements.</dd>
+					<dt><var>$showEmpty</var></dt>
+					<dd><code>boolean</code><br>$showEmpty Show/hide the empty select option</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="month" id="_month">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_month">#</a>
+		<code><a href="source-class-FormHelper.html#1136-1166" title="Go to source code">month</a>( <span>string <var>$fieldName</var></span>, <span>string <var>$selected</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$attributes</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$showEmpty</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a SELECT element for months.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a SELECT element for months.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName Prefix name for the SELECT element</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>string</code><br>$selected Option which is selected.</dd>
+					<dt><var>$attributes</var></dt>
+					<dd><code>boolean</code><br>$showEmpty Show/hide the empty select option</dd>
+					<dt><var>$showEmpty</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hour" id="_hour">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hour">#</a>
+		<code><a href="source-class-FormHelper.html#1167-1203" title="Go to source code">hour</a>( <span>string <var>$fieldName</var></span>, <span>boolean <var>$format24Hours</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$selected</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$attributes</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$showEmpty</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a SELECT element for hours.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a SELECT element for hours.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName Prefix name for the SELECT element</dd>
+					<dt><var>$format24Hours</var></dt>
+					<dd><code>boolean</code><br>$format24Hours True for 24 hours format</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>string</code><br>$selected Option which is selected.</dd>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes List of HTML attributes</dd>
+					<dt><var>$showEmpty</var></dt>
+					<dd><code>mixed</code><br>$showEmpty True to show an empty element, or a string to provide default empty
+element text</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="minute" id="_minute">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_minute">#</a>
+		<code><a href="source-class-FormHelper.html#1204-1239" title="Go to source code">minute</a>( <span>string <var>$fieldName</var></span>, <span>string <var>$selected</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$attributes</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$showEmpty</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a SELECT element for minutes.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a SELECT element for minutes.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName Prefix name for the SELECT element</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>string</code><br>$selected Option which is selected.</dd>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+					<dt><var>$showEmpty</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="meridian" id="_meridian">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_meridian">#</a>
+		<code><a href="source-class-FormHelper.html#1240-1267" title="Go to source code">meridian</a>( <span>string <var>$fieldName</var></span>, <span>string <var>$selected</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$attributes</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$showEmpty</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a SELECT element for AM or PM.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a SELECT element for AM or PM.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName Prefix name for the SELECT element</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>string</code><br>$selected Option which is selected.</dd>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+					<dt><var>$showEmpty</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dateTime" id="_dateTime">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dateTime">#</a>
+		<code><a href="source-class-FormHelper.html#1268-1393" title="Go to source code">dateTime</a>( <span>string <var>$fieldName</var></span>, <span>string <var>$dateFormat</var> = <span class="php-quote">'DMY'</span></span>, <span>string <var>$timeFormat</var> = <span class="php-quote">'12'</span></span>, <span>string <var>$selected</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$attributes</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$showEmpty</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns a set of SELECT elements for a full datetime setup: day, month and
+year, and then time.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns a set of SELECT elements for a full datetime setup: day, month and
+year, and then time.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd><code>string</code><br>$fieldName Prefix name for the SELECT element</dd>
+					<dt><var>$dateFormat</var></dt>
+					<dd><code>string</code><br>$dateFormat DMY, MDY, YMD or NONE.</dd>
+					<dt><var>$timeFormat</var></dt>
+					<dd><code>string</code><br>$timeFormat 12, 24, NONE</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>string</code><br>$selected Option which is selected.</dd>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+					<dt><var>$showEmpty</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>The HTML formatted OPTION element<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__name" id="___name">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___name">#</a>
+		<code><a href="source-class-FormHelper.html#1394-1427" title="Go to source code">__name</a>( <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$field</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$key</var> = <span class="php-quote">'name'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets the input field name for the current tag</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the input field name for the current tag</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__selectOptions" id="___selectOptions">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___selectOptions">#</a>
+		<code><a href="source-class-FormHelper.html#1428-1503" title="Go to source code">__selectOptions</a>( <span>mixed <var>$elements</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$selected</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$parents</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$showParents</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$attributes</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns an array of formatted OPTION/OPTGROUP elements</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns an array of formatted OPTION/OPTGROUP elements</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__generateOptions" id="___generateOptions">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___generateOptions">#</a>
+		<code><a href="source-class-FormHelper.html#1504-1587" title="Go to source code">__generateOptions</a>( <span>mixed <var>$name</var></span>, <span>mixed <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Generates option lists for common &lt;select /&gt; menus</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates option lists for common &lt;select /&gt; menus</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="helpers" id="$helpers">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-FormHelper.html#38-44" title="Go to source code"><var>$helpers</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'Html'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$helpers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Other helpers used by FormHelper</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Other helpers used by FormHelper</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="fieldset" id="$fieldset">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-FormHelper.html#45-51" title="Go to source code"><var>$fieldset</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'fields'</span> =&gt; <span class="php-keyword1">array</span>(), <span class="php-quote">'key'</span> =&gt; <span class="php-quote">'id'</span>, <span class="php-quote">'validates'</span> =&gt; <span class="php-keyword1">array</span>())</code></td>
+		<td class="description"><div>
+			<a href="#$fieldset" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Holds the fields array('field_name' =&gt; array('type'=&gt; 'string',
+'length'=&gt; 100), primaryKey and validates array('field_name')</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Holds the fields array('field_name' =&gt; array('type'=&gt; 'string',
+'length'=&gt; 100), primaryKey and validates array('field_name')</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="__options" id="$__options">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-FormHelper.html#52-60" title="Go to source code"><var>$__options</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'day'</span> =&gt; <span class="php-keyword1">array</span>(), <span class="php-quote">'minute'</span> =&gt; <span class="php-keyword1">array</span>(), <span class="php-quote">'hour'</span> =&gt; <span class="php-keyword1">array</span>(),
+    <span class="php-quote">'month'</span> =&gt; <span class="php-keyword1">array</span>(), <span class="php-quote">'year'</span> =&gt; <span class="php-keyword1">array</span>(), <span class="php-quote">'meridian'</span> =&gt; <span class="php-keyword1">array</span>()
+)</code></td>
+		<td class="description"><div>
+			<a href="#$__options" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Enter description here...</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Enter description here...</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="fields" id="$fields">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-FormHelper.html#61-67" title="Go to source code"><var>$fields</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$fields" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Enter description here...</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Enter description here...</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="requestType" id="$requestType">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-FormHelper.html#68-74" title="Go to source code"><var>$requestType</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$requestType" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Defines the type of form being created. Set by FormHelper::create().</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Defines the type of form being created. Set by FormHelper::create().</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

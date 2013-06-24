@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class SimpleTestCase | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AllTests.html">AllTests</a></li>
+				<li><a href="class-AppImportTest.html">AppImportTest</a></li>
+				<li><a href="class-BadTestCases.html">BadTestCases</a></li>
+				<li><a href="class-BadTestSuite.html">BadTestSuite</a></li>
+				<li><a href="class-ClassRegistryTest.html">ClassRegistryTest</a></li>
+				<li><a href="class-DefaultReporter.html">DefaultReporter</a></li>
+				<li><a href="class-DetachedTestCase.html">DetachedTestCase</a></li>
+				<li><a href="class-EqualExpectation.html">EqualExpectation</a></li>
+				<li><a href="class-ExceptionExpectation.html">ExceptionExpectation</a></li>
+				<li><a href="class-FailingUnitTestCaseOutput.html">FailingUnitTestCaseOutput</a></li>
+				<li><a href="class-HtmlHelperTest.html">HtmlHelperTest</a></li>
+				<li><a href="class-HtmlReporter.html">HtmlReporter</a></li>
+				<li><a href="class-IdenticalExpectation.html">IdenticalExpectation</a></li>
+				<li><a href="class-IsAExpectation.html">IsAExpectation</a></li>
+				<li><a href="class-LikeExpectation.html">LikeExpectation</a></li>
+				<li><a href="class-LiveHttpTestCase.html">LiveHttpTestCase</a></li>
+				<li><a href="class-LoadIfIncludedTestCase.html">LoadIfIncludedTestCase</a></li>
+				<li><a href="class-MethodExistsExpectation.html">MethodExistsExpectation</a></li>
+				<li><a href="class-MultipleReporter.html">MultipleReporter</a></li>
+				<li><a href="class-NestingCaseTag.html">NestingCaseTag</a></li>
+				<li><a href="class-NestingGroupTag.html">NestingGroupTag</a></li>
+				<li><a href="class-NestingMethodTag.html">NestingMethodTag</a></li>
+				<li><a href="class-NestingXmlTag.html">NestingXmlTag</a></li>
+				<li><a href="class-NoPatternExpectation.html">NoPatternExpectation</a></li>
+				<li><a href="class-NoSkipsReporter.html">NoSkipsReporter</a></li>
+				<li><a href="class-NotAExpectation.html">NotAExpectation</a></li>
+				<li><a href="class-NotEqualExpectation.html">NotEqualExpectation</a></li>
+				<li><a href="class-NoTextExpectation.html">NoTextExpectation</a></li>
+				<li><a href="class-NotIdenticalExpectation.html">NotIdenticalExpectation</a></li>
+				<li><a href="class-OutsideMarginExpectation.html">OutsideMarginExpectation</a></li>
+				<li><a href="class-PassesAsWellReporter.html">PassesAsWellReporter</a></li>
+				<li><a href="class-PassingUnitTestCaseOutput.html">PassingUnitTestCaseOutput</a></li>
+				<li><a href="class-PathEqualExpectation.html">PathEqualExpectation</a></li>
+				<li><a href="class-PatternExpectation.html">PatternExpectation</a></li>
+				<li><a href="class-ReferenceExpectation.html">ReferenceExpectation</a></li>
+				<li><a href="class-RemoteTestCase.html">RemoteTestCase</a></li>
+				<li><a href="class-SelectiveReporter.html">SelectiveReporter</a></li>
+				<li><a href="class-ShellTestCase.html">ShellTestCase</a></li>
+				<li><a href="class-ShouldNeverBeRun.html">ShouldNeverBeRun</a></li>
+				<li><a href="class-ShouldNeverBeRunEither.html">ShouldNeverBeRunEither</a></li>
+				<li><a href="class-SimpleCollector.html">SimpleCollector</a></li>
+				<li><a href="class-SimpleCommandLineParser.html">SimpleCommandLineParser</a></li>
+				<li><a href="class-SimpleDumper.html">SimpleDumper</a></li>
+				<li><a href="class-SimpleErrorQueue.html">SimpleErrorQueue</a></li>
+				<li><a href="class-SimpleErrorTrappingInvoker.html">SimpleErrorTrappingInvoker</a></li>
+				<li><a href="class-SimpleExceptionTrap.html">SimpleExceptionTrap</a></li>
+				<li><a href="class-SimpleExceptionTrappingInvoker.html">SimpleExceptionTrappingInvoker</a></li>
+				<li><a href="class-SimpleExpectation.html">SimpleExpectation</a></li>
+				<li><a href="class-SimpleFileLoader.html">SimpleFileLoader</a></li>
+				<li><a href="class-SimpleInvoker.html">SimpleInvoker</a></li>
+				<li><a href="class-SimpleInvokerDecorator.html">SimpleInvokerDecorator</a></li>
+				<li><a href="class-SimplePatternCollector.html">SimplePatternCollector</a></li>
+				<li><a href="class-SimpleReporter.html">SimpleReporter</a></li>
+				<li><a href="class-SimpleReporterDecorator.html">SimpleReporterDecorator</a></li>
+				<li><a href="class-SimpleScorer.html">SimpleScorer</a></li>
+				<li><a href="class-SimpleShell.html">SimpleShell</a></li>
+				<li><a href="class-SimpleStackTrace.html">SimpleStackTrace</a></li>
+				<li><a href="class-SimpleTest.html">SimpleTest</a></li>
+				<li class="active"><a href="class-SimpleTestCase.html">SimpleTestCase</a></li>
+				<li><a href="class-SimpleTestContext.html">SimpleTestContext</a></li>
+				<li><a href="class-SimpleTestXmlParser.html">SimpleTestXmlParser</a></li>
+				<li><a href="class-test1.html">test1</a></li>
+				<li><a href="class-TestCaseWithParseError.html">TestCaseWithParseError</a></li>
+				<li><a href="class-TestDoxReporter.html">TestDoxReporter</a></li>
+				<li><a href="class-TestOfAbsoluteUrls.html">TestOfAbsoluteUrls</a></li>
+				<li><a href="class-TestOfAbstractsWithAbstractMethods.html">TestOfAbstractsWithAbstractMethods</a></li>
+				<li><a href="class-TestOfAdditionalHeaders.html">TestOfAdditionalHeaders</a></li>
+				<li><a href="class-TestOfAnythingExpectation.html">TestOfAnythingExpectation</a></li>
+				<li><a href="class-TestOfAuthenticator.html">TestOfAuthenticator</a></li>
+				<li><a href="class-TestOfAuthorisation.html">TestOfAuthorisation</a></li>
+				<li><a href="class-TestOfBadHosts.html">TestOfBadHosts</a></li>
+				<li><a href="class-TestOfBrowserCookies.html">TestOfBrowserCookies</a></li>
+				<li><a href="class-TestOfBrowserFrames.html">TestOfBrowserFrames</a></li>
+				<li><a href="class-TestOfBrowserNavigation.html">TestOfBrowserNavigation</a></li>
+				<li><a href="class-TestOfCallingTearDownAfterExceptions.html">TestOfCallingTearDownAfterExceptions</a></li>
+				<li><a href="class-TestOfCallSchedule.html">TestOfCallSchedule</a></li>
+				<li><a href="class-TestOfCatchingExceptions.html">TestOfCatchingExceptions</a></li>
+				<li><a href="class-TestOfCheckbox.html">TestOfCheckbox</a></li>
+				<li><a href="class-TestOfCollector.html">TestOfCollector</a></li>
+				<li><a href="class-TestOfCommandLineParsing.html">TestOfCommandLineParsing</a></li>
+				<li><a href="class-TestOfCompatibility.html">TestOfCompatibility</a></li>
+				<li><a href="class-TestOfContext.html">TestOfContext</a></li>
+				<li><a href="class-TestOfCookie.html">TestOfCookie</a></li>
+				<li><a href="class-TestOfCookieJar.html">TestOfCookieJar</a></li>
+				<li><a href="class-TestOfDirectRoute.html">TestOfDirectRoute</a></li>
+				<li><a href="class-TestOfEclipse.html">TestOfEclipse</a></li>
+				<li><a href="class-TestOfEncodedParts.html">TestOfEncodedParts</a></li>
+				<li><a href="class-TestOfEncoding.html">TestOfEncoding</a></li>
+				<li><a href="class-TestOfEquality.html">TestOfEquality</a></li>
+				<li><a href="class-TestOfErrorQueue.html">TestOfErrorQueue</a></li>
+				<li><a href="class-TestOfErrors.html">TestOfErrors</a></li>
+				<li><a href="class-TestOfErrorsExcludingPHP52AndAbove.html">TestOfErrorsExcludingPHP52AndAbove</a></li>
+				<li><a href="class-TestOfErrorTrap.html">TestOfErrorTrap</a></li>
+				<li><a href="class-TestOfExceptionExpectation.html">TestOfExceptionExpectation</a></li>
+				<li><a href="class-TestOfExceptionThrownInSetUpDoesNotRunTestBody.html">TestOfExceptionThrownInSetUpDoesNotRunTestBody</a></li>
+				<li><a href="class-TestOfExceptionTrap.html">TestOfExceptionTrap</a></li>
+				<li><a href="class-TestOfExpectExceptionWithSetUp.html">TestOfExpectExceptionWithSetUp</a></li>
+				<li><a href="class-TestOfFetchingUrlParameters.html">TestOfFetchingUrlParameters</a></li>
+				<li><a href="class-TestOfFieldExpectation.html">TestOfFieldExpectation</a></li>
+				<li><a href="class-TestOfForm.html">TestOfForm</a></li>
+				<li><a href="class-TestOfFormHeaders.html">TestOfFormHeaders</a></li>
+				<li><a href="class-TestOfFormsCreatedFromEventStream.html">TestOfFormsCreatedFromEventStream</a></li>
+				<li><a href="class-TestOfFrameNavigation.html">TestOfFrameNavigation</a></li>
+				<li><a href="class-TestOfFrameset.html">TestOfFrameset</a></li>
+				<li><a href="class-TestOfFramesetPageInterface.html">TestOfFramesetPageInterface</a></li>
+				<li><a href="class-TestOfFrameUrl.html">TestOfFrameUrl</a></li>
+				<li><a href="class-TestOfHeaderExpectations.html">TestOfHeaderExpectations</a></li>
+				<li><a href="class-TestOfHistory.html">TestOfHistory</a></li>
+				<li><a href="class-TestOfHtmlPage.html">TestOfHtmlPage</a></li>
+				<li><a href="class-TestOfHtmlSaxParser.html">TestOfHtmlSaxParser</a></li>
+				<li><a href="class-TestOfHttpHeaders.html">TestOfHttpHeaders</a></li>
+				<li><a href="class-TestOfHttpPostRequest.html">TestOfHttpPostRequest</a></li>
+				<li><a href="class-TestOfHttpRedirects.html">TestOfHttpRedirects</a></li>
+				<li><a href="class-TestOfHttpRequest.html">TestOfHttpRequest</a></li>
+				<li><a href="class-TestOfHttpResponse.html">TestOfHttpResponse</a></li>
+				<li><a href="class-TestOfIdentity.html">TestOfIdentity</a></li>
+				<li><a href="class-TestOfImplementations.html">TestOfImplementations</a></li>
+				<li><a href="class-TestOfInequality.html">TestOfInequality</a></li>
+				<li><a href="class-TestOfInterfaceMocksWithConstruct.html">TestOfInterfaceMocksWithConstruct</a></li>
+				<li><a href="class-TestOfInterfaceMocksWithHintInSignature.html">TestOfInterfaceMocksWithHintInSignature</a></li>
+				<li><a href="class-TestOfIsA.html">TestOfIsA</a></li>
+				<li><a href="class-TestOfLabelTag.html">TestOfLabelTag</a></li>
+				<li><a href="class-TestOfLexer.html">TestOfLexer</a></li>
+				<li><a href="class-TestOfLexerHandlers.html">TestOfLexerHandlers</a></li>
+				<li><a href="class-TestOfLexerModes.html">TestOfLexerModes</a></li>
+				<li><a href="class-TestOfLiveBrowser.html">TestOfLiveBrowser</a></li>
+				<li><a href="class-TestOfMethodExistence.html">TestOfMethodExistence</a></li>
+				<li><a href="class-TestOfMockComparisons.html">TestOfMockComparisons</a></li>
+				<li><a href="class-TestOfMockExpectations.html">TestOfMockExpectations</a></li>
+				<li><a href="class-TestOfMockExpectationsThatPass.html">TestOfMockExpectationsThatPass</a></li>
+				<li><a href="class-TestOfMockGeneration.html">TestOfMockGeneration</a></li>
+				<li><a href="class-TestOfMockingClassesWithStaticMethods.html">TestOfMockingClassesWithStaticMethods</a></li>
+				<li><a href="class-TestOfMockInterfaces.html">TestOfMockInterfaces</a></li>
+				<li><a href="class-TestOfMockObjectsOutput.html">TestOfMockObjectsOutput</a></li>
+				<li><a href="class-TestOfMockReturns.html">TestOfMockReturns</a></li>
+				<li><a href="class-TestOfNestingTags.html">TestOfNestingTags</a></li>
+				<li><a href="class-TestOfNonIdentity.html">TestOfNonIdentity</a></li>
+				<li><a href="class-TestOfNotA.html">TestOfNotA</a></li>
+				<li><a href="class-TestOfPageBuilder.html">TestOfPageBuilder</a></li>
+				<li><a href="class-TestOfPageHeaders.html">TestOfPageHeaders</a></li>
+				<li><a href="class-TestOfPageInterface.html">TestOfPageInterface</a></li>
+				<li><a href="class-TestOfPageParsing.html">TestOfPageParsing</a></li>
+				<li><a href="class-TestOfPageScraping.html">TestOfPageScraping</a></li>
+				<li><a href="class-TestOfParallelRegex.html">TestOfParallelRegex</a></li>
+				<li><a href="class-TestOfParametersExpectation.html">TestOfParametersExpectation</a></li>
+				<li><a href="class-TestOfParsedPageAccess.html">TestOfParsedPageAccess</a></li>
+				<li><a href="class-TestOfPartialMocks.html">TestOfPartialMocks</a></li>
+				<li><a href="class-TestOfPastBugs.html">TestOfPastBugs</a></li>
+				<li><a href="class-TestOfPatternCollector.html">TestOfPatternCollector</a></li>
+				<li><a href="class-TestOfPatterns.html">TestOfPatterns</a></li>
+				<li><a href="class-TestOfPHP4StyleSuperClassConstruct.html">TestOfPHP4StyleSuperClassConstruct</a></li>
+				<li><a href="class-TestOfPHP52RecoverableErrors.html">TestOfPHP52RecoverableErrors</a></li>
+				<li><a href="class-TestOfPHP5AbstractMethodMocking.html">TestOfPHP5AbstractMethodMocking</a></li>
+				<li><a href="class-TestOfPHP5StaticMethodMocking.html">TestOfPHP5StaticMethodMocking</a></li>
+				<li><a href="class-TestOfProxyRoute.html">TestOfProxyRoute</a></li>
+				<li><a href="class-TestOfRadioGroup.html">TestOfRadioGroup</a></li>
+				<li><a href="class-TestOfRealm.html">TestOfRealm</a></li>
+				<li><a href="class-TestOfReference.html">TestOfReference</a></li>
+				<li><a href="class-TestOfReflectionWithTypeHints.html">TestOfReflectionWithTypeHints</a></li>
+				<li><a href="class-TestOfSampleInterfaceWithClone.html">TestOfSampleInterfaceWithClone</a></li>
+				<li><a href="class-TestOfSelection.html">TestOfSelection</a></li>
+				<li><a href="class-TestOfShell.html">TestOfShell</a></li>
+				<li><a href="class-TestOfShellTestCase.html">TestOfShellTestCase</a></li>
+				<li><a href="class-TestOfShellTesterAndShell.html">TestOfShellTesterAndShell</a></li>
+				<li><a href="class-TestOfSimpleHtmlLexer.html">TestOfSimpleHtmlLexer</a></li>
+				<li><a href="class-TestOfSimpleSignatureMap.html">TestOfSimpleSignatureMap</a></li>
+				<li><a href="class-TestOfSimpleStickyError.html">TestOfSimpleStickyError</a></li>
+				<li><a href="class-TestOfSkippingNoMatterWhat.html">TestOfSkippingNoMatterWhat</a></li>
+				<li><a href="class-TestOfSkippingOrElse.html">TestOfSkippingOrElse</a></li>
+				<li><a href="class-TestOfSkippingTwiceOver.html">TestOfSkippingTwiceOver</a></li>
+				<li><a href="class-TestOfSpecialMethods.html">TestOfSpecialMethods</a></li>
+				<li><a href="class-TestOfSpl.html">TestOfSpl</a></li>
+				<li><a href="class-TestOfStackTrace.html">TestOfStackTrace</a></li>
+				<li><a href="class-TestOfStateStack.html">TestOfStateStack</a></li>
+				<li><a href="class-TestOfTag.html">TestOfTag</a></li>
+				<li><a href="class-TestOfTagGroup.html">TestOfTagGroup</a></li>
+				<li><a href="class-TestOfTestDoxReporter.html">TestOfTestDoxReporter</a></li>
+				<li><a href="class-TestOfTextArea.html">TestOfTextArea</a></li>
+				<li><a href="class-TestOfTextExpectations.html">TestOfTextExpectations</a></li>
+				<li><a href="class-TestOfTextExtraction.html">TestOfTextExtraction</a></li>
+				<li><a href="class-TestOfTextFormatting.html">TestOfTextFormatting</a></li>
+				<li><a href="class-TestOfThrowingErrorsFromMocks.html">TestOfThrowingErrorsFromMocks</a></li>
+				<li><a href="class-TestOfThrowingExceptionsFromMocks.html">TestOfThrowingExceptionsFromMocks</a></li>
+				<li><a href="class-TestOfThrowingExceptionsInTearDown.html">TestOfThrowingExceptionsInTearDown</a></li>
+				<li><a href="class-TestOfUnitTester.html">TestOfUnitTester</a></li>
+				<li><a href="class-TestOfUploadWidget.html">TestOfUploadWidget</a></li>
+				<li><a href="class-TestOfUrl.html">TestOfUrl</a></li>
+				<li><a href="class-TestOfVisualShell.html">TestOfVisualShell</a></li>
+				<li><a href="class-TestOfWidget.html">TestOfWidget</a></li>
+				<li><a href="class-TestOfWithin.html">TestOfWithin</a></li>
+				<li><a href="class-TestOfXmlResultsParsing.html">TestOfXmlResultsParsing</a></li>
+				<li><a href="class-TestOfXmlStructureParsing.html">TestOfXmlStructureParsing</a></li>
+				<li><a href="class-TestRunnerForLeftOverAndNotEnoughErrors.html">TestRunnerForLeftOverAndNotEnoughErrors</a></li>
+				<li><a href="class-TestSuite.html">TestSuite</a></li>
+				<li><a href="class-TestThatShouldNotBeSkipped.html">TestThatShouldNotBeSkipped</a></li>
+				<li><a href="class-TextExpectation.html">TextExpectation</a></li>
+				<li><a href="class-TextReporter.html">TextReporter</a></li>
+				<li><a href="class-UnitTestCase.html">UnitTestCase</a></li>
+				<li><a href="class-UnitTests.html">UnitTests</a></li>
+				<li><a href="class-WithinMarginExpectation.html">WithinMarginExpectation</a></li>
+				<li><a href="class-XmlReporter.html">XmlReporter</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-SimpleTestErrorHandler.html">SimpleTestErrorHandler</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-SimpleTest.UnitTester.html" title="Summary of SimpleTest\UnitTester"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class SimpleTestCase</h1>
+
+
+	<div class="description">
+	
+<p>Basic test case. This is the smallest unit of a test suite. It searches for
+all methods that start with the the string "test" and runs them. Working test
+cases extend this class.</p>
+
+	</div>
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-PHPUnit_TestCase.html">PHPUnit_TestCase</a>, 
+			<a href="class-ShellTestCase.html">ShellTestCase</a>, 
+			<a href="class-TestCase.html">TestCase</a>, 
+			<a href="class-UnitTestCase.html">UnitTestCase</a>, 
+			<a href="class-WebTestCase.html">WebTestCase</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-AclComponentTest.html">AclComponentTest</a>, 
+			<a href="class-AclNodeTest.html">AclNodeTest</a>, 
+			<a href="class-CakeTestCase.html">CakeTestCase</a>, 
+			<a href="class-TestOfErrors.html">TestOfErrors</a>, 
+			<a href="class-TestOfErrorsExcludingPHP52AndAbove.html">TestOfErrorsExcludingPHP52AndAbove</a>, 
+			<a href="class-TestOfErrorTrap.html">TestOfErrorTrap</a>, 
+			<a href="class-TestOfExceptionExpectation.html">TestOfExceptionExpectation</a>, 
+			<a href="class-TestOfExceptionThrownInSetUpDoesNotRunTestBody.html">TestOfExceptionThrownInSetUpDoesNotRunTestBody</a>, 
+			<a href="class-TestOfExceptionTrap.html">TestOfExceptionTrap</a>, 
+			<a href="class-TestOfExpectExceptionWithSetUp.html">TestOfExpectExceptionWithSetUp</a>, 
+			<a href="class-TestOfFetchingUrlParameters.html">TestOfFetchingUrlParameters</a>, 
+			<a href="class-TestOfFieldExpectation.html">TestOfFieldExpectation</a>, 
+			<a href="class-TestOfFileUploads.html">TestOfFileUploads</a>, 
+			<a href="class-CakeWebTestCase.html">CakeWebTestCase</a>, 
+			<a href="class-TestOfForm.html">TestOfForm</a>, 
+			<a href="class-TestOfFormHeaders.html">TestOfFormHeaders</a>, 
+			<a href="class-TestOfFormsCreatedFromEventStream.html">TestOfFormsCreatedFromEventStream</a>, 
+			<a href="class-TestOfFrameAuthentication.html">TestOfFrameAuthentication</a>, 
+			<a href="class-TestOfFrameNavigation.html">TestOfFrameNavigation</a>, 
+			<a href="class-TestOfFrameset.html">TestOfFrameset</a>, 
+			<a href="class-TestOfFramesetPageInterface.html">TestOfFramesetPageInterface</a>, 
+			<a href="class-TestOfFrameUrl.html">TestOfFrameUrl</a>, 
+			<a href="class-TestOfGenericAssertionsInWebTester.html">TestOfGenericAssertionsInWebTester</a>, 
+			<a href="class-TestOfHeaderExpectations.html">TestOfHeaderExpectations</a>, 
+			<a href="class-ClassRegistryTest.html">ClassRegistryTest</a>, 
+			<a href="class-TestOfHistory.html">TestOfHistory</a>, 
+			<a href="class-TestOfHtmlPage.html">TestOfHtmlPage</a>, 
+			<a href="class-TestOfHtmlSaxParser.html">TestOfHtmlSaxParser</a>, 
+			<a href="class-TestOfHttpHeaders.html">TestOfHttpHeaders</a>, 
+			<a href="class-TestOfHttpPostRequest.html">TestOfHttpPostRequest</a>, 
+			<a href="class-TestOfHttpRedirects.html">TestOfHttpRedirects</a>, 
+			<a href="class-TestOfHttpRequest.html">TestOfHttpRequest</a>, 
+			<a href="class-TestOfHttpResponse.html">TestOfHttpResponse</a>, 
+			<a href="class-TestOfIdentity.html">TestOfIdentity</a>, 
+			<a href="class-TestOfImplementations.html">TestOfImplementations</a>, 
+			<a href="class-ComponentTest.html">ComponentTest</a>, 
+			<a href="class-TestOfInequality.html">TestOfInequality</a>, 
+			<a href="class-TestOfInterfaceMocksWithConstruct.html">TestOfInterfaceMocksWithConstruct</a>, 
+			<a href="class-TestOfInterfaceMocksWithHintInSignature.html">TestOfInterfaceMocksWithHintInSignature</a>, 
+			<a href="class-TestOfIsA.html">TestOfIsA</a>, 
+			<a href="class-TestOfLabelTag.html">TestOfLabelTag</a>, 
+			<a href="class-TestOfLexer.html">TestOfLexer</a>, 
+			<a href="class-TestOfLexerHandlers.html">TestOfLexerHandlers</a>, 
+			<a href="class-TestOfLexerModes.html">TestOfLexerModes</a>, 
+			<a href="class-TestOfLinkFollowing.html">TestOfLinkFollowing</a>, 
+			<a href="class-TestOfLiveAuthentication.html">TestOfLiveAuthentication</a>, 
+			<a href="class-ConfigureTest.html">ConfigureTest</a>, 
+			<a href="class-TestOfLiveBrowser.html">TestOfLiveBrowser</a>, 
+			<a href="class-TestOfLiveCookies.html">TestOfLiveCookies</a>, 
+			<a href="class-TestOfLiveFetching.html">TestOfLiveFetching</a>, 
+			<a href="class-TestOfLiveFrontControllerEmulation.html">TestOfLiveFrontControllerEmulation</a>, 
+			<a href="class-TestOfLiveHeaders.html">TestOfLiveHeaders</a>, 
+			<a href="class-TestOfLiveHistoryNavigation.html">TestOfLiveHistoryNavigation</a>, 
+			<a href="class-TestOfLiveMultiValueWidgets.html">TestOfLiveMultiValueWidgets</a>, 
+			<a href="class-TestOfLivePageLinkingWithMinimalLinks.html">TestOfLivePageLinkingWithMinimalLinks</a>, 
+			<a href="class-TestOfLiveRedirects.html">TestOfLiveRedirects</a>, 
+			<a href="class-TestOfLoadingFrames.html">TestOfLoadingFrames</a>, 
+			<a href="class-ControllerTest.html">ControllerTest</a>, 
+			<a href="class-TestOfMethodExistence.html">TestOfMethodExistence</a>, 
+			<a href="class-TestOfMockComparisons.html">TestOfMockComparisons</a>, 
+			<a href="class-TestOfMockExpectations.html">TestOfMockExpectations</a>, 
+			<a href="class-TestOfMockExpectationsThatPass.html">TestOfMockExpectationsThatPass</a>, 
+			<a href="class-TestOfMockGeneration.html">TestOfMockGeneration</a>, 
+			<a href="class-TestOfMockingClassesWithStaticMethods.html">TestOfMockingClassesWithStaticMethods</a>, 
+			<a href="class-TestOfMockInterfaces.html">TestOfMockInterfaces</a>, 
+			<a href="class-TestOfMockObjectsOutput.html">TestOfMockObjectsOutput</a>, 
+			<a href="class-TestOfMockReturns.html">TestOfMockReturns</a>, 
+			<a href="class-TestOfNestedFrames.html">TestOfNestedFrames</a>, 
+			<a href="class-CookieComponentTest.html">CookieComponentTest</a>, 
+			<a href="class-TestOfNestingTags.html">TestOfNestingTags</a>, 
+			<a href="class-TestOfNonIdentity.html">TestOfNonIdentity</a>, 
+			<a href="class-TestOfNotA.html">TestOfNotA</a>, 
+			<a href="class-TestOfPageBuilder.html">TestOfPageBuilder</a>, 
+			<a href="class-TestOfPageHeaders.html">TestOfPageHeaders</a>, 
+			<a href="class-TestOfPageInterface.html">TestOfPageInterface</a>, 
+			<a href="class-TestOfPageParsing.html">TestOfPageParsing</a>, 
+			<a href="class-TestOfPageScraping.html">TestOfPageScraping</a>, 
+			<a href="class-TestOfParallelRegex.html">TestOfParallelRegex</a>, 
+			<a href="class-TestOfParametersExpectation.html">TestOfParametersExpectation</a>, 
+			<a href="class-DboMssqlTest.html">DboMssqlTest</a>, 
+			<a href="class-TestOfParsedPageAccess.html">TestOfParsedPageAccess</a>, 
+			<a href="class-TestOfPartialMocks.html">TestOfPartialMocks</a>, 
+			<a href="class-TestOfPastBugs.html">TestOfPastBugs</a>, 
+			<a href="class-TestOfPatternCollector.html">TestOfPatternCollector</a>, 
+			<a href="class-TestOfPatterns.html">TestOfPatterns</a>, 
+			<a href="class-TestOfPearAdapter.html">TestOfPearAdapter</a>, 
+			<a href="class-TestOfPHP4StyleSuperClassConstruct.html">TestOfPHP4StyleSuperClassConstruct</a>, 
+			<a href="class-TestOfPHP52RecoverableErrors.html">TestOfPHP52RecoverableErrors</a>, 
+			<a href="class-TestOfPHP5AbstractMethodMocking.html">TestOfPHP5AbstractMethodMocking</a>, 
+			<a href="class-TestOfPHP5StaticMethodMocking.html">TestOfPHP5StaticMethodMocking</a>, 
+			<a href="class-DboMysqlTest.html">DboMysqlTest</a>, 
+			<a href="class-TestOfPhpUnitAdapter.html">TestOfPhpUnitAdapter</a>, 
+			<a href="class-TestOfProxyRoute.html">TestOfProxyRoute</a>, 
+			<a href="class-TestOfRadioGroup.html">TestOfRadioGroup</a>, 
+			<a href="class-TestOfRealm.html">TestOfRealm</a>, 
+			<a href="class-TestOfReference.html">TestOfReference</a>, 
+			<a href="class-TestOfReflectionWithTypeHints.html">TestOfReflectionWithTypeHints</a>, 
+			<a href="class-TestOfSampleInterfaceWithClone.html">TestOfSampleInterfaceWithClone</a>, 
+			<a href="class-TestOfSelection.html">TestOfSelection</a>, 
+			<a href="class-TestOfShell.html">TestOfShell</a>, 
+			<a href="class-TestOfShellTestCase.html">TestOfShellTestCase</a>, 
+			<a href="class-DboPostgresTest.html">DboPostgresTest</a>, 
+			<a href="class-TestOfShellTesterAndShell.html">TestOfShellTesterAndShell</a>, 
+			<a href="class-TestOfSimpleHtmlLexer.html">TestOfSimpleHtmlLexer</a>, 
+			<a href="class-TestOfSimpleSignatureMap.html">TestOfSimpleSignatureMap</a>, 
+			<a href="class-TestOfSimpleStickyError.html">TestOfSimpleStickyError</a>, 
+			<a href="class-TestOfSkippingNoMatterWhat.html">TestOfSkippingNoMatterWhat</a>, 
+			<a href="class-TestOfSkippingOrElse.html">TestOfSkippingOrElse</a>, 
+			<a href="class-TestOfSkippingTwiceOver.html">TestOfSkippingTwiceOver</a>, 
+			<a href="class-TestOfSpecialMethods.html">TestOfSpecialMethods</a>, 
+			<a href="class-TestOfSpl.html">TestOfSpl</a>, 
+			<a href="class-TestOfStackTrace.html">TestOfStackTrace</a>, 
+			<a href="class-AjaxTest.html">AjaxTest</a>, 
+			<a href="class-DboSourceTest.html">DboSourceTest</a>, 
+			<a href="class-TestOfStateStack.html">TestOfStateStack</a>, 
+			<a href="class-TestOfTag.html">TestOfTag</a>, 
+			<a href="class-TestOfTagGroup.html">TestOfTagGroup</a>, 
+			<a href="class-TestOfTestDoxReporter.html">TestOfTestDoxReporter</a>, 
+			<a href="class-TestOfTextArea.html">TestOfTextArea</a>, 
+			<a href="class-TestOfTextExpectations.html">TestOfTextExpectations</a>, 
+			<a href="class-TestOfTextExtraction.html">TestOfTextExtraction</a>, 
+			<a href="class-TestOfTextFormatting.html">TestOfTextFormatting</a>, 
+			<a href="class-TestOfThrowingErrorsFromMocks.html">TestOfThrowingErrorsFromMocks</a>, 
+			<a href="class-TestOfThrowingExceptionsFromMocks.html">TestOfThrowingExceptionsFromMocks</a>, 
+			<a href="class-DebuggerTest.html">DebuggerTest</a>, 
+			<a href="class-TestOfThrowingExceptionsInTearDown.html">TestOfThrowingExceptionsInTearDown</a>, 
+			<a href="class-TestOfUnitTester.html">TestOfUnitTester</a>, 
+			<a href="class-TestOfUploadWidget.html">TestOfUploadWidget</a>, 
+			<a href="class-TestOfUrl.html">TestOfUrl</a>, 
+			<a href="class-TestOfVisualShell.html">TestOfVisualShell</a>, 
+			<a href="class-TestOfWidget.html">TestOfWidget</a>, 
+			<a href="class-TestOfWithin.html">TestOfWithin</a>, 
+			<a href="class-TestOfXmlResultsParsing.html">TestOfXmlResultsParsing</a>, 
+			<a href="class-TestOfXmlStructureParsing.html">TestOfXmlStructureParsing</a>, 
+			<a href="class-TestRadioFields.html">TestRadioFields</a>, 
+			<a href="class-DispatcherTest.html">DispatcherTest</a>, 
+			<a href="class-TestRunnerForLeftOverAndNotEnoughErrors.html">TestRunnerForLeftOverAndNotEnoughErrors</a>, 
+			<a href="class-TestThatShouldNotBeSkipped.html">TestThatShouldNotBeSkipped</a>, 
+			<a href="class-TextTest.html">TextTest</a>, 
+			<a href="class-ThemeViewTest.html">ThemeViewTest</a>, 
+			<a href="class-TimeTest.html">TimeTest</a>, 
+			<a href="class-TranslateTest.html">TranslateTest</a>, 
+			<a href="class-UserRestControllerTest.html">UserRestControllerTest</a>, 
+			<a href="class-ValidationTestCase.html">ValidationTestCase</a>, 
+			<a href="class-ViewTest.html">ViewTest</a>, 
+			<a href="class-XcacheEngineTest.html">XcacheEngineTest</a>, 
+			<a href="class-EmailTest.html">EmailTest</a>, 
+			<a href="class-XmlHelperTest.html">XmlHelperTest</a>, 
+			<a href="class-XMLNodeTest.html">XMLNodeTest</a>, 
+			<a href="class-XMLTest.html">XMLTest</a>, 
+			<a href="class-ZazzleStorefrontControllerTest.html">ZazzleStorefrontControllerTest</a>, 
+			<a href="class-ErrorHandlerTest.html">ErrorHandlerTest</a>, 
+			<a href="class-FailingUnitTestCaseOutput.html">FailingUnitTestCaseOutput</a>, 
+			<a href="class-FileEngineTest.html">FileEngineTest</a>, 
+			<a href="class-FileTest.html">FileTest</a>, 
+			<a href="class-FlayTest.html">FlayTest</a>, 
+			<a href="class-FolderTest.html">FolderTest</a>, 
+			<a href="class-APCEngineTest.html">APCEngineTest</a>, 
+			<a href="class-FormHelperTest.html">FormHelperTest</a>, 
+			<a href="class-HelperTest.html">HelperTest</a>, 
+			<a href="class-HtmlHelperTest.html">HtmlHelperTest</a>, 
+			<a href="class-HttpSocketTest.html">HttpSocketTest</a>, 
+			<a href="class-I18nTest.html">I18nTest</a>, 
+			<a href="class-InflectorTest.html">InflectorTest</a>, 
+			<a href="class-JavascriptTest.html">JavascriptTest</a>, 
+			<a href="class-JsTest.html">JsTest</a>, 
+			<a href="class-L10nTest.html">L10nTest</a>, 
+			<a href="class-LiveHttpTestCase.html">LiveHttpTestCase</a>, 
+			<a href="class-AppImportTest.html">AppImportTest</a>, 
+			<a href="class-LiveTestOfForms.html">LiveTestOfForms</a>, 
+			<a href="class-LoadIfIncludedTestCase.html">LoadIfIncludedTestCase</a>, 
+			<a href="class-MagicDbTest.html">MagicDbTest</a>, 
+			<a href="class-MemcacheEngineTest.html">MemcacheEngineTest</a>, 
+			<a href="class-ModelEngineTest.html">ModelEngineTest</a>, 
+			<a href="class-ModelTest.html">ModelTest</a>, 
+			<a href="class-NumberTest.html">NumberTest</a>, 
+			<a href="class-NumberTreeCase.html">NumberTreeCase</a>, 
+			<a href="class-ObjectTest.html">ObjectTest</a>, 
+			<a href="class-OverloadableTest.html">OverloadableTest</a>, 
+			<a href="class-AuthTest.html">AuthTest</a>, 
+			<a href="class-PagesControllerTest.html">PagesControllerTest</a>, 
+			<a href="class-PaginatorTest.html">PaginatorTest</a>, 
+			<a href="class-PassingUnitTestCaseOutput.html">PassingUnitTestCaseOutput</a>, 
+			<a href="class-RegisterControllerTest.html">RegisterControllerTest</a>, 
+			<a href="class-RegistrationRestControllerTest.html">RegistrationRestControllerTest</a>, 
+			<a href="class-RequestHandlerComponentTest.html">RequestHandlerComponentTest</a>, 
+			<a href="class-RouterTest.html">RouterTest</a>, 
+			<a href="class-RssTest.html">RssTest</a>, 
+			<a href="class-SanitizeTest.html">SanitizeTest</a>, 
+			<a href="class-ScaffoldViewTest.html">ScaffoldViewTest</a>, 
+			<a href="class-CacheHelperTest.html">CacheHelperTest</a>, 
+			<a href="class-ScheduleTestCase.html">ScheduleTestCase</a>, 
+			<a href="class-SecurityComponentTest.html">SecurityComponentTest</a>, 
+			<a href="class-SecurityTest.html">SecurityTest</a>, 
+			<a href="class-SessionComponentTest.html">SessionComponentTest</a>, 
+			<a href="class-SessionHelperTest.html">SessionHelperTest</a>, 
+			<a href="class-SessionTest.html">SessionTest</a>, 
+			<a href="class-SetTest.html">SetTest</a>, 
+			<a href="class-ShouldNeverBeRun.html">ShouldNeverBeRun</a>, 
+			<a href="class-ShouldNeverBeRunEither.html">ShouldNeverBeRunEither</a>, 
+			<a href="class-SimpleTestAcceptanceTest.html">SimpleTestAcceptanceTest</a>, 
+			<a href="class-CacheTest.html">CacheTest</a>, 
+			<a href="class-SocketTest.html">SocketTest</a>, 
+			<a href="class-StringTest.html">StringTest</a>, 
+			<a href="class-test1.html">test1</a>, 
+			<a href="class-TestCaseWithParseError.html">TestCaseWithParseError</a>, 
+			<a href="class-TestOfAbsoluteUrls.html">TestOfAbsoluteUrls</a>, 
+			<a href="class-TestOfAbstractsWithAbstractMethods.html">TestOfAbstractsWithAbstractMethods</a>, 
+			<a href="class-TestOfAdditionalHeaders.html">TestOfAdditionalHeaders</a>, 
+			<a href="class-TestOfAnythingExpectation.html">TestOfAnythingExpectation</a>, 
+			<a href="class-TestOfAuthenticator.html">TestOfAuthenticator</a>, 
+			<a href="class-TestOfAuthorisation.html">TestOfAuthorisation</a>, 
+			<a href="class-CakeLogTest.html">CakeLogTest</a>, 
+			<a href="class-TestOfBadHosts.html">TestOfBadHosts</a>, 
+			<a href="class-TestOfBrowserCookies.html">TestOfBrowserCookies</a>, 
+			<a href="class-TestOfBrowserFrames.html">TestOfBrowserFrames</a>, 
+			<a href="class-TestOfBrowserNavigation.html">TestOfBrowserNavigation</a>, 
+			<a href="class-TestOfCallingTearDownAfterExceptions.html">TestOfCallingTearDownAfterExceptions</a>, 
+			<a href="class-TestOfCallSchedule.html">TestOfCallSchedule</a>, 
+			<a href="class-TestOfCatchingExceptions.html">TestOfCatchingExceptions</a>, 
+			<a href="class-TestOfCheckbox.html">TestOfCheckbox</a>, 
+			<a href="class-TestOfCollector.html">TestOfCollector</a>, 
+			<a href="class-TestOfCommandLineParsing.html">TestOfCommandLineParsing</a>, 
+			<a href="class-CakeSchemaTest.html">CakeSchemaTest</a>, 
+			<a href="class-TestOfCompatibility.html">TestOfCompatibility</a>, 
+			<a href="class-TestOfContext.html">TestOfContext</a>, 
+			<a href="class-TestOfCookie.html">TestOfCookie</a>, 
+			<a href="class-TestOfCookieJar.html">TestOfCookieJar</a>, 
+			<a href="class-TestOfDirectRoute.html">TestOfDirectRoute</a>, 
+			<a href="class-TestOfEclipse.html">TestOfEclipse</a>, 
+			<a href="class-TestOfEncodedParts.html">TestOfEncodedParts</a>, 
+			<a href="class-TestOfEncoding.html">TestOfEncoding</a>, 
+			<a href="class-TestOfEquality.html">TestOfEquality</a>, 
+			<a href="class-TestOfErrorQueue.html">TestOfErrorQueue</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-SimpleTest.html">SimpleTest</a>\<a href="package-SimpleTest.UnitTester.html">UnitTester</a><br />
+
+		<b>Located at</b> <a href="source-class-SimpleTestCase.html#34-373" title="Go to source code">app/vendors/simpletest/test_case.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="SimpleTestCase" id="_SimpleTestCase">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_SimpleTestCase">#</a>
+		<code><a href="source-class-SimpleTestCase.html#48-58" title="Go to source code">SimpleTestCase</a>( <span>string <var>$label</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets up the test with no display.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets up the test with no display.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label If no test name is given then the class name is used.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLabel" id="_getLabel">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLabel">#</a>
+		<code><a href="source-class-SimpleTestCase.html#60-67" title="Go to source code">getLabel</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for the test name for subclasses.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for the test name for subclasses.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Name of the test.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="skip" id="_skip">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_skip">#</a>
+		<code><a href="source-class-SimpleTestCase.html#69-76" title="Go to source code">skip</a>( )</code>
+
+		<div class="description short">
+			
+<p>This is a placeholder for skipping tests. In this<br />
+method you place skipIf() and skipUnless() calls to<br />
+set the skipping state.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>This is a placeholder for skipping tests. In this method you place skipIf()
+and skipUnless() calls to set the skipping state.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="skipIf" id="_skipIf">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_skipIf">#</a>
+		<code><a href="source-class-SimpleTestCase.html#78-91" title="Go to source code">skipIf</a>( <span>string <var>$should_skip</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Will issue a message to the reporter and tell the test<br />
+case to skip if the incoming flag is true.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Will issue a message to the reporter and tell the test case to skip if the
+incoming flag is true.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$should_skip</var></dt>
+					<dd><code>string</code><br>$should_skip Condition causing the tests to be skipped.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Text of skip condition.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="skipUnless" id="_skipUnless">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_skipUnless">#</a>
+		<code><a href="source-class-SimpleTestCase.html#93-102" title="Go to source code">skipUnless</a>( <span>string <var>$shouldnt_skip</var></span>, <span>string <var>$message</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Will issue a message to the reporter and tell the test<br />
+case to skip if the incoming flag is false.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Will issue a message to the reporter and tell the test case to skip if the
+incoming flag is false.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$shouldnt_skip</var></dt>
+					<dd><code>string</code><br>$shouldnt_skip Condition causing the tests to be run.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Text of skip condition.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createInvoker" id="_createInvoker">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-SimpleInvoker.html">SimpleInvoker</a></code>
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createInvoker">#</a>
+		<code><a href="source-class-SimpleTestCase.html#104-115" title="Go to source code">createInvoker</a>( )</code>
+
+		<div class="description short">
+			
+<p>Used to invoke the single tests.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Used to invoke the single tests.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-SimpleInvoker.html">SimpleInvoker</a></code></code><br>Individual test runner.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="run" id="_run">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_run">#</a>
+		<code><a href="source-class-SimpleTestCase.html#117-152" title="Go to source code">run</a>( <span><code><a href="class-SimpleReporter.html">SimpleReporter</a></code> <var>&amp; $reporter</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Uses reflection to run every method within itself<br />
+starting with the string "test" unless a method<br />
+is specified.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Uses reflection to run every method within itself starting with the string
+"test" unless a method is specified.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$reporter</var></dt>
+					<dd><code><code><a href="class-SimpleReporter.html">SimpleReporter</a></code></code><br>$reporter Current test reporter.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if all tests passed.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTests" id="_getTests">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTests">#</a>
+		<code><a href="source-class-SimpleTestCase.html#154-170" title="Go to source code">getTests</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets a list of test names. Normally that will<br />
+be all internal methods that start with the<br />
+name "test". This method should be overridden<br />
+if you want a different rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets a list of test names. Normally that will be all internal methods that
+start with the name "test". This method should be overridden if you want a
+different rule.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>List of test names.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_isTest" id="__isTest">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__isTest">#</a>
+		<code><a href="source-class-SimpleTestCase.html#172-185" title="Go to source code">_isTest</a>( <span>string <var>$method</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Tests to see if the method is a test that should<br />
+be run. Currently any method that starts with 'test'<br />
+is a candidate unless it is the constructor.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests to see if the method is a test that should be run. Currently any method
+that starts with 'test' is a candidate unless it is the constructor.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Method name to try.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if test method.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="before" id="_before">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_before">#</a>
+		<code><a href="source-class-SimpleTestCase.html#187-195" title="Go to source code">before</a>( <span>string <var>$method</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Announces the start of the test.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Announces the start of the test.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Test method just started.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUp" id="_setUp">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUp">#</a>
+		<code><a href="source-class-SimpleTestCase.html#197-204" title="Go to source code">setUp</a>( )</code>
+
+		<div class="description short">
+			
+<p>Sets up unit test wide variables at the start<br />
+of each test method. To be overridden in<br />
+actual user test cases.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets up unit test wide variables at the start of each test method. To be
+overridden in actual user test cases.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="tearDown" id="_tearDown">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_tearDown">#</a>
+		<code><a href="source-class-SimpleTestCase.html#206-212" title="Go to source code">tearDown</a>( )</code>
+
+		<div class="description short">
+			
+<p>Clears the data set in the setUp() method call.<br />
+To be overridden by the user in actual user test cases.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clears the data set in the setUp() method call. To be overridden by the user
+in actual user test cases.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="after" id="_after">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_after">#</a>
+		<code><a href="source-class-SimpleTestCase.html#214-224" title="Go to source code">after</a>( <span>string <var>$method</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Announces the end of the test. Includes private clean up.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Announces the end of the test. Includes private clean up.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Test method just finished.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="tell" id="_tell">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_tell">#</a>
+		<code><a href="source-class-SimpleTestCase.html#226-234" title="Go to source code">tell</a>( <span>object <var>&amp; $observer</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets up an observer for the test end.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets up an observer for the test end.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$observer</var></dt>
+					<dd><code>object</code><br>$observer Must have atTestEnd() method.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fail" id="_fail">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fail">#</a>
+		<code><a href="source-class-SimpleTestCase.html#248-260" title="Go to source code">fail</a>( <span>string <var>$message</var> = <span class="php-quote">&quot;Fail&quot;</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sends a fail event with a message.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sends a fail event with a message.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to send.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="_error">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_error">#</a>
+		<code><a href="source-class-SimpleTestCase.html#262-277" title="Go to source code">error</a>( <span>integer <var>$severity</var></span>, <span>string <var>$message</var></span>, <span>string <var>$file</var></span>, <span>integer <var>$line</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Formats a PHP error and dispatches it to the<br />
+reporter.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Formats a PHP error and dispatches it to the reporter.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$severity</var></dt>
+					<dd><code>integer</code><br>$severity PHP error code.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Text of error.</dd>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>$file File error occoured in.</dd>
+					<dt><var>$line</var></dt>
+					<dd><code>integer</code><br>$line Line number of error.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="exception" id="_exception">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_exception">#</a>
+		<code><a href="source-class-SimpleTestCase.html#279-287" title="Go to source code">exception</a>( <span><code><a href="class-Exception.html">Exception</a></code> <var>$exception</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Formats an exception and dispatches it to the<br />
+reporter.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Formats an exception and dispatches it to the reporter.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$exception</var></dt>
+					<dd><code><code><a href="class-Exception.html">Exception</a></code></code><br>$exception Object thrown.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assert" id="_assert">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assert">#</a>
+		<code><a href="source-class-SimpleTestCase.html#299-318" title="Go to source code">assert</a>( <span><code><a href="class-SimpleExpectation.html">SimpleExpectation</a></code> <var>&amp; $expectation</var></span>, <span>mixed <var>$compare</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Runs an expectation directly, for extending the<br />
+tests with new expectation classes.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Runs an expectation directly, for extending the tests with new expectation
+classes.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$expectation</var></dt>
+					<dd><code><code><a href="class-SimpleExpectation.html">SimpleExpectation</a></code></code><br>$expectation Expectation subclass.</dd>
+					<dt><var>$compare</var></dt>
+					<dd><code>mixed</code><br>$compare Value to compare.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True on pass<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAssertionLine" id="_getAssertionLine">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAssertionLine">#</a>
+		<code><a href="source-class-SimpleTestCase.html#327-336" title="Go to source code">getAssertionLine</a>( )</code>
+
+		<div class="description short">
+			
+<p>Uses a stack trace to find the line of an assertion.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Uses a stack trace to find the line of an assertion.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Line number of first assert* method embedded in format string.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dump" id="_dump">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dump">#</a>
+		<code><a href="source-class-SimpleTestCase.html#338-355" title="Go to source code">dump</a>( <span>mixed <var>$variable</var></span>, <span>string <var>$message</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sends a formatted dump of a variable to the<br />
+test suite for those emergency debugging<br />
+situations.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sends a formatted dump of a variable to the test suite for those emergency
+debugging situations.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$variable</var></dt>
+					<dd><code>mixed</code><br>$variable Variable to display.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>The original variable.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSize" id="_getSize">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSize">#</a>
+		<code><a href="source-class-SimpleTestCase.html#364-372" title="Go to source code">getSize</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for the number of subtests including myelf.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for the number of subtests including myelf.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Number of test cases.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_label" id="$_label">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleTestCase.html#43" title="Go to source code"><var>$_label</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_label" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_reporter" id="$_reporter">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleTestCase.html#44" title="Go to source code"><var>$_reporter</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_reporter" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_observers" id="$_observers">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleTestCase.html#45" title="Go to source code"><var>$_observers</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_observers" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_should_skip" id="$_should_skip">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleTestCase.html#46" title="Go to source code"><var>$_should_skip</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_should_skip" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

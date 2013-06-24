@@ -1,0 +1,1936 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Validation | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li class="active"><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li class="active"><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-App.html">App</a></li>
+				<li><a href="class-Cache.html">Cache</a></li>
+				<li><a href="class-CacheEngine.html">CacheEngine</a></li>
+				<li><a href="class-CakeLog.html">CakeLog</a></li>
+				<li><a href="class-CakeSession.html">CakeSession</a></li>
+				<li><a href="class-CakeSocket.html">CakeSocket</a></li>
+				<li><a href="class-CalendarclassComponent.html">CalendarclassComponent</a></li>
+				<li><a href="class-CasAuthenticationComponent.html">CasAuthenticationComponent</a></li>
+				<li><a href="class-CheckoutComponent.html">CheckoutComponent</a></li>
+				<li><a href="class-ClassRegistry.html">ClassRegistry</a></li>
+				<li><a href="class-Configure.html">Configure</a></li>
+				<li><a href="class-ConnectionManager.html">ConnectionManager</a></li>
+				<li><a href="class-DateTimeComponent.html">DateTimeComponent</a></li>
+				<li><a href="class-Debugger.html">Debugger</a></li>
+				<li><a href="class-File.html">File</a></li>
+				<li><a href="class-FileUploadComponent.html">FileUploadComponent</a></li>
+				<li><a href="class-Flay.html">Flay</a></li>
+				<li><a href="class-Folder.html">Folder</a></li>
+				<li><a href="class-GeoIpComponent.html">GeoIpComponent</a></li>
+				<li><a href="class-GifPixComponent.html">GifPixComponent</a></li>
+				<li><a href="class-HttpSocket.html">HttpSocket</a></li>
+				<li><a href="class-I18n.html">I18n</a></li>
+				<li><a href="class-ImageComponent.html">ImageComponent</a></li>
+				<li><a href="class-Inflector.html">Inflector</a></li>
+				<li><a href="class-L10n.html">L10n</a></li>
+				<li><a href="class-MailChimpComponent.html">MailChimpComponent</a></li>
+				<li><a href="class-ManageLaMemberComponent.html">ManageLaMemberComponent</a></li>
+				<li><a href="class-NeatString.html">NeatString</a></li>
+				<li><a href="class-NominationNominationComponent.html">NominationNominationComponent</a></li>
+				<li><a href="class-Object.html">Object</a></li>
+				<li><a href="class-OutputComponent.html">OutputComponent</a></li>
+				<li><a href="class-PayFlowProComponent.html">PayFlowProComponent</a></li>
+				<li><a href="class-PlayersRegComponent.html">PlayersRegComponent</a></li>
+				<li><a href="class-RegistrationComponent.html">RegistrationComponent</a></li>
+				<li><a href="class-Router.html">Router</a></li>
+				<li><a href="class-Sanitize.html">Sanitize</a></li>
+				<li><a href="class-Security.html">Security</a></li>
+				<li><a href="class-ServerCopyComponent.html">ServerCopyComponent</a></li>
+				<li><a href="class-SessionHelper.html">SessionHelper</a></li>
+				<li><a href="class-Set.html">Set</a></li>
+				<li><a href="class-SimplepieComponent.html">SimplepieComponent</a></li>
+				<li><a href="class-String.html">String</a></li>
+				<li><a href="class-SwiftMailerComponent.html">SwiftMailerComponent</a></li>
+				<li class="active"><a href="class-Validation.html">Validation</a></li>
+				<li><a href="class-VerifyEmailComponent.html">VerifyEmailComponent</a></li>
+				<li><a href="class-XML.html">XML</a></li>
+				<li><a href="class-XMLNode.html">XMLNode</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-__enclose.html">__enclose</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-cake.cake.libs.html" title="Summary of cake\cake\libs"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Validation</h1>
+
+
+	<div class="description">
+	
+<p>Offers different validation methods.</p>
+
+<p>Long description for file</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Object.html"><span>Object</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Validation</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-cake.html">cake</a>\<a href="package-cake.cake.html">cake</a>\<a href="package-cake.cake.libs.html">libs</a><br />
+
+				<b>Copyright:</b>
+				Copyright 2005-2008, Cake Software Foundation, Inc.<br />
+				<b>License:</b>
+				<a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a><br />
+				<b>Since:</b>
+				CakePHP v 1.2.0.3830<br />
+		<b>Located at</b> <a href="source-class-Validation.html#48-862" title="Go to source code">cake/libs/validation.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="getInstance" id="_getInstance">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInstance">#</a>
+		<code><a href="source-class-Validation.html#103-117" title="Go to source code">getInstance</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets a reference to the Validation object instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets a reference to the Validation object instance</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>Validation instance<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="alphaNumeric" id="_alphaNumeric">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_alphaNumeric">#</a>
+		<code><a href="source-class-Validation.html#118-149" title="Go to source code">alphaNumeric</a>( <span>mixed <var>$check</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks that a string contains only integer or letters</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks that a string contains only integer or letters</p>
+
+<p>Returns true if string contains only integer or letters</p>
+
+<p>$check can be passed as an array: array('check' =&gt; 'valueToCheck');</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>mixed</code><br>$check Value to check</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="between" id="_between">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_between">#</a>
+		<code><a href="source-class-Validation.html#150-169" title="Go to source code">between</a>( <span>string <var>$check</var></span>, <span>integer <var>$min</var></span>, <span>integer <var>$max</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks that a string length is within s specified range. Spaces are included
+in the character count. Returns true is string matches value min, max, or
+between min and max,</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks that a string length is within s specified range. Spaces are included
+in the character count. Returns true is string matches value min, max, or
+between min and max,</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>string</code><br>$check Value to check for length</dd>
+					<dt><var>$min</var></dt>
+					<dd><code>integer</code><br>$min Minimum value in range (inclusive)</dd>
+					<dt><var>$max</var></dt>
+					<dd><code>integer</code><br>$max Maximum value in range (inclusive)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="blank" id="_blank">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_blank">#</a>
+		<code><a href="source-class-Validation.html#170-196" title="Go to source code">blank</a>( <span>mixed <var>$check</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns true if field is left blank -OR- only whitespace characters are
+present in it's value Whitespace characters include Space, Tab, Carriage Return,
+Newline</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if field is left blank -OR- only whitespace characters are
+present in it's value Whitespace characters include Space, Tab, Carriage Return,
+Newline</p>
+
+<p>$check can be passed as an array: array('check' =&gt; 'valueToCheck');</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>mixed</code><br>$check Value to check</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="cc" id="_cc">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_cc">#</a>
+		<code><a href="source-class-Validation.html#197-274" title="Go to source code">cc</a>( <span>mixed <var>$check</var></span>, <span>mixed <var>$type</var> = <span class="php-quote">'fast'</span></span>, <span>boolean <var>$deep</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$regex</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Validation of credit card numbers. Returns true if $check is in the proper
+credit card format.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validation of credit card numbers. Returns true if $check is in the proper
+credit card format.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>mixed</code><br>$check credit card number to validate</dd>
+					<dt><var>$type</var></dt>
+					<dd><code>mixed</code><br>$type 'all' may be passed as a sting, defaults to fast which checks format of
+most major credit cards if an array is used only the values of the array are
+checked. Example: array('amex', 'bankcard', 'maestro')</dd>
+					<dt><var>$deep</var></dt>
+					<dd><code>boolean</code><br>$deep set to true this will check the Luhn algorithm of the credit card.</dd>
+					<dt><var>$regex</var></dt>
+					<dd><code>string</code><br>$regex A custom regex can also be passed, this will be used instead of the
+defined regex values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<code><code><a href="class-Validation.html#__luhn">Validation::_luhn()</a></code></code><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="comparison" id="_comparison">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_comparison">#</a>
+		<code><a href="source-class-Validation.html#275-338" title="Go to source code">comparison</a>( <span>mixed <var>$check1</var></span>, <span>string <var>$operator</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$check2</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Used to compare 2 numeric values.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Used to compare 2 numeric values.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check1</var></dt>
+					<dd><code>mixed</code><br>$check1 if string is passed for a string must also be passed for $check2 used as
+an array it must be passed as array('check1' =&gt; value, 'operator' =&gt;
+'value', 'check2' -&gt; value)</dd>
+					<dt><var>$operator</var></dt>
+					<dd><code>string</code><br>$operator Can be either a word or operand is greater &gt;, is less &lt;, greater
+or equal &gt;= less or equal &lt;=, is less &lt;, equal to ==, not equal !=</dd>
+					<dt><var>$check2</var></dt>
+					<dd><code>integer</code><br>$check2 only needed if $check1 is a string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="custom" id="_custom">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_custom">#</a>
+		<code><a href="source-class-Validation.html#339-361" title="Go to source code">custom</a>( <span>mixed <var>$check</var></span>, <span>string <var>$regex</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Used when a custom regular expression is needed.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Used when a custom regular expression is needed.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>mixed</code><br>$check When used as a string, $regex must also be a valid regular expression. As
+and array: array('check' =&gt; value, 'regex' =&gt; 'valid regular expression')</dd>
+					<dt><var>$regex</var></dt>
+					<dd><code>string</code><br>$regex If $check is passed as a string, $regex must also be set to valid regular
+expression</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="date" id="_date">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_date">#</a>
+		<code><a href="source-class-Validation.html#362-414" title="Go to source code">date</a>( <span>string <var>$check</var></span>, <span>mixed <var>$format</var> = <span class="php-quote">'ymd'</span></span>, <span>string <var>$regex</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Date validation, determines if the string passed is a valid date. keys that
+expect full month, day and year will validate leap years</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Date validation, determines if the string passed is a valid date. keys that
+expect full month, day and year will validate leap years</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>string</code><br>$check a valid date string</dd>
+					<dt><var>$format</var></dt>
+					<dd><code>mixed</code><br>$format Use a string or an array of the keys below. Arrays should be passed as
+array('dmy', 'mdy', etc) Keys: dmy 27-12-2006 or 27-12-06 separators can be a
+space, period, dash, forward slash mdy 12-27-2006 or 12-27-06 separators can be
+a space, period, dash, forward slash ymd 2006-12-27 or 06-12-27 separators can
+be a space, period, dash, forward slash dMy 27 December 2006 or 27 Dec 2006 Mdy
+December 27, 2006 or Dec 27, 2006 comma is optional My December 2006 or Dec 2006
+my 12/2006 or 12/06 separators can be a space, period, dash, forward slash</dd>
+					<dt><var>$regex</var></dt>
+					<dd><code>string</code><br>$regex If a custom regular expression is used this is the only validation that
+will occur.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="decimal" id="_decimal">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_decimal">#</a>
+		<code><a href="source-class-Validation.html#415-442" title="Go to source code">decimal</a>( <span>integer <var>$check</var></span>, <span>integer <var>$places</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$regex</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks that a value is a valid decimal. If $places is null, the $check is
+allowed to be a scientific float If no decimal point is found a false will be
+returned. Both the sign and exponent are optional.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks that a value is a valid decimal. If $places is null, the $check is
+allowed to be a scientific float If no decimal point is found a false will be
+returned. Both the sign and exponent are optional.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>integer</code><br>$check The value the test for decimal</dd>
+					<dt><var>$places</var></dt>
+					<dd><code>integer</code><br>$places if set $check value must have exactly $places after the decimal point</dd>
+					<dt><var>$regex</var></dt>
+					<dd><code>string</code><br>$regex If a custom regular expression is used this is the only validation that
+will occur.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="email" id="_email">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_email">#</a>
+		<code><a href="source-class-Validation.html#443-484" title="Go to source code">email</a>( <span>string <var>$check</var></span>, <span>boolean <var>$deep</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$regex</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Validates for an email address.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validates for an email address.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>string</code><br>$check Value to check</dd>
+					<dt><var>$deep</var></dt>
+					<dd><code>boolean</code><br>$deep Perform a deeper validation (if true), by also checking availability of
+host</dd>
+					<dt><var>$regex</var></dt>
+					<dd><code>string</code><br>$regex Regex to use (if none it will use built in regex)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="equalTo" id="_equalTo">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_equalTo">#</a>
+		<code><a href="source-class-Validation.html#485-494" title="Go to source code">equalTo</a>( <span>mixed <var>$check</var></span>, <span>mixed <var>$comparedTo</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check that value is exactly $comparedTo.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check that value is exactly $comparedTo.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>mixed</code><br>$check Value to check</dd>
+					<dt><var>$comparedTo</var></dt>
+					<dd><code>mixed</code><br>$comparedTo Value to compare</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="extension" id="_extension">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_extension">#</a>
+		<code><a href="source-class-Validation.html#495-517" title="Go to source code">extension</a>( <span>mixed <var>$check</var></span>, <span>array <var>$extensions</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'gif'</span>, <span class="php-quote">'jpeg'</span>, <span class="php-quote">'png'</span>, <span class="php-quote">'jpg'</span>)</span> )</code>
+
+		<div class="description short">
+			
+<p>Check that value has a valid file extenstion.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check that value has a valid file extenstion.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>mixed</code><br>$check Value to check</dd>
+					<dt><var>$extensions</var></dt>
+					<dd><code>array</code><br>$extensions file extenstions to allow</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="file" id="_file">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_file">#</a>
+		<code><a href="source-class-Validation.html#518-527" title="Go to source code">file</a>( <span>mixed <var>$check</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check that value is a file type.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check that value is a file type.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>mixed</code><br>$check Value to check</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ip" id="_ip">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ip">#</a>
+		<code><a href="source-class-Validation.html#528-547" title="Go to source code">ip</a>( <span>string <var>$check</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validation of an IPv4 address.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validation of an IPv4 address.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>string</code><br>$check The string to test.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="minLength" id="_minLength">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_minLength">#</a>
+		<code><a href="source-class-Validation.html#548-559" title="Go to source code">minLength</a>( <span>string <var>$check</var></span>, <span>integer <var>$min</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks whether the length of a string is greater or equal to a minimal
+length.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks whether the length of a string is greater or equal to a minimal
+length.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>string</code><br>$check The string to test</dd>
+					<dt><var>$min</var></dt>
+					<dd><code>integer</code><br>$min The minimal string length</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="maxLength" id="_maxLength">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_maxLength">#</a>
+		<code><a href="source-class-Validation.html#560-571" title="Go to source code">maxLength</a>( <span>string <var>$check</var></span>, <span>integer <var>$max</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks whether the length of a string is smaller or equal to a maximal
+length..</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks whether the length of a string is smaller or equal to a maximal
+length..</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>string</code><br>$check The string to test</dd>
+					<dt><var>$max</var></dt>
+					<dd><code>integer</code><br>$max The maximal string length</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="money" id="_money">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_money">#</a>
+		<code><a href="source-class-Validation.html#572-592" title="Go to source code">money</a>( <span>string <var>$check</var></span>, <span>string <var>$symbolPosition</var> = <span class="php-quote">'left'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks that a value is a monetary amount.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks that a value is a monetary amount.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>string</code><br>$check Value to check</dd>
+					<dt><var>$symbolPosition</var></dt>
+					<dd><code>string</code><br>$symbolPosition Where symbol is located (left/right)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="multiple" id="_multiple">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_multiple">#</a>
+		<code><a href="source-class-Validation.html#593-606" title="Go to source code">multiple</a>( <span>mixed <var>$check</var></span>, <span>mixed <var>$type</var></span>, <span>string <var>$regex</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate a multiple select.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate a multiple select.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>mixed</code><br>$check Value to check</dd>
+					<dt><var>$type</var></dt>
+					<dd><code>mixed</code><br>$type Type of check</dd>
+					<dt><var>$regex</var></dt>
+					<dd><code>string</code><br>$regex Use custom regular expression</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="numeric" id="_numeric">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_numeric">#</a>
+		<code><a href="source-class-Validation.html#607-616" title="Go to source code">numeric</a>( <span>string <var>$check</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks if a value is numeric.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks if a value is numeric.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>string</code><br>$check Value to check</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Succcess<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="phone" id="_phone">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_phone">#</a>
+		<code><a href="source-class-Validation.html#617-644" title="Go to source code">phone</a>( <span>mixed <var>$check</var></span>, <span>string <var>$regex</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$country</var> = <span class="php-quote">'all'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Check that a value is a valid phone number.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check that a value is a valid phone number.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>mixed</code><br>$check Value to check (string or array)</dd>
+					<dt><var>$regex</var></dt>
+					<dd><code>string</code><br>$regex Regular expression to use</dd>
+					<dt><var>$country</var></dt>
+					<dd><code>string</code><br>$country Country code (defaults to 'all')</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="postal" id="_postal">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_postal">#</a>
+		<code><a href="source-class-Validation.html#645-682" title="Go to source code">postal</a>( <span>mixed <var>$check</var></span>, <span>string <var>$regex</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$country</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks that a given value is a valid postal code.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks that a given value is a valid postal code.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>mixed</code><br>$check Value to check</dd>
+					<dt><var>$regex</var></dt>
+					<dd><code>string</code><br>$regex Regular expression to use</dd>
+					<dt><var>$country</var></dt>
+					<dd><code>string</code><br>$country Country to use for formatting</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="range" id="_range">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_range">#</a>
+		<code><a href="source-class-Validation.html#683-708" title="Go to source code">range</a>( <span>string <var>$check</var></span>, <span>integer <var>$lower</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$upper</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that a number is in specified range. if $lower and $upper are not
+set, will return true if $check is a legal finite on this platform</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that a number is in specified range. if $lower and $upper are not
+set, will return true if $check is a legal finite on this platform</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>string</code><br>$check Value to check</dd>
+					<dt><var>$lower</var></dt>
+					<dd><code>integer</code><br>$lower Lower limit</dd>
+					<dt><var>$upper</var></dt>
+					<dd><code>integer</code><br>$upper Upper limit</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ssn" id="_ssn">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ssn">#</a>
+		<code><a href="source-class-Validation.html#709-742" title="Go to source code">ssn</a>( <span>mixed <var>$check</var></span>, <span>string <var>$regex</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$country</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks that a value is a valid Social Security Number.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks that a value is a valid Social Security Number.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>mixed</code><br>$check Value to check</dd>
+					<dt><var>$regex</var></dt>
+					<dd><code>string</code><br>$regex Regular expression to use</dd>
+					<dt><var>$country</var></dt>
+					<dd><code>string</code><br>$country Country</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="url" id="_url">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_url">#</a>
+		<code><a href="source-class-Validation.html#743-757" title="Go to source code">url</a>( <span>string <var>$check</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks that a value is a valid URL.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks that a value is a valid URL.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>string</code><br>$check Value to check</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="userDefined" id="_userDefined">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_userDefined">#</a>
+		<code><a href="source-class-Validation.html#758-770" title="Go to source code">userDefined</a>( <span>mixed <var>$check</var></span>, <span>object <var>$object</var></span>, <span>string <var>$method</var></span>, <span>array <var>$args</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Runs an user-defined validation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Runs an user-defined validation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$check</var></dt>
+					<dd><code>mixed</code><br>$check value that will be validated in user-defined methods.</dd>
+					<dt><var>$object</var></dt>
+					<dd><code>object</code><br>$object class that holds validation method</dd>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method class method name for validation to run</dd>
+					<dt><var>$args</var></dt>
+					<dd><code>array</code><br>$args arguments to send to method</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>user-defined class class method returns<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_check" id="__check">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__check">#</a>
+		<code><a href="source-class-Validation.html#771-786" title="Go to source code">_check</a>( )</code>
+
+		<div class="description short">
+			
+<p>Runs a regular expression match.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Runs a regular expression match.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success of match<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_extract" id="__extract">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__extract">#</a>
+		<code><a href="source-class-Validation.html#787-813" title="Go to source code">_extract</a>( <span>array <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the values to use when value sent to validation method is an array.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the values to use when value sent to validation method is an array.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params Parameters sent to validation method</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_luhn" id="__luhn">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__luhn">#</a>
+		<code><a href="source-class-Validation.html#814-848" title="Go to source code">_luhn</a>( )</code>
+
+		<div class="description short">
+			
+<p>Luhn algorithm</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Luhn algorithm</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Success<br />
+				</div>
+
+
+				<h4>See</h4>
+				<div class="list">
+						<a
+href="http://en.wikipedia.org/wiki/Luhn_algorithm">http://en.wikipedia.org/wiki/Luhn_algorithm</a><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__reset" id="___reset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___reset">#</a>
+		<code><a href="source-class-Validation.html#849-861" title="Go to source code">__reset</a>( )</code>
+
+		<div class="description short">
+			
+<p>Reset internal variables for another validation run.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Reset internal variables for another validation run.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Object.html#methods">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#_Object">Object()</a>, 
+			<a href="class-Object.html#___construct">__construct()</a>, 
+			<a href="class-Object.html#___openPersistent">__openPersistent()</a>, 
+			<a href="class-Object.html#__persist">_persist()</a>, 
+			<a href="class-Object.html#__savePersistent">_savePersistent()</a>, 
+			<a href="class-Object.html#__set">_set()</a>, 
+			<a href="class-Object.html#_cakeError">cakeError()</a>, 
+			<a href="class-Object.html#_log">log()</a>, 
+			<a href="class-Object.html#_requestAction">requestAction()</a>, 
+			<a href="class-Object.html#_toString">toString()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="check" id="$check">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Validation.html#58-64" title="Go to source code"><var>$check</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$check" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Set the the value of methods $check param.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set the the value of methods $check param.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="regex" id="$regex">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Validation.html#65-72" title="Go to source code"><var>$regex</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$regex" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Set to a valid regular expression in the class methods. Can be set from
+$regex param also</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set to a valid regular expression in the class methods. Can be set from
+$regex param also</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="country" id="$country">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Validation.html#73-80" title="Go to source code"><var>$country</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$country" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Some class methods use a country to determine proper validation. This can be
+passed to methods in the $country param</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Some class methods use a country to determine proper validation. This can be
+passed to methods in the $country param</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="deep" id="$deep">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Validation.html#81-87" title="Go to source code"><var>$deep</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$deep" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Some class methods use a deeper validation when set to true</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Some class methods use a deeper validation when set to true</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="type" id="$type">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Validation.html#88-94" title="Go to source code"><var>$type</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$type" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Some class methods use the $type param to determine which validation to
+perfom in the method</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Some class methods use the $type param to determine which validation to
+perfom in the method</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="errors" id="$errors">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Validation.html#95-102" title="Go to source code"><var>$errors</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$errors" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Holds an array of errors messages set in this class. These are used for
+debugging purposes</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Holds an array of errors messages set in this class. These are used for
+debugging purposes</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Object.html#properties">Object</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Object.html#$_log"><var>$_log</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

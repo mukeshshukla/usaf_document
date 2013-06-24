@@ -1,0 +1,4014 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class WebTestCase | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-FieldExpectation.html">FieldExpectation</a></li>
+				<li><a href="class-HttpHeaderExpectation.html">HttpHeaderExpectation</a></li>
+				<li><a href="class-LiveTestOfForms.html">LiveTestOfForms</a></li>
+				<li><a href="class-MultipleSelectionTag.html">MultipleSelectionTag</a></li>
+				<li><a href="class-NoHttpHeaderExpectation.html">NoHttpHeaderExpectation</a></li>
+				<li><a href="class-ParallelRegex.html">ParallelRegex</a></li>
+				<li><a href="class-SimpleAnchorTag.html">SimpleAnchorTag</a></li>
+				<li><a href="class-SimpleAttachment.html">SimpleAttachment</a></li>
+				<li><a href="class-SimpleAuthenticator.html">SimpleAuthenticator</a></li>
+				<li><a href="class-SimpleBaseTag.html">SimpleBaseTag</a></li>
+				<li><a href="class-SimpleBrowser.html">SimpleBrowser</a></li>
+				<li><a href="class-SimpleBrowserHistory.html">SimpleBrowserHistory</a></li>
+				<li><a href="class-SimpleButtonTag.html">SimpleButtonTag</a></li>
+				<li><a href="class-SimpleById.html">SimpleById</a></li>
+				<li><a href="class-SimpleByLabel.html">SimpleByLabel</a></li>
+				<li><a href="class-SimpleByLabelOrName.html">SimpleByLabelOrName</a></li>
+				<li><a href="class-SimpleByName.html">SimpleByName</a></li>
+				<li><a href="class-SimpleCheckboxGroup.html">SimpleCheckboxGroup</a></li>
+				<li><a href="class-SimpleCheckboxTag.html">SimpleCheckboxTag</a></li>
+				<li><a href="class-SimpleCookie.html">SimpleCookie</a></li>
+				<li><a href="class-SimpleCookieJar.html">SimpleCookieJar</a></li>
+				<li><a href="class-SimpleEncodedPair.html">SimpleEncodedPair</a></li>
+				<li><a href="class-SimpleEncoding.html">SimpleEncoding</a></li>
+				<li><a href="class-SimpleForm.html">SimpleForm</a></li>
+				<li><a href="class-SimpleFormTag.html">SimpleFormTag</a></li>
+				<li><a href="class-SimpleFrameset.html">SimpleFrameset</a></li>
+				<li><a href="class-SimpleFrameTag.html">SimpleFrameTag</a></li>
+				<li><a href="class-SimpleGetEncoding.html">SimpleGetEncoding</a></li>
+				<li><a href="class-SimpleHeadEncoding.html">SimpleHeadEncoding</a></li>
+				<li><a href="class-SimpleHtmlLexer.html">SimpleHtmlLexer</a></li>
+				<li><a href="class-SimpleHtmlSaxParser.html">SimpleHtmlSaxParser</a></li>
+				<li><a href="class-SimpleHttpHeaders.html">SimpleHttpHeaders</a></li>
+				<li><a href="class-SimpleHttpRequest.html">SimpleHttpRequest</a></li>
+				<li><a href="class-SimpleHttpResponse.html">SimpleHttpResponse</a></li>
+				<li><a href="class-SimpleImageSubmitTag.html">SimpleImageSubmitTag</a></li>
+				<li><a href="class-SimpleLabelTag.html">SimpleLabelTag</a></li>
+				<li><a href="class-SimpleLexer.html">SimpleLexer</a></li>
+				<li><a href="class-SimpleMultipartEncoding.html">SimpleMultipartEncoding</a></li>
+				<li><a href="class-SimpleOptionTag.html">SimpleOptionTag</a></li>
+				<li><a href="class-SimplePage.html">SimplePage</a></li>
+				<li><a href="class-SimplePageBuilder.html">SimplePageBuilder</a></li>
+				<li><a href="class-SimplePostEncoding.html">SimplePostEncoding</a></li>
+				<li><a href="class-SimpleProxyRoute.html">SimpleProxyRoute</a></li>
+				<li><a href="class-SimpleRadioButtonTag.html">SimpleRadioButtonTag</a></li>
+				<li><a href="class-SimpleRadioGroup.html">SimpleRadioGroup</a></li>
+				<li><a href="class-SimpleRealm.html">SimpleRealm</a></li>
+				<li><a href="class-SimpleRoute.html">SimpleRoute</a></li>
+				<li><a href="class-SimpleSaxListener.html">SimpleSaxListener</a></li>
+				<li><a href="class-SimpleSecureSocket.html">SimpleSecureSocket</a></li>
+				<li><a href="class-SimpleSelectionTag.html">SimpleSelectionTag</a></li>
+				<li><a href="class-SimpleSocket.html">SimpleSocket</a></li>
+				<li><a href="class-SimpleStateStack.html">SimpleStateStack</a></li>
+				<li><a href="class-SimpleStickyError.html">SimpleStickyError</a></li>
+				<li><a href="class-SimpleSubmitTag.html">SimpleSubmitTag</a></li>
+				<li><a href="class-SimpleTag.html">SimpleTag</a></li>
+				<li><a href="class-SimpleTagBuilder.html">SimpleTagBuilder</a></li>
+				<li><a href="class-SimpleTagGroup.html">SimpleTagGroup</a></li>
+				<li><a href="class-SimpleTestAcceptanceTest.html">SimpleTestAcceptanceTest</a></li>
+				<li><a href="class-SimpleTextAreaTag.html">SimpleTextAreaTag</a></li>
+				<li><a href="class-SimpleTextTag.html">SimpleTextTag</a></li>
+				<li><a href="class-SimpleTitleTag.html">SimpleTitleTag</a></li>
+				<li><a href="class-SimpleUploadTag.html">SimpleUploadTag</a></li>
+				<li><a href="class-SimpleUrl.html">SimpleUrl</a></li>
+				<li><a href="class-SimpleUserAgent.html">SimpleUserAgent</a></li>
+				<li><a href="class-SimpleWidget.html">SimpleWidget</a></li>
+				<li><a href="class-TestOfFileUploads.html">TestOfFileUploads</a></li>
+				<li><a href="class-TestOfFrameAuthentication.html">TestOfFrameAuthentication</a></li>
+				<li><a href="class-TestOfGenericAssertionsInWebTester.html">TestOfGenericAssertionsInWebTester</a></li>
+				<li><a href="class-TestOfLinkFollowing.html">TestOfLinkFollowing</a></li>
+				<li><a href="class-TestOfLiveAuthentication.html">TestOfLiveAuthentication</a></li>
+				<li><a href="class-TestOfLiveCookies.html">TestOfLiveCookies</a></li>
+				<li><a href="class-TestOfLiveFetching.html">TestOfLiveFetching</a></li>
+				<li><a href="class-TestOfLiveFrontControllerEmulation.html">TestOfLiveFrontControllerEmulation</a></li>
+				<li><a href="class-TestOfLiveHeaders.html">TestOfLiveHeaders</a></li>
+				<li><a href="class-TestOfLiveHistoryNavigation.html">TestOfLiveHistoryNavigation</a></li>
+				<li><a href="class-TestOfLiveMultiValueWidgets.html">TestOfLiveMultiValueWidgets</a></li>
+				<li><a href="class-TestOfLivePageLinkingWithMinimalLinks.html">TestOfLivePageLinkingWithMinimalLinks</a></li>
+				<li><a href="class-TestOfLiveRedirects.html">TestOfLiveRedirects</a></li>
+				<li><a href="class-TestOfLoadingFrames.html">TestOfLoadingFrames</a></li>
+				<li><a href="class-TestOfNestedFrames.html">TestOfNestedFrames</a></li>
+				<li><a href="class-TestRadioFields.html">TestRadioFields</a></li>
+				<li class="active"><a href="class-WebTestCase.html">WebTestCase</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-SimpleTest.WebTester.html" title="Summary of SimpleTest\WebTester"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WebTestCase</h1>
+
+
+	<div class="description">
+	
+<p>Test case for testing of web pages. Allows fetching of pages, parsing of HTML
+and submitting forms.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-SimpleTestCase.html"><span>SimpleTestCase</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>WebTestCase</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-CakeWebTestCase.html">CakeWebTestCase</a>, 
+			<a href="class-SimpleTestAcceptanceTest.html">SimpleTestAcceptanceTest</a>, 
+			<a href="class-TestOfGenericAssertionsInWebTester.html">TestOfGenericAssertionsInWebTester</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-LiveTestOfForms.html">LiveTestOfForms</a>, 
+			<a href="class-TestOfFileUploads.html">TestOfFileUploads</a>, 
+			<a href="class-TestOfLiveMultiValueWidgets.html">TestOfLiveMultiValueWidgets</a>, 
+			<a href="class-TestOfLivePageLinkingWithMinimalLinks.html">TestOfLivePageLinkingWithMinimalLinks</a>, 
+			<a href="class-TestOfLiveRedirects.html">TestOfLiveRedirects</a>, 
+			<a href="class-TestOfLoadingFrames.html">TestOfLoadingFrames</a>, 
+			<a href="class-TestOfNestedFrames.html">TestOfNestedFrames</a>, 
+			<a href="class-TestRadioFields.html">TestRadioFields</a>, 
+			<a href="class-TestOfFrameAuthentication.html">TestOfFrameAuthentication</a>, 
+			<a href="class-TestOfLinkFollowing.html">TestOfLinkFollowing</a>, 
+			<a href="class-TestOfLiveAuthentication.html">TestOfLiveAuthentication</a>, 
+			<a href="class-TestOfLiveCookies.html">TestOfLiveCookies</a>, 
+			<a href="class-TestOfLiveFetching.html">TestOfLiveFetching</a>, 
+			<a href="class-TestOfLiveFrontControllerEmulation.html">TestOfLiveFrontControllerEmulation</a>, 
+			<a href="class-TestOfLiveHeaders.html">TestOfLiveHeaders</a>, 
+			<a href="class-TestOfLiveHistoryNavigation.html">TestOfLiveHistoryNavigation</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-SimpleTest.html">SimpleTest</a>\<a href="package-SimpleTest.WebTester.html">WebTester</a><br />
+
+		<b>Located at</b> <a href="source-class-WebTestCase.html#426-1540" title="Go to source code">app/vendors/simpletest/web_tester.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="WebTestCase" id="_WebTestCase">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_WebTestCase">#</a>
+		<code><a href="source-class-WebTestCase.html#437-446" title="Go to source code">WebTestCase</a>( <span>string <var>$label</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Creates an empty test case. Should be subclassed<br />
+with test methods for a functional test case.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates an empty test case. Should be subclassed with test methods for a
+functional test case.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Name of test case. Will use the class name if none specified.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="before" id="_before">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_before">#</a>
+		<code><a href="source-class-WebTestCase.html#448-456" title="Go to source code">before</a>( <span>string <var>$method</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Announces the start of the test.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Announces the start of the test.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Test method just started.</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-SimpleTestCase.html#_before">SimpleTestCase::before()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="after" id="_after">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_after">#</a>
+		<code><a href="source-class-WebTestCase.html#458-466" title="Go to source code">after</a>( <span>string <var>$method</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Announces the end of the test. Includes private clean up.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Announces the end of the test. Includes private clean up.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Test method just finished.</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-SimpleTestCase.html#_after">SimpleTestCase::after()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBrowser" id="_getBrowser">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-SimpleBrowser.html">SimpleBrowser</a></code>
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBrowser">#</a>
+		<code><a href="source-class-WebTestCase.html#468-477" title="Go to source code">getBrowser</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets a current browser reference for setting<br />
+special expectations or for detailed<br />
+examination of page fetches.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets a current browser reference for setting special expectations or for
+detailed examination of page fetches.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-SimpleBrowser.html">SimpleBrowser</a></code></code><br>Current test browser object.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setBrowser" id="_setBrowser">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setBrowser">#</a>
+		<code><a href="source-class-WebTestCase.html#479-488" title="Go to source code">setBrowser</a>( <span><code><a href="class-SimpleBrowser.html">SimpleBrowser</a></code> <var>&amp; $browser</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets a current browser reference for setting<br />
+special expectations or for detailed<br />
+examination of page fetches.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets a current browser reference for setting special expectations or for
+detailed examination of page fetches.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$browser</var></dt>
+					<dd><code><code><a href="class-SimpleBrowser.html">SimpleBrowser</a></code></code><br>$browser New test browser object.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="unsetBrowser" id="_unsetBrowser">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_unsetBrowser">#</a>
+		<code><a href="source-class-WebTestCase.html#490-497" title="Go to source code">unsetBrowser</a>( )</code>
+
+		<div class="description short">
+			
+<p>Clears the current browser reference to help the<br />
+PHP garbage collector.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clears the current browser reference to help the PHP garbage collector.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createBrowser" id="_createBrowser">
+
+		<td class="attributes"><code>
+			 public 
+			TestBrowser
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createBrowser">#</a>
+		<code><a href="source-class-WebTestCase.html#499-508" title="Go to source code">createBrowser</a>( )</code>
+
+		<div class="description short">
+			
+<p>Creates a new default web browser object.<br />
+Will be cleared at the end of the test method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a new default web browser object. Will be cleared at the end of the
+test method.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>TestBrowser</code><br>New browser.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTransportError" id="_getTransportError">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTransportError">#</a>
+		<code><a href="source-class-WebTestCase.html#510-517" title="Go to source code">getTransportError</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the last response error.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the last response error.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Last low level HTTP error.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUrl" id="_getUrl">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUrl">#</a>
+		<code><a href="source-class-WebTestCase.html#519-527" title="Go to source code">getUrl</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for the currently selected URL.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for the currently selected URL.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Current location or false if no page yet fetched.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="showRequest" id="_showRequest">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_showRequest">#</a>
+		<code><a href="source-class-WebTestCase.html#529-535" title="Go to source code">showRequest</a>( )</code>
+
+		<div class="description short">
+			
+<p>Dumps the current request for debugging.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Dumps the current request for debugging.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="showHeaders" id="_showHeaders">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_showHeaders">#</a>
+		<code><a href="source-class-WebTestCase.html#537-543" title="Go to source code">showHeaders</a>( )</code>
+
+		<div class="description short">
+			
+<p>Dumps the current HTTP headers for debugging.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Dumps the current HTTP headers for debugging.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="showSource" id="_showSource">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_showSource">#</a>
+		<code><a href="source-class-WebTestCase.html#545-551" title="Go to source code">showSource</a>( )</code>
+
+		<div class="description short">
+			
+<p>Dumps the current HTML source for debugging.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Dumps the current HTML source for debugging.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="showText" id="_showText">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_showText">#</a>
+		<code><a href="source-class-WebTestCase.html#553-559" title="Go to source code">showText</a>( )</code>
+
+		<div class="description short">
+			
+<p>Dumps the visible text only for debugging.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Dumps the visible text only for debugging.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="restart" id="_restart">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_restart">#</a>
+		<code><a href="source-class-WebTestCase.html#561-577" title="Go to source code">restart</a>( <span>string/integer <var>$date</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Simulates the closing and reopening of the browser.<br />
+Temporary cookies will be discarded and timed<br />
+cookies will be expired if later than the<br />
+specified time.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Simulates the closing and reopening of the browser. Temporary cookies will be
+discarded and timed cookies will be expired if later than the specified
+time.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date</var></dt>
+					<dd><code>string/integer</code><br>$date Time when session restarted. If ommitted then all persistent cookies are
+kept. Time is either Cookie format string or timestamp.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ageCookies" id="_ageCookies">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ageCookies">#</a>
+		<code><a href="source-class-WebTestCase.html#579-587" title="Go to source code">ageCookies</a>( <span>integer <var>$interval</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Moves cookie expiry times back into the past.<br />
+Useful for testing timeouts and expiries.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Moves cookie expiry times back into the past. Useful for testing timeouts and
+expiries.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$interval</var></dt>
+					<dd><code>integer</code><br>$interval Amount to age in seconds.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ignoreFrames" id="_ignoreFrames">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ignoreFrames">#</a>
+		<code><a href="source-class-WebTestCase.html#589-596" title="Go to source code">ignoreFrames</a>( )</code>
+
+		<div class="description short">
+			
+<p>Disables frames support. Frames will not be fetched<br />
+and the frameset page will be used instead.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Disables frames support. Frames will not be fetched and the frameset page
+will be used instead.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ignoreCookies" id="_ignoreCookies">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ignoreCookies">#</a>
+		<code><a href="source-class-WebTestCase.html#598-604" title="Go to source code">ignoreCookies</a>( )</code>
+
+		<div class="description short">
+			
+<p>Switches off cookie sending and recieving.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Switches off cookie sending and recieving.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ignoreErrors" id="_ignoreErrors">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ignoreErrors">#</a>
+		<code><a href="source-class-WebTestCase.html#606-614" title="Go to source code">ignoreErrors</a>( )</code>
+
+		<div class="description short">
+			
+<p>Skips errors for the next request only. You might<br />
+want to confirm that a page is unreachable for<br />
+example.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Skips errors for the next request only. You might want to confirm that a page
+is unreachable for example.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_failOnError" id="__failOnError">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__failOnError">#</a>
+		<code><a href="source-class-WebTestCase.html#616-632" title="Go to source code">_failOnError</a>( <span>string/boolean <var>$result</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Issues a fail if there is a transport error anywhere<br />
+in the current frameset. Only one such error is<br />
+reported.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Issues a fail if there is a transport error anywhere in the current frameset.
+Only one such error is reported.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$result</var></dt>
+					<dd><code>string/boolean</code><br>$result HTML or failure.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>$result Passes through result.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addHeader" id="_addHeader">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addHeader">#</a>
+		<code><a href="source-class-WebTestCase.html#634-642" title="Go to source code">addHeader</a>( <span>string <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a header to every fetch.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a header to every fetch.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$header</var></dt>
+					<dd><code>string</code><br>$header Header line to add to every request until cleared.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setMaximumRedirects" id="_setMaximumRedirects">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setMaximumRedirects">#</a>
+		<code><a href="source-class-WebTestCase.html#644-656" title="Go to source code">setMaximumRedirects</a>( <span>integer <var>$max</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the maximum number of redirects before<br />
+the web page is loaded regardless.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the maximum number of redirects before the web page is loaded
+regardless.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$max</var></dt>
+					<dd><code>integer</code><br>$max Maximum hops.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setConnectionTimeout" id="_setConnectionTimeout">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setConnectionTimeout">#</a>
+		<code><a href="source-class-WebTestCase.html#658-666" title="Go to source code">setConnectionTimeout</a>( <span>integer <var>$timeout</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the socket timeout for opening a connection and<br />
+receiving at least one byte of information.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the socket timeout for opening a connection and receiving at least one
+byte of information.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$timeout</var></dt>
+					<dd><code>integer</code><br>$timeout Maximum time in seconds.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="useProxy" id="_useProxy">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_useProxy">#</a>
+		<code><a href="source-class-WebTestCase.html#668-679" title="Go to source code">useProxy</a>( <span>string <var>$proxy</var></span>, <span>string <var>$username</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$password</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets proxy to use on all requests for when<br />
+testing from behind a firewall. Set URL<br />
+to false to disable.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets proxy to use on all requests for when testing from behind a firewall.
+Set URL to false to disable.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$proxy</var></dt>
+					<dd><code>string</code><br>$proxy Proxy URL.</dd>
+					<dt><var>$username</var></dt>
+					<dd><code>string</code><br>$username Proxy username for authentication.</dd>
+					<dt><var>$password</var></dt>
+					<dd><code>string</code><br>$password Proxy password for authentication.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			boolean/string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-WebTestCase.html#681-693" title="Go to source code">get</a>( <span>string <var>$url</var></span>, <span>hash <var>$parameters</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetches a page into the page buffer. If<br />
+there is no base for the URL then the<br />
+current base URL is used. After the fetch<br />
+the base URL reflects the new location.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches a page into the page buffer. If there is no base for the URL then the
+current base URL is used. After the fetch the base URL reflects the new
+location.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br>$url URL to fetch.</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>hash</code><br>$parameters Optional additional GET data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean/string</code><br>Raw page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="post" id="_post">
+
+		<td class="attributes"><code>
+			 public 
+			boolean/string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_post">#</a>
+		<code><a href="source-class-WebTestCase.html#695-707" title="Go to source code">post</a>( <span>string <var>$url</var></span>, <span>hash <var>$parameters</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetches a page by POST into the page buffer.<br />
+If there is no base for the URL then the<br />
+current base URL is used. After the fetch<br />
+the base URL reflects the new location.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches a page by POST into the page buffer. If there is no base for the URL
+then the current base URL is used. After the fetch the base URL reflects the new
+location.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br>$url URL to fetch.</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>hash</code><br>$parameters Optional additional GET data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean/string</code><br>Raw page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="head" id="_head">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_head">#</a>
+		<code><a href="source-class-WebTestCase.html#709-719" title="Go to source code">head</a>( <span>string <var>$url</var></span>, <span>hash <var>$parameters</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Does a HTTP HEAD fetch, fetching only the page<br />
+headers. The current base URL is unchanged by this.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Does a HTTP HEAD fetch, fetching only the page headers. The current base URL
+is unchanged by this.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br>$url URL to fetch.</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>hash</code><br>$parameters Optional additional GET data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="retry" id="_retry">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_retry">#</a>
+		<code><a href="source-class-WebTestCase.html#721-729" title="Go to source code">retry</a>( )</code>
+
+		<div class="description short">
+			
+<p>Equivalent to hitting the retry button on the<br />
+browser. Will attempt to repeat the page fetch.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Equivalent to hitting the retry button on the browser. Will attempt to repeat
+the page fetch.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if fetch succeeded.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="back" id="_back">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_back">#</a>
+		<code><a href="source-class-WebTestCase.html#731-740" title="Go to source code">back</a>( )</code>
+
+		<div class="description short">
+			
+<p>Equivalent to hitting the back button on the<br />
+browser.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Equivalent to hitting the back button on the browser.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if history entry and fetch succeeded.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="forward" id="_forward">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_forward">#</a>
+		<code><a href="source-class-WebTestCase.html#742-751" title="Go to source code">forward</a>( )</code>
+
+		<div class="description short">
+			
+<p>Equivalent to hitting the forward button on the<br />
+browser.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Equivalent to hitting the forward button on the browser.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if history entry and fetch succeeded.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="authenticate" id="_authenticate">
+
+		<td class="attributes"><code>
+			 public 
+			boolean/string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_authenticate">#</a>
+		<code><a href="source-class-WebTestCase.html#753-766" title="Go to source code">authenticate</a>( <span>string <var>$username</var></span>, <span>string <var>$password</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Retries a request after setting the authentication<br />
+for the current realm.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retries a request after setting the authentication for the current realm.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$username</var></dt>
+					<dd><code>string</code><br>$username Username for realm.</dd>
+					<dt><var>$password</var></dt>
+					<dd><code>string</code><br>$password Password for realm.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean/string</code><br>HTML on successful fetch. Note that authentication may still have failed.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCookie" id="_getCookie">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCookie">#</a>
+		<code><a href="source-class-WebTestCase.html#768-776" title="Go to source code">getCookie</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Gets the cookie value for the current browser context.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the cookie value for the current browser context.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name of cookie.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Value of cookie or false if unset.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCookie" id="_setCookie">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCookie">#</a>
+		<code><a href="source-class-WebTestCase.html#778-789" title="Go to source code">setCookie</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span>, <span>string <var>$host</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$path</var> = <span class="php-quote">'/'</span></span>, <span>string <var>$expiry</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets a cookie in the current browser.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets a cookie in the current browser.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name of cookie.</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value Cookie value.</dd>
+					<dt><var>$host</var></dt>
+					<dd><code>string</code><br>$host Host upon which the cookie is valid.</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Cookie path if not host wide.</dd>
+					<dt><var>$expiry</var></dt>
+					<dd><code>string</code><br>$expiry Expiry date.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFrameFocus" id="_getFrameFocus">
+
+		<td class="attributes"><code>
+			 public 
+			integer/string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFrameFocus">#</a>
+		<code><a href="source-class-WebTestCase.html#791-801" title="Go to source code">getFrameFocus</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for current frame focus. Will be<br />
+false if no frame has focus.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for current frame focus. Will be false if no frame has focus.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer/string/boolean</code><br>Label if any, otherwise the position in the frameset or false if none.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFrameFocusByIndex" id="_setFrameFocusByIndex">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFrameFocusByIndex">#</a>
+		<code><a href="source-class-WebTestCase.html#803-811" title="Go to source code">setFrameFocusByIndex</a>( <span>integer <var>$choice</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the focus by index. The integer index starts from 1.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the focus by index. The integer index starts from 1.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$choice</var></dt>
+					<dd><code>integer</code><br>$choice Chosen frame.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if frame exists.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFrameFocus" id="_setFrameFocus">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFrameFocus">#</a>
+		<code><a href="source-class-WebTestCase.html#813-821" title="Go to source code">setFrameFocus</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the focus by name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the focus by name.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Chosen frame.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if frame exists.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clearFrameFocus" id="_clearFrameFocus">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clearFrameFocus">#</a>
+		<code><a href="source-class-WebTestCase.html#823-830" title="Go to source code">clearFrameFocus</a>( )</code>
+
+		<div class="description short">
+			
+<p>Clears the frame focus. All frames will be searched<br />
+for content.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clears the frame focus. All frames will be searched for content.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="click" id="_click">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_click">#</a>
+		<code><a href="source-class-WebTestCase.html#832-841" title="Go to source code">click</a>( <span>string <var>$label</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks a visible text item. Will first try buttons,<br />
+then links and then images.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks a visible text item. Will first try buttons, then links and then
+images.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Visible text or alt text.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>Raw page or false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertClickable" id="_assertClickable">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertClickable">#</a>
+		<code><a href="source-class-WebTestCase.html#843-853" title="Go to source code">assertClickable</a>( <span>string <var>$label</var></span>, <span>mixed <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks for a click target.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks for a click target.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Visible text or alt text.</dd>
+					<dt><var>$message</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if click target.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickSubmit" id="_clickSubmit">
+
+		<td class="attributes"><code>
+			 public 
+			boolean/string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickSubmit">#</a>
+		<code><a href="source-class-WebTestCase.html#855-867" title="Go to source code">clickSubmit</a>( <span>string <var>$label</var> = <span class="php-quote">'Submit'</span></span>, <span>hash <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks the submit button by label. The owning<br />
+form will be submitted by this.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks the submit button by label. The owning form will be submitted by
+this.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Button label. An unlabeled button can be triggered by 'Submit'.</dd>
+					<dt><var>$additional</var></dt>
+					<dd><code>hash</code><br>$additional Additional form values.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean/string</code><br>Page on success, else false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickSubmitByName" id="_clickSubmitByName">
+
+		<td class="attributes"><code>
+			 public 
+			boolean/string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickSubmitByName">#</a>
+		<code><a href="source-class-WebTestCase.html#869-880" title="Go to source code">clickSubmitByName</a>( <span>string <var>$name</var></span>, <span>hash <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks the submit button by name attribute. The owning<br />
+form will be submitted by this.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks the submit button by name attribute. The owning form will be submitted
+by this.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name attribute of button.</dd>
+					<dt><var>$additional</var></dt>
+					<dd><code>hash</code><br>$additional Additional form values.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean/string</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickSubmitById" id="_clickSubmitById">
+
+		<td class="attributes"><code>
+			 public 
+			boolean/string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickSubmitById">#</a>
+		<code><a href="source-class-WebTestCase.html#882-893" title="Go to source code">clickSubmitById</a>( <span>string <var>$id</var></span>, <span>hash <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks the submit button by ID attribute. The owning<br />
+form will be submitted by this.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks the submit button by ID attribute. The owning form will be submitted
+by this.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id ID attribute of button.</dd>
+					<dt><var>$additional</var></dt>
+					<dd><code>hash</code><br>$additional Additional form values.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean/string</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertSubmit" id="_assertSubmit">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertSubmit">#</a>
+		<code><a href="source-class-WebTestCase.html#895-905" title="Go to source code">assertSubmit</a>( <span>string <var>$label</var></span>, <span>mixed <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks for a valid button label.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks for a valid button label.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Visible text.</dd>
+					<dt><var>$message</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if click target.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickImage" id="_clickImage">
+
+		<td class="attributes"><code>
+			 public 
+			boolean/string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickImage">#</a>
+		<code><a href="source-class-WebTestCase.html#907-923" title="Go to source code">clickImage</a>( <span>string <var>$label</var></span>, <span>integer <var>$x</var> = <span class="php-num">1</span></span>, <span>integer <var>$y</var> = <span class="php-num">1</span></span>, <span>hash <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks the submit image by some kind of label. Usually<br />
+the alt tag or the nearest equivalent. The owning<br />
+form will be submitted by this. Clicking outside of<br />
+the boundary of the coordinates will result in<br />
+a failure.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks the submit image by some kind of label. Usually the alt tag or the
+nearest equivalent. The owning form will be submitted by this. Clicking outside
+of the boundary of the coordinates will result in a failure.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Alt attribute of button.</dd>
+					<dt><var>$x</var></dt>
+					<dd><code>integer</code><br>$x X-coordinate of imaginary click.</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>integer</code><br>$y Y-coordinate of imaginary click.</dd>
+					<dt><var>$additional</var></dt>
+					<dd><code>hash</code><br>$additional Additional form values.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean/string</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickImageByName" id="_clickImageByName">
+
+		<td class="attributes"><code>
+			 public 
+			boolean/string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickImageByName">#</a>
+		<code><a href="source-class-WebTestCase.html#925-941" title="Go to source code">clickImageByName</a>( <span>string <var>$name</var></span>, <span>integer <var>$x</var> = <span class="php-num">1</span></span>, <span>integer <var>$y</var> = <span class="php-num">1</span></span>, <span>hash <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks the submit image by the name. Usually<br />
+the alt tag or the nearest equivalent. The owning<br />
+form will be submitted by this. Clicking outside of<br />
+the boundary of the coordinates will result in<br />
+a failure.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks the submit image by the name. Usually the alt tag or the nearest
+equivalent. The owning form will be submitted by this. Clicking outside of the
+boundary of the coordinates will result in a failure.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name attribute of button.</dd>
+					<dt><var>$x</var></dt>
+					<dd><code>integer</code><br>$x X-coordinate of imaginary click.</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>integer</code><br>$y Y-coordinate of imaginary click.</dd>
+					<dt><var>$additional</var></dt>
+					<dd><code>hash</code><br>$additional Additional form values.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean/string</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickImageById" id="_clickImageById">
+
+		<td class="attributes"><code>
+			 public 
+			boolean/string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickImageById">#</a>
+		<code><a href="source-class-WebTestCase.html#943-958" title="Go to source code">clickImageById</a>( <span>integer/string <var>$id</var></span>, <span>integer <var>$x</var> = <span class="php-num">1</span></span>, <span>integer <var>$y</var> = <span class="php-num">1</span></span>, <span>hash <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks the submit image by ID attribute. The owning<br />
+form will be submitted by this. Clicking outside of<br />
+the boundary of the coordinates will result in<br />
+a failure.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks the submit image by ID attribute. The owning form will be submitted by
+this. Clicking outside of the boundary of the coordinates will result in a
+failure.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>integer/string</code><br>$id ID attribute of button.</dd>
+					<dt><var>$x</var></dt>
+					<dd><code>integer</code><br>$x X-coordinate of imaginary click.</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>integer</code><br>$y Y-coordinate of imaginary click.</dd>
+					<dt><var>$additional</var></dt>
+					<dd><code>hash</code><br>$additional Additional form values.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean/string</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertImage" id="_assertImage">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertImage">#</a>
+		<code><a href="source-class-WebTestCase.html#960-970" title="Go to source code">assertImage</a>( <span>string <var>$label</var></span>, <span>mixed <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks for a valid image with atht alt text or title.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks for a valid image with atht alt text or title.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Visible text.</dd>
+					<dt><var>$message</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if click target.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="submitFormById" id="_submitFormById">
+
+		<td class="attributes"><code>
+			 public 
+			boolean/string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_submitFormById">#</a>
+		<code><a href="source-class-WebTestCase.html#972-981" title="Go to source code">submitFormById</a>( <span>string <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Submits a form by the ID.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Submits a form by the ID.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id Form ID. No button information is submitted this way.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean/string</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickLink" id="_clickLink">
+
+		<td class="attributes"><code>
+			 public 
+			boolean/string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickLink">#</a>
+		<code><a href="source-class-WebTestCase.html#983-995" title="Go to source code">clickLink</a>( <span>string <var>$label</var></span>, <span>integer <var>$index</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Follows a link by name. Will click the first link<br />
+found with this link text by default, or a later<br />
+one if an index is given. Match is case insensitive<br />
+with normalised space.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Follows a link by name. Will click the first link found with this link text
+by default, or a later one if an index is given. Match is case insensitive with
+normalised space.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Text between the anchor tags.</dd>
+					<dt><var>$index</var></dt>
+					<dd><code>integer</code><br>$index Link position counting from zero.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean/string</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickLinkById" id="_clickLinkById">
+
+		<td class="attributes"><code>
+			 public 
+			boolean/string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickLinkById">#</a>
+		<code><a href="source-class-WebTestCase.html#997-1005" title="Go to source code">clickLinkById</a>( <span>string <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Follows a link by id attribute.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Follows a link by id attribute.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id ID attribute value.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean/string</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertLink" id="_assertLink">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertLink">#</a>
+		<code><a href="source-class-WebTestCase.html#1007-1026" title="Go to source code">assertLink</a>( <span>string <var>$label</var></span>, <span>mixed <var>$expected</var> = <span class="php-keyword1">true</span></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Tests for the presence of a link label. Match is<br />
+case insensitive with normalised space.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests for the presence of a link label. Match is case insensitive with
+normalised space.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Text between the anchor tags.</dd>
+					<dt><var>$expected</var></dt>
+					<dd><code>mixed</code><br>$expected Expected URL or expectation object.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display. Default can be embedded with %s.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if link present.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertNoLink" id="_assertNoLink">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertNoLink">#</a>
+		<code><a href="source-class-WebTestCase.html#1028-1042" title="Go to source code">assertNoLink</a>( <span>string/integer <var>$label</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Tests for the non-presence of a link label. Match is<br />
+case insensitive with normalised space.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests for the non-presence of a link label. Match is case insensitive with
+normalised space.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string/integer</code><br>$label Text between the anchor tags or ID attribute.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display. Default can be embedded with %s.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if link missing.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertLinkById" id="_assertLinkById">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertLinkById">#</a>
+		<code><a href="source-class-WebTestCase.html#1044-1062" title="Go to source code">assertLinkById</a>( <span>string <var>$id</var></span>, <span>mixed <var>$expected</var> = <span class="php-keyword1">true</span></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Tests for the presence of a link id attribute.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests for the presence of a link id attribute.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id Id attribute value.</dd>
+					<dt><var>$expected</var></dt>
+					<dd><code>mixed</code><br>$expected Expected URL or expectation object.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display. Default can be embedded with %s.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if link present.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertNoLinkById" id="_assertNoLinkById">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertNoLinkById">#</a>
+		<code><a href="source-class-WebTestCase.html#1064-1077" title="Go to source code">assertNoLinkById</a>( <span>string <var>$id</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Tests for the non-presence of a link label. Match is<br />
+case insensitive with normalised space.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests for the non-presence of a link label. Match is case insensitive with
+normalised space.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id Id attribute value.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display. Default can be embedded with %s.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if link missing.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setField" id="_setField">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setField">#</a>
+		<code><a href="source-class-WebTestCase.html#1079-1089" title="Go to source code">setField</a>( <span>string <var>$label</var></span>, <span>string <var>$value</var></span>, <span>mixed <var>$position</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets all form fields with that label, or name if there<br />
+is no label attached.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets all form fields with that label, or name if there is no label
+attached.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$name Name of field in forms.</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value New value of field.</dd>
+					<dt><var>$position</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if field exists, otherwise false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFieldByName" id="_setFieldByName">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFieldByName">#</a>
+		<code><a href="source-class-WebTestCase.html#1091-1100" title="Go to source code">setFieldByName</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span>, <span>mixed <var>$position</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets all form fields with that name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets all form fields with that name.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name of field in forms.</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value New value of field.</dd>
+					<dt><var>$position</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if field exists, otherwise false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFieldById" id="_setFieldById">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFieldById">#</a>
+		<code><a href="source-class-WebTestCase.html#1102-1111" title="Go to source code">setFieldById</a>( <span>string/integer <var>$id</var></span>, <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets all form fields with that id.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets all form fields with that id.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string/integer</code><br>$id Id of field in forms.</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value New value of field.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if field exists, otherwise false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertField" id="_assertField">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertField">#</a>
+		<code><a href="source-class-WebTestCase.html#1113-1129" title="Go to source code">assertField</a>( <span>string <var>$label</var></span>, <span>mixed <var>$expected</var> = <span class="php-keyword1">true</span></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Confirms that the form element is currently set<br />
+to the expected value. A missing form will always<br />
+fail. If no value is given then only the existence<br />
+of the field is checked.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Confirms that the form element is currently set to the expected value. A
+missing form will always fail. If no value is given then only the existence of
+the field is checked.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$name Name of field in forms.</dd>
+					<dt><var>$expected</var></dt>
+					<dd><code>mixed</code><br>$expected Expected string/array value or false for unset fields.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display. Default can be embedded with %s.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertFieldByName" id="_assertFieldByName">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertFieldByName">#</a>
+		<code><a href="source-class-WebTestCase.html#1131-1147" title="Go to source code">assertFieldByName</a>( <span>string <var>$name</var></span>, <span>mixed <var>$expected</var> = <span class="php-keyword1">true</span></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Confirms that the form element is currently set<br />
+to the expected value. A missing form element will always<br />
+fail. If no value is given then only the existence<br />
+of the field is checked.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Confirms that the form element is currently set to the expected value. A
+missing form element will always fail. If no value is given then only the
+existence of the field is checked.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name of field in forms.</dd>
+					<dt><var>$expected</var></dt>
+					<dd><code>mixed</code><br>$expected Expected string/array value or false for unset fields.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display. Default can be embedded with %s.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertFieldById" id="_assertFieldById">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertFieldById">#</a>
+		<code><a href="source-class-WebTestCase.html#1149-1165" title="Go to source code">assertFieldById</a>( <span>string/integer <var>$id</var></span>, <span>mixed <var>$expected</var> = <span class="php-keyword1">true</span></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Confirms that the form element is currently set<br />
+to the expected value. A missing form will always<br />
+fail. If no ID is given then only the existence<br />
+of the field is checked.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Confirms that the form element is currently set to the expected value. A
+missing form will always fail. If no ID is given then only the existence of the
+field is checked.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string/integer</code><br>$id Name of field in forms.</dd>
+					<dt><var>$expected</var></dt>
+					<dd><code>mixed</code><br>$expected Expected string/array value or false for unset fields.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display. Default can be embedded with %s.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_assertFieldValue" id="__assertFieldValue">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__assertFieldValue">#</a>
+		<code><a href="source-class-WebTestCase.html#1167-1189" title="Go to source code">_assertFieldValue</a>( <span>string <var>$identifier</var></span>, <span>mixed <var>$value</var></span>, <span>mixed <var>$expected</var></span>, <span>string <var>$message</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Tests the field value against the expectation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests the field value against the expectation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$identifier</var></dt>
+					<dd><code>string</code><br>$identifier Name, ID or label.</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value Current field value.</dd>
+					<dt><var>$expected</var></dt>
+					<dd><code>mixed</code><br>$expected Expected value to match.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Failure message.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertResponse" id="_assertResponse">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertResponse">#</a>
+		<code><a href="source-class-WebTestCase.html#1191-1206" title="Go to source code">assertResponse</a>( <span>array <var>$responses</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks the response code against a list<br />
+of possible values.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks the response code against a list of possible values.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$responses</var></dt>
+					<dd><code>array</code><br>$responses Possible responses for a pass.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display. Default can be embedded with %s.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertMime" id="_assertMime">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertMime">#</a>
+		<code><a href="source-class-WebTestCase.html#1208-1222" title="Go to source code">assertMime</a>( <span>array <var>$types</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks the mime type against a list<br />
+of possible values.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks the mime type against a list of possible values.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$types</var></dt>
+					<dd><code>array</code><br>$types Possible mime types for a pass.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertAuthentication" id="_assertAuthentication">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertAuthentication">#</a>
+		<code><a href="source-class-WebTestCase.html#1224-1246" title="Go to source code">assertAuthentication</a>( <span>string <var>$authentication</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Attempt to match the authentication type within<br />
+the security realm we are currently matching.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Attempt to match the authentication type within the security realm we are
+currently matching.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$authentication</var></dt>
+					<dd><code>string</code><br>$authentication Usually basic.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertNoAuthentication" id="_assertNoAuthentication">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertNoAuthentication">#</a>
+		<code><a href="source-class-WebTestCase.html#1248-1259" title="Go to source code">assertNoAuthentication</a>( <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks that no authentication is necessary to view<br />
+the desired page.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks that no authentication is necessary to view the desired page.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertRealm" id="_assertRealm">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertRealm">#</a>
+		<code><a href="source-class-WebTestCase.html#1261-1276" title="Go to source code">assertRealm</a>( <span>string <var>$realm</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Attempts to match the current security realm.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Attempts to match the current security realm.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$realm</var></dt>
+					<dd><code>string</code><br>$realm Name of security realm.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertHeader" id="_assertHeader">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertHeader">#</a>
+		<code><a href="source-class-WebTestCase.html#1278-1293" title="Go to source code">assertHeader</a>( <span>string <var>$header</var></span>, <span>mixed <var>$value</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks each header line for the required value. If no<br />
+value is given then only an existence check is made.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks each header line for the required value. If no value is given then
+only an existence check is made.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$header</var></dt>
+					<dd><code>string</code><br>$header Case insensitive header name.</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value Case sensitive trimmed string to match against. An expectation object can
+be used for pattern matching.</dd>
+					<dt><var>$message</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertNoHeader" id="_assertNoHeader">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertNoHeader">#</a>
+		<code><a href="source-class-WebTestCase.html#1305-1319" title="Go to source code">assertNoHeader</a>( <span>string <var>$header</var></span>, <span>mixed <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Confirms that the header type has not been received.<br />
+Only the landing page is checked. If you want to check<br />
+redirect pages, then you should limit redirects so<br />
+as to capture the page you want.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Confirms that the header type has not been received. Only the landing page is
+checked. If you want to check redirect pages, then you should limit redirects so
+as to capture the page you want.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$header</var></dt>
+					<dd><code>string</code><br>$header Case insensitive header name.</dd>
+					<dt><var>$message</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertTitle" id="_assertTitle">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertTitle">#</a>
+		<code><a href="source-class-WebTestCase.html#1328-1340" title="Go to source code">assertTitle</a>( <span>string/SimpleExpectation <var>$title</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Tests the text between the title tags.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests the text between the title tags.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$title</var></dt>
+					<dd><code>string/SimpleExpectation</code><br>$title Expected title.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertText" id="_assertText">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertText">#</a>
+		<code><a href="source-class-WebTestCase.html#1342-1355" title="Go to source code">assertText</a>( <span>string <var>$text</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Will trigger a pass if the text is found in the plain<br />
+text form of the page.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Will trigger a pass if the text is found in the plain text form of the
+page.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$text</var></dt>
+					<dd><code>string</code><br>$text Text to look for.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertNoText" id="_assertNoText">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertNoText">#</a>
+		<code><a href="source-class-WebTestCase.html#1364-1377" title="Go to source code">assertNoText</a>( <span>string <var>$text</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Will trigger a pass if the text is not found in the plain<br />
+text form of the page.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Will trigger a pass if the text is not found in the plain text form of the
+page.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$text</var></dt>
+					<dd><code>string</code><br>$text Text to look for.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertPattern" id="_assertPattern">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertPattern">#</a>
+		<code><a href="source-class-WebTestCase.html#1386-1400" title="Go to source code">assertPattern</a>( <span>string <var>$pattern</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Will trigger a pass if the Perl regex pattern<br />
+is found in the raw content.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Will trigger a pass if the Perl regex pattern is found in the raw
+content.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pattern</var></dt>
+					<dd><code>string</code><br>$pattern Perl regex to look for including the regex delimiters.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertNoPattern" id="_assertNoPattern">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertNoPattern">#</a>
+		<code><a href="source-class-WebTestCase.html#1409-1423" title="Go to source code">assertNoPattern</a>( <span>string <var>$pattern</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Will trigger a pass if the perl regex pattern<br />
+is not present in raw content.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Will trigger a pass if the perl regex pattern is not present in raw
+content.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pattern</var></dt>
+					<dd><code>string</code><br>$pattern Perl regex to look for including the regex delimiters.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertCookie" id="_assertCookie">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertCookie">#</a>
+		<code><a href="source-class-WebTestCase.html#1432-1453" title="Go to source code">assertCookie</a>( <span>string <var>$name</var></span>, <span>string <var>$expected</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks that a cookie is set for the current page<br />
+and optionally checks the value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks that a cookie is set for the current page and optionally checks the
+value.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name of cookie to test.</dd>
+					<dt><var>$expected</var></dt>
+					<dd><code>string</code><br>$expected Expected value as a string or false if any value will do.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertNoCookie" id="_assertNoCookie">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertNoCookie">#</a>
+		<code><a href="source-class-WebTestCase.html#1455-1467" title="Go to source code">assertNoCookie</a>( <span>string <var>$name</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Checks that no cookie is present or that it has<br />
+been successfully cleared.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks that no cookie is present or that it has been successfully
+cleared.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name of cookie to test.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if pass.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertTrue" id="_assertTrue">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertTrue">#</a>
+		<code><a href="source-class-WebTestCase.html#1469-1480" title="Go to source code">assertTrue</a>( <span>boolean <var>$result</var></span>, <span>string <var>$message</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Called from within the test methods to register<br />
+passes and failures.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Called from within the test methods to register passes and failures.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$result</var></dt>
+					<dd><code>boolean</code><br>$result Pass on true.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display describing the test state.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True on pass<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertFalse" id="_assertFalse">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertFalse">#</a>
+		<code><a href="source-class-WebTestCase.html#1482-1494" title="Go to source code">assertFalse</a>( <span>boolean <var>$result</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Will be true on false and vice versa. False<br />
+is the PHP definition of false, so that null,<br />
+empty strings, zero and an empty array all count<br />
+as false.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Will be true on false and vice versa. False is the PHP definition of false,
+so that null, empty strings, zero and an empty array all count as false.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$result</var></dt>
+					<dd><code>boolean</code><br>$result Pass on false.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True on pass<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertEqual" id="_assertEqual">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertEqual">#</a>
+		<code><a href="source-class-WebTestCase.html#1496-1511" title="Go to source code">assertEqual</a>( <span>mixed <var>$first</var></span>, <span>mixed <var>$second</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Will trigger a pass if the two parameters have<br />
+the same value only. Otherwise a fail. This<br />
+is for testing hand extracted text, etc.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Will trigger a pass if the two parameters have the same value only. Otherwise
+a fail. This is for testing hand extracted text, etc.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>mixed</code><br>$first Value to compare.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second Value to compare.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True on pass<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assertNotEqual" id="_assertNotEqual">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assertNotEqual">#</a>
+		<code><a href="source-class-WebTestCase.html#1513-1528" title="Go to source code">assertNotEqual</a>( <span>mixed <var>$first</var></span>, <span>mixed <var>$second</var></span>, <span>string <var>$message</var> = <span class="php-quote">'%s'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Will trigger a pass if the two parameters have<br />
+a different value. Otherwise a fail. This<br />
+is for testing hand extracted text, etc.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Will trigger a pass if the two parameters have a different value. Otherwise a
+fail. This is for testing hand extracted text, etc.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$first</var></dt>
+					<dd><code>mixed</code><br>$first Value to compare.</dd>
+					<dt><var>$second</var></dt>
+					<dd><code>mixed</code><br>$second Value to compare.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message Message to display.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True on pass<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAssertionLine" id="_getAssertionLine">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAssertionLine">#</a>
+		<code><a href="source-class-WebTestCase.html#1530-1539" title="Go to source code">getAssertionLine</a>( )</code>
+
+		<div class="description short">
+			
+<p>Uses a stack trace to find the line of an assertion.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Uses a stack trace to find the line of an assertion.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Line number of first assert* method embedded in format string.<br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-SimpleTestCase.html#_getAssertionLine">SimpleTestCase::getAssertionLine()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-SimpleTestCase.html#methods">SimpleTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-SimpleTestCase.html#_SimpleTestCase">SimpleTestCase()</a>, 
+			<a href="class-SimpleTestCase.html#__isTest">_isTest()</a>, 
+			<a href="class-SimpleTestCase.html#_assert">assert()</a>, 
+			<a href="class-SimpleTestCase.html#_createInvoker">createInvoker()</a>, 
+			<a href="class-SimpleTestCase.html#_dump">dump()</a>, 
+			<a href="class-SimpleTestCase.html#_error">error()</a>, 
+			<a href="class-SimpleTestCase.html#_exception">exception()</a>, 
+			<a href="class-SimpleTestCase.html#_fail">fail()</a>, 
+			<a href="class-SimpleTestCase.html#_getLabel">getLabel()</a>, 
+			<a href="class-SimpleTestCase.html#_getSize">getSize()</a>, 
+			<a href="class-SimpleTestCase.html#_getTests">getTests()</a>, 
+			<a href="class-SimpleTestCase.html#_run">run()</a>, 
+			<a href="class-SimpleTestCase.html#_setUp">setUp()</a>, 
+			<a href="class-SimpleTestCase.html#_skip">skip()</a>, 
+			<a href="class-SimpleTestCase.html#_skipIf">skipIf()</a>, 
+			<a href="class-SimpleTestCase.html#_skipUnless">skipUnless()</a>, 
+			<a href="class-SimpleTestCase.html#_tearDown">tearDown()</a>, 
+			<a href="class-SimpleTestCase.html#_tell">tell()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_browser" id="$_browser">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WebTestCase.html#434" title="Go to source code"><var>$_browser</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_browser" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ignore_errors" id="$_ignore_errors">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-WebTestCase.html#435" title="Go to source code"><var>$_ignore_errors</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$_ignore_errors" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-SimpleTestCase.html#properties">SimpleTestCase</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-SimpleTestCase.html#$_label"><var>$_label</var></a>, 
+			<a href="class-SimpleTestCase.html#$_observers"><var>$_observers</var></a>, 
+			<a href="class-SimpleTestCase.html#$_reporter"><var>$_reporter</var></a>, 
+			<a href="class-SimpleTestCase.html#$_should_skip"><var>$_should_skip</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

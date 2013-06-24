@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Image_Graph_Tool | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li class="active"><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li class="active"><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Image_Graph.html">Image_Graph</a></li>
+				<li><a href="class-Image_Graph_Common.html">Image_Graph_Common</a></li>
+				<li><a href="class-Image_Graph_Element.html">Image_Graph_Element</a></li>
+				<li><a href="class-Image_Graph_Plotarea_Element.html">Image_Graph_Plotarea_Element</a></li>
+				<li><a href="class-Image_Graph_Simple.html">Image_Graph_Simple</a></li>
+				<li class="active"><a href="class-Image_Graph_Tool.html">Image_Graph_Tool</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-is_a.html">is_a</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Image.Graph.html" title="Summary of Image\Graph"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Image_Graph_Tool</h1>
+
+
+	<div class="description">
+	
+<p>This class contains a set of tool-functions.</p>
+
+<p>These functions are all to be called statically</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Image.html">Image</a>\<a href="package-Image.Graph.html">Graph</a><br />
+
+				<b>Category:</b>
+				Images<br />
+				<b>Copyright:</b>
+				Copyright (C) 2003, 2004 Jesper Veggerby Hansen<br />
+				<b>License:</b>
+				<a href="http://www.gnu.org/copyleft/lesser.html">LGPL License 2.1</a><br />
+				<b>Author:</b>
+				Jesper Veggerby &lt;<a
+href="mailto:pear.nosey&#64;veggerby.dk">pear.nosey&#64;<!---->veggerby.dk</a>&gt;<br />
+				<b>Version:</b>
+				Release: @package_version@<br />
+				<b>Link:</b>
+				<a href="http://pear.php.net/package/Image_Graph">http://pear.php.net/package/Image_Graph</a><br />
+		<b>Located at</b> <a href="source-class-Image_Graph_Tool.html#30-289" title="Go to source code">app/vendors/Image/Graph/Tool.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="mid" id="_mid">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_mid">#</a>
+		<code><a href="source-class-Image_Graph_Tool.html#46-57" title="Go to source code">mid</a>( <span>float <var>$p1</var></span>, <span>float <var>$p2</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Return the average of 2 points</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return the average of 2 points</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$p1</var></dt>
+					<dd><code>float</code><br>P1 1st point</dd>
+					<dt><var>$p2</var></dt>
+					<dd><code>float</code><br>P2 2nd point</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The average of P1 and P2<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="mirror" id="_mirror">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_mirror">#</a>
+		<code><a href="source-class-Image_Graph_Tool.html#59-72" title="Go to source code">mirror</a>( <span>float <var>$p1</var></span>, <span>float <var>$p2</var></span>, <span>float <var>$factor</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Mirrors P1 in P2 by a amount of Factor</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Mirrors P1 in P2 by a amount of Factor</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$p1</var></dt>
+					<dd><code>float</code><br>$p1 1st point, point to mirror</dd>
+					<dt><var>$p2</var></dt>
+					<dd><code>float</code><br>$o2 2nd point, mirror point</dd>
+					<dt><var>$factor</var></dt>
+					<dd><code>float</code><br>$factor Mirror factor, 0 returns $p2, 1 returns a pure mirror, ie $p1 on the
+exact other side of $p2</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>$p1 mirrored in $p2 by Factor<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="controlPoint" id="_controlPoint">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_controlPoint">#</a>
+		<code><a href="source-class-Image_Graph_Tool.html#74-95" title="Go to source code">controlPoint</a>( <span>float <var>$p1</var></span>, <span>float <var>$p2</var></span>, <span>float <var>$factor</var></span>, <span>mixed <var>$smoothFactor</var> = <span class="php-num">0.75</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculates a Bezier control point, this function must be called for BOTH X
+and Y coordinates (will it work for 3D coordinates!?)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculates a Bezier control point, this function must be called for BOTH X
+and Y coordinates (will it work for 3D coordinates!?)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$p1</var></dt>
+					<dd><code>float</code><br>$p1 1st point</dd>
+					<dt><var>$p2</var></dt>
+					<dd><code>float</code><br>$p2 Point to</dd>
+					<dt><var>$factor</var></dt>
+					<dd><code>float</code><br>$factor Mirror factor, 0 returns P2, 1 returns a pure mirror, i.e. P1 on the
+exact other side of P2</dd>
+					<dt><var>$smoothFactor</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>P1 mirrored in P2 by Factor<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="bezier" id="_bezier">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_bezier">#</a>
+		<code><a href="source-class-Image_Graph_Tool.html#97-117" title="Go to source code">bezier</a>( <span>float <var>$t</var></span>, <span>float <var>$p1</var></span>, <span>float <var>$p2</var></span>, <span>float <var>$p3</var></span>, <span>float <var>$p4</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculates a Bezier point, this function must be called for BOTH X and Y
+coordinates (will it work for 3D coordinates!?)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculates a Bezier point, this function must be called for BOTH X and Y
+coordinates (will it work for 3D coordinates!?)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$t</var></dt>
+					<dd><code>float</code><br>$t A position between $p2 and $p3, value between 0 and 1</dd>
+					<dt><var>$p1</var></dt>
+					<dd><code>float</code><br>$p1 Point to use for calculating control points</dd>
+					<dt><var>$p2</var></dt>
+					<dd><code>float</code><br>$p2 Point 1 to calculate bezier curve between</dd>
+					<dt><var>$p3</var></dt>
+					<dd><code>float</code><br>$p3 Point 2 to calculate bezier curve between</dd>
+					<dt><var>$p4</var></dt>
+					<dd><code>float</code><br>$p4 Point to use for calculating control points</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The bezier value of the point t between $p2 and $p3 using $p1 and $p4 to
+calculate control points<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rotate" id="_rotate">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rotate">#</a>
+		<code><a href="source-class-Image_Graph_Tool.html#119-139" title="Go to source code">rotate</a>( <span>integer <var>$x</var></span>, <span>integer <var>$y</var></span>, <span>integer <var>$xc</var></span>, <span>integer <var>$yc</var></span>, <span>integer <var>$angle</var></span> )</code>
+
+		<div class="description short">
+			
+<p>For a given point (x,y) return a point rotated by a given angle aroung the
+center (xy,yc)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>For a given point (x,y) return a point rotated by a given angle aroung the
+center (xy,yc)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$x</var></dt>
+					<dd><code>integer</code><br>$x x coordinate of the point to rotate</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>integer</code><br>$y y coordinate of the point to rotate</dd>
+					<dt><var>$xc</var></dt>
+					<dd><code>integer</code><br>$xc x coordinate of the center of the rotation</dd>
+					<dt><var>$yc</var></dt>
+					<dd><code>integer</code><br>$yc y coordinate of the center of the rotation</dd>
+					<dt><var>$angle</var></dt>
+					<dd><code>integer</code><br>$angle angle of the rotation</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>the coordinate of the new point<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="close2zero" id="_close2zero">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_close2zero">#</a>
+		<code><a href="source-class-Image_Graph_Tool.html#141-157" title="Go to source code">close2zero</a>( <span>float <var>$value</var></span>, <span>integer <var>$decimal</var></span> )</code>
+
+		<div class="description short">
+			
+<p>If a number is close 0 zero (i.e. 0 within $decimal decimals) it is rounded
+down to zero</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>If a number is close 0 zero (i.e. 0 within $decimal decimals) it is rounded
+down to zero</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>float</code><br>$value The value to round</dd>
+					<dt><var>$decimal</var></dt>
+					<dd><code>integer</code><br>$decimal The number of decimals</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br>The value or zero if "close enough" to zero<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="calculateArcDimensionAndCenter" id="_calculateArcDimensionAndCenter">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_calculateArcDimensionAndCenter">#</a>
+		<code><a href="source-class-Image_Graph_Tool.html#159-255" title="Go to source code">calculateArcDimensionAndCenter</a>( <span>integer <var>$v1</var></span>, <span>integer <var>$v2</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculate the dimensions and center point (of gravity) for an arc</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculate the dimensions and center point (of gravity) for an arc</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$v1</var></dt>
+					<dd><code>integer</code><br>$v1 The angle at which the arc starts</dd>
+					<dt><var>$v2</var></dt>
+					<dd><code>integer</code><br>$v2 The angle at which the arc ends</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>An array with the dimensions in a fraction of a circle width radius 1 'rx', 'ry'
+and the center point of gravity ('cx', 'cy')<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="calculateLinearRegression" id="_calculateLinearRegression">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_calculateLinearRegression">#</a>
+		<code><a href="source-class-Image_Graph_Tool.html#257-287" title="Go to source code">calculateLinearRegression</a>( <span>array <var>&amp; $data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Calculate linear regression on a dataset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Calculate linear regression on a dataset</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data The data to calculate regression upon</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>The slope and intersection of the "best-fit" line<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

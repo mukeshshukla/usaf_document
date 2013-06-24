@@ -1,0 +1,3459 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class SimpleBrowser | httpdocs</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?1173576329"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-app.models.html">models<span></span></a>
+						<ul>
+				<li><a href="package-app.models.behaviors.html">behaviors</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Auth.html">Auth</a>
+						</li>
+				<li><a href="package-cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.html">cake<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.html">console<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.console.libs.tasks.html">tasks</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.cake.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.controller.components.html">components</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.model.dbo.html">dbo</a>
+						</li>
+				<li><a href="package-cake.cake.libs.model.iniacl.html">iniacl</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.cake.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.cake.tests.cases.libs.controller.components.html">components</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.cake.tests.lib.html">lib</a>
+						</li>
+				<li><a href="package-cake.cake.tests.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.libs.html">libs</a>
+						</li>
+				<li><a href="package-cake.tests.html">tests<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.html">libs<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.cache.html">cache</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.controller.html">controller<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.html">components<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.html">dbacl<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.controller.components.dbacl.models.html">models</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.model.html">model<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.behaviors.html">behaviors</a>
+						</li>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.html">datasources<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.model.datasources.dbo.html">dbo</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-cake.tests.cases.libs.view.html">view<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.cases.libs.view.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.fixtures.html">fixtures</a>
+						</li>
+				<li><a href="package-cake.tests.groups.html">groups</a>
+						</li>
+				<li><a href="package-cake.tests.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.html">app<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.html">plugins<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.html">plugin<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.vendors.sample.html">sample</a>
+						</li>
+							</ul></li>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.html">views<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.plugins.test.plugin.views.helpers.html">helpers</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-cake.tests.test.app.vendors.html">vendors<span></span></a>
+						<ul>
+				<li><a href="package-cake.tests.test.app.vendors.sample.html">sample</a>
+						</li>
+							</ul></li></ul></li></ul></li></ul></li></ul></li>
+				<li><a href="package-Cpdf.html">Cpdf</a>
+						</li>
+				<li><a href="package-csv.html">csv</a>
+						</li>
+				<li><a href="package-genericclass.html">genericclass</a>
+						</li>
+				<li><a href="package-Image.html">Image<span></span></a>
+						<ul>
+				<li><a href="package-Image.Canvas.html">Canvas</a>
+						</li>
+				<li><a href="package-Image.Color.html">Color</a>
+						</li>
+				<li><a href="package-Image.Graph.html">Graph<span></span></a>
+						<ul>
+				<li><a href="package-Image.Graph.Axis.html">Axis</a>
+						</li>
+				<li><a href="package-Image.Graph.DataPreprocessor.html">DataPreprocessor</a>
+						</li>
+				<li><a href="package-Image.Graph.DataSelector.html">DataSelector</a>
+						</li>
+				<li><a href="package-Image.Graph.Dataset.html">Dataset</a>
+						</li>
+				<li><a href="package-Image.Graph.Figure.html">Figure</a>
+						</li>
+				<li><a href="package-Image.Graph.Fill.html">Fill</a>
+						</li>
+				<li><a href="package-Image.Graph.Grid.html">Grid</a>
+						</li>
+				<li><a href="package-Image.Graph.Layout.html">Layout</a>
+						</li>
+				<li><a href="package-Image.Graph.Legend.html">Legend</a>
+						</li>
+				<li><a href="package-Image.Graph.Line.html">Line</a>
+						</li>
+				<li><a href="package-Image.Graph.Logo.html">Logo</a>
+						</li>
+				<li><a href="package-Image.Graph.Marker.html">Marker</a>
+						</li>
+				<li><a href="package-Image.Graph.Plot.html">Plot</a>
+						</li>
+				<li><a href="package-Image.Graph.Plotarea.html">Plotarea</a>
+						</li>
+				<li><a href="package-Image.Graph.Text.html">Text</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-Numbers.html">Numbers<span></span></a>
+						<ul>
+				<li><a href="package-Numbers.Roman.html">Roman</a>
+						</li>
+				<li><a href="package-Numbers.Words.html">Words</a>
+						</li>
+							</ul></li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li><a href="package-PHPMailer.html">PHPMailer</a>
+						</li>
+				<li><a href="package-SalesforceSoapClient.html">SalesforceSoapClient</a>
+						</li>
+				<li><a href="package-Services.html">Services<span></span></a>
+						<ul>
+				<li><a href="package-Services.Twilio.html">Twilio</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SimplePie.html">SimplePie</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.html">SimpleTest<span></span></a>
+						<ul>
+				<li><a href="package-SimpleTest.Eclipse.html">Eclipse</a>
+						</li>
+				<li><a href="package-SimpleTest.Extensions.html">Extensions</a>
+						</li>
+				<li><a href="package-SimpleTest.MockObjects.html">MockObjects</a>
+						</li>
+				<li><a href="package-SimpleTest.UnitTester.html">UnitTester</a>
+						</li>
+				<li class="active"><a href="package-SimpleTest.WebTester.html">WebTester</a>
+						</li>
+							</ul></li>
+				<li><a href="package-SwfUploadComponent.html">SwfUploadComponent<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.html">controllers<span></span></a>
+						<ul>
+				<li><a href="package-SwfUploadComponent.controllers.components.html">components</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-Swift.html">Swift<span></span></a>
+						<ul>
+				<li><a href="package-Swift.ByteStream.html">ByteStream</a>
+						</li>
+				<li><a href="package-Swift.CharacterStream.html">CharacterStream</a>
+						</li>
+				<li><a href="package-Swift.Encoder.html">Encoder</a>
+						</li>
+				<li><a href="package-Swift.Events.html">Events</a>
+						</li>
+				<li><a href="package-Swift.KeyCache.html">KeyCache</a>
+						</li>
+				<li><a href="package-Swift.Mailer.html">Mailer</a>
+						</li>
+				<li><a href="package-Swift.Mime.html">Mime</a>
+						</li>
+				<li><a href="package-Swift.Plugins.html">Plugins</a>
+						</li>
+				<li><a href="package-Swift.Transport.html">Transport</a>
+						</li>
+							</ul></li>
+				<li><a href="package-test.html">test<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.html">suite<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.html">cases<span></span></a>
+						<ul>
+				<li><a href="package-test.suite.cases.libs.html">libs</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li><a href="package-Unit.html">Unit</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-FieldExpectation.html">FieldExpectation</a></li>
+				<li><a href="class-HttpHeaderExpectation.html">HttpHeaderExpectation</a></li>
+				<li><a href="class-LiveTestOfForms.html">LiveTestOfForms</a></li>
+				<li><a href="class-MultipleSelectionTag.html">MultipleSelectionTag</a></li>
+				<li><a href="class-NoHttpHeaderExpectation.html">NoHttpHeaderExpectation</a></li>
+				<li><a href="class-ParallelRegex.html">ParallelRegex</a></li>
+				<li><a href="class-SimpleAnchorTag.html">SimpleAnchorTag</a></li>
+				<li><a href="class-SimpleAttachment.html">SimpleAttachment</a></li>
+				<li><a href="class-SimpleAuthenticator.html">SimpleAuthenticator</a></li>
+				<li><a href="class-SimpleBaseTag.html">SimpleBaseTag</a></li>
+				<li class="active"><a href="class-SimpleBrowser.html">SimpleBrowser</a></li>
+				<li><a href="class-SimpleBrowserHistory.html">SimpleBrowserHistory</a></li>
+				<li><a href="class-SimpleButtonTag.html">SimpleButtonTag</a></li>
+				<li><a href="class-SimpleById.html">SimpleById</a></li>
+				<li><a href="class-SimpleByLabel.html">SimpleByLabel</a></li>
+				<li><a href="class-SimpleByLabelOrName.html">SimpleByLabelOrName</a></li>
+				<li><a href="class-SimpleByName.html">SimpleByName</a></li>
+				<li><a href="class-SimpleCheckboxGroup.html">SimpleCheckboxGroup</a></li>
+				<li><a href="class-SimpleCheckboxTag.html">SimpleCheckboxTag</a></li>
+				<li><a href="class-SimpleCookie.html">SimpleCookie</a></li>
+				<li><a href="class-SimpleCookieJar.html">SimpleCookieJar</a></li>
+				<li><a href="class-SimpleEncodedPair.html">SimpleEncodedPair</a></li>
+				<li><a href="class-SimpleEncoding.html">SimpleEncoding</a></li>
+				<li><a href="class-SimpleForm.html">SimpleForm</a></li>
+				<li><a href="class-SimpleFormTag.html">SimpleFormTag</a></li>
+				<li><a href="class-SimpleFrameset.html">SimpleFrameset</a></li>
+				<li><a href="class-SimpleFrameTag.html">SimpleFrameTag</a></li>
+				<li><a href="class-SimpleGetEncoding.html">SimpleGetEncoding</a></li>
+				<li><a href="class-SimpleHeadEncoding.html">SimpleHeadEncoding</a></li>
+				<li><a href="class-SimpleHtmlLexer.html">SimpleHtmlLexer</a></li>
+				<li><a href="class-SimpleHtmlSaxParser.html">SimpleHtmlSaxParser</a></li>
+				<li><a href="class-SimpleHttpHeaders.html">SimpleHttpHeaders</a></li>
+				<li><a href="class-SimpleHttpRequest.html">SimpleHttpRequest</a></li>
+				<li><a href="class-SimpleHttpResponse.html">SimpleHttpResponse</a></li>
+				<li><a href="class-SimpleImageSubmitTag.html">SimpleImageSubmitTag</a></li>
+				<li><a href="class-SimpleLabelTag.html">SimpleLabelTag</a></li>
+				<li><a href="class-SimpleLexer.html">SimpleLexer</a></li>
+				<li><a href="class-SimpleMultipartEncoding.html">SimpleMultipartEncoding</a></li>
+				<li><a href="class-SimpleOptionTag.html">SimpleOptionTag</a></li>
+				<li><a href="class-SimplePage.html">SimplePage</a></li>
+				<li><a href="class-SimplePageBuilder.html">SimplePageBuilder</a></li>
+				<li><a href="class-SimplePostEncoding.html">SimplePostEncoding</a></li>
+				<li><a href="class-SimpleProxyRoute.html">SimpleProxyRoute</a></li>
+				<li><a href="class-SimpleRadioButtonTag.html">SimpleRadioButtonTag</a></li>
+				<li><a href="class-SimpleRadioGroup.html">SimpleRadioGroup</a></li>
+				<li><a href="class-SimpleRealm.html">SimpleRealm</a></li>
+				<li><a href="class-SimpleRoute.html">SimpleRoute</a></li>
+				<li><a href="class-SimpleSaxListener.html">SimpleSaxListener</a></li>
+				<li><a href="class-SimpleSecureSocket.html">SimpleSecureSocket</a></li>
+				<li><a href="class-SimpleSelectionTag.html">SimpleSelectionTag</a></li>
+				<li><a href="class-SimpleSocket.html">SimpleSocket</a></li>
+				<li><a href="class-SimpleStateStack.html">SimpleStateStack</a></li>
+				<li><a href="class-SimpleStickyError.html">SimpleStickyError</a></li>
+				<li><a href="class-SimpleSubmitTag.html">SimpleSubmitTag</a></li>
+				<li><a href="class-SimpleTag.html">SimpleTag</a></li>
+				<li><a href="class-SimpleTagBuilder.html">SimpleTagBuilder</a></li>
+				<li><a href="class-SimpleTagGroup.html">SimpleTagGroup</a></li>
+				<li><a href="class-SimpleTestAcceptanceTest.html">SimpleTestAcceptanceTest</a></li>
+				<li><a href="class-SimpleTextAreaTag.html">SimpleTextAreaTag</a></li>
+				<li><a href="class-SimpleTextTag.html">SimpleTextTag</a></li>
+				<li><a href="class-SimpleTitleTag.html">SimpleTitleTag</a></li>
+				<li><a href="class-SimpleUploadTag.html">SimpleUploadTag</a></li>
+				<li><a href="class-SimpleUrl.html">SimpleUrl</a></li>
+				<li><a href="class-SimpleUserAgent.html">SimpleUserAgent</a></li>
+				<li><a href="class-SimpleWidget.html">SimpleWidget</a></li>
+				<li><a href="class-TestOfFileUploads.html">TestOfFileUploads</a></li>
+				<li><a href="class-TestOfFrameAuthentication.html">TestOfFrameAuthentication</a></li>
+				<li><a href="class-TestOfGenericAssertionsInWebTester.html">TestOfGenericAssertionsInWebTester</a></li>
+				<li><a href="class-TestOfLinkFollowing.html">TestOfLinkFollowing</a></li>
+				<li><a href="class-TestOfLiveAuthentication.html">TestOfLiveAuthentication</a></li>
+				<li><a href="class-TestOfLiveCookies.html">TestOfLiveCookies</a></li>
+				<li><a href="class-TestOfLiveFetching.html">TestOfLiveFetching</a></li>
+				<li><a href="class-TestOfLiveFrontControllerEmulation.html">TestOfLiveFrontControllerEmulation</a></li>
+				<li><a href="class-TestOfLiveHeaders.html">TestOfLiveHeaders</a></li>
+				<li><a href="class-TestOfLiveHistoryNavigation.html">TestOfLiveHistoryNavigation</a></li>
+				<li><a href="class-TestOfLiveMultiValueWidgets.html">TestOfLiveMultiValueWidgets</a></li>
+				<li><a href="class-TestOfLivePageLinkingWithMinimalLinks.html">TestOfLivePageLinkingWithMinimalLinks</a></li>
+				<li><a href="class-TestOfLiveRedirects.html">TestOfLiveRedirects</a></li>
+				<li><a href="class-TestOfLoadingFrames.html">TestOfLoadingFrames</a></li>
+				<li><a href="class-TestOfNestedFrames.html">TestOfNestedFrames</a></li>
+				<li><a href="class-TestRadioFields.html">TestRadioFields</a></li>
+				<li><a href="class-WebTestCase.html">WebTestCase</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-SimpleTest.WebTester.html" title="Summary of SimpleTest\WebTester"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class SimpleBrowser</h1>
+
+
+	<div class="description">
+	
+<p>Simulated web browser. This is an aggregate of the user agent, the HTML
+parsing, request history and the last header set.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-SimpleTest.html">SimpleTest</a>\<a href="package-SimpleTest.WebTester.html">WebTester</a><br />
+
+		<b>Located at</b> <a href="source-class-SimpleBrowser.html#153-1097" title="Go to source code">app/vendors/simpletest/browser.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="SimpleBrowser" id="_SimpleBrowser">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_SimpleBrowser">#</a>
+		<code><a href="source-class-SimpleBrowser.html#167-184" title="Go to source code">SimpleBrowser</a>( )</code>
+
+		<div class="description short">
+			
+<p>Starts with a fresh browser with no<br />
+cookie or any other state information. The<br />
+exception is that a default proxy will be<br />
+set up if specified in the options.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Starts with a fresh browser with no cookie or any other state information.
+The exception is that a default proxy will be set up if specified in the
+options.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_createUserAgent" id="__createUserAgent">
+
+		<td class="attributes"><code>
+			 public 
+			SimpleFetcher
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__createUserAgent">#</a>
+		<code><a href="source-class-SimpleBrowser.html#186-194" title="Go to source code">_createUserAgent</a>( )</code>
+
+		<div class="description short">
+			
+<p>Creates the underlying user agent.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates the underlying user agent.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>SimpleFetcher</code><br>Content fetcher.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_createHistory" id="__createHistory">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-SimpleBrowserHistory.html">SimpleBrowserHistory</a></code>
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__createHistory">#</a>
+		<code><a href="source-class-SimpleBrowser.html#196-204" title="Go to source code">_createHistory</a>( )</code>
+
+		<div class="description short">
+			
+<p>Creates a new empty history list.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates a new empty history list.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-SimpleBrowserHistory.html">SimpleBrowserHistory</a></code></code><br>New list.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ignoreFrames" id="_ignoreFrames">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ignoreFrames">#</a>
+		<code><a href="source-class-SimpleBrowser.html#206-213" title="Go to source code">ignoreFrames</a>( )</code>
+
+		<div class="description short">
+			
+<p>Disables frames support. Frames will not be fetched<br />
+and the frameset page will be used instead.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Disables frames support. Frames will not be fetched and the frameset page
+will be used instead.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="useFrames" id="_useFrames">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_useFrames">#</a>
+		<code><a href="source-class-SimpleBrowser.html#215-222" title="Go to source code">useFrames</a>( )</code>
+
+		<div class="description short">
+			
+<p>Enables frames support. Frames will be fetched from<br />
+now on.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Enables frames support. Frames will be fetched from now on.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ignoreCookies" id="_ignoreCookies">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ignoreCookies">#</a>
+		<code><a href="source-class-SimpleBrowser.html#224-230" title="Go to source code">ignoreCookies</a>( )</code>
+
+		<div class="description short">
+			
+<p>Switches off cookie sending and recieving.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Switches off cookie sending and recieving.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="useCookies" id="_useCookies">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_useCookies">#</a>
+		<code><a href="source-class-SimpleBrowser.html#232-238" title="Go to source code">useCookies</a>( )</code>
+
+		<div class="description short">
+			
+<p>Switches back on the cookie sending and recieving.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Switches back on the cookie sending and recieving.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_parse" id="__parse">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-SimplePage.html">SimplePage</a></code>
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__parse">#</a>
+		<code><a href="source-class-SimpleBrowser.html#240-259" title="Go to source code">_parse</a>( <span><code><a href="class-SimpleHttpResponse.html">SimpleHttpResponse</a></code> <var>$response</var></span>, <span>integer <var>$depth</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Parses the raw content into a page. Will load further<br />
+frame pages unless frames are disabled.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parses the raw content into a page. Will load further frame pages unless
+frames are disabled.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$response</var></dt>
+					<dd><code><code><a href="class-SimpleHttpResponse.html">SimpleHttpResponse</a></code></code><br>$response Response from fetch.</dd>
+					<dt><var>$depth</var></dt>
+					<dd><code>integer</code><br>$depth Nested frameset depth.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-SimplePage.html">SimplePage</a></code></code><br>Parsed HTML.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_buildPage" id="__buildPage">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-SimplePage.html">SimplePage</a></code>
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__buildPage">#</a>
+		<code><a href="source-class-SimpleBrowser.html#261-275" title="Go to source code">_buildPage</a>( <span><code><a href="class-SimpleHttpResponse.html">SimpleHttpResponse</a></code> <var>$response</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Assembles the parsing machinery and actually parses<br />
+a single page. Frees all of the builder memory and so<br />
+unjams the PHP memory management.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Assembles the parsing machinery and actually parses a single page. Frees all
+of the builder memory and so unjams the PHP memory management.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$response</var></dt>
+					<dd><code><code><a href="class-SimpleHttpResponse.html">SimpleHttpResponse</a></code></code><br>$response Response from fetch.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-SimplePage.html">SimplePage</a></code></code><br>Parsed top level page.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_fetch" id="__fetch">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-SimplePage.html">SimplePage</a></code>
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__fetch">#</a>
+		<code><a href="source-class-SimpleBrowser.html#277-294" title="Go to source code">_fetch</a>( <span>string/SimpleUrl <var>$url</var></span>, <span><code><a href="class-SimpleEncoding.html">SimpleEncoding</a></code> <var>$encoding</var></span>, <span>integer <var>$depth</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetches a page. Jointly recursive with the _parse()<br />
+method as it descends a frameset.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches a page. Jointly recursive with the _parse() method as it descends a
+frameset.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string/SimpleUrl</code><br>$url Target to fetch.</dd>
+					<dt><var>$encoding</var></dt>
+					<dd><code><code><a href="class-SimpleEncoding.html">SimpleEncoding</a></code></code><br>$encoding GET/POST parameters.</dd>
+					<dt><var>$depth</var></dt>
+					<dd><code>integer</code><br>$depth Nested frameset depth protection.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-SimplePage.html">SimplePage</a></code></code><br>Parsed page.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_load" id="__load">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__load">#</a>
+		<code><a href="source-class-SimpleBrowser.html#296-310" title="Go to source code">_load</a>( <span><code><a href="class-SimpleUrl.html">SimpleUrl</a></code> <var>$url</var></span>, <span><code><a href="class-SimpleEncoding.html">SimpleEncoding</a></code> <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetches a page or a single frame if that is the current<br />
+focus.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches a page or a single frame if that is the current focus.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code><code><a href="class-SimpleUrl.html">SimpleUrl</a></code></code><br>$url Target to fetch.</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code><code><a href="class-SimpleEncoding.html">SimpleEncoding</a></code></code><br>$parameters GET/POST parameters.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Raw content of page.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_loadPage" id="__loadPage">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__loadPage">#</a>
+		<code><a href="source-class-SimpleBrowser.html#312-325" title="Go to source code">_loadPage</a>( <span>string/SimpleUrl <var>$url</var></span>, <span><code><a href="class-SimplePostEncoding.html">SimplePostEncoding</a></code> <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetches a page and makes it the current page/frame.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches a page and makes it the current page/frame.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string/SimpleUrl</code><br>$url Target to fetch as string.</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code><code><a href="class-SimplePostEncoding.html">SimplePostEncoding</a></code></code><br>$parameters POST parameters.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Raw content of page.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_loadFrame" id="__loadFrame">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__loadFrame">#</a>
+		<code><a href="source-class-SimpleBrowser.html#327-340" title="Go to source code">_loadFrame</a>( <span>array <var>$frames</var></span>, <span>string/SimpleUrl <var>$url</var></span>, <span>SimpleFormEncoding <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetches a frame into the existing frameset replacing the<br />
+original.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches a frame into the existing frameset replacing the original.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$frames</var></dt>
+					<dd><code>array</code><br>$frames List of names to drill down.</dd>
+					<dt><var>$url</var></dt>
+					<dd><code>string/SimpleUrl</code><br>$url Target to fetch as string.</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>SimpleFormEncoding</code><br>$parameters POST parameters.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Raw content of page.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="restart" id="_restart">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_restart">#</a>
+		<code><a href="source-class-SimpleBrowser.html#342-352" title="Go to source code">restart</a>( <span>string/integer <var>$date</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Removes expired and temporary cookies as if<br />
+the browser was closed and re-opened.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Removes expired and temporary cookies as if the browser was closed and
+re-opened.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$date</var></dt>
+					<dd><code>string/integer</code><br>$date Time when session restarted. If omitted then all persistent cookies are
+kept.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addHeader" id="_addHeader">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addHeader">#</a>
+		<code><a href="source-class-SimpleBrowser.html#354-362" title="Go to source code">addHeader</a>( <span>string <var>$header</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Adds a header to every fetch.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adds a header to every fetch.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$header</var></dt>
+					<dd><code>string</code><br>$header Header line to add to every request until cleared.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ageCookies" id="_ageCookies">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ageCookies">#</a>
+		<code><a href="source-class-SimpleBrowser.html#364-371" title="Go to source code">ageCookies</a>( <span>integer <var>$interval</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Ages the cookies by the specified time.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Ages the cookies by the specified time.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$interval</var></dt>
+					<dd><code>integer</code><br>$interval Amount in seconds.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCookie" id="_setCookie">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCookie">#</a>
+		<code><a href="source-class-SimpleBrowser.html#373-385" title="Go to source code">setCookie</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span>, <span>string <var>$host</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$path</var> = <span class="php-quote">'/'</span></span>, <span>string <var>$expiry</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets an additional cookie. If a cookie has<br />
+the same name and path it is replaced.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets an additional cookie. If a cookie has the same name and path it is
+replaced.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Cookie key.</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value Value of cookie.</dd>
+					<dt><var>$host</var></dt>
+					<dd><code>string</code><br>$host Host upon which the cookie is valid.</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Cookie path if not host wide.</dd>
+					<dt><var>$expiry</var></dt>
+					<dd><code>string</code><br>$expiry Expiry date.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCookieValue" id="_getCookieValue">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCookieValue">#</a>
+		<code><a href="source-class-SimpleBrowser.html#387-399" title="Go to source code">getCookieValue</a>( <span>string <var>$host</var></span>, <span>string <var>$path</var></span>, <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Reads the most specific cookie value from the<br />
+browser cookies.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Reads the most specific cookie value from the browser cookies.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$host</var></dt>
+					<dd><code>string</code><br>$host Host to search.</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Applicable path.</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name of cookie to read.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>False if not present, else the value as a string.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentCookieValue" id="_getCurrentCookieValue">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentCookieValue">#</a>
+		<code><a href="source-class-SimpleBrowser.html#401-410" title="Go to source code">getCurrentCookieValue</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Reads the current cookies for the current URL.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Reads the current cookies for the current URL.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Key of cookie to find.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Null if there is no current URL, false if the cookie is not set.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setMaximumRedirects" id="_setMaximumRedirects">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setMaximumRedirects">#</a>
+		<code><a href="source-class-SimpleBrowser.html#412-420" title="Go to source code">setMaximumRedirects</a>( <span>integer <var>$max</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the maximum number of redirects before<br />
+a page will be loaded anyway.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the maximum number of redirects before a page will be loaded anyway.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$max</var></dt>
+					<dd><code>integer</code><br>$max Most hops allowed.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setMaximumNestedFrames" id="_setMaximumNestedFrames">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setMaximumNestedFrames">#</a>
+		<code><a href="source-class-SimpleBrowser.html#422-430" title="Go to source code">setMaximumNestedFrames</a>( <span>integer <var>$max</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the maximum number of nesting of framed pages<br />
+within a framed page to prevent loops.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the maximum number of nesting of framed pages within a framed page to
+prevent loops.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$max</var></dt>
+					<dd><code>integer</code><br>$max Highest depth allowed.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setConnectionTimeout" id="_setConnectionTimeout">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setConnectionTimeout">#</a>
+		<code><a href="source-class-SimpleBrowser.html#432-439" title="Go to source code">setConnectionTimeout</a>( <span>integer <var>$timeout</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the socket timeout for opening a connection.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the socket timeout for opening a connection.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$timeout</var></dt>
+					<dd><code>integer</code><br>$timeout Maximum time in seconds.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="useProxy" id="_useProxy">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_useProxy">#</a>
+		<code><a href="source-class-SimpleBrowser.html#441-452" title="Go to source code">useProxy</a>( <span>string <var>$proxy</var></span>, <span>string <var>$username</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$password</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets proxy to use on all requests for when<br />
+testing from behind a firewall. Set URL<br />
+to false to disable.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets proxy to use on all requests for when testing from behind a firewall.
+Set URL to false to disable.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$proxy</var></dt>
+					<dd><code>string</code><br>$proxy Proxy URL.</dd>
+					<dt><var>$username</var></dt>
+					<dd><code>string</code><br>$username Proxy username for authentication.</dd>
+					<dt><var>$password</var></dt>
+					<dd><code>string</code><br>$password Proxy password for authentication.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="head" id="_head">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_head">#</a>
+		<code><a href="source-class-SimpleBrowser.html#454-472" title="Go to source code">head</a>( <span>string/SimpleUrl <var>$url</var></span>, <span>hash/SimpleHeadEncoding <var>$parameters</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetches the page content with a HEAD request.<br />
+Will affect cookies, but will not change the base URL.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches the page content with a HEAD request. Will affect cookies, but will
+not change the base URL.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string/SimpleUrl</code><br>$url Target to fetch as string.</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>hash/SimpleHeadEncoding</code><br>$parameters Additional parameters for HEAD request.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if successful.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-SimpleBrowser.html#474-490" title="Go to source code">get</a>( <span>string/SimpleUrl <var>$url</var></span>, <span>hash/SimpleFormEncoding <var>$parameters</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetches the page content with a simple GET request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches the page content with a simple GET request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string/SimpleUrl</code><br>$url Target to fetch.</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>hash/SimpleFormEncoding</code><br>$parameters Additional parameters for GET request.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Content of page or false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="post" id="_post">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_post">#</a>
+		<code><a href="source-class-SimpleBrowser.html#492-507" title="Go to source code">post</a>( <span>string/SimpleUrl <var>$url</var></span>, <span>hash/SimpleFormEncoding <var>$parameters</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetches the page content with a POST request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches the page content with a POST request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string/SimpleUrl</code><br>$url Target to fetch as string.</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>hash/SimpleFormEncoding</code><br>$parameters POST parameters.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Content of page.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="retry" id="_retry">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_retry">#</a>
+		<code><a href="source-class-SimpleBrowser.html#509-531" title="Go to source code">retry</a>( )</code>
+
+		<div class="description short">
+			
+<p>Equivalent to hitting the retry button on the<br />
+browser. Will attempt to repeat the page fetch. If<br />
+there is no history to repeat it will give false.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Equivalent to hitting the retry button on the browser. Will attempt to repeat
+the page fetch. If there is no history to repeat it will give false.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>Content if fetch succeeded else false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="back" id="_back">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_back">#</a>
+		<code><a href="source-class-SimpleBrowser.html#533-551" title="Go to source code">back</a>( )</code>
+
+		<div class="description short">
+			
+<p>Equivalent to hitting the back button on the<br />
+browser. The browser history is unchanged on<br />
+failure. The page content is refetched as there<br />
+is no concept of content caching in SimpleTest.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Equivalent to hitting the back button on the browser. The browser history is
+unchanged on failure. The page content is refetched as there is no concept of
+content caching in SimpleTest.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if history entry and fetch succeeded<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="forward" id="_forward">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_forward">#</a>
+		<code><a href="source-class-SimpleBrowser.html#553-571" title="Go to source code">forward</a>( )</code>
+
+		<div class="description short">
+			
+<p>Equivalent to hitting the forward button on the<br />
+browser. The browser history is unchanged on<br />
+failure. The page content is refetched as there<br />
+is no concept of content caching in SimpleTest.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Equivalent to hitting the forward button on the browser. The browser history
+is unchanged on failure. The page content is refetched as there is no concept of
+content caching in SimpleTest.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if history entry and fetch succeeded<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="authenticate" id="_authenticate">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_authenticate">#</a>
+		<code><a href="source-class-SimpleBrowser.html#573-597" title="Go to source code">authenticate</a>( <span>string <var>$username</var></span>, <span>string <var>$password</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Retries a request after setting the authentication<br />
+for the current realm.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retries a request after setting the authentication for the current realm.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$username</var></dt>
+					<dd><code>string</code><br>$username Username for realm.</dd>
+					<dt><var>$password</var></dt>
+					<dd><code>string</code><br>$password Password for realm.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if successful fetch. Note that authentication may still have failed.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFrames" id="_getFrames">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFrames">#</a>
+		<code><a href="source-class-SimpleBrowser.html#599-607" title="Go to source code">getFrames</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for a breakdown of the frameset.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for a breakdown of the frameset.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Hash tree of frames by name or index if no name.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFrameFocus" id="_getFrameFocus">
+
+		<td class="attributes"><code>
+			 public 
+			integer/string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFrameFocus">#</a>
+		<code><a href="source-class-SimpleBrowser.html#609-619" title="Go to source code">getFrameFocus</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for current frame focus. Will be<br />
+false if no frame has focus.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for current frame focus. Will be false if no frame has focus.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer/string/boolean</code><br>Label if any, otherwise the position in the frameset or false if none.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFrameFocusByIndex" id="_setFrameFocusByIndex">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFrameFocusByIndex">#</a>
+		<code><a href="source-class-SimpleBrowser.html#621-629" title="Go to source code">setFrameFocusByIndex</a>( <span>integer <var>$choice</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the focus by index. The integer index starts from 1.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the focus by index. The integer index starts from 1.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$choice</var></dt>
+					<dd><code>integer</code><br>$choice Chosen frame.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if frame exists.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFrameFocus" id="_setFrameFocus">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFrameFocus">#</a>
+		<code><a href="source-class-SimpleBrowser.html#631-639" title="Go to source code">setFrameFocus</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the focus by name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the focus by name.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Chosen frame.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if frame exists.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clearFrameFocus" id="_clearFrameFocus">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clearFrameFocus">#</a>
+		<code><a href="source-class-SimpleBrowser.html#641-648" title="Go to source code">clearFrameFocus</a>( )</code>
+
+		<div class="description short">
+			
+<p>Clears the frame focus. All frames will be searched<br />
+for content.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clears the frame focus. All frames will be searched for content.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTransportError" id="_getTransportError">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTransportError">#</a>
+		<code><a href="source-class-SimpleBrowser.html#650-657" title="Go to source code">getTransportError</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for last error.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for last error.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Error from last response.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMimeType" id="_getMimeType">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMimeType">#</a>
+		<code><a href="source-class-SimpleBrowser.html#659-666" title="Go to source code">getMimeType</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for current MIME type.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for current MIME type.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>MIME type as string; e.g. 'text/html'<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getResponseCode" id="_getResponseCode">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getResponseCode">#</a>
+		<code><a href="source-class-SimpleBrowser.html#668-675" title="Go to source code">getResponseCode</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for last response code.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for last response code.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>Last HTTP response code received.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAuthentication" id="_getAuthentication">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAuthentication">#</a>
+		<code><a href="source-class-SimpleBrowser.html#677-685" title="Go to source code">getAuthentication</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for last Authentication type. Only valid<br />
+straight after a challenge (401).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for last Authentication type. Only valid straight after a challenge
+(401).</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Description of challenge type.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRealm" id="_getRealm">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRealm">#</a>
+		<code><a href="source-class-SimpleBrowser.html#687-695" title="Go to source code">getRealm</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for last Authentication realm. Only valid<br />
+straight after a challenge (401).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for last Authentication realm. Only valid straight after a challenge
+(401).</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Name of security realm.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUrl" id="_getUrl">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUrl">#</a>
+		<code><a href="source-class-SimpleBrowser.html#697-706" title="Go to source code">getUrl</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for current URL of page or frame if<br />
+focused.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for current URL of page or frame if focused.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Location of current page or frame as a string.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBaseUrl" id="_getBaseUrl">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBaseUrl">#</a>
+		<code><a href="source-class-SimpleBrowser.html#708-715" title="Go to source code">getBaseUrl</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for base URL of page if set via BASE tag</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for base URL of page if set via BASE tag</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>base URL<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRequest" id="_getRequest">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRequest">#</a>
+		<code><a href="source-class-SimpleBrowser.html#717-724" title="Go to source code">getRequest</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for raw bytes sent down the wire.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for raw bytes sent down the wire.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Original text sent.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getHeaders" id="_getHeaders">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getHeaders">#</a>
+		<code><a href="source-class-SimpleBrowser.html#726-733" title="Go to source code">getHeaders</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for raw header information.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for raw header information.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Header block.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getContent" id="_getContent">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getContent">#</a>
+		<code><a href="source-class-SimpleBrowser.html#735-742" title="Go to source code">getContent</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for raw page information.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for raw page information.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Original text content of web page.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getContentAsText" id="_getContentAsText">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getContentAsText">#</a>
+		<code><a href="source-class-SimpleBrowser.html#744-751" title="Go to source code">getContentAsText</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for plain text version of the page.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for plain text version of the page.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Normalised text representation.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTitle" id="_getTitle">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTitle">#</a>
+		<code><a href="source-class-SimpleBrowser.html#753-760" title="Go to source code">getTitle</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for parsed title.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for parsed title.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>Title or false if no title is present.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUrls" id="_getUrls">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUrls">#</a>
+		<code><a href="source-class-SimpleBrowser.html#762-770" title="Go to source code">getUrls</a>( )</code>
+
+		<div class="description short">
+			
+<p>Accessor for a list of all links in current page.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for a list of all links in current page.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>List of urls with scheme of http or https and hostname.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setField" id="_setField">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setField">#</a>
+		<code><a href="source-class-SimpleBrowser.html#772-781" title="Go to source code">setField</a>( <span>string <var>$label</var></span>, <span>string <var>$value</var></span>, <span>mixed <var>$position</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets all form fields with that name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets all form fields with that name.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Name or label of field in forms.</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value New value of field.</dd>
+					<dt><var>$position</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if field exists, otherwise false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFieldByName" id="_setFieldByName">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFieldByName">#</a>
+		<code><a href="source-class-SimpleBrowser.html#783-793" title="Go to source code">setFieldByName</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span>, <span>mixed <var>$position</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets all form fields with that name. Will use label if<br />
+one is available (not yet implemented).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets all form fields with that name. Will use label if one is available (not
+yet implemented).</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name of field in forms.</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value New value of field.</dd>
+					<dt><var>$position</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if field exists, otherwise false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFieldById" id="_setFieldById">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFieldById">#</a>
+		<code><a href="source-class-SimpleBrowser.html#795-804" title="Go to source code">setFieldById</a>( <span>string/integer <var>$id</var></span>, <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets all form fields with that id attribute.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets all form fields with that id attribute.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string/integer</code><br>$id Id of field in forms.</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value New value of field.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if field exists, otherwise false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getField" id="_getField">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getField">#</a>
+		<code><a href="source-class-SimpleBrowser.html#806-817" title="Go to source code">getField</a>( <span>string <var>$label</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Accessor for a form element value within the page.<br />
+Finds the first match.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for a form element value within the page. Finds the first match.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Field label.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>A value if the field is present, false if unchecked and null if missing.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFieldByName" id="_getFieldByName">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFieldByName">#</a>
+		<code><a href="source-class-SimpleBrowser.html#819-830" title="Go to source code">getFieldByName</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Accessor for a form element value within the page.<br />
+Finds the first match.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for a form element value within the page. Finds the first match.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Field name.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>A string if the field is present, false if unchecked and null if missing.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFieldById" id="_getFieldById">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFieldById">#</a>
+		<code><a href="source-class-SimpleBrowser.html#832-842" title="Go to source code">getFieldById</a>( <span>string/integer <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Accessor for a form element value within the page.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Accessor for a form element value within the page.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string/integer</code><br>$id Id of field in forms.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>A string if the field is present, false if unchecked and null if missing.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickSubmit" id="_clickSubmit">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickSubmit">#</a>
+		<code><a href="source-class-SimpleBrowser.html#844-861" title="Go to source code">clickSubmit</a>( <span>string <var>$label</var> = <span class="php-quote">'Submit'</span></span>, <span>hash <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks the submit button by label. The owning<br />
+form will be submitted by this.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks the submit button by label. The owning form will be submitted by
+this.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Button label. An unlabeled button can be triggered by 'Submit'.</dd>
+					<dt><var>$additional</var></dt>
+					<dd><code>hash</code><br>$additional Additional form data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickSubmitByName" id="_clickSubmitByName">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickSubmitByName">#</a>
+		<code><a href="source-class-SimpleBrowser.html#863-879" title="Go to source code">clickSubmitByName</a>( <span>string <var>$name</var></span>, <span>hash <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks the submit button by name attribute. The owning<br />
+form will be submitted by this.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks the submit button by name attribute. The owning form will be submitted
+by this.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Button name.</dd>
+					<dt><var>$additional</var></dt>
+					<dd><code>hash</code><br>$additional Additional form data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickSubmitById" id="_clickSubmitById">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickSubmitById">#</a>
+		<code><a href="source-class-SimpleBrowser.html#881-897" title="Go to source code">clickSubmitById</a>( <span>string <var>$id</var></span>, <span>hash <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks the submit button by ID attribute of the button<br />
+itself. The owning form will be submitted by this.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks the submit button by ID attribute of the button itself. The owning
+form will be submitted by this.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id Button ID.</dd>
+					<dt><var>$additional</var></dt>
+					<dd><code>hash</code><br>$additional Additional form data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isSubmit" id="_isSubmit">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isSubmit">#</a>
+		<code><a href="source-class-SimpleBrowser.html#899-908" title="Go to source code">isSubmit</a>( <span>string <var>$label</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Tests to see if a submit button exists with this<br />
+label.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests to see if a submit button exists with this label.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Button label.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if present.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickImage" id="_clickImage">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickImage">#</a>
+		<code><a href="source-class-SimpleBrowser.html#910-931" title="Go to source code">clickImage</a>( <span>string <var>$label</var></span>, <span>integer <var>$x</var> = <span class="php-num">1</span></span>, <span>integer <var>$y</var> = <span class="php-num">1</span></span>, <span>hash <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks the submit image by some kind of label. Usually<br />
+the alt tag or the nearest equivalent. The owning<br />
+form will be submitted by this. Clicking outside of<br />
+the boundary of the coordinates will result in<br />
+a failure.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks the submit image by some kind of label. Usually the alt tag or the
+nearest equivalent. The owning form will be submitted by this. Clicking outside
+of the boundary of the coordinates will result in a failure.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label ID attribute of button.</dd>
+					<dt><var>$x</var></dt>
+					<dd><code>integer</code><br>$x X-coordinate of imaginary click.</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>integer</code><br>$y Y-coordinate of imaginary click.</dd>
+					<dt><var>$additional</var></dt>
+					<dd><code>hash</code><br>$additional Additional form data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickImageByName" id="_clickImageByName">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickImageByName">#</a>
+		<code><a href="source-class-SimpleBrowser.html#933-954" title="Go to source code">clickImageByName</a>( <span>string <var>$name</var></span>, <span>integer <var>$x</var> = <span class="php-num">1</span></span>, <span>integer <var>$y</var> = <span class="php-num">1</span></span>, <span>hash <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks the submit image by the name. Usually<br />
+the alt tag or the nearest equivalent. The owning<br />
+form will be submitted by this. Clicking outside of<br />
+the boundary of the coordinates will result in<br />
+a failure.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks the submit image by the name. Usually the alt tag or the nearest
+equivalent. The owning form will be submitted by this. Clicking outside of the
+boundary of the coordinates will result in a failure.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Name attribute of button.</dd>
+					<dt><var>$x</var></dt>
+					<dd><code>integer</code><br>$x X-coordinate of imaginary click.</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>integer</code><br>$y Y-coordinate of imaginary click.</dd>
+					<dt><var>$additional</var></dt>
+					<dd><code>hash</code><br>$additional Additional form data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickImageById" id="_clickImageById">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickImageById">#</a>
+		<code><a href="source-class-SimpleBrowser.html#956-976" title="Go to source code">clickImageById</a>( <span>integer/string <var>$id</var></span>, <span>integer <var>$x</var> = <span class="php-num">1</span></span>, <span>integer <var>$y</var> = <span class="php-num">1</span></span>, <span>hash <var>$additional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks the submit image by ID attribute. The owning<br />
+form will be submitted by this. Clicking outside of<br />
+the boundary of the coordinates will result in<br />
+a failure.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks the submit image by ID attribute. The owning form will be submitted by
+this. Clicking outside of the boundary of the coordinates will result in a
+failure.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>integer/string</code><br>$id ID attribute of button.</dd>
+					<dt><var>$x</var></dt>
+					<dd><code>integer</code><br>$x X-coordinate of imaginary click.</dd>
+					<dt><var>$y</var></dt>
+					<dd><code>integer</code><br>$y Y-coordinate of imaginary click.</dd>
+					<dt><var>$additional</var></dt>
+					<dd><code>hash</code><br>$additional Additional form data.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isImage" id="_isImage">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isImage">#</a>
+		<code><a href="source-class-SimpleBrowser.html#978-987" title="Go to source code">isImage</a>( <span>string <var>$label</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Tests to see if an image exists with this<br />
+title or alt text.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests to see if an image exists with this title or alt text.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Image text.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if present.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="submitFormById" id="_submitFormById">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_submitFormById">#</a>
+		<code><a href="source-class-SimpleBrowser.html#989-1004" title="Go to source code">submitFormById</a>( <span>string <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Submits a form by the ID.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Submits a form by the ID.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id The form ID. No submit button value will be sent.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLink" id="_getLink">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLink">#</a>
+		<code><a href="source-class-SimpleBrowser.html#1006-1025" title="Go to source code">getLink</a>( <span>string <var>$label</var></span>, <span>integer <var>$index</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Finds a URL by label. Will find the first link<br />
+found with this link text by default, or a later<br />
+one if an index is given. The match ignores case and<br />
+white space issues.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Finds a URL by label. Will find the first link found with this link text by
+default, or a later one if an index is given. The match ignores case and white
+space issues.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Text between the anchor tags.</dd>
+					<dt><var>$index</var></dt>
+					<dd><code>integer</code><br>$index Link position counting from zero.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>URL on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickLink" id="_clickLink">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickLink">#</a>
+		<code><a href="source-class-SimpleBrowser.html#1027-1044" title="Go to source code">clickLink</a>( <span>string <var>$label</var></span>, <span>integer <var>$index</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Follows a link by label. Will click the first link<br />
+found with this link text by default, or a later<br />
+one if an index is given. The match ignores case and<br />
+white space issues.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Follows a link by label. Will click the first link found with this link text
+by default, or a later one if an index is given. The match ignores case and
+white space issues.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Text between the anchor tags.</dd>
+					<dt><var>$index</var></dt>
+					<dd><code>integer</code><br>$index Link position counting from zero.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLinkById" id="_getLinkById">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLinkById">#</a>
+		<code><a href="source-class-SimpleBrowser.html#1046-1054" title="Go to source code">getLinkById</a>( <span>string <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Finds a link by id attribute.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Finds a link by id attribute.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id ID attribute value.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>URL on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clickLinkById" id="_clickLinkById">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clickLinkById">#</a>
+		<code><a href="source-class-SimpleBrowser.html#1056-1068" title="Go to source code">clickLinkById</a>( <span>string <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Follows a link by id attribute.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Follows a link by id attribute.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id ID attribute value.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>Page on success.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="click" id="_click">
+
+		<td class="attributes"><code>
+			 public 
+			string/boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_click">#</a>
+		<code><a href="source-class-SimpleBrowser.html#1070-1086" title="Go to source code">click</a>( <span>string <var>$label</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Clicks a visible text item. Will first try buttons,<br />
+then links and then images.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clicks a visible text item. Will first try buttons, then links and then
+images.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Visible text or alt text.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string/boolean</code><br>Raw page or false.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isClickable" id="_isClickable">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isClickable">#</a>
+		<code><a href="source-class-SimpleBrowser.html#1088-1096" title="Go to source code">isClickable</a>( <span>string <var>$label</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Tests to see if a click target exists.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Tests to see if a click target exists.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label Visible text or alt text.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True if target present.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_user_agent" id="$_user_agent">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleBrowser.html#161" title="Go to source code"><var>$_user_agent</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_user_agent" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_page" id="$_page">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleBrowser.html#162" title="Go to source code"><var>$_page</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_page" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_history" id="$_history">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleBrowser.html#163" title="Go to source code"><var>$_history</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_history" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ignore_frames" id="$_ignore_frames">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleBrowser.html#164" title="Go to source code"><var>$_ignore_frames</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_ignore_frames" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_maximum_nested_frames" id="$_maximum_nested_frames">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-SimpleBrowser.html#165" title="Go to source code"><var>$_maximum_nested_frames</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_maximum_nested_frames" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		httpdocs API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
